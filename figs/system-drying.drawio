@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2023-05-06T19:04:01.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="e6v6x45jDr40knHPaZi1" version="21.2.9" type="device">
+  <diagram name="Página-1" id="SEgkMx2j9OPiTNY4e0FX">
+    <mxGraphModel dx="886" dy="544" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hPJfRTgjclCtYCK9eQrh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.965;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;endSize=0;" edge="1" parent="1" source="TtV7saJbR-7D5K2qpKGM-1" target="TtV7saJbR-7D5K2qpKGM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-1" value="SAHS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;strokeWidth=3;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=16;endSize=0;" parent="1" source="TtV7saJbR-7D5K2qpKGM-2" target="TtV7saJbR-7D5K2qpKGM-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-2" value="" style="verticalLabelPosition=bottom;outlineConnect=0;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid2misc.fan;fanType=common;strokeWidth=2;fontFamily=Helvetica;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="129" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeWidth=5;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;endSize=0;" parent="1" source="TtV7saJbR-7D5K2qpKGM-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-4" value="Dryer" style="shape=mxgraph.pid.driers.drier_(fluidized_bed);html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;fontSize=18;fontStyle=1;strokeWidth=2;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="694" y="88" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Helvetica;" parent="1" source="TtV7saJbR-7D5K2qpKGM-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="543" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPJfRTgjclCtYCK9eQrh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.05;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;fillColor=#dae8fc;strokeColor=#6c8ebf;endSize=0;" edge="1" parent="1" source="TtV7saJbR-7D5K2qpKGM-8" target="TtV7saJbR-7D5K2qpKGM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-8" value="Gas burner" style="shape=mxgraph.pid.vessels.furnace;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;fillStyle=solid;fillColor=#A1A1A1;flipH=1;fontSize=18;fontStyle=1;strokeWidth=2;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="503" y="96.5" width="80" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Helvetica;fontSize=16;" parent="1" source="TtV7saJbR-7D5K2qpKGM-10" target="TtV7saJbR-7D5K2qpKGM-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="340" />
+              <mxPoint x="480" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-10" value="Valve manipulated&amp;nbsp;&lt;br style=&quot;font-size: 16px;&quot;&gt;to control volume of &lt;br&gt;NG to be burned" style="verticalLabelPosition=bottom;align=center;html=1;verticalAlign=top;pointerEvents=1;dashed=0;shape=mxgraph.pid2valves.valve;valveType=gate;actuator=diaph;fontFamily=Helvetica;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="409" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;fontSize=16;" parent="1" source="TtV7saJbR-7D5K2qpKGM-12" target="TtV7saJbR-7D5K2qpKGM-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.503;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Helvetica;fontSize=16;" parent="1" source="TtV7saJbR-7D5K2qpKGM-12" target="TtV7saJbR-7D5K2qpKGM-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="429" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-12" value="Control&amp;nbsp;&lt;br style=&quot;font-size: 18px;&quot;&gt;System" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;strokeWidth=3;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.069;entryY=0.703;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Helvetica;fontSize=16;" parent="1" target="TtV7saJbR-7D5K2qpKGM-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="348" as="sourcePoint" />
+            <mxPoint x="379" y="343" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontSize=16;" parent="1" target="TtV7saJbR-7D5K2qpKGM-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="429" y="255" />
+            </Array>
+            <mxPoint x="429" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-20" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;T&lt;sub style=&quot;font-size: 16px;&quot;&gt;out&lt;/sub&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=16;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="360" y="107" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-24" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeWidth=5;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=16;endSize=0;" parent="1" target="TtV7saJbR-7D5K2qpKGM-2" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="39" y="140" as="sourcePoint" />
+            <mxPoint x="109" y="140" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-25" value="Natural gas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontFamily=Helvetica;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="245" y="332" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-27" value="Signal to&lt;br style=&quot;font-size: 16px;&quot;&gt;manipulate&lt;br style=&quot;font-size: 16px;&quot;&gt;airflow rate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="140" y="270" width="96" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-29" value="T&lt;sub style=&quot;font-size: 16px;&quot;&gt;in&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=0;fontFamily=Helvetica;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="195" y="141.5" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-30" value="Dryer inlet &lt;br&gt;temperature &lt;br&gt;is 60 &lt;sup style=&quot;font-size: 16px;&quot;&gt;o&lt;/sup&gt;C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="588" y="147" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-35" value="Fan to blow &lt;br style=&quot;font-size: 16px;&quot;&gt;the air at G&lt;sub style=&quot;font-size: 16px;&quot;&gt;air&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=16;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="89" y="71" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtV7saJbR-7D5K2qpKGM-36" value="Ambient&lt;br style=&quot;font-size: 16px;&quot;&gt;air" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="25" y="145.5" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

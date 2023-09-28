@@ -1,0 +1,101 @@
+\nobreakspace {}\hfill \textbf {Page}\par 
+\contentsline {chapter}{List of Figures}{5}{chapter*.6}%
+\contentsline {chapter}{List of Tables}{10}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introduction}{12}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Aim and objectives of this research}{14}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Significant new knowledge to the research area}{15}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Thesis overview}{15}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Literature Review}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Solar air heating collectors}{18}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Energy analysis}{20}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Effect of absorber surface}{21}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Absorber material and coatings}{22}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Effect of porosity, perforation diameter and pitch}{23}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Effect of absorber thickness}{24}{subsubsection.2.1.2.3}%
+\contentsline {subsubsection}{\numberline {2.1.2.4}Effect of the absorber modified area}{24}{subsubsection.2.1.2.4}%
+\contentsline {subsection}{\numberline {2.1.3}Effect of glazing cover}{25}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Effect of airflow rate}{27}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}System modification}{28}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}Air passage through the collector}{28}{subsubsection.2.1.5.1}%
+\contentsline {subsubsection}{\numberline {2.1.5.2}Channel's dimensions}{29}{subsubsection.2.1.5.2}%
+\contentsline {subsubsection}{\numberline {2.1.5.3}Connection of collectors}{30}{subsubsection.2.1.5.3}%
+\contentsline {section}{\numberline {2.2}Concentrating collectors}{30}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Optical analysis}{32}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Solar radiation and intercept factor}{33}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Collector's inclination and orientation}{33}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Glazing optics}{35}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}End losses}{36}{subsubsection.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.2.1.5}Truncation}{37}{subsubsection.2.2.1.5}%
+\contentsline {subsection}{\numberline {2.2.2}The Compound Parabolic Concentrator (CPC) family}{37}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Symmetric CPC}{37}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Asymmetric CPC}{41}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}ACPC with Inverted Absorber}{43}{subsubsection.2.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Optical systems and Ray tracing technique}{45}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Building integration of solar systems}{49}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Building integrated solar thermal collectors for air heating}{51}{subsection.2.3.1}%
+\contentsline {chapter}{\numberline {3}Optical Modelling and Design Analysis}{53}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Aims and objectives}{53}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Design considerations of the concentrator}{53}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Overall assembly}{53}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Glazing position}{54}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Aperture position}{55}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Parabolic shape}{55}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Cavity height}{55}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Operation conditions}{55}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Reflector's design specification}{57}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Parabolic reflectors design}{57}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Circular reflector design}{59}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Straight reflector design}{59}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}End reflectors design}{59}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Summary of overall coordinates}{59}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}Ray Tracing and Optical Modelling}{61}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Results and Discussion}{65}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Overview and collector specification}{65}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Effect of the glazing inclination on the light transmittance}{66}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Design analysis of standalone collectors}{67}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Optical performance of standalone collectors}{68}{subsection.3.6.4}%
+\contentsline {subsubsection}{\numberline {3.6.4.1}Optical performance by varying parabolic shape and truncation level}{68}{subsubsection.3.6.4.1}%
+\contentsline {subsubsection}{\numberline {3.6.4.2}Optical performance by varying concentrator length}{70}{subsubsection.3.6.4.2}%
+\contentsline {subsection}{\numberline {3.6.5}Selection of the collector to be fabricated}{71}{subsection.3.6.5}%
+\contentsline {section}{\numberline {3.7}Optical characterisation of the proposed collector}{75}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Effect of the cavity height}{75}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Optical efficiency profile}{77}{subsection.3.7.2}%
+\contentsline {section}{\numberline {3.8}Chapter Summary}{79}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Experimental performance analysis}{82}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Materials for the prototype}{82}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Absorber surface selection}{82}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Glazing cover selection}{84}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Reflector surface selection}{85}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Prototype's structure}{85}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Instrumentation of the experimental unit}{86}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Experimental results from the air heating prototype}{89}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Experimental results at transient state}{90}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Experimental results at zero airflow}{90}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Experimental results with airflow}{90}{subsubsection.4.3.1.2}%
+\contentsline {subsection}{\numberline {4.3.2}Experimental characterisation at nearly steady state}{93}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Chapter summary}{95}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Heat Transfer Modelling and Simulation}{97}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Solar air heating collector's heat transfer modelling}{98}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Absorbed solar radiation terms}{100}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Radiative heat transfer coefficients}{101}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Convective heat transfer coefficients}{101}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Simulation results and model validation}{103}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Simulation settings}{103}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Model validation}{105}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}Validation of results at low airflow rate}{105}{subsubsection.5.2.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}Validation of results at low-med airflow rate}{105}{subsubsection.5.2.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.3}Validation of results at medium airflow rate}{106}{subsubsection.5.2.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.2.4}Validation of results at medium-high airflow rate}{107}{subsubsection.5.2.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.2.5}Validation of results at high airflow rate}{108}{subsubsection.5.2.2.5}%
+\contentsline {section}{\numberline {5.3}Thermal characterisation from simulation results}{110}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Thermal performance of a single collector}{111}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Simulation of three connected collectors}{114}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}Connection in series}{114}{subsubsection.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}Connection in parallel}{116}{subsubsection.5.3.2.2}%
+\contentsline {section}{\numberline {5.4}Case study: barley drying}{117}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Scenario 1 -- Air heating by gas burner alone}{121}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Scenario 2 -- Air heating using gas burner and solar system}{122}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Scenario 3 -- Air heating using solar system alone}{123}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Chapter Summary}{124}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Conclusions}{127}{chapter.6}%
+\contentsline {chapter}{References}{143}{chapter*.109}%

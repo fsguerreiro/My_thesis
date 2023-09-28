@@ -1,0 +1,1070 @@
+\chapter{Literature Review}
+\label{Cap:Lit}
+%
+
+This chapter depicts the concept and characteristics of solar air heating collectors -- unglazed and glazed collectors. Considerations will be given to:
+
+\begin{itemize}
+	\item Elements and factors to affect collector's performance;
+	\item Optical concentrator, specifically ACPC with inverted absorber;
+	\item Building integration of solar thermal systems.
+\end{itemize}
+
+
+\section{Solar air heating collectors}
+
+Solar air heating collectors (SAHCs) are equipment designed to receive solar radiation and convert it into heat for working air heating. They are widely applied in  many commercial applications, such as hot air supply to shopping malls, agricultural barns, industrial drying, etc. They are usually low cost, with no freezing and high pressure problems. Compared to water heating solar collectors, SAHCs are outperformed due to the air thermal properties (\cite{Buker2015}). To overcome this challenge, the heat transfer from the hot absorber surface of the collector to the air needs to be enhanced while the collector's overall heat losses are minimised. (\cite{Shams2013}).
+
+SAHCs can be classified into two main types: unglazed and glazed. The basic difference between these types is the presence of a glazing cover and the shape of the absorber surface. Unglazed air heating collectors (also known as Unglazed Transpired Solar Collectors -- UTSCs) do not have glazing cover and are composed of a perforated (transpired) absorber plate, as shown in Figure \ref{unglazed-glazed}(a). The absorber plate is usually a metallic plate (steel or aluminium), which can be integrated into building fa{\c c}ades. The contact between absorber plate and ambient air is increased by drawing air through the multiple perforations into the cavity (also called plenum) between the plate and the fa{\c c}ade (\cite{Shukla2012}). This heated air in the plenum is pulled into the building by a fan (\cite{Buker2015}).
+
+The other main type is the glazed SAHC (or Glazed Air Heating Collector -- GAHC), which has at least a flat glazing cover to prevent the absorber from being exposed to the ambient and avoiding efficiency losses. A common design can be seen in Figure \ref{unglazed-glazed}(b). The air is pulled into the collector by a fan to be heated after contact to the absorber plate, which can have different shapes and/or other modifications to enhance the transfer mechanism.
+
+\Figure[scale=0.58,placement=!ht,label={unglazed-glazed},caption={Illustration of (a) an unglazed and (b) a glazed solar air heating collector. From \citet{Kutscher1994} and \citet{SolarTribune2011}.}]{figs/unglazed-glazed.png}    
+
+To improve the heat transfer from the hot absorber surface to the working air, a wide range of designs for SAHCs has been studied and reported in the literature: glazed, unglazed, bare plate, back-pass, perforated, un-perforated, single, double or triple passes, etc. (\cite{Kutscher1994}; \cite{Christensen1997}; \cite{Gawlik2005}; \cite{Koyuncu2006}; \cite{Leon2007}; \cite{Tchinda2008}; \cite{El-Sebaii2010}; \cite{Athienitis2011}; \cite{Zheng2016}; \cite{Li2016}). %To understand how SAHCs' thermal efficiency is improved, it is worthy defining the response variables to quantify the performance, depicted as follows: 
+
+\subsection{Energy analysis}
+
+To understand how SAHCs' thermal performance is improved, it is worthy defining the response variables to quantify that. It is common to define the thermal efficiency as the ratio of useful energy rate to the incoming total solar radiation $\rm{I_{\!_T}}$ received on the aperture area $\rm{A_{apt}}$, calculated by Eq. (\ref{ThermalEf0}). Such efficiency can be evaluated either instantaneously or as an average over a certain period of time (\cite{Goswami2015}):
+
+\begin{equation}
+	\mathrm{\mathlarger{\eta}_{\mathrm{th}} = \frac{Q_u}{I_{\!_T}A_{apt}}}
+	\label{ThermalEf0}
+\end{equation}
+
+\noindent where the useful energy rate can be calculated considering the airflow rate $\rm{m_{air}}$, the temperature difference between outlet and inlet, and the air specific heat at constant pressure:
+
+\begin{equation}
+	\mathrm{{Q_u} = {m_{air}}{C_{p,air}}({T_{out}} - {T_{in}})}
+	\label{usefulenergy0}
+\end{equation}
+
+The thermal characterisation of a SAHC relates the thermal efficiency under steady state to each temperature rise normalised by the corresponding solar radiation according to the Hottel-Whillier-Bliss equation, expressed by Eq. (\ref{hottel-whiller-eq0}).
+
+\begin{equation}
+	\mathrm{\eta_{\rm{th}} = \eta_o - {U_{\!_L}}\frac{(T_{abs} - T_{amb})}{I_{\!_T}}}
+	\label{hottel-whiller-eq0}
+\end{equation}
+
+\noindent where $\rm{U_{\!_L}}$ is the collector's overall heat loss coefficient. The $\rm{U_{\!_L}}$ value depends weakly on temperature and, in most cases, it is considered to be constant at typical operating conditions (\cite{Rabl1985}). Lastly, the optical efficiency $\eta_{\rm{o}}$ is defined as the ratio between the absorbed and the incident solar radiation. From this equation, $\eta_{\rm{th}}$ can be plotted against $\rm{(T_{abs} - T_{amb})/I_{\!_T}}$, resulting in a linear curve, with $\eta_{\rm{o}}$ and $\rm{{U_{\!_L}}}$ as the linear coefficient and the slope, respectively (\cite{Goswami2015}). 
+
+It is usual to calculate the efficiency based on the air temperature, as it is more practical to measure it rather than the temperature of the absorber surface. Particularly the air temperatures $\rm{T_{in}}$ and $\rm{T_{in}}$ at the inlet and outlet of the collector, respectively. Eq. (\ref{hottel-whiller-eq0}) can be rewritten by adding a multiplicative term known as the heat removal factor (in Heat Transfer textbooks it is also known as heat exchange effectiveness). It is defined as the ratio of the heat transferred to the airflow to the maximum possible heat transfer, if the outlet air temperature was heated to the absorber surface temperature (\cite{Kutscher1994}). This effectiveness is calculated as:
+
+\begin{equation}
+	\mathrm{\varepsilon_{\!_{HX}} = {\frac{{{T_{out}} - {T_{in}}}}{{{T_{abs}} - {T_{in}}}}}}
+	\label{heat-exchange}
+\end{equation}
+
+This effectiveness can also be written as function of the airflow rate and the convective heat transfer coefficient ($\rm{h_{\!_{HX}}}$):
+
+\begin{equation}
+	\mathrm{\varepsilon_{\!_{HX}} = 1 - exp\left(-\frac{h_{\!_{HX}}A_{abs}}{m_{air}C_{p,air}}\right)}
+	\label{effectiveness}
+\end{equation}
+
+\noindent where this convective coefficient takes into account the heat transfer mechanism between the airflow and the hot absorber plate. It is related to the Nusselt number, which it is the ratio of convective to conductive heat transfer (\cite{Incropera2006}). This is calculated by Eq. (\ref{Nusselt}):
+	
+\begin{equation}
+	\mathrm{Nu = \frac{L_c}{k_{air}}{h_{\!_{HX}}}}
+	\label{Nusselt}
+\end{equation}
+
+\noindent where $\rm{L_c}$ is the characteristic length associated to the heat transfer and $\rm{k_{air}}$ is the air thermal conductivity. The Nusselt number is usually a function of the Reynolds number, which is proportional to the air velocity. Therefore, to enhance the heat transfer, it is desirable to operate a solar collector with higher airflow rates. In addition to that, there are many other factor that influence the heat transfer mechanism. The next section describes the elements of a SAHC and how they influence its thermal performance. These elements are absorber plate, glazing cover, air flow rate and system modifications.
+
+%From this, the maximum thermal efficiency is $\rm{F_{\!_R}}\eta_{\rm{o}}$ when all the radiation absorbed is transferred to the airflow, but at no temperature change.
+
+
+%%\subsection{Factors to affect the air heaters' performance}
+%\begin{description}[topsep=5pt,partopsep=0pt] \itemsep0pt
+%	\item[Outlet air temperature:] it is the airflow temperature ($\rm{T_{out}}$) measured after the heat transfer with the absorber plate, when this flow leaves the collector;
+%	
+%	\item[Useful energy rate:] one way of calculating the energy absorbed by the flowing air from the absorber is considering the temperature difference between outlet and inlet, and the air specific heat:
+%	
+%	\begin{equation}
+%		\mathrm{{Q_u} = {G_{air}}{A_{abs}}{C_{p,air}}({T_{out}} - {T_{in}})}
+%		\label{usefulenergy0}
+%	\end{equation}
+%
+%	\item[Thermal efficiency:] it is the ratio of useful energy rate to the incoming total solar radiation on the aperture, calculated by Eq. (\ref{ThermalEf0}). Such efficiency can be evaluated either instantaneously or as an average over a certain period of time (\cite{Goswami2015}):
+%	
+%	\begin{equation}
+%		\mathrm{\mathlarger{\eta}_{\mathrm{th}} = \frac{Q_u}{I_{\!_T}A_{apt}}}
+%		\label{ThermalEf0}
+%	\end{equation}
+%	
+%	\item[Heat exchange effectiveness:] it is the ratio of the heat transferred to the airflow to the maximum possible heat transfer, if the outlet air temperature was heated to the absorber surface temperature (\cite{Kutscher1994}). It is calculated by Eq. (\ref{heat-exchange}):
+%	
+%	\begin{equation}
+%		\mathrm{\varepsilon_{\!_{HX}} = {\frac{{{T_{out}} - {T_{in}}}}{{{T_{abs}} - {T_{in}}}}}}
+%		\label{heat-exchange}
+%	\end{equation}
+%
+%	\item[Nusselt number:] it is the ratio of convective to conductive heat transfer (\cite{Incropera2006}). It measures the heat transfer mechanism considering the flow of air in contact to the hot surface by the coefficient $\rm{h_{\!_{HX}}}$. Therefore, the higher this coefficient, the more effective the heat transfer is. This is calculated by Eq. (\ref{Nusselt}):
+%	
+%	\begin{equation}
+%		\mathrm{Nu = \frac{L_c}{k_{air}}{h_{\!_{HX}}}}
+%		\label{Nusselt}
+%	\end{equation}
+%	
+%	\noindent where $\rm{L_c}$ is the characteristic length associated to the heat transfer and $\rm{k_{air}}$ is the air thermal conductivity. 
+%\end{description}
+	
+%The next section describes the elements of a SAHC and how they influence its thermal performance. These elements are absorber plate, glazing cover, air flow rate and system modifications.
+
+\subsection{Effect of absorber surface}  
+
+The absorber surfaces of SAHCs are usually metal plates. As the airflow to be heated goes through the perforated absorber surface, the heat transfer mechanism between the holes and the air is more effective compared to flat plate collectors. The absorber design considers the following factors: i) material and coatings; ii) shape; iii) thickness of the absorber; and iv) modified area.
+
+\subsubsection{Absorber material and coatings} 
+
+It was previously assumed that a collector's high performance was consequence of high thermal conductive materials. This assumption was based that a significant portion of the thermal energy was transferred to the airflow. Plus, it would considerably rise the average surface temperature and, consequently, increase the radiative heat loss to the ambient (\cite{Gawlik2002}; \cite{Gawlik2005}).
+
+%The effect of the absorber material in terms of thermal conductivity and radiative properties (absorptivity and emissivity) has been fully studied (\cite{Christensen1997}; \cite{Arulanandam1999}; \cite{Gawlik2005}; \cite{Leon2007}; \cite{El-Sebaii2010}; \cite{Li2016}). 
+\citet{Christensen1997} compared experimentally the thermal performance of an UTSC for two absorber materials: aluminium (k = 216 W/(m K)) and styrene plastic (k = 0.16 W/(m K)), where both surfaces had the same geometry. Results show that the UTSC's efficiency is relatively insensitive to low thermal conductivity materials. It means that there is sufficient thermal energy from the absorber surface to the air so that high thermal conductivity materials is not as critical as previously assumed.
+
+\citet{Arulanandam1999} simulated an UTSC's thermal performance in CFD, under no wind conditions, varying the absorber's thermal conductivity from 0.196 to 15.121 W/(m K)). They concluded that, for low porosity plates, the heat exchange effectiveness dropped by 10 -- 20\% but the thermal efficiency only decreased by approximately 5\%.
+
+The temperature distribution along the absorber surface can vary for low conductive materials. The local convective heat transfer is higher in regions of higher surface temperature and lower in regions of lower surface temperature. This effect is reduced if the hole pitch is small so that a large temperature gradient is not achieved. \citet{Gawlik2005} showed that the effect of material conductivity on the thermal performance is small. The study then concluded that low thermal conductivity materials can be used with no thermal efficieny penalty but a great benefit in cost savings and corrosion resistance.
+
+One or both of the front and back surfaces of the absorber may be dark colour to absorb solar radiation. Surfaces may be treated or coated to have a low emittance of infra-red radiation so that heat losses are reduced. The effect of the radiative properties absorptivity and emissivity has also been reported. \citet{Leon2007} simulated an UTSC varying the values of both properties and found out that the absorptivity has a stronger effect on the thermal efficiency than the emissivity. \citet{El-Sebaii2010} simulated a single pass GAHC comparing absorber surfaces using different coatings. They concluded that the highest daily efficiency was achieved using nickel–tin (absorptivity and emissivity of 0.98 and 0.14). Compared to a black painted galvanized iron absorber (0.88 of absorptivity and emissivity), the nickel-tin coated absorber outperformed by 29.23\%. \citet{Li2016} simulated a glazed TSC and found that painting the absorber plate with a selective coating of higher absorptivity and lower emissivity would enhance the heat transfer mechanism from absorber plate to plenum and reduce the radiative losses from the absorber surface to the glazing cover. The effect of coating absorptivity on the thermal efficiency is more considerable than that of emissivity.
+
+\subsubsection{Effect of porosity, perforation diameter and pitch} 
+
+The plate posority for flat plates is defined as the ratio of perforation area to the total surface area. It can only be calculated by setting values of perforation diameter and pitch. Smaller perforation diameters tend to strengthen the jet impingement and thus increase the heat transfer mechanism (\citet{Li2016}). The pitch (or perforation spacing) has a stronger influence on heat exchange effectiveness than on thermal efficiency. With larger pitches, hot spots tend to develop on regions of the absorber surface which are away from the perforations (\citet{Arulanandam1999}). However, if the distance between the holes is small enough, this effect can be avoided. 
+
+\citet{Kutscher1994} investigated the effect of increasing perforation diameter (1.6 mm to 3.2 mm) and pitch (13.5 mm to 27 mm) and verified that the heat exchange effectiveness decreased. \citet{Arulanandam1999} found out that the Nusselt number was increased in a range of plate porosity from 0.5\% to 2\%. \citet{Decker2001} simulated an UTSC and found that the heat exchange effectiveness decreased with increasing pitch (7 mm to 24 mm) and perforation diameter (0.8 mm to 3.6 mm). They also concluded that 28\% of the air temperature rise occurs in holes of the perforated plate. \citet{Gawlik2005} tested two plates of different porosities (0.3\% and 5\%) and concluded that there was no significant difference in terms of air temperature rise because the perforation diameter was increased and the pitch was decreased by the same proportion. 
+
+According to \citet{Leon2007}, simulation results showed that the airflow temperature rise and heat exchange effectiveness increased with decreasing pitch and perforation diameter. For a constant solar radiation and airflow rate, changing the pitch from 12 to 24 mm with a corresponding change in perforation diameter from 0.8 mm to 1.55 mm resulted in a drop of 5.5 $^{\rm o}$C in the airflow temperature rise. Furthermore, for a particular pitch, any change in hole diameter affected the effectiveness only moderately; when the porosity was increased, the effectiveness and the thermal efficiency marginally decreased.
+
+\subsubsection{Effect of absorber thickness}   
+
+The effect of the absorber surface thickness is insignificant to the thermal effectiveness when it is thin (smaller than 1.5 mm) (\cite{Kutscher1994}). However, for thick absorbers (between 1.6 and 3.6 mm), the heat transfer varies between different perforation area, thus affecting the collector's thermal performance. \citet{Zomorodian2012} tested UTSCs with two different absorber plate thicknesses and concluded that the thicker was more efficient.
+
+\subsubsection{Effect of the absorber modified area}
+
+One way of enhancing the heat transfer from the absorber to the airflow is introducing obstacles in the air stream to increase the absorber surface area. These obstacles can be fixed either to the internal face of the absorber or on the back plate or as a combination. The objective of using these obstacles is to increase the outlet air temperature, as well as the efficiency with minimum losses (\cite{Karsli2007}). Modifications of the absorber area include using finned, wavy or V-corrugated shapes, as seen in Figure \ref{modified}.
+
+\Figure[scale=0.62,placement=!ht,label={modified},caption={Illustration of GAHCs with different absorber area: (a) wired, (b) wavy, (c) finned, and (d) V-shaped (or V-corrugated). From \citet{Pottler1999}.}]{figs/modified_area.png}
+
+\citet{Karim2004} studied and compared three types of GAHCs: flat plate, finned and V-corrugated to achieve an efficient design suitable for a solar dryer. They found that the V-corrugated collector is the most efficient collector and the flat plate one the least. Results show that the V-corrugated collector has 7–-12\% higher efficiency than flat plate collectors. \citet{Kurtbas2004} also studied different absorber geometries and concluded that all GAHCs outperform the flat plate collector. \citet{Karsli2007} compared the thermal performance of finned absorber collector to a flat plate one with no fins and concluded that the finned GAHC is more efficient than the flat plate. This is because the fins create turbulent flow and it leads to a higher heat transfer coefficient, lowering the absorber temperature and reducing the thermal heat loss at the same time. \citet{Alta2010} compared a GAHC with flat absorber surface to one with finned absorber and concluded that attaching fins on that surface increases the thermal efficiency. \citet{Assari2011} developed a mathematical model based on effectiveness method for assessing the thermal performance of a GAHC, where water and air flow simultaneously. Three different types of channels were used to enhance the collector's performance: rectangular fin, triangular fin (V-corruated) and without fin. Simulation results show that channels with rectangular fin had the best performance. \citet{ElSebaii2011} compared the thermal peformance of a flat plate collector to a V-corrugated collector. The results showed that the double pass
+V-corrugated plate collector is 11 -- 14\% more efficient compared to the double pass flat plate collector.
+
+\subsection{Effect of glazing cover} 
+
+A glazing cover plays an important role to suppress convective heat losses from the absorber plate to the ambient and also protect the solar collector against weather conditions. It also needs to have high transmissivity to the solar spectrum and extensively opaque to long (or infrared) wavelength radiation emitted by the absorber (\cite{Saxena2015a}). In other words, a glazing cover is used to reduce convective and radiative heat losses while transmits most of the incoming solar radiation (\cite{Norton2006}).
+
+Glazing materials commonly used are glass, plastic and fibreglass, where the challenge is to find a material with high transmissivity, low thermal conductivity, being affordable and have the required mechanical properties for building integrated systems. Glass is considered as a glazing cover because it is transparent for the solar range and it absorbs almost all the infrared radiation re-emitted by the absorber plate. This results in an enhancement of the collector's thermal efficiency by creating a greenhouse effect (\cite{Khoukhi2006}).
+
+To minimize the heat losses from the collector, more than one glazing cover may be used (\cite{El-Sebaii2010}; \cite{Yeh2009}). However, the transmissivity then decreases due to the increased number of reflections (\cite{Michalopoulos1994}). \citet{Alta2010} conducted an experimental study comparing single and double glazed flat plate collector with finned absorber. The authors stated that the double glazed collector performed better, also showing higher air temperature difference.
+
+Reflection losses at the glazing surface depend on the refractive index of the cover material and structural orientation of the glazing. The lowest reflection losses can be achieved if an antireflective coating with a refractive index between the air and the cover material is used. Investigations have shown that the glass transmittance and solar collector efficiency can be increased by 4\% if an antireflection coating is applied instead of a normal glass as the cover plate for the solar collector (\cite{Furbo2003}).  
+
+Glass is also very resistant to scratching, high operating temperatures and practically impervious to  the damaging effects of ultraviolet exposure. The incident sunlight transmitted through glass depends  on the iron content of the glass, between 85\% to 92\%, at normal incidence. While low iron content increases the transmittance of glass, low iron glass is more expensive. Glass can be easily broken, but this can be minimized by using tempered glass which adds a further additional cost (\cite{Duffie2013}).
+
+Transparent plastics, such as polycarbonates, polyethylene and acrylics have also been used as glazing materials (\cite{Koyuncu2006}). Their main advantages are resistance to breakage and light weight, and are cheaper than glasses. The main disadvantages of plastics are high transmittance in the longer wavelength, and deterioration over a period of time due to ultraviolet solar radiation (\cite{Goswami2015}; \cite{Duffie2013}). Additionally, plastics are generally limited in the temperatures they can sustain without deteriorating or undergoing dimensional changes. Although glass is an expensive option when considering 20 years collector life span, this is the best option as the glazing material (\cite{Shams2013}).
+
+\subsection{Effect of airflow rate}  
+
+The flow rate is the most important factors in the thermal performance of a solar collector. Effect of that have been extensively studied. Experimental and simulation results show that when the flow rate is increased, more useful heat is collected, overall losses are reduced, thus increasing the collector's thermal efficiency. On the other side, the outlet temperature and the heat exchange effectiveness are decreased (\cite{Christensen1997}; \cite{Ammari2003}; \cite{Leon2007}; \cite{El-Sebaii2010}; \cite{Zomorodian2012}; \cite{Li2016}). A typical relationship between air temperature rise, thermal efficiency and flow rate is shown in Figure \ref{airflow_effect}.
+
+\Figure[scale=0.70,placement=!ht,label={airflow_effect},caption={Graphs of air temperature rise and thermal efficiency against mass flow rate at the steady state. From \citet{Tyagi2012}.}]{figs/airflow_effect.png}
+
+\citet{Ammari2003} simulated a single pass GAHC and found that the thermal efficiency increased fast until a certain level of volumetric flow rate and then it increased moderately. A decreasing pattern could be observed for the air temperature as the flow rate was increased. \citet{Leon2007} simulated an UTSC and observed that the rate of decrease in energy rate is lower at lower approach velocities. They also concluded that the collector efficiency decreases with increasing outlet air temperatures. \citet{Jafarkazemi2013} simulated a flat plate collector and also observed that the overall heat loss coefficient dropped as the mass flow rate increased. \citet{Badache2014} and \citet{Nowzari2015} analyzed different factors that affect both UTSC and GAHC performances and concluded that the airflow rate had the strongest influence on the thermal efficiency. \citet{Li2016} evaluated the performance of a GAHC with a perforated absorber taking into account the fan power required to overcome air flow resistance through collector. In this case, higher airflow rates lead to higher useful heat collected but also higher fan power required. Results show that there is a level of airflow rate to be operated that maximised the energy efficiency.
+
+\subsection{System modification}
+
+This topics depicts the influence of the air flow passing through the collector in contact to the absorber, the parameterization of the channel dimension through which the air flows, and the manner in which multiple collectors are connected (series or parallel).
+
+\subsubsection{Air passage through the collector}
+
+In literature, considerations are given to the contact of the airflow to the absorber plate (or PV module for electricity generation) when the former passes through the collector. It is named single pass collector when the airflow comes in contact absorber only once. Alternatively, it is named double pass when air flows in contact to the absorber twice, as shown in Figure \ref{double_pass}. 
+
+\Figure[scale=0.90,placement=!ht,label={double_pass},caption={Illustration of (a) single pass and (b) double pass air heating collector. From \citet{Hegazy2000}.}]{figs/double_pass.png}
+
+\citet{Hegazy2000} simulated a photovoltaic/thermal (PV/T) glazed collector using different modes: air flowing over or below the absorber, and even on both sides in a single or in a double pass. He found out that flowing air on both sides leads to the best performance, considering both applications. \citet{Yousef2008} tested single and double pass GAHCs and concluded that double pass achieved higher thermal efficiency and outlet air temperature. \citet{Nowzari2015} investigated a single and double pass GAHC and concluded that the higher efficiencies are achieved using double pass mode. \citet{Karim2004} investigated collectors with different absorber configurations and from the efficiency tests in double pass operation, it is concluded that the efficiency of all collectors increases in double pass mode.
+
+The effect of external recycle on the GHAC thermal efficiency has been investigated. It was found that considerable improvement in collector's thermal performance is obtained if it is operated with an external recycle, where the desirable effect overcomes the drawbacks. The performance is enhanced with increasing reflux ratio, especially for operating at lower air flow rate with higher inlet air temperature (\cite{Yeh2009}).
+
+\subsubsection{Channel's dimensions}
+
+\citet{Hegazy1999} showed a criterion for determining the channel optimum depth-to-length ratio which maximizes the useful energy from GAHCs to operate at fixed mass rate of air flow. He also observed that decreasing the depth or increasing the length improves the thermal performance. \citet{Tonui2007} studied a photovoltaic/thermal glazed collector where forced air was used to extract heat from the back of the PV module through a channel. They evaluated the effect of the channel depth (distance between the PV module and the collector's bottom) and the length on the thermal performance at constant airflow rate. It was verified that the thermal efficiency and air outlet temperature reduced with increasing channel depth. They also concluded that the thermal efficiency increased with increasing channel length and approaches constant value as the length increases. The same pattern was verified by \citet{Yousef2008} when they investigated the thermal performance of a single pass GAHC where forced air was pumped above the absorber plate. They also concluded that air temperature and efficiency decreased with increasing channel depth at constant airflow rate. \citet{Tonui2008} simulated a photovoltaic/thermal glazed collector using natural convection to aleviate the PV module temperature and found out that there is an optimum channel depth that maximises the thermal efficiency. 
+
+\subsubsection{Connection of collectors}
+
+Solar collector arrays can be connected in series or parallel, each with different thermal performance outcomes. In a series connection system, the total heat transfer of the collectors is higher since the total airflow passes through all collectors. However, the temperature rise in the collectors reduces the thermal efficiency of each progressive collector, and the power consumption to pump the airflow is also higher (\cite{Hastings2000}). A schematic of multiple units in connection is shown in Figure \ref{series-parallel}. \citet{Oonk1979} developed a formula to predict the performance of N collectors in series by deriving the exit temperature of one collector and using it as the inlet temperature of the next collector. \citet{Fanney1981} also developed an equation to predict the thermal performance of collector arrays, both in series and parallel, based on energy balance.
+
+\Figure[scale=0.70,placement=!ht,label={series-parallel},caption={Schematics of a system with collectors in series and in parallel. From \citet{Fanney1981}.}]{figs/series-parallel.png}
+
+\section{Concentrating collectors}
+
+%A solar air heater can integrate to a concentrator to produce air at medium or high temperatures (\cite{Duffie2013}).
+
+When it is required to warm the airflow to higher temperatures with high thermal performance, concentrators can be employed to meet the objective. The working principle is to receive solar radiation through a larger area and direct that, using reflectors, to a smaller absorber area. There are different types of concentrating collectors, depicted as follows (\cite{Evangelisti2019}): %The next topic will be focused on the CPC type.
+
+\begin{itemize}
+	\item Parabolic trough collector (PTC): it consists of a parabolic reflector and an absorber placed along the whole length of the concentrator at the parabola's focus. PTCs generally track the sun using east-west, north-south, or polar orientations. The absorber is usually tubular, enclosed in a glass tube to reduce radiative and convective losses (\cite{Goswami2015}). The solar radiation is reflected torwards the tube, bringing it to high temperatures and heating the heat-transfer fluid that flows inside the tube. The absorber temperature varies between 50 $^{\rm{o}}$C and 300 $^{\rm{o}}$C, but it can also reach \mbox{400 $^{\rm{o}}$C};
+	
+	\item Compound parabolic concentrator (CPC): It is designed from two distinct parabolic segments, where the focus of each one is located at the opposing absorber surface end points. The axes of the parabolic segments are oriented away from the CPC axis by the acceptance angle $\theta_{{\rm{a}}}$. The slope of the reflector surfaces at the aperture is parallel to the optical axis for untruncated CPCs;
+	
+	\item Heliostat field collector: it is composed by flat reflectors placed all around a central receiver, called solar tower. These reflectors can face the sun through a tracking system. Central receivers can achieve temperatures of the order of 1000 $^{\rm{o}}$C or even higher. Therefore, a heliostat collector is suitable for thermal electric power production of 10 -- 1000 MW (\cite{Goswami2015});
+	
+	\item Linear Fresnel collector: it is comprised by linear receivers and reflectors. Usually, the reflector segments are aligned horizontally, facing the sun so that the receiver can be hit by the rays without needing movements;
+	
+	\item Parabolic dish collector: it is characterized by a paraboloidal geometry able to concentrate solar radiation onto a receiver placed at the focal point of the collector.
+	
+\end{itemize}
+
+\subsection{Optical analysis}
+
+One way of evaluating a concentrator is by characterising its optical performance. The optical efficiency is defined as the ratio between the absorbed and the incident solar radiation. For this analysis, the optical properties of the reflectors, glazing cover and absorber should be taken into consideration, as well as the reflectors' shape and the concentration ratio (\cite{Sellami2013}):
+
+\begin{equation}
+	\mathrm{\eta_o = {\tau_{col}}\tau_{g}\alpha_{abs}}
+	\label{optical0}
+\end{equation}
+
+\noindent where the term $\rm{\tau_{col}}$ takes into account the number of reflections at the reflectors. The reflector's shape and concentration ratio dictate the number of reflections and, therefore, the optical efficiency. The term $\rm{\tau_{g}}$ is the transmissivity of the glazing cover; alternatively, for collector without cover or glass-tube absorbers, this term is unity. Therefore, it is desirable that the concentrator transmits most of the solar radiation through the glazed aperture, has a highly reflective reflector surface and a high absorptivity absorber with low emissivity. Most of these properties have been discussed in the previous section of this Chapter.
+
+Other factors are taken into consideration: i) incoming solar radiation and its components; ii) the position of the Sun at a specific location and what direction the concentrator is facing at a set inclination; iii) the optics in the glazing cover, and; iv) the effect of truncation. Other factors such as the parabolic shape of a CPC collector and concentration ratio will be further investigated in other section.
+
+%The shape of reflectors affects size, angular acceptance range (\cite{Zacharopoulos2000}; \cite{Harmim2012}) and maximum geometric concentration ratio (\cite{Mills1978}). Given the same level of concentration ratio, concentrators of narrow angular acceptance are more efficient so collect higher amounts of the available solar energy (\cite{Sarmah2011}; \cite{Kostic2012}).
+
+%A concentrator is usually truncated. Less reflector material is then required which reduces costs and weight. Figure \ref{untruncated} shows the untruncated and truncated versions of the same concentrator. The effect of truncation on the design parameters concentration ratio, height-aperture width ratio and reflector length has been presented by graphs and equations (\cite{McIntire1979}; \cite{Rabl1976}). Figure \ref{ang_acc} shows the angular acceptance function for an untruncated (full) CPC and for a truncated configuration.
+%
+%\Figure[scale=0.40,placement=!ht,label={untruncated},caption={Truncated and untruncated CPC with a tubular absorber.}]{figs/untruncated.png}
+%
+%\Figure[scale=0.60,placement=!ht,label={ang_acc},caption={Angular acceptance function of a full and truncated CPC. Adapted from \citet{Norton1991}.}]{figs/ang_acc2.jpg}
+%
+%\citet{Carvalho1985} derived analytic expressions of angular acceptance range and evaluated the yearly collectable energy as function of the extent of truncation. Truncated concentrators accept solar rays at broader incident angles, thus collecting more solar energy due to reduction of reflections. \citet{Francesconi2018} simulated a five-CPC assembly's performance in CFD; they concluded that a concentration ratio reduction from 2.0 to 1.96 resulted in a 2\% increase of the system's thermal efficiency.
+
+\subsubsection{Solar radiation and intercept factor}
+
+The total solar radiation ($\rm{I_{\!_{T}}}$) incident on the concentrator's aperture is the sum of the beam ($\rm{I_{\!_{B}}}$) and diffuse ($\rm{I_{\!_{D}}}$) components. However, since only part of the diffuse radiation is exploitable by concentrators, the factor $\Gamma$ must be defined, as being the fraction of total solar radiation accepted. Assuming that the angular distribution of diffuse radiation is isotropic, this factor can be estimated as (\cite{Rabl1980}):
+
+\begin{equation}
+	\mathrm{\Gamma  = \frac{\displaystyle {\left( {{I_{\!_B}} + \frac{{{I_{\!_D}}}}{C}} \right)}}{{{I_{\!_T}}}}}
+	\label{xi}
+\end{equation} 
+
+\noindent and therefore the incoming solar radiation available to reach the absorber surface is assumed to be $\rm{I_{\!_T}\Gamma}$. Since CPC collectors operate in the concentration ratio range of 2 to 10 to capitalize on the corresponding reduced tracking requirement, from one-half to one-tenth of the incident diffuse radiation is accepted (\cite{Goswami2015}). 
+
+It is important to highlight other angular distributions of the diffuse insolation that can affect the performance of a PTC and CPC collectors. Two other particular distributions can be considered: cosine, and hybrid Gaussian. The hybrid Gaussian distribution combines an isotropic background with a circumsolar Gaussian part. This distribution is more realistic for a tracking system than both the isotropic model (which underestimates the insolation intensities at incidence angles near zero) and the cosine model (which underestimates the intensities at large incidence angles). The analytical expressions for the three distributions considered have been presented by \citet{Prapas1987}. However, on clear days (diffuse radiation is approximately 11\% of total radiation), the difference in optical efficiency between the three distributions of diffuse radiation is not significant.
+
+\subsubsection{Collector's inclination and orientation}
+
+It is important to establish the position of the collector's aperture considering its inclination in relation to the horizontal plane, and the Sun's position as function of the day, time and location. Figure \ref{sun_orientation} shows a basic scheme of the Sun's position by the altitude ($\rm{a_s}$) and azimuth ($\rm{\gamma_s}$) solar angles, as well as the inclination $\beta$ and the collector azimuth angle $\rm{\gamma_w}$. The latter defines the orientation of the collector: if $\rm{\gamma_w} = 0$, the collector is south-facing.
+
+\Figure[scale=0.80,placement=!ht,label={sun_orientation},caption={(a) Altitude solar angle, surface azimuth angle, and solar azimuth angle for an inclined surface. (b) Plan view showing solar azimuth angle. Adapted from \citet{Duffie2013}.}]{figs/sun_orientation.png}
+
+The incident angle $\theta_{\rm{i}}$, defined as the angle between the incident solar ray and the normal to the glazing, is calculated by Eq. (\ref{incidence0}):
+
+\begin{equation}
+	\mathrm{\theta_i = {\cos ^{-1}}\left[ {\cos {a_s}\cos ({\gamma_s} - {\gamma_w})\sin \beta  + \sin {a_s}\cos \beta} \right]}
+	\label{incidence0}
+\end{equation}
+
+Solar hour angles ($\omega_{\rm{s}}$) were obtained from the solar time for each day of operation. The solar altitude and solar azimuth angles were calculated from (\cite{Duffie2013}):
+
+\begin{equation}
+	\mathrm{{a_s} = {\sin ^{ - 1}}\left( {\sin \phi \sin {\delta _s} + \cos \phi \cos {\delta _s}\cos {\omega_s}} \right)}
+	\label{solar_alt0}
+\end{equation}
+\vspace*{-0.5cm}
+\begin{equation}
+	\mathrm{\gamma_s = {\sin^{-1}}\left(\frac{\cos \omega_s \sin \delta_s}{\cos a_s}\right)}
+	\label{azimuth0}
+\end{equation}
+
+\noindent where the solar declination $\delta_{\rm{s}}$ is a function of the year's day and $\phi$ is the latitude of the location.
+
+\citet{Pottler1999} calculated the total energy collected for a GAHC at north, south, west and east orientations located in the Northern Hemisphere and verified that the south facing orientation collects more energy because it is optically more efficient. \citet{Roux2016} used a ray tracing simulator to calculate the optimum inclination and azimuth angle of a flat plate collector at different locations. Results showed that an optimally positioned collector can, on average, collect 10\% more annual solar energy than a horizontally-fixed collector. The optimum fixed inclinaton angle is similar to the latitude of the location and the optimum fixed azimuth angle is a function of the longitude angle minus the absolute latitude angle.
+
+\subsubsection{Glazing optics}
+
+By Snell's law, considering the angle of incidence at the glazing cover, the angle of refraction is calculated by Eq. (\ref{snell}):
+
+\begin{equation}
+	\mathrm{\theta_r = arcsin\left(\frac{sin\theta_i}{n_{idx}} \right)  }
+	\label{snell}
+\end{equation}
+
+\noindent where $\rm{n_g}$ is the refraction index of the glazing cover that is dependent of the material. When passing through the glazing medium, part of the incident radiation is reflected and absorbed. The term that takes into account the transmissivity related to the reflected radiation alone is given by Eq. (\ref{tau_r}):
+
+%\begin{equation}
+%	\mathrm{r_{par} = \frac{tan^2(\theta_r - \theta_i) }{tan^2(\theta_r + \theta_i) } }
+%	\label{parallel}
+%\end{equation}
+%
+%\begin{equation}
+%	\mathrm{r_{perp} = \frac{sin^2(\theta_r - \theta_i) }{sin^2(\theta_r + \theta_i) } }
+%	\label{perpend}
+%\end{equation}
+
+\begin{equation}
+	\mathrm{\tau_r = \frac{1}{2}\left[\frac{1 - r_{par}}{1 + (2N_c - 1)r_{par}} + \frac{1 - r_{perp}}{1 + (2N_c - 1)r_{perp}}\right]}
+	\label{tau_r}
+\end{equation}
+
+\noindent where N is the number of glazing covers, and $\rm{r_{par}}$ and $\rm{r_{perp}}$ are the terms related to the reflections, functions of the angles of incidence and refraction (\cite{Duffie2013}). Similarly, the term that considers the glazing absorptivity $\rm{\tau_a}$ is given by Eq. (\ref{abs_glaz}):
+
+\begin{equation}
+	\mathrm{\tau_a = exp\left(-\frac{K_{ext}\delta_{glaz}}{cos\theta_r} \right) }
+	\label{abs_glaz}
+\end{equation}
+
+\noindent where $\rm{\delta_{glaz}}$ is the glazing thickness and $\rm{K_{ext}}$ is the extinction coefficient which is a function of the material: for glass, the value of this coefficient varies from approximately 4 m$^{-1}$ for ''water white'' glass to nearly 32 m$^{-1}$ for high iron oxide content (greenish cast of edge) glass. Lastly the glazing transmissivity $\rm{\tau_g}$ can be approximated by the product of the glazing absorptivity and the standalone transmissivity as a function of the glazing material and the incidence angle:
+
+\begin{equation}
+	\mathrm{\tau_{glaz} \cong \tau_r\tau_a}
+	\label{transmi}
+\end{equation}
+
+
+
+\subsubsection{End losses}
+
+If a linear concentrator is long in an east-west orientation compared to its width and height, it can be assumed to behave as a two dimensional system where end effects are negligible (\cite{Eames1993a}). For concentrators with short axial lengths, the end losses need to be included on the optical analysis as a portion of reflected solar rays may not reach the absorber under certain obtuse solar incident angles. To take into account the end losses, the opical efficiency is multiplied by a factor for that pupose, which is a function of the incidence angle and the collector's geometry. This factor has been analytically calculated for imaging parabolic troughs (\cite{Rabl1985}) and for linear Fresnel concentrators. End losses have stronger influence at high latitude locations and it could cause the absorber to be completely in shadow in winter days (\cite{Hongn2015}). \citet{Pu2011} estimated the end-effect for the north-south and east-west linear Fresnel collectors analyzing the angles between incident solar rays and the tacking axes of the reflectors. They concluded that the end losses can be compensated by increasing the length of the mirror field. \citet{Heimsath2014} quantified optical losses of Fresnel collectors and proposed a corrective end loss factor for end loss modeling. They also observed that the optical losses are higher for wider zenith angles and shorter collectors. \citet{Xu2014} presented an optical analysis and compensation method for the end loss effect of parabolic trough solar collectors with horizontal north-south axis. The calculation formulae for optical end loss ratio and increased optical efficiency are derived, and various factors affecting them are analyzed. The compensation method is found to be applicable for regions with latitudes over 25$^{\rm{o}}$ and short trough collectors.
+
+\subsubsection{Truncation}
+
+Compared to a simple parabola a CPC is very deep, and therein lies its main disadvantage; it requires a rather large reflector area for a given aperture area. For example, for a concentration ratio of 10, the ratio reflector area to aperture area is approximately 11, while a PTC has the ratio around 1.2. To overcome this drawback, a large portion of the top of a CPC can be cut off with almost no loss in performance. In practical applications, a CPC will amost always be truncated, for economic reasons (\cite{Rabl1976}). \citet{Carvalho1985} derived analytic expressions of angular acceptance range and evaluated the yearly collectable energy as function of the extent of truncation. Truncated concentrators accept solar rays at broader incident angles, thus collecting more solar energy due to reduction of reflections. \citet{Francesconi2018} simulated a five-CPC assembly's performance in CFD; they concluded that a concentration ratio reduction from 2.0 to 1.96 resulted in a 2\% increase of the system's thermal efficiency.
+
+%\citet{Fraidenraich2008}
+
+\subsection{The Compound Parabolic Concentrator (CPC) family}
+
+This section depicts the geometry of a symmetric CPC, assymetric CPC and a modification to include an inverted absorber.
+
+\subsubsection{Symmetric CPC} 
+
+The compound parabolic concentrator (CPC) is a non-imaging solar concentrator that has the advantages (compared to focusing ones) of i) there being no need for solar tracking, and ii) the ability to collect a portion of diffuse radiation (\cite{Winston1974}). The CPC has been used for heating and PV electricity production (\cite{Jaaz2017}). A typical CPC cross section is shown in Figure \ref{CPC1}. Solar radiation accepted within the angular acceptance range is focused onto an absorber by reflection at the two symmetrical parabolic reflectors. 
+
+\Figure[scale=0.60,placement=!ht,label={CPC1},caption={Basic CPC with flat plate absorber: (a) cross section design in 2D and (b) in 3D. From \citet{Duffie2013} and \citet{Winston1974}.}]{figs/CPC-2D-3D.png}
+
+One of the geometric parameters of a CPC is the geometrical concentration ratio, which is the ratio of the aperture to the absorber areas. This parameter has an upper limit calculated by Eq. (\ref{CR}):
+
+\begin{equation}
+	\mathrm{CR = \frac{1}{sin\theta_a}}
+	\label{CR}
+\end{equation}
+
+\noindent where the half-acceptance angle $\rm{\theta_a}$ is the angular limit over which radiation is fully accepted without moving all or part of the concentrator (\cite{Rabl1976a}). If the reflectors are specular, all the solar rays incident at angles within the acceptance range (between $\pm \theta_{\rm{a}}$) reach the absorber surface. Figure \ref{untruncated} shows the untruncated and truncated versions of the same CPC. The effect of truncation on the design parameters concentration ratio, height-aperture width ratio ($\rm{H_{\!_{CPC}}/{W_{apt}}}$) and reflector length has been presented by graphs and equations (\cite{McIntire1979}; \cite{Rabl1976}). Figure \ref{ang_acc} shows the angular acceptance function for an untruncated (full) CPC and for a truncated configuration.
+
+\Figure[scale=0.40,placement=!ht,label={untruncated},caption={Truncated and untruncated CPC with tubular absorber. From \citet{Norton1991}}]{figs/untruncated.png}
+
+\Figure[scale=0.60,placement=!ht,label={ang_acc},caption={Angular acceptance function of a full and truncated CPC. Adapted from \citet{Norton1991}.}]{figs/ang_acc2.jpg}
+
+The shape of reflectors affects size, angular acceptance range (\cite{Zacharopoulos2000}; \cite{Harmim2012}) and maximum geometric concentration ratio (\cite{Mills1978}). Given the same level of concentration ratio, concentrators of narrow angular acceptance are more efficient so collect higher amounts of the available solar energy (\cite{Sarmah2011}; \cite{Kostic2012}).
+
+The CPC has been extensively studied and reported in the literature. A common case of study considered a CPC where a working fluid passes within the absorber to capture the heat. However, the cavity between the absorber and the glazing cover is filled with dead air, and therefore, convective losses occur due to the temperature gradient. This has effect in the motion of air, known as natural or free convection. Hence, this free convective heat transfer coefficient $\rm{h_f}$ is calculated as:
+
+\begin{equation}
+	\mathrm{h_f = \frac{{{k_{air}}}}{{{L_c}}}Nu_{f} = a{(Ra)^b}}
+	\label{hn}
+\end{equation}
+
+\noindent where the parameters a and b depend on the geometry and the flow regime (\cite{Cengel2005}). The Rayleigh number is defined as the product of the Grashoff and the Prandtl numbers, shown by Eq. (\ref{Ra}):
+
+\begin{equation}
+	\mathrm{Ra = Gr \Pr = {\frac{{g{\beta_{th}}}}{{\nu_{air}^2}}{L^{3}_c}\Delta T^{*}\Pr}}
+	\label{Ra}
+\end{equation}
+
+\noindent where: $\rm{L_{c}}$ is the characteristic length; the volume expansion coefficient $\beta_{\rm{th}}$ is 1/$\rm{T_{air}}$ as the air is considered an ideal gas; $\rm{\Delta T^{*}}$ is the temperature difference between the surface and the air; and $\nu_{\rm{air}}$ is the air kinematic viscosity.
+
+\citet{AbdelKhalik1978} evalutated the natural convective coefficients between absorber surface and cover plate for vertically oriented two-dimensional CPC using finite-element techniques. Values of the critical Rayleigh number for different concentration rc atios (2 $<$ CR $<$ 10) with three levels of truncated CPCs are determined. Results show that convection is suppressed in high-concentration cavities where the height/aperture ratio is large.
+
+%Mathematical formulations were developed to study thermal processes in a compound-parabolic- concentrator (CPC) collector. The system under investigation consists of a CPC cusp fitted with a concentric, evacuated double pipe to serve as a heat absorber. Heat is transmitted to the circulating fluid flowing inside a U-tube via the heat getter slipped inside the inner pipe (\cite{Hsieh1981}).
+
+\citet{Prapas1987} developed a heat transfer model and found out that the Nusselt number is affected by the concentration ratio of the collector, its inclination and the absorber temperature. The average Nusselt number rises as the inclination of the collector increases, and this effect is enhanced for higher concentration ratios. Moreover, generalised correlations for the variation of Nusselt number have been obtained.
+
+\citet{Eames1993} performed a detailed parametric analysis of heat transfer in untruncated CPCs using a model for their optical and thermal behaviour. The effects of inclination and acceptance angles on free convection within the cavity were studied. A convective heat transfer correlation is obtained for the average Nusselt number with respect to Grashof number that takes into account acceptance angle and angular inclination. They also observed that CPCs of higher acceptance angles have lower Nusselt numbers.
+
+A theoretical and experimental investigation into the modifications in optical and thermal
+performance resulting from the introduction of a baffle into the cavity of a CPC has been performed. Results shown that the introduction of a baffle reduces internal convection thereby reducing heat losses with small reduction in optical efficiency (\cite{Eames1995}).
+
+A heat transfer modelling in CPCs has been investigated. This considered the effect of the inclination angle of an east-west aligned collector. The internal and external convective heat transfer correlations employed are angular dependent. The model also considered the contribution of beam and diffuse radiation. The results demonstrate that there is a 10\% variation in convective heat transfer with angle of inclination for low concentration CPCs (i.e. CR = 1.5). Furthermore, the thermal efficiency was lower for incoming radiation of more diffuse component. In this case, because of the high diffuse radiation, a CPC of lower concentration would be preferred to maximise the fraction of the diffuse insolation collected. (\cite{Kothdiwala1995}).
+
+The results show that when radiation is neglected the onset of fluid motion is delayed by the level of concentration of the cavity. When radiation is considered, it has an important effect on the temperature distribution inside the parabolic cavities, as well as the local and average values of the convective and radiative Nusselt numbers. The emissivity has a strong effect on the average radiative Nusselt number especially at high Rayleigh numbers (\cite{Diaz2008}).
+
+\citet{Tchinda2008} developed a mathematical model for computing the thermal performance of an SAHC with truncated CPC having a flat one-sided absorber. The effects of the air mass flow rate, the wind speed and the collector length on the thermal performance of the present collector were investigated. Predictions for the performance of the SAHC also exhibit reasonable agreement, with experimental data with an average error of 7\%.
+
+\subsubsection{Asymmetric CPC}
+
+Symmetric CPCs have two equal half acceptance angles in relation to the optical axis. The asymmetric compound parabolic concentrator (ACPC) introduced by \citet{Rabl1976}, a particular case of its symmetric counterpart. Figure \ref{ACPC} shows a general cross section of an ACPC, where the acceptance angle is $\rm{2\theta_a = \alpha_{\!_{PU}} + \alpha_{\!_{PL}}}$. The geometric concentration ratio is also the ratio of the aperture to absorber areas. The axis of the upper (lower) parabola subtends an angle $\rm{\alpha_{\!_{PU}} (\alpha_{\!_{PL}})}$ with the normal of absorber. Therefore, broader angular acceptance range and designs with higher concentration ratios can be achieved due to the asymmetry (\cite{Tian2018}). 
+
+\Figure[scale=0.60,placement=!ht,label={ACPC},caption={General design of an asymmetric CPC.}]{figs/ACPC.png}
+
+Asymmetric concentrator systems present the following advantages (\cite{Mills1978}):
+
+\begin{itemize}
+	\item Ability to compensate lower solar radiations in early morning and late afternoon, allowing more uniform output;
+	\item Greater operational flexibility for unexpected variations in energy demand and higher yearly average energy input per reflector surface area.
+\end{itemize}
+
+Researchers have studied this type of concentrator in detail. \citet{Zacharopoulos2000} analysed the optical performance of a 3D dielectric ACPC with a 78\% truncation at the vertical compared to a symmetric version (Figure \ref{ACPCzac}). The analysis showed that the asymmetric concentrator design is more suitable for use in a building facade compared to a symmetric one. Using a dielectric concentrator, an ACPC can collect 40\% of solar radiation with, due to refraction, collection even outside the angular acceptance range. \citet{Tripanagnostopoulos2000} proposed a collector design based on a truncated asymmetric CPC reflector, consisting of a parabolic and a circular part. This design features a flat bifacial absorber installed at the upper part of the collector, parallel to the glazing to form a thermal trap space between the reverse absorber surface and the circular part of the mirror. The experimental results showed that the proposed collector could achieve a maximum efficiency of 71\% and a stagnation temperature of 180 $^{\rm{o}}$C. \citet{Mallick2006} presented a comparative experimental characterisation of a non-imaging line-axis 0 -- 50$^{\rm{o}}$ acceptance-half angles asymmetric compound parabolic photovoltaic concentrator (ACPPVC-50) suitable for vertical building facade integration with its non-concentrating counterpart. \citet{Mallick2007b} performed an optical and heat transfer analysis for a truncated ACPC of concentration ratio 2.01 suitable for photovoltaic applications with the aim of using airflow to alleviate temperature at the solar cells. \citet{Sarmah2011} compared the optical performance of three dielectric ACPC designs (all truncated with concentration ratio of 2.82) of acceptance angles 0 -- 55$^{\rm{o}}$, 0 -- 66$^{\rm{o}}$, and 0 -- 77$^{\rm{o}}$, in order to optimize the concentrator for building facade photovoltaic applications in northern latitudes ($>$ 55 $^{\rm{o}}$N). Based on the annual solar energy collection by all the designs, it was found that the system of acceptance angles 0 -- 55$^{\rm{o}}$ is more optically efficient and can collect more energy compared to the other two. \citet{Harmim2012} constructed and evaluated the performance of a box-type solar cooker equipped with an ACPC of concentration ratio 2.12. The reflectors were designed so that the absorber could receive solar rays at solar altitude angle was between 30 and 75$^{\rm{o}}$.
+
+\Figure[scale=0.60,placement=!ht,label={ACPCzac},caption={Dielectric ACPC with 78\% truncated at the vertical for building integration photovoltaic.}]{figs/ACPCzac.PNG}
+
+%\Figure[scale=0.70,placement=!ht,label={cooker},caption={Sketch of the box-type solar cooker employing an ACPC.}]{figs/cooker.PNG}
+
+\subsubsection{ACPC with Inverted Absorber}
+
+Collectors employing inverted absorber, in which solar radiation is reflected from below onto the downward-facing absorbing surface, have been proposed by \citet{Rabl1976} and shown in Figure \ref{col_rev}. They are also called inverted absorber asymmetric compound parabolic concentrator (IACPC). Although optically less efficient due to the multiple reflections of incident solar energy (\cite{Eames1996}; \cite{Kothdiwala1996}; \cite{Shams2013}), this type of concentrator is able to achieve higher absorber temperatures by suppressing convective and radiative heat losses (\cite{Kothdiwala1997}; \cite{Kothdiwala1999}). This is due to the formation of thermally stratified air layers below the absorber, and also because this surface does not view the aperture directly (\cite{Kienzlen1988}; \cite{Eames2001}).
+
+\Figure[scale=0.50,placement=!ht,label={col_rev},caption={Basic CPC geometry with inverted absorber.}]{figs/col_rev.eps}
+
+%Researchers have reported studies aiming to evaluate the performance of this type of collector. 
+\citet{Kothdiwala1996} developed a ray trace model to simulate and optimise the IACPC optical performance. This model considered the effect of beam and diffuse radiation separately. They verified that the beam optical efficiency decreases with the increase of the cavity height and concentration ratio. %Additionally it was found out that the diffuse optical efficiency is improved when the acceptance angle is increased.
+
+%\Figure[scale=0.70,placement=!ht,label={koth96},caption={Geometry of the CPC with inverted absorber analysed.}]{figs/koth96}
+
+\citet{Eames1996} predicted the thermo-physical performance of the IACPC system. In their study, the energy flux at the absorber was determined by a ray trace technique and a finite element model was developed to predict the system's thermo-fluid behaviour. %They concluded that a net gain in efficiency is achieved by the inclusion of a cavity above the circular reflector, which is due to the convection suppression.
+\citet{Kothdiwala1997} conducted indoor experiments under a solar simulator to analyse the performance of the IACPC, which was copper sheeting onto a tubing along the concentrator's long axis. The tests were carried out using water as the flowing fluid at various cavity heights. %They found out that the overall performance is more efficient for higher gap height configurations.
+\citet{Kothdiwala1999} compared a tubular absorber CPC with glass envelope to an IACPC at different cavity heights, both for water heating purposes. They concluded that the appropriate use of an absorber configuration on the IACPC maximises convection suppression and minimises optical losses. Furthermore, at the optimum configuration, this system outperforms the other compared in this study.
+\citet{Eames2001} simulated the performance of an IACPC by using a combined ray trace and finite element computational fluid dynamics model previously developed by \citet{Eames1993a}. This model was validated by direct comparison with experimental results.
+
+\citet{Tiwari1998} modelled and evaluated the performance of an inverted absorber solar still for distillation purpose. They found that this inverted configuration provided double the hourly yield compared to a conventional still. The experimental comparison between an inverted absorber solar still and conventional single slope solar at various water depths has been conducted by \citet{Dev2011}. They found that the water temperature in
+the basin of an inverted absorber solar still is higher than the conventional one. 
+
+In order to suppress convection losses, \citet{Smyth2005} investigated the use of transparent baffles at different locations within the collector cavity; the system consisted of an integrated collector storage solar water heater (ICSSWH) mounted in the cavity of an IACPC. \citet{Shams2016} designed and fabricated a concentrating transpired air heating system comprised by an IACPC with a perforated absorber. This collector had the transpired absorber surface made of woven carbon fibre placed at a fixed cavity height, a glazed aperture, a concentration ratio of 2.0, and was experimentally tested at different air flow rates.
+
+\subsection{Optical systems and Ray tracing technique}
+
+A major part of the design and analysis of concentrating collectors involves ray tracing techniques, which are algorithms to simulate sunlight rays passing through an optical system. Ray tracing analysis is an important method adopted in optical systems to obtain the optical performance for complex geometries regarding direct and diffuse solar radiation (\cite{Ali2013}). When a ray hits a real reflecting surface, most part of its energy will be reflected. To formulate a suitable ray tracing procedure, the law of reflection can be applied into vector form (\cite{Winston2005}). Figure \ref{ref_point} shows the unit vectors $\rm{r_{inc}}$ and $\rm{r_{ref}}$ along the incident and reflected rays and a unit vector $\rm{r_n}$ at the normal point of incidence into the reflecting surface. The law of reflection is expressed by Eq. (\ref{ref_law}):
+
+\begin{equation}
+	\mathrm{{r_{ref}} = {r_{inc}} - 2({r_n} \cdot {r_{inc}}){r_n}}
+	\label{ref_law}
+	\end{equation}
+
+\Figure[scale=0.90,placement=!ht,label={ref_point},caption={Law of reflection applied on a reflecting surface.}]{figs/ref_point.eps}
+
+The ray tracing analysis with optical study can provide:
+
+\begin{itemize}
+	\itemsep-5pt
+		\item Average number of reflections before the incoming rays reach the absorber plate (\cite{Shams2013}; \cite{Benrejeb2016});
+		\item Optical efficiency as a function of the incidence angle (\cite{Kothdiwala1996}; \cite{Souliotis2011});
+		\item Visualisation of rays' path and reflection points (\cite{Mallick2007}; \cite{Ratismith2014}; \cite{Ustaoglu2016});
+		\item Intensity of energy distributed at the absorber surface (\cite{Smyth1999}; \cite{Sellami2013}; \cite{Ali2014}; \cite{Bellos2016});
+		\item System's optical characterisation for thermal modelling and simulation (\cite{Mallick2007}; \cite{Shams2013}; \cite{Bellos2016});
+		\item Comparison between two or more systems (\cite{Zacharopoulos2000}; \cite{Sarmah2011}; \cite{Wu2009}).
+	\end{itemize}
+
+Several concentrating system have been proposed and optically analysed for different purposes and reported in literature in details. \citet{Souliotis2011} used a two-dimensional ray tracing method to analyse the optical properties of an asymmetric CPC collector. The process involved tracing the paths of a large number of rays through the system and calculating the acceptance angle. The results showed that the collector achieves optical efficiencies above 75\% within its acceptance angle, with efficiency decreasing rapidly outside this range.
+
+\citet{Sarmah2011} presented the design and optical performance evaluation of stationary dielectric asymmetric compound parabolic concentrators using ray tracing methods. The designed concentrators have a geometric concentration ratio of 2.82 and a maximum optical efficiency of 83\%. The ray tracing simulations show that all rays within the acceptance half-angle range can be collected without escaping from the concentrator's aperture.
+
+\citet{Zheng2011} presented a new multiple chamber trough solar collector and an optical analysis software was used to simulate the ray tracing of the solar light concentrating system. The study investigated the flat receiver and cylindrical receiver and the relationship between the receiving beam and the incident ray. The simulation results showed the distribution, width, eccentric magnitude of the image, and efficiency of the concentrated light varying with the incident angle. The concentration ability of the system with a flat receiver and a cylindrical receiver was quantitatively analyzed and compared.
+
+Using the OpticsWorks software, \citet{Sellami2012} performed an optical analysis and developed a novel geometry of a 3D static concentrator in form of a square elliptical hyperboloid (SEH) to be integrated in glazing windows or facades for photovoltaic application. The SEH of concentration ratio 4.0 was optically optimised considering different incident angles of the incoming light rays.
+
+\citet{Ali2013} evaluated the optical performance of a static 3D elliptical hyperboloid concentrator using a ray tracing software called Optis. Effective concentration ratio, optical efficiency and geometric parameters were analysed. Furthermore, the geometry was optimised to improve the overall performance.
+
+\citet{Binotti2013} proposed an analytical approach to evaluate the impact of 3D effects on the optical performance of parabolic trough collectors. The approach is an extension of the First-principle OPTical Intercept Calculation (FirstOPTIC) method and was validated against numerical solutions and ray-tracing simulation results. The new approach was applied to case studies to examine the impact of 3D effects on the intercept factor, and a correction was proposed for the approach generally accepted for specularity mirror errors for non-zero incidence angles.
+
+\citet{Sellami2013} developed a 3D ray trace code in Matlab to determine the beam optical efficiency and the energy distribution of a 3D crossed CPC (CCPC) for different incident angles. The authors found that this type of CPC is an ideal concentrator for a half-acceptance angle of 30$^{\rm{o}}$ and concentration ratio of 3.6.
+
+\citet{Ali2014} presented the design and experimental analysis of a 3D solar elliptical hyperboloid concentrator (EHC) for process heat applications. Ray tracing analysis was used to obtain the solar flux distribution on the receiver aperture plane, and the optical efficiency was obtained theoretically using a ray tracing program. The design was optimized before finalizing and experimentally testing the EHC.
+
+\citet{Abu-Bakar2014} proposed a new type of concentrator, known as the  rotationally ACPC, for use in building integrated systems for PV applications, where the geometrical concentration gain and the optical concentration gain were evaluated. From the simulations, it has been found that the concentration could produce an optical concentration gain as high as 6.18 when compared with the non-concentrating cell depending on the half-acceptance angle.
+
+\citet{Ratismith2014} proposed non-tracking configurations of solar collector modules which are designed to operate efficiently along the day, for varying incident angles of direct and diffuse radiation. The design criteria for achieving a high intercept factor without tracking throughout the day are emphasized by conducting ray tracing analysis on different trough shapes and absorber plate orientations. Furthermore, the superiority of the flat base collector over the double-parabolic design was demonstrated.
+
+\citet{Abdullahi2015} investigated the optical efficiency of two tubular receivers in a compound parabolic concentrator or a single elliptical receiver. Ray tracing is used to predict the optical efficiency, and the results show that the horizontal configuration outperforms both the single and vertical configurations by up to 15\%. Moreover, the horizontally aligned elliptical single tube configuration increases the average daily optical efficiency by 17\% compared to the single tube configuration.
+
+\citet{Benrejeb2015} used mathematical equations describing the geometric design of an integrated collector storage system. Therefore, an optical study was given with details to achieve the ray tracing technique results and the energy flux distribution on the absorber surface. Furthermore the optical results was used as inputs in the heat transfer model to simulate the temperature of the water inside the absorber.
+
+\citet{Benrejeb2016} worked on a numerical model based on ray tracing technique to study the effect of truncation on the optical and thermal performances of an integrated collector storage system of solar water heater with asymmetric CPC reflectors. The model can predict both full and truncated CPC systems, and the simulation involves analyzing several parameters such as geometric concentration and half acceptance angle. The effect of truncation on ray trace diagrams and its impact on optical and thermal performances was also studied.
+
+\citet{Bellos2016} performed an optical analysis and optimised the geometry of a CPC with an evacuated tube, where this design is considered to be optimum because all the reflected ray reach the receiver. They also calculated the optical losses at different solar angles. The authors also indicate the need of tracking the collector in order to minimise the incident angle. \citet{Qin2013} designed and optimised the geometry of an aspheric reflecting solar concentrator with the aim of focusing sunlight on a narrow line segment. To do so, they used a particular aspheric equation in three dimensions together with the law of reflection to trace the incident rays.
+
+\citet{Ustaoglu2016} developed an optical analysis on a cylindrical CPC for reducing hot spots on a PV cell caused by non-uniform solar irradiation. Different truncation levels were tested to determine the optimum levels for optical and thermal efficiency. The study analysed average efficiency, incident angle, and annual performance for different absorber surfaces. Heat flux and temperature distribution on the absorber were also evaluated to determine the uniformity of solar illumination.
+
+
+
+
+\section{Building integration of solar systems}
+
+
+
+%In addition to being technically and structurally efficient, solar thermal collectors must satisfy criterion summarised in the IEA Task 41 Solar Energy and Architecture for aesthetic quality of buildings integrated solar thermal collectors [4]:
+
+%\begin{itemize}[topsep=5pt,partopsep=0pt] \itemsep0pt
+%	\item Integrating naturally; 
+%	\item Architecturally pleasing design;
+%	\item Consistency to the context of the building;
+	%\item Size that suits the harmony and combination;
+%	\item Good composition of colours and materials;
+%	\item Well composed and innovative design.
+	
+%\end{itemize}
+
+Building integrated solar thermal system (BISTS) is a solar thermal collector integrated to a building to meet local energy requirements. This integration must consider functionality (useful thermal energy, thermal insulation, shading, construction stability) and/or appearance aspects (aesthetics, dimensions, shape, colour of the building). In addition to that, they need to be technically and structurally efficient (\cite{Wall2012}; \cite{Buker2015}). A few more factors will need to be taken into consideration, such as (\cite{COSTOffice2015}): i) amount of useful thermal energy collected and and fluid temperature delivered; ii) resistance to weather conditions; iii) light and solar energy characteristics in case of transparent layer; iv) thermal resistance and thermal transmittance characteristics of the construction (overall heat transfer coefficient); v) fire protection, and; vi) noise attenuation.
+ 
+% coupled onto the exterior of a building -- usually mounted on the fa\c{c}ade or on the roof -- to meet local energy requirements.
+
+
+
+% These systems' designs must consider architectural aspects, such as colour, materials, texture and shape, enabling a more homogeneous building aesthetic than conventional solar thermal collectors. Plus, they need to integrate harmony with the building, be consistent with the building context, and be of well composed and innovative design. In addition to that, they need to be technically and structurally efficient (\cite{Wall2012}; \cite{Buker2015}).
+
+%Building integrated solar thermal system: We consider STS as building integrated, when some components (mainly the solar thermal collector) is an integral part of the building functionality, not just an added element. This integration may be functional (i.e. thermal insulation, shading, construction stability etc. will be compromised) and/or relates to the appearance (aesthetics, dimensions, shape, colour etc. of the building). Thus building integration considers architectural integration in form and function.
+
+These systems have been classified across a range of operating characteristics and system features and mounting configurations. The main classification criteria of all solar thermal systems are based on the method of transferring collected solar energy to the application (active or passive), the thermal transfer fluid (air, water, water-glycol, oil, etc.) and the final application for the energy collected (hot water and/or space heating, cooling, process heat or mixed applications). In the passive or active classification, in the first case the thermal transfer fluid flows by natural convection or circulation or no transport at all, and in the second case, pumps or fans are used to circulate the fluid to a point of demand or storage (forced convection or circulation). A number of systems are however hybrids, operating by a combination of natural and forced transport methods. Many fa\c{c}ade solar air heaters use thermal buoyancy to induce an air flow through the vertical cavities that can be further augmented with in-line fans (and heating) if necessary.
+
+The BISTS delivers thermal energy to the building but additionally other forms of energy may contribute to the buildings energy balance. For instance daylight comes through a transparent window or fa\c{c}ade collector, or PV/T systems will also deliver electrical power which may be used directly by any auxiliary electrical services. Heated air or water can be stored or delivered directly to the point of use. Although the range of applications for thermal energy is extensive, all of the evaluated studies demonstrate that the energy is used to provide one or a combination of the following cases:
+
+\begin{description}
+	\item[Space heating:] Thermal energy produced by a BISTS may reduce the space heating load of a building by adding solar gains directly (by a passive window) or indirectly (by transferring heat from the collector via storage to a heating element) into the building;
+	
+	\item[Air heating and ventilation:] Thermal heat may be used also to pre-heat fresh air needed in the building. Air is heated directly or	indirectly and to provide space air heating and/or ventilation to the building. In some cases, an auxiliary heating system is used to enhance the heat input because of comfort reasons;
+	
+	\item[Water heating:] Hot water demand in the building is the most popular application. In the majority of water heating BISTS, a customized heat exchanger or integrated proprietary solar water is used to transfer collected heat to a (forced) heat transfer fluid circuit and on to an intermediate thermal store and/or directly to a domestic hot water application;
+	
+	\item[Cooling and ventilation:] In cooling dominated climates, buildings may have an excess of thermal energy, and therefore BISTS can also be a technology to extract heat from a building. There are a number of methods described in providing a cooling (and/or ventilation) effect to a building: shading vital building elements, desiccant linings, induced ventilation through a stack effect and reverse operation of solar collecting elements for night-time radiation cooling.
+\end{description}
+
+%Air-based BISTs are characterised by lower costs and efficiencies than water heating systems. They are generally used for building ventilation and heating. Hydraulic BISTs are generally used for heating and hot water generation. BISTs that adopt phase change materials are generally used when a longer period of the system output is required. These systems can be categorised in function of the integration with the building envelope, as shown in Figure 9. For many decades integrated solar thermal systems have been studied with research efforts focused on different technological solutions to BIST integration.
+%
+%Air-based BISTs are solar thermal air collectors integrated on roofs and facades, as shown in Figure 10. These collectors are characterised by low costs but also by a low efficiency due to the thermal characteristics of the air as a heat transfer fluid. Air has low thermal properties, thus influencing convective heat transfer phenomena. To compensate these limits, large collector areas and ducts are needed. However, these can introduce problems related to costs and roof/facade size [23]. Solar thermal facades that use air can be made by integrating an air gap between the rear surface of the glass covers and the building envelope. In space heating systems, constant air flows are generally provided, thus the outlet air temperature varies during the day in function of the solar radiation variations.
+%
+%Using water instead of air is effective because of its high thermal capacity and thermal conductivity. Water allows easy storage as it is suitable for direct domestic hot water generation, but it is corrosive. %The water-based BIST can be classified into two groups: single-channel and multiple-channel BISTs. The first group has evolved from the passive solar heating mechanism, which often provides solutions for the use of hot water. The second group is characterised by a design with an additional air space between the photovoltaic module and the building envelope.
+%
+%Roof integrated mini-parabolic solar collector have been studied for building-integrated applications. These systems adopt linear Fresnel reflectors to focus the beam solar radiation on a stationary receiver with the use of mirrors and an active tracking system (ref). The use of concentrating optical system for building integrated solar applications was proposed by Chemisana et al. [25]. The analysis of a stationary wide-angle Fresnel lens with a moving CPC was proposed by the authors. A building integrated mini parabolic thermal collector investigated by Petrakis et al. [26], had a East-West orientation with a slope to receive the sun's rays perpendicularly during the day. A solar micro-concentrator collector is shown in Fig. 11.
+%
+%Another solution is represented by the ceramic solar collectors, mainly characterised by economic convenience, without absorption attenuation and good integration in buildings. As asserted by Buker and Riffat [23], the raw material for this system is traditional ceramic (porcelain clay, quartz and feldspar). The building integration of these solar collectors was also proposed by Yang et al. [27]. The collectors act both as heat source of the water system, and as balcony railings, with a thermal efficiency equal to 41.7\%.
+%
+%Overhang louvre shading modules, placed horizontally, can incorporate solar collectors. This approach allows an increased number of collectors to be installed as space is freed on the building roof for the installation of additional panels. The various designs of solar louvre thermal collector have been discussed by Abu-Zour et al. [28]. They have proposed a design that used heat pipe technology. Marrero et al. [29] analysed a solar thermal system that exploited building louvre shading devices. They proposed the modification of existing designs. The proposed system was tested under several climatic conditions, showing great potential from both an economic and a renewable energy supply point of view.
+%
+\subsection{Building integrated solar thermal collectors for air heating}
+
+Air-based BISTs are solar thermal air collectors integrated on roofs and fa\c{c}ades. These collectors are characterised by low costs but also by a low efficiency due to the thermal characteristics of the air as a heat transfer fluid. Air has low thermal properties, thus influencing convective heat transfer phenomena. To compensate these limits, large collector areas and ducts are needed. However, these can introduce problems related to costs and roof/fa\c{c}ade size. Solar thermal fa\c{c}ades that use air can be made by integrating an air gap between the rear surface of the glass covers and the building envelope. In space heating systems, constant air flows are generally provided, thus the outlet air temperature varies during the day in function of the solar radiation variations.
+
+Using water instead of air is effective because of its high thermal capacity and thermal conductivity. Water allows easy storage as it is suitable for direct domestic hot water generation, but it is corrosive. The water-based BIST can be classified into two groups: single-channel and multiple-channel BISTs. The first group has evolved from the passive solar heating mechanism, which often provides solutions for the use of hot water. The second group is characterised by a design with an additional air space between the photovoltaic module and the building envelope.
+
+Roof integrated mini-parabolic solar collector have been studied for building-integrated applications. These systems adopt linear Fresnel reflectors to focus the beam solar radiation on a stationary receiver with the use of mirrors and an active tracking system (ref). The use of concentrating optical system for building integrated solar applications was proposed by Chemisana et al. [25]. The analysis of a stationary wide-angle Fresnel lens with a moving CPC was proposed by the authors. A building integrated mini parabolic thermal collector investigated by Petrakis et al. [26], had a East-West orientation with a slope to receive the sun's rays perpendicularly during the day. A solar micro-concentrator collector is shown in Fig. 11.
+
+Another solution is represented by the ceramic solar collectors, mainly characterised by economic convenience, without absorption attenuation and good integration in buildings. As asserted by Buker and Riffat [23], the raw material for this system is traditional ceramic (porcelain clay, quartz and feldspar). The building integration of these solar collectors was also proposed by Yang et al. [27]. The collectors act both as heat source of the water system, and as balcony railings, with a thermal efficiency equal to 41.7\%.
+
+Overhang louvre shading modules, placed horizontally, can incorporate solar collectors. This approach allows an increased number of collectors to be installed as space is freed on the building roof for the installation of additional panels. The various designs of solar louvre thermal collector have been discussed by Abu-Zour et al. [28]. They have proposed a design that used heat pipe technology. Marrero et al. [29] analysed a solar thermal system that exploited building louvre shading devices. They proposed the modification of existing designs. The proposed system was tested under several climatic conditions, showing great potential from both an economic and a renewable energy supply point of view.
+
+
+
+
+
+
+
+
+%
+%\subsubsection{Air heating}
+%
+%The solar air collectors are widely applied in many commercial applications such as hot air supply to shopping malls, agricultural barns and industrial drying etc. They are usually low cost, with no freezing and high pressure problems. However, one of the main disadvantages of solar thermal air collectors is their relatively low efficiency due to the low density, volumetric heat capacity and thermal conductivity of air causing to low coefficients of convective heat transfer from solar energy to the air. In order to compensate this drawback, air needs to be encapsulated in larger collector areas which puts cost and roof size problem in front [55]. A schematic of the working principle of a roof integrated solar thermal air collector is illustrated in Fig. 18. 
+%
+%The solar energy absorbing uppermost layer may have a solar selective coating and internal duct configuration to increase heat transfer ratio from the heated absorber layer to the internal air stream. A flat transpired solar thermal air collector is formed an unglazed, perforated solar absorbing layer. The air stream heated at the layer is pulled through an array of small perforations by a fan. A large proportion of the heated air, that would otherwise compose convective heat loss from the heated surface, is thus loaded into the system. At relatively high flow rates and low supply temperatures, the solar thermal air collector system can display high solar conversion efficiency [57]. A schematic diagram of solar thermal air collector application is shown in Fig. 19.
+%
+%\subsubsection{Water heating}
+%
+%Solar water heating collectors prove to be an effective concept for conversion of solar energy into thermal energy. The efficiency of solar thermal conversion reaches up to 70\% when compared to direct conversion of solar electrical systems which have an efficiency of around 17\%. Thus solar water heating collectors play a crucial role in domestic use as well as industrial sector due to its ease of operation. Flat plate collector is the pivotal component of any solar water heating system. Thermal performance characteristics of a flat plate solar water heater mainly depend on the transmittance, absorption and conduction of solar energy and good conductivity of the working fluid [65]. The cross sectional view of a flat plate solar water collector and the schematic view of a typical thermosyphon solar water heating system is shown in Fig. 21.
+%
+%\subsubsection{Photovoltaic/thermal}
+%
+%A photovoltaic/thermal (PV/T) collector is a combination of photovoltaic (PV) and solar thermal components that produce both electricity and heat simultaneously. This dual function of the PVT enables a more effective use of solar energy that results in a higher overall solar conversion. Much of the captured solar energy in a sole PV module elevates the temperature of its cells which causes degradation in module efficiency. This waste heat needs to be removed to ensure a high electrical output. The PV/T technology recovers part of this extracted heat to utilise for low-and-medium-temperature applications [6]. 
+%
+%The merits of PV/T concept comparing to alternative technologies contain eco-friendly, proven long life (20–-30 years), noise free and low maintenance. However, several factors restrict the efficiency of the photovoltaic module such as particularly temperature increase and utilising only a part of solar spectrum (photon energy threshold is less than 1.11 μm for c-Si) for power generation. The band gap of silicon (1.12 eV) limits the total energy collected in solar spectrum even less than 1.11 μm. So, photons of longer wavelength dissipate their energy as waste heat rather than generating electron–hole pairs. As PV modules are able to convert only 4–17\% of the incoming solar radiation into energy depending on the solar cell type and working conditions, cooling PV modules simultaneously by a fluid stream like air or water boost energy yield significantly. Conceptually, re-use of heat energy extracted by the coolant is ideal. Thus, PV/T collectors offer a higher overall efficiency [7].
+
+%\section{Solar air heating technologies}
+
+%The main research challenge is to increase the convective heat transfer between the  working  fluid air and the absorber surface  while at the same time minimising  the  overall  heat  losses  from  the  system.  A  wide  range  of  Solar  Air  Heating  Collector  (SAHC)  designs  have been proposed and discussed in the literature in recent  years to  improve the performance of conventional systems (Alta et al., 2010; Ho et al., 2009; Lin  et al., 2006, Tanda, 2011; Ozgen et al., 2009 and Tanda, et al., 2011).   
+%
+%At  present,  two  main  types  of  SAHC  exist  commercially  Unglazed  Solar  Air  Heating  Collector  (USAHC)  and  Glazed  Solar  Air  Heating  Collector  (GSAHC).  
+%%As  illustrated in Figure 2.1, a design from  SolarWall (Solarwall, 2011;  Shukla et al., 2012;  IEA, 1999) is shown in Figure 2.1 (a) as a conventional UTC system (Solarwall, 2011).  
+%
+%The basic  difference between two main types of solar air collectors is presence  of  glazing  cover and  design  of  absorber  surface.  UTC  collectors  do  not  have  glazing  cover and contains perforated absorber as shown in Figure 2.1 (a). On other hand glazed  collector  generally  contains  non-perforated  extended  surface  absorber  Figure  2.1  (b)--(d). Comparatively little  experimental research has been carried out  (Pramung and Exell, 2005  and  Tchinda,  2008)  to  improve solar  air heating  system  performance  using  concentrators.      
+%
+%Pramung   and   Exell   (2005)   modelled   concentrator   integrated   non-perforated  absorber water heating collector. Tchinda (2008) modelled concentrator integrated non-perforated absorber air heating collector. Numerous researches have been carried out on  PV  integrated  solar  air  heating  systems  (Odeh  et  al.,  2006;  Athienitis  et  al.,  2011).   However, integration of inverted perforated absorber with concentrator for air heating  purpose has not been investigated.  
+%
+%\subsection{Unglazed Solar Air Heating Collector (USAHC)}
+%
+%USAHC generally consists of an  absorber plate with a parallel  back plate. The  space between the absorber and the back plate forms a plenum  as illustrated in Figure  2.1 (a). Outside air to be heated is drawn through the perforation and the plenum using  extraction fan.  There are two types of USAHC: transpired absorber and non transpired  absorber (back pass).  
+%
+%The difference between  the two systems is the  absorber perforation.  The most  popular  type  of  USAHC  presented  in  Figure  2.1a  is  the  unglazed  transpired  collector (UTC) well known as the  Solar Wall which was invented and patented in the 1990s by  John  Hollick  (Solarwall,  2011;  Shukla et  al.,  2012;  IEA,  1999).  The  research  was  carried  out  during  Task  14  (  IEA,  1999)  to better  understand  of  unglazed  transpired  collectors  and  to  improve  the  engineering  tools  for  the  design  of  perforated  collector  systems.   
+%
+%UTC  has been  the  subject of a number of investigations  (Dymond and Kutscher,  1997; Gawlik et al., 2005; Keith et al., 2002; Decker et al., 2001). A literature review on  transpired  solar  collectors presented  working  principle,  modelling  and  comparison  of  various types of transpired collectors (Shukla et al., 2012). The literature review showed that the most critical factors affecting thermal efficiency of transpired solar collectors were wind velocity, flow rate, absorptivity and porosity.  
+%
+%Continuous  improvements  to  the  UTC  have  focused  on  the  material  of  the  transpired  absorber  (Gawlik  et  al.,  2005),  diameter  and  pitch  of  the  perforation  and  thickness of the absorber (Keith et al., 2002; Decker et al., 2001). This technology is an  effective low cost option  to meet the heating demands in the buildings. However, the  temperature  rise  of  the  air  is  comparatively  much  lower  than  that  for  glazed  solar  collectors at maximum efficiency.   
+%
+%As  the  UTC  system  is  an  open  loop  system,  air  flow  is  directly  related  to  the  pressure drop across the absorber plate. A minimum pressure drop of 25 Pa needs to be  maintained  during  the heating  operation  to  avoid  reverse  flow  effects  (Charles,  1991;  Kutscher et al., 1993; Leon and Kumar, 2007). UTC loses heat from the exposed absorber  perforation due to reverse flow and radiation losses cannot be avoided from unglazed  absorber.  
+%
+%\subsubsection{Glazed Solar Air Heating Collector (GSAHC)}  
+%
+%GSAHC  generally  consists  of  an  absorber  plate  with  a  parallel  plate  below  forming a passage of high aspect ratio through which the air to be heated flows. In order to  enhance  the  thermal  efficiency  of  GSAHC,  different  modifications  were  suggested  and applied to improve the heat transfer between absorber and air  (Mittal and Varshney,  2006; Peng et al., 2010).  The most important components of  GSAHC  are: the  glazing,  absorber, and air flow passage.  
+%
+%Geometry and property of the absorber in a glazed solar air heating collector is  different  from  the  UTC  systems.  Usually  heat  transfer  phenomena  occur  between  air  and non-perforated absorber surface. Numerous absorber modifications were suggested  to improve the heat transfer between absorber and air flow.   
+%
+%Roughness inducing wires and wavy passage has been used in collector to boost  heat transfer (Karim and Hawlader, 2006; Piao et al., 1994). Many kinds of fins such as offset  strip  fins  (Hachemi,  1999;  Karsli,  2007)  and  continuous  fins  (Moummi  et  al., 2004) have been studied extensively. Rough surface and porous media were often used to enhance heat transfer mechanism (Yousef and Adam, 2008).   
+
+%2.2 Glazed and Unglazed Solar Air Heating Collector design factors  
+
+%Absorber material and geometry vary  significantly  for conventional glazed and  unglazed  solar  air heating   systems;   therefore  the  optimisation  parameters  of  the  absorber in a glazed collector diverge substantially from the latter.   
+
+%This  research  investigated  four  major  factors  in  designing  solar  air  heating collectors (glazed and unglazed) based on previous literature. These are:   
+
+%1) Absorber modification   
+
+%2) Glazing modification   
+
+%3) Airflow and airflow passage modification   
+
+%4)  System  modification  (Orientation  of  building  integrated  solar  air  heating  system  components)  
+
+
+
+
+%\subsubsection{Considerations regarding the absorber surface}
+
+%2.2.1    Absorber modification for solar air heating collector  
+
+%2.2.1.1   Unglazed solar collector absorber design factors
+
+
+
+
+
+
+
+
+%2.2.1.2 Glazed solar collector absorber design factors   
+
+%The  absorber  in  glazed  solar  collectors  is  entirely  different  from  the  UTC  systems.  For glazed  solar  collector,  the  absorbers  are  generally  metal  plates  and  optimisation criteria concentrate on following factors:   
+
+ %         1) Material of the absorber   
+
+%          2) Geometry of the absorber   
+
+%          3) Selective coating on the absorber  
+
+%          4) Porous media in air passage  
+
+ %         5) Absorber surface area alteration  
+
+%2.2.1.2.1 Material of the absorber  
+
+%Most  popular   absorber  materials  used  for  glazed  solar  collectors   include:  aluminium (Koyuncu, 2006);  steel (Kurtbas and Durmus, 2004) and copper (El-Sebaii et.  al., 2011a, 2011b; Karsli, 2007). However, these absorber materials are quite expensive  and heavy in weight. Again the prices of these materials are closely related to the price  of crude oil due to their production, fabrication and transport. The most common forms  of  modified  absorber plates  used in GSAHC  are  shown in  Figure 2.1 (b), (c),  (d)  are  finned  absorber,  glass  absorber  and  corrugated  absorber.  Development  of  critical  absorber plate designs were necessary to overcome the inherent shortcomings of metal  absorber.   
+
+%2.2.1.2.2 Geometry of the absorber  
+
+%The purpose of the absorber is to absorb as much of the incident solar radiation  as possible, re-emit as little as possible and allow efficient transfer of heat to a working  fluid.  Modification of the absorber involves increasing the absorber’s heat transfer area  by using different types of absorber configurations such as finned type, box type or V-corrugated type as presented in Figure 2.1 (b), (c), (d).   
+
+%To extract the maximum amount of heat  from the absorber, one solution  is to  introduce obstacles in the air stream  to increase the absorber surface area  (Kurtbas and  Durmus,  2004).  And  at  the  same  time  increase  the  heat  transfer  co-efficient.  The  objective of using these obstacles is to increase the output temperature of the solar air heater. These obstacles can be fixed either to the internal face of the absorber or on the  back plate or as a combination.   
+
+%Several experiments were conducted on  extending the  heat transfer area of the  absorber  by  attaching  fins  to  the  absorber  of  the  solar  air  heater  (Yeh,  1999;  Yeh  and Ting,  1986; Yeh  and  Hou,  2002).  A  solar  collector  of  pin-fin  integrated  absorber  was  designed  (Peng et  al.,  2002)  to  increase  the  thermal  efficiency  of  the  GSAHC.  The  average efficiency of pin-fin arrays collector reached 50\% to 74\%.   
+
+%A single-pass  Solar Air Heating Collector (SSAHC)  was developed  with offset  rectangular plate fins (Moummi et al., 2004) which reached the maximum efficiency of ~ 75\% during indoor experimental investigation for air flow 0.075 kg/s with a selective  absorber (coppersun plate). A significant improvement is to use fins at 70  to 75   angle  which increases the performance of the collector significantly  (Karsli, 2007). However, the complicated absorber design increases collector weight and manufacturing cost.  
+
+%2.2.1.2.3 Effect of selective coatings on absorber   
+
+%In order to increase the absorption of solar radiation and reduce emission of long  wave radiation  from the absorber, metallic absorber surfaces are painted or coated with  black paint. A selective coating can also be added to improve absorption of the absorber  plate.  
+
+%Selective coatings  have  high absorptance  in the visible range of  solar spectrum  (0.3 to 3.0 µm) (Goswami et al., 2000). They have a low emittance coefficient beyond a  wavelength  of  2µm. Thus sunlight is absorbed well by a selective surface and because  of its low emittance (ϵ = 0.02 for infrared) the thermal energy is retained (Palz, 1978).  
+
+%The properties of popular  selective coatings for solar applications  are presented  in  Appendix  1.1  and  they  are  effective  technique  to  enhance  thermal  performance. However,  addition  of these  coatings  increases  the  production  cost  of  the  collector absorber.  
+
+%2.2.1.2.4 Effect of porous media in air passage  
+
+%Incorporation  of  porous  media  within  the  air  flow  passage  increases  the  heat  transfer  area  between  the  absorber  and  the  flowing  air.  However,  due  to  complicated  absorber geometry in GSAHC may result in elevated cost and construction difficulties.  It may also reduce integration capability with the building facade.    
+
+%The investigation by  (Yousef  and Adam, 2008)  showed that the use of porous  media  in  the  lower channel  of  Double-pass  Solar  Air  Heating  Collector  (DSAHC)  increased the thermal efficiency by 8\%. Air flows over and under the absorber surface  in double pass solar air heating collectors. Porous materials are suitable for applications where higher temperatures are desirable.   
+
+%The increased effectiveness of the heat exchange is mainly due to the intimate  contact between the air and the porous plate. The idea of using a black porous matrix as  an absorber of solar radiation has been used for many years.   
+
+%The most common types of porous media in GSAHC  are wire meshes, slit and  expanded   metals   and   transpired   honeycomb   absorbers   (Tiwari   and   Suneja,   1997).  Inexpensive  porous  materials  such  as  crushed  glass,  wool,  glass  wool  (Yousef  and  Adam,  2008)  and  metal  wool  (Yildiz  et  al.,  2002)  have  been  used  to  improve  the  performance of Single-pass  Solar Air Heating Collectors (SSAHC). Air flows only over  or under the absorber surface in single pass solar air heating collectors.   
+
+%The  thermal  efficiency  of  a  double  pass  solar  collector  with  porous  media  is significantly higher than the thermal efficiency of conventional  single pass air heaters,  exceeding 75\% under normal operating conditions (Ramadan et al., 2007; Sopian et al.,  2009).  However,  porous  media  may  reduce  thermo-hydraulic  performance  of  the  collector as it increases the pressure drop which may cause higher operating cost.   
+
+%2.2.2 Glazing modifications of solar air heating collector  
+
+%A  solar air heating collector  has to allow  insolation  to reach the absorber plate  while  preventing  rain,  snow,  wind  and  outside  temperatures  from  reducing  energy  reaching the plate surface. The simplest improvement is to glaze the absorber plate with  a  transparent  material capable  of  transmitting  sunlight  and  retaining  that  transmitted  energy within the collector.   
+
+%Three transparent materials commonly used are glass, plastic and fibreglass with  the   challenge   being   to   find   a   material   with   good   transmissivity, low   thermal  conductivity  and  the  required  mechanical  properties  for  building  integrated  glazing  systems.    
+
+%A  glazing  cover  transmits  shorter  wavelength  solar  radiation  but  block  the  longer  wavelength  solar  radiation  from  re-radiating  from  the  absorber  plate  (Palz,  1978).  The  heat  trap  phenomenon  is  more  generally  known  as  the  greenhouse  effect.  Glass for this application fulfils the requirements of transmission and toughness and is  almost  totally  opaque  to  thermal  radiation  (5.0  –  50  µm)  (Cheremisinoff  and  Regino,  1978; Kalogirou, 2009).   
+
+%Primarily it may sound like a disadvantage, but most of the long wave radiation  can be trapped from the absorber plate after conversion to heat. Thus glass prevents the  collector from moisture and convective heat loss. As a result the cavity works as a long  wave heat trap which helps the collector to operate at high efficiency.   
+
+%Most  common  types  of  GSAHC  are  designed  with  one  glazing  cover  (Karsli,  2007;  Koyuncu,  2006;  Kurtbas  and  Durmus,  2004;  Romdhane,  2007).  In  order  to  minimize  the  upward  heat  loss  from  the  collector,  more  than  one  transparent  glazing  may  be used  (El-Khawajah et  al., 2011; El-Sebaii et al., 2011a, 2011b;  Sopian et al., 2009; Wazed et al., 2010; Yeh  et al., 2002). However, transmittance decreases due to  the increased number of glazing covers (Duffie and Deckman, 2006).   
+
+%Glass  is  also  very  resistant  to  scratching,  high  temperatures  and  practically  impervious  to  the  damaging  effects  of  ultraviolet  exposure.  The  incident  sunlight  transmitted  through  glass  depends  on  the  iron  content  of  the  glass,  between  85\%  to  92\%,  at  normal  incidence  (Cheremisinoff  and  Regino,  1978).  While  low  iron  content  increases  the  transmittance  of  glass,  low  iron  glass  is  more  expensive.  Glass  can  be  easily  broken;  this  disadvantage  is  usually  minimized  by  using  tempered  glass  which  adds a further additional cost.  
+
+%Glass is the most common glazing material  used in  (El-Khawajah et al., 2011;  El-Sebaii  et  al.,  2011a,  2011b;  Karsli,  2007;  Kurtbas  and  Durmus,  2004;  Sopian  et  al.,  2009; Wazed et al., 2010; Yeh et al., 2002). Spectral transmittance of 6 mm thick glass with different iron oxide content for incident radiation at normal incidence is shown in  Figure  2.2.  The  content  of  iron  oxide varies  from  0.02\%  to  0.5\%  depending  on  the  quality   of   the   glass.   Water   white,   standard   and   heat   absorbing   glass   contains  accordingly 0.02\%, 0.1\% and 0.05\% iron oxide. Water white glass shows transmittance approximately 90\% between  0.3 and  2.8 μm.  
+
+%Standard   glass   shows   transmittance   more   than   75\%   within   visible   range.  However  the  spectral  transmittance  declines  after  visible  range.  Glass  transmittance  shows  worst  performance  for  higher  iron  oxide  content.  Transparent  plastics,  such  as  polycarbonates  (Cansolar;  Goswami  et  al.,  2000;  Palsun,  2011;  Romdhane,  2007),  polyethylene (Koyuncu, 2006) (Koyuncu, 2006) and acrylics (Acrylite, 2011) have been  used as glazing materials.   
+            
+%Their  main  advantages  are  resistance  to  breakage  and  light  weight.  The  main  disadvantages  of  plastics  are:  their  high  transmittance  in  the  longer  wavelength  and  deterioration  over  a  period  of  time  due  to  ultraviolet  solar  radiation  (Goswami  et  al., 2000;  Duffie  and  Beckman,  2006).  Additionally,  plastics  are  generally  limited  in  the  temperatures they can sustain without deteriorating or undergoing dimensional changes.  
+
+%Appendix 1.2   shows   the   properties   of   currently   commercially   available  enhanced  glazing  materials.   Enerconcept  Technologies  (STW,  2012),   a  Canadian  company recently used perforated plastic (polycarbonate) as glazing material for their  new transpired  ‘Lubi Wall’ glazed air collector.   
+
+%As  shown  in  the  Appendix   1.2,  the  transmittance  of  low  iron  glass  with  antireflective coating can reach  96\%. A tempered glass with high transmittance (96\%)  with  antireflection coating cost €125/m  . Polycarbonate with  antireflecting coating can reach such transmittance and available with €70/m which is much cheaper than glass.  
+
+%Polyethylene  terephthalate  (PET)  costs  only  €5/m  .  A  glazing  of  0.15  mm  thick  PET  was used by Koyuncu (2006) as listed in Table 2.2. However,  glass  still  seems  best  option  as  glazing  material  of  the  collector  considering 20  years life span of the collector.  Product life span, quality  and cost are  three critical factors in selecting system component. PET with low thickness may be the  cheapest option in selecting glazing material of solar air heating system. However, this  can only be feasible for prototype designing which cannot be used for longer life span.  Polycarbonate  is  better  than  PET  as  the  glazing  material  considering  strength  and  durability.   
+
+%Yellowing       effect    due     to   UV     was     reduced      in   commercial        brands     of  polycarbonate. However, this material can only  be appropriate if the solar air heating  collector life span in less than 5-7 years. If the weight is an issue, commercial brands of  clear polycarbonate (example: Plexiglass) has very low density (1.19 g/cm ) compare to  low iron glass (2.5 g/cm ).  Though glass is  an  expensive option when  considering  20 years collector life span, this is the best option as the glazing material.   
+
+%Reflection  losses  of  the  glazing  surface  depend  on  the  refractive  index  of  the  cover material and structural orientation of the glazing. The lowest reflection losses can  be achieved if an antireflective coating with  a refractive index between the air and the  cover  material  is  used (Duffie  and  Deckman,  2006).  The  effect  of  dirt  and  dust  on  collector glazing may be quite small, and the cleansing effect of an occasional rainfall is  usually adequate to maintain the transmittance loss within 2--4\% of its maximum value  (Duffie and Beckman, 2006; Kalogirou, 2009).    
+
+%2.2.3    Air flow passage modifications of glazed solar air heating collector  
+
+%Double pass systems are  10-15\% more efficient than SSAHC (Tiwari and Suneja,  1997).  An  improvement  in  the  efficiency  of  DSAHC  is  obtained  with  very  little  additional material and construction cost in the design of the  air passage. Experiments  (Wazed  et  al.,  2010)  showed  that  the  maximum  efficiency  is  much  higher  for  double  flow  solar  air  heating  collector  with  forced  draft  (62.2\%)  compared  to  natural  draft  (24.8\%).   
+
+%Solar  air  heating  collectors  require  a  fully  developed  turbulent  flow  for  better  thermal  conversion  (Moummi  et  al.,  2004;  Youcef-Ali,  2005).  This  increases  the  thermal heat transfer between the absorber plate and air. It was reported that the effect  of  recycling  enhances  the  efficiency.  Numerous  investigators  proposed  two  or  multi- pass  operation  with  internal  or  external  recycle  included  (Duffie  and  Beckman,  2006;  Kalogirou, 2009; Yeh and Hsieh, 2005; Yeh et al., 2002; Yeh et al., 1999).  
+
+%2.2.4  System modifications of glazed solar air heating collector  
+
+%Research on system modification approved by the committee of the International  Energy Agency (IEA) and funded by nine countries under ‘Task 19’ suggested six types  of solar air systems  (Hastings and Morck, 2000). Details of the six models  are shown in  Figure 2.3. The models are:
+
+%a)  Solar heating of ventilation air:   
+
+%Figure  2.3  (a)  shows  the  solar  heating  of  ventilation  air.  This  is  an  open  loop  heating system. This is the most economical design which draws outside air through the  collector  directly  into  the  space  to  be  ventilated  and  heated.  This  system  can  achieve  very  high  efficiencies  because  cool  air  is  supplied  to  the  collector.  Appropriate  applications  range  from  keeping  unoccupied  vacation  cottages  from  becoming  damp  and musty to ventilating schools, offices and large industry halls. The type-a air heating  system appropriate for ventilating schools, offices and large industry halls and keeping  unoccupied vacation cottages from becoming damp and musty.  
+
+%b)  Collector/Room/Collector:   
+
+%Figure 2.3 (b) shows a closed loop solar heating system. In this model room air  is circulated into the collector where it is heated, rises and returns via a thermal storage  ceiling  back  into  the  room,  all  by  natural  convection.  The  storage  radiates  heat  after  sunset. This system has been used mostly for apartment buildings.  Type-b system was  used for apartment buildings.   
+
+%c) Collector-heated air circulated through cavity in the building envelope:   
+
+%Figure 2.3 (c) shows a  solar heating collector with air circulated through cavity  in  the  building  envelope.  Heat  losses  through  the  hollow  building  envelope  can  be  drastically reduced by circulating warm air through a hollow building envelope. The air  is warmed by a SAH collector.  Type-c is especially appropriate for retrofitting poorly  insulated existing apartment buildings. The air returns to the collector from the building  envelope.  A  bypass  from  the  collector  directly  to  an  air  to  water  heat  exchanger  can  allow heating of domestic hot water as well. The system is especially appropriate for  retrofitting poorly insulated existing apartment buildings.  
+
+%d)  Closed loop collector/storage and radiant discharge to building spaces:  
+
+%Figure 2.3 (d) shows a closed loop collector and storage system. In this type of  solar  air  heating  collector,  warm  air  is  circulated  through  channels  in  a  floor  or  wall  which then radiates the heat into the room four to six hours later. This system has the  advantage of large radiating surfaces providing comfort. Fan-forced circulation provides  the  best  overall  system  efficiency  and  output.  Applications  include  all  building  types  which  have  large  surfaces  available  for  the  radiant  surfaces.  Application  of  type-d includes all building types which have large surfaces available for the radiant surfaces.  
+
+%e)  Open single loop collector to the building spaces:   
+
+%Figure 2.3 (e) shows an orientation of heating system with separate collector and  heating discharge unit.  This system is similar to (d) however; separate channels in the  storage allow a controlled active discharge.   
+
+%The  storage  is  insulated  so  it  can  be  charged  to  higher  temperatures  and  not  discharged until heat is desired. An additional advantage of this system is the storage  can be located remotely from the rooms to be heated. The type-e can be used for rooms  to  be  heated  with  remotely  located  storage.  Relatively  few  buildings  exist  with  this  system because of the expense involved.  
+
+%f)  Collector heated air transferred to water via an air/water heat exchanger:  
+
+%Figure 2.3 (f) shows a heating system integrated with a heat exchanger.  In this  system, the hot air from the collectors passes over an air to water heat exchanger. The  hot water can then be circulated to conventional radiators, radiant floors or walls or to a  domestic hot water tank. Type-f can be used for the applications where the heat must be  transported over a distance are particularly suited for this system. Retrofit of existing  buildings is simplified in this SAH system.     
+
+%2.3 Experimental results on glazed air heating collectors  
+
+%Research  relating  to  glazed  solar  air  heating  collectors  has  mostly  focused  on  double  pass  and  single  pass  solar  air  heating  collectors  to  enhance  the  heat  transfer  mechanism,  to  reduce  radiation  and  convection  losses  from  the  glazing  aperture,  to  improve    thermo-physical        performance        and    to    improve      thermal      efficiency.   The  performance   of   the   air   heating   systems   varies   with   system   dimension, climate  conditions and the location of the experiment.   
+
+%Table 2.1 presents a summary of various research results on the performance of  double-pass  and single-pass solar air heating  collectors  which  are  two  major  types  of  glazed air heating collectors considering flow criteria.  The applied air flow rate varied  between  0.0107  kg/s/m    and  0.04  kg/s/m  .   The  maximum  radiation  level  during  experiment varied between 880 W/m  and 1100 W/m .  
+
+%The  maximum  outlet  temperature  rise  varied  between  55 C  and  67 C.  The  maximum outlet temperature with single pass air heating collector was 67  C at very low  air flow rate (0.012 kg/s/m ). The maximum outlet air temperature with double pass air  heating  collector  was  64.5 C  at  air  flow  rate  0.0203kg/s/m  .  The  thermal  efficiency  varied between 55.7\% and 70.8\%.   
+
+%The highest thermal  efficiency was 70.8\% for double pass flow collector with flow rate 0.0214 kg/s/m   at 1100 W/m   radiation level during indoor experiment with modified  absorber  with  finned  attached  over  and  under  the  metal  absorber  plate.  The lowest  thermal  efficiency  was  55.7\%  for  double  pass  flow  collector  0.04  kg/s/m   at  radiation level  977 W/m  . In outdoor experiments the maximum temperature rise was  28.5 C at 0.0203 kg/s/m  flow rate with v-corrugated copper absorber and 0.3 cm two window glass glazing. The lowest temperature rise was 21.7   C with plane aluminium  absorber and single glass cover glazing.  
+
+%Table     2.2    details     the   selection      of   the    system      component, incorporated  modification,  location  and  weather  condition  of  the  experiment  of  recent  research  initiatives.  The  most  of  the  experiments  were  carried  out  under  prevailing  weather  condition.  The  modification  of  the  collector  were  double  flow/single  flow,  2/4/6  fins  with  wire  mesh  incorporated  absorber  surface,  V-corrugated  absorber  plate,  finned  absorber  plate,  porous  media  in  the  air  channel,  fins  attached  over  and  under  the  absorber plate, baffles between the absorber and insulation, zigzag plate absorber and  special construction of absorber surface.    
+
+%The  glazing  material  used  in  experimental  prototype  varied  in  material  type,  number  of  glazing  and  thickness.  The  material  of  the  glazing  in  experiments  varied  within glass, polycarbonate and polyethylene etc. Glass was the most common glazing  used in experiments which vary in quality and thickness. Glass was used from 3 mm to  5 mm and quality varied from low iron glass to general window glass. The number of  glazing was used one or two. Polyethylene was the thinnest with 150μm. Window glass  of 0.4 cm was the thickest glazing.     
+
+%The absorber materials used in the experimental solar air collectors were black  painted  copper,  aluminium  and  galvanized  steel.  The  absorber  of  1mm  thickness  was  the most commonly used absorber. The lowest absorber thickness was 0.4 mm and the  highest  thickness  was  1  mm.  The  insulation  materials  used  in  experimental  solar  air  collectors were: styrofoam, polystyrene, wood, foam, glass wool and hardboard etc. The  highest thickness was 5 cm of polystyrene and the 2 cm of Styrofoam and hardboard. 
+
+%\subsection{Non-concentrating systems}
+
+
+
+%\subsection{Why integrate CPC with inverted absorber}
+%
+%Low  convective  heat  transfer  coefficients  arising  from  low  thermo-physical  properties of air i.e. low density, volumetric heat capacity and heat conductivity are the  vital  reason  for  the  poor  thermal  heat  transfer  performances  of  flat  plate  solar  air  collectors (Esen, 2008; Ma et al., 2011; Moummi et al., 2004). Poor heat removal gives  high  absorber  plate  temperatures,  leading  to  high  heat  losses  to  the  environment  resulting in low thermal efficiency.   
+%
+%Glazing  design has to consider the best way to allow the sunshine to  reach the  absorber  plate  while  preventing  external  weather  conditions  from  harming  the  plate  surface and stealing away collected heat. However,  optical loss due to reflection at the  glazing  surface  is  another  factor  for  stationary  solar  collectors.  The  improvement  of  these  drawbacks  is  a  trade-off  with  manufacturing  cost.  UTC  system  design  solved  some  of  these  issues.  UTC  is  an  unglazed  solar  air  heating  collector  which  avoids  optical loss due to glazing and provides intimate heat exchange between flowing air and  absorber  surface  as  air  flows  through  the  perforated  absorber  surface  (Dymond  and  Kutscher, 1997; Kutscher, 1994).   
+%
+%The cost of the UTC was minimised  compared to glazed solar collectors due to  absence of the glazing surface. However, the surface area of UTC has to be significantly  large because the typical range of mass suction flow rates is 0.006 to 0.04 kg/s/m2. At a  stable radiation level of 700 W/m2, the corresponding temperature rise was 36 C at low  flow rate (0.006 kg/s/m ) range and 12   C at high flow range (0.04 kg/s/m2)  (Kutscher,  1994; Kutscher et al., 1993).   
+%
+%Basically   UTC   system   may   look   very   simple   without   a   glazing   surface.  However, it is not  possible to avoid  radiation loss from the large  uncovered  absorber  surface. The performance of UTC can be affected due to reverse flow effect, high wind  speed effect, rain effect as it is exposed to the environment. Also at low air flow range  the efficiency of the system is poor because the amount of air to be heated is very low.  
+%
+%Integration of a concentrator  in a transpired collector  can increase the radiation  concentration onto the absorber surface. However, it may enhance radiation loss due to  a higher absorber temperature, conduction loss from the metal absorber, convection loss  from the glazing and back plate. These critical issues of optical loss, heat transfer loss,  absorber  size  reduction,  system  weight  reduction  and  cost  reduction  aspects  were  considered during CTAH design.   
+
+%Integration of transpired absorber with asymmetric CPC for air heating purposes has  been  investigated  in  this  thesis  for  the  first  time.  However,  there  have  been  numerous researches reported on CPC integration with solar collectors  (Kienzlen et al.,  1988;  Kothdiwala et al., 1995; Kothdiwala et al., 1997; Kothdiwala, 1999; Mallick et  al., 2006; Nilsson, 2005; Rabl, 1976a; Tripanagnostopoulos and Souliotis, 2004). Also,  very few analyses reported on CPC integrated solar air heating collectors  (Pramuang and  Exell, 2005; Tchinda, 2008).  The previous research presented feasible designs of solar  thermal   collectors.   This   research   presents   Concentrating   Transpired   Air   Heating-collector  (CTAH)   which   is   integration of   an inverted   transpired   absorber   and  asymmetric CPC.     
+
+%2.7 Design issues of Concentrating Transpired Air Heating-collector    
+
+%Schematic diagram of the  CTAH system  is presented  in Figure 2.9  which is a  combination of transpired absorber and Asymmetric Compound Parabolic Concentrator  (ACPC).  ACPC  in  CTAH  has  been  designed  with  upper  and  lower  reflectors  of  identical reflectance. Upper reflector is a combination of primary parabolic and straight  tertiary reflector.  
+
+%Lower  reflector  is  a  combination  of  parabolic  primary,  circular  secondary  and  
+%straight  tertiary  reflectors.  The  secondary  circular  part  of  the  concentrator  in  CTAH  
+%concentrates  all  incident  radiation  on  the  inverted  absorber.  The  concentration  ratio between inlet and outlet of the secondary circular reflector is 1.  
+
+%Concentration  of  solar  radiation  becomes  necessary  when  higher  temperatures  
+%are  desired.  Heat  losses  from  the  collector  are  proportional  to  the  absorber  area. Concentration  ratio  is  the  ratio  of  aperture  area  to  absorber  area.  So,  heat  losses  are inversely proportional to the concentration.   
+
+%A  perforated  absorber  is  placed  at  the  end  of  the  tertiary  reflector.  Air  flows  through the inlet to the secondary and tertiary reflector. A fan is placed at the end of the  air  duct  to  extract  air  through  the  perforated  absorber.  The  input  of  the  system  is  insolation   at  the   aperture.   The   available   insolation   varies   for   local   climate   and  orientation of the aperture. The concentrator of the system works as an amplifier which  increases   the   amount of solar   radiation   on   a   decreased   absorber   area.   Aperture  geometry, reflector properties, tilt angle, position of the absorber, and properties of the  absorber are to be considered to reduce energy loss.  
+
+%The basic optimisation factors considered in designing the IACPC collector were to:   
+%
+%\begin{itemize}[topsep=5pt,partopsep=0pt] \itemsep0pt
+%\item enhance  the  optical  efficiency  of  the  collector  using  a  low  concentration  ratio concentrator;  
+%\item minimise the radiation and convection heat loss from absorber to ambient which can be achieved by using an inverted absorber facing downward;           
+%\item maximise convection heat transfer from absorber to inward airflow by using a  perforated absorber and tertiary section to maintain a  stable thermal layer in the  concentrator  cavity  and  applying  low conductive  absorber  material  to  reduce  conduction loss and enhance convection heat transfer;  
+%\item minimise  weight  of  the  heating  system  by  using  a  low  weight  perforated  absorber; and
+%\item minimise cost of the system by using unconventional low cost absorber material  to avoid expensive selective coated metal absorber.
+%\end{itemize}
+
+%2.4  Optical concentrator   
+
+%Compound Parabolic Concentrator (CPC) is a non-imaging optical concentrator  which  does  not  produce  an  image  of  the  light  source.  It  is  designed  to  concentrate  radiation  at  a  density  as  high  as  theoretically  possible.  Originally  it  was  invented  in  1965  for  the  reflection  of  Cerenkov  radiation  onto  a  sensor,  and  it  took  more  than  a  decade for it to become the state of the art of solar thermal energy  collection  (Leutz and  Suzuki,  2001).  CPC  reflectors  were  introduced  by  Winston  (1974)  to  improve  the  performance of low concentration solar collectors having the ability to reflect  all of the  incident radiation on the aperture to the receiver over ranges of incidence angles within  acceptance angle.   
+
+%2.4.1 Design of CPC as an optical concentrator
+
+%A  basic  CPC  for  solar  energy  applications  consists  of  the  combination  of  two  parabolic reflectors. These reflectors can reflect both direct and a fraction of the diffuse  incident radiation at the entrance aperture onto the absorber. The axis of the parabola makes an angle ±θ  with the collector mid plane. The geometry of CPC is a combination of two parabolas. A basic parabola can be generated using the x-y coordinate system of the Equation 2.1.  
+
+%The focal length is given as:  
+
+%The height,
+
+%where:
+
+%b = absorber width,   a = half acceptance angle  
+
+%f = focal length, h = height of the CPC  
+
+%The   geometry   of   a   two-dimensional   CPC   is   shown   in   Figure   2.4.   The  concentrator consists of two segments AC and BD which are parts of two parabolas 1  and 2.   
+
+%AB is the aperture of width w  and CD is the absorber surface of width b. The  axes of the two parabolas are oriented to each other at an angle such that point C is the  focus  of  parabola  2  and  point  D  is  the  focus  of  parabola  1.  Tangents  drawn  to  the  parabolas at points A and B are parallel to the axis of the CPC, EF.   
+
+%The  acceptance  angle  of  the  CPC  is  the  angle  AOB  (2θa),  made  by  the  lines  obtained   by   joining   each   focus   to   the   opposite   aperture   edge.   The   geometric concentration ratio is given by (w/b).  
+
+%2.4.2     Concentration Ratio of the optical concentrator  
+
+%The geometric concentration ratio of a concentrator system is defined as the ratio between the entry aperture and the exit aperture:  
+
+%Where, C = concentration ratio, A  is the area of the entry aperture and A  is the area of  the exit aperture.  
+
+%Concentrators can be divided into two groups:   
+
+%1) two dimensional concentrators (2D); and   
+
+%2) three dimensional concentrators (3D)   
+
+%The principal non tracking collector types are flat plates, flat plates enhanced by  side reflectors or V-troughs, tubular collectors, and compound parabolic concentrators  (CPC).  Concentrators  that  reach  the  thermodynamic  limit  of  concentration  for  an  acceptance  half-angle theta-a   have  been  called  ideal  concentrators  because  of  their  optical properties (Nilsson, 2005).   
+
+%2.4.3 The Equation of a CPC with a Flat Absorber  
+
+%The equation for a meridian section of CPC reflector was presented by Welford  and Winston (1978). In Figure 2.5, CPC using the equation has been shown.   
+
+%This  is  drawn  by  rotation  of  the  axis  and  translation  of  the  origin  in  terms  of diameter (2a) and the acceptance angle (theta-max). The CPC profile was expressed in polar  coordinates (r, phi) (Welford and Winston, 1978).  
+
+%Where,  
+
+%2a = receiver width
+%θmax = maximum acceptance angle  (This is the maximum possible concentration for the acceptance angle 2θa).   
+
+%CPC  can be optimised considering location and application.  Lowering the  CPC  geometric concentration ratio results in a higher proportion of the diffuse component of  incident solar radiation being accepted.  This CPC  with a high angular acceptance can  operate efficiently without the need for the additional capital and maintenance cost of  solar tracking mechanisms.   
+
+%CPC  is  very  deep  and  requires  a  large  concentrator  area  for  a  given  aperture. However, large portions of the top of the CPC can be removed with negligible loss in performance.  Thus,  CPC is  generally  truncated  by  about  50\%  in  order  to  reduce  its  cost. A detailed study on the effects of truncation has also been carried out by  (Rabl, 1976a).    
+
+%The  height  and  surface  area  of  the  CPC  can  also  be  calculated  with  help  of  Equation 2.12 from (Rabl, 1976a, Rabl, 1976b).  The height to aperture ratio of the concentrator is given by:
+
+%Where,   
+%H  = Height of the concentrator, a = half acceptance angle  
+%C = Concentration ratio,  W = Width of the aperture   
+
+%The surface area of the concentrator is obtained by integrating along the parabolic arc  and the ratio of the surface area of the concentrator to the area of the aperture is given  by the expression as:  
+
+%Where, Acon = Area of the concentrator, L = Length of the concentrator   
+
+%The calculation of average number of reflection (navg) for a symmetric CPC is as  follows.  
+
+%Height  and  aperture  of  truncated  CPC  can  be  calculated  as  (Welford  and  Winston, 1978)  
+
+%Average number of reflections for either a truncated CPC can be calculated as  (Rabl, 1976b).
+
+%An approximate value of  the  average number of reflection for symmetric CPC  has been used for CPC design (Pramuang and Exell, 2005; Rabl, 1985).
+
+%Mallick  (2003), demonstrated  the performance of  an  asymmetric CPC (ACPC)  for building-integrated façades.  ACPCs  with  geometric  concentration  ratios  of  2  and  2.45  were  developed  (Mallick and  Eames,  2007;  Mallick  et  al.,  2006).  A  reduction  of 40\% in cost per W  , compared to a reference non-concentrating panel utilizing the same  solar cells, is estimated for the CPC panel with an acceptance half angle of 37o (Mallick  et al, 2007).   
+
+%For  this  research  a  detailed  ray  tracing  was  necessary  to  estimate  the  optical efficiency  of  this  novel   SAH  collector.  The   average  number  of  reflections  was calculated for each degree incident angle of  radiation on the aperture.  The symmetric  un-truncated CPC of 20 acceptance angle  is  shown in Figure 2.6, AB is the aperture  and CD is the absorber of the concentrator.  
+
+%A ray EO incident at point O at an angle 20   on the lower reflector surface and  reaches absorber after one reflection. The related angles are shown in Figure 2.6.  
+
+
+
+
+
+%\subsubsection{Optical systems and Ray tracing technique}
+
+%A major part of the design and analysis of concentrating collectors involves ray tracing techniques, which are algorithms to simulate sunlight rays passing through an optical system. Ray tracing analysis is an important method adopted in optical systems to obtain the optical performance for complex geometries regarding direct and diffuse solar radiation (\cite{Ali2013}). When a ray hits a real reflecting surface, most part of its energy will be reflected. To formulate a suitable ray tracing procedure, the law of reflection can be applied into vector form (\cite{Winston2005}). Figure \ref{ref_point} shows the unit vectors $\rm{r_{inc}}$ and $\rm{r_{ref}}$ along the incident and reflected rays and a unit vector $\rm{r_n}$ at the normal point of incidence into the reflecting surface. The law of reflection is expressed by Eq. (\ref{ref_law}):
+
+%\begin{equation}
+%\mathrm{{r_{ref}} = {r_{inc}} - 2({r_n} \cdot {r_{inc}}){r_n}}
+%\label{ref_law}
+%\end{equation}
+
+%\Figure[scale=0.90,placement=!ht,label={ref_point},caption={Law of reflection applied on a reflecting surface.}]{figs/ref_point.eps}
+
+%Several concentrating system have been proposed and optically analysed for different purposes and reported in literature in details. The analysis can provide:
+
+%\begin{itemize}
+%\itemsep-5pt
+%	\item Average number of reflections before the incoming rays reach the absorber plate (\cite{Shams2013}; \cite{Benrejeb2016});
+%	\item Optical efficiency as a function of the incidence angle (\cite{Kothdiwala1996}; \cite{Souliotis2011});
+%	\item Visualisation of rays' path and reflection points (\cite{Mallick2007}; \cite{Ratismith2014}; \cite{Ustaoglu2016});
+%	\item Intensity of energy distributed at the absorber surface (\cite{Sellami2013}; \cite{Ali2014}; \cite{Bellos2016});
+%	\item System's optical characterisation for further thermal modelling and simulation (\cite{Mallick2007}; \cite{Shams2013}; \cite{Bellos2016});
+%	\item Comparison between two or more systems (\cite{Zacharopoulos2000}; \cite{Sarmah2011}; \cite{Wu2009}).
+%\end{itemize}
+
+%\citet{Bellos2016} performed an optical analysis and optimised the geometry of a CPC with an evacuated tube, where this design is considered to be optimum because all the reflected ray reach the receiver. They also calculated the optical losses at different solar angles. The authors also indicate the need of tracking the collector in order to minimise the incident angle. \citet{Qin2013} designed and optimised the geometry of an aspheric reflecting solar concentrator (Figure \ref{aspheric}) with the aim of focusing sunlight on a narrow line segment. To do so, they used a particular aspheric equation in three dimensions together with the law of reflection to trace the incident rays.
+
+%\Figure[scale=0.70,placement=!ht,label={aspheric},caption={The focusing effect of solar beam incident on a solar concentrating mirror.}]{figs/aspheric.PNG}
+
+%\citet{Ratismith2014} proposed non-tracking configurations of solar collector modules which are designed to operate efficiently along the day, for varying incident angles of direct and diffuse radiation.
+
+%Using the OpticsWorks software, \citet{Sellami2012} performed an optical analysis and developed a novel geometry of a 3D static concentrator in form of a square elliptical hyperboloid (SEH) to be integrated in glazing windows or facades for photovoltaic application. The SEH of concentration ratio 4.0 was optically optimised considering different incident angles of the incoming light rays. \citet{Ali2013} evaluated the optical performance of a static 3D elliptical hyperboloid concentrator, as shown in Figure \ref{hyperboloid}, using a ray tracing software called Optis. Effective concentration ratio, optical efficiency and geometric parameters were analysed. Furthermore, the geometry was optimised to improve the overall performance.
+
+%\Figure[scale=0.60,placement=!ht,label={hyperboloid},caption={The focusing effect of solar beam incident on a solar concentrating mirror.}]{figs/hyperboloid2.PNG}
+
+%\citet{Abdullahi2015} used a ray tracing technique to investigate the effect of the receiver size on the optical efficiency of a CPC with two tubular receivers aligned horizontally and vertically. \citet{Sellami2013} developed a 3D ray trace code in Matlab to determine the beam optical efficiency and the energy distribution of a 3D crossed CPC (CCPC) for different incident angles.Figure \ref{CCPC} shows a CCPC geometry compared to a 2D CPC. The authors found that this type of CPC is an ideal concentrator for a half-acceptance angle of 30$^{\rm{o}}$ and concentration ratio of 3.6.
+
+%\Figure[scale=0.50,placement=!ht,label={CCPC},caption={Comparison between the 3D crossed CPC and the 2D CPC.}]{figs/CCPC.PNG}
+
+%\citet{Binotti2013}
+
+%\citet{Zheng2011}
+
+%\citet{Waghmare2016}
+
+%\citet{Benrejeb2015} used mathematical equations describing the geometric design of an integrated collector storage system where its cross section is shown in Figure \ref{ICS}. Therefore, an optical study was given with details to achieve the ray tracing technique results and the energy flux distribution on the absorber surface. Furthermore the optical results was used as inputs in the heat transfer model to simulate the temperature of the water inside the absorber.
+
+%\Figure[scale=0.60,placement=!ht,label={ICS},caption={Cross section of the integrated collector storage system for water heating.}]{figs/ICS.PNG}
+
+%\citet{Benrejeb2016}
+
+%\citet{Souliotis2011} 
+
+%\citet{Abu-Bakar2014} proposed a new type of concentrator, known as the  rotationally ACPC which is shown in Figure \ref{rotCPC}, for use in building integrated systems for PV applications, where the geometrical concentration gain and the optical concentration gain were evaluated. From the simulations, it has been found that the concentration could produce an optical concentration gain as high as 6.18 when compared with the non-concentrating cell depending on the half-acceptance angle.
+
+%\Figure[scale=0.60,placement=!ht,label={rotCPC},caption={The focusing effect of solar beam incident on a solar concentrating mirror.}]{figs/rotCPC.PNG}
+
+%\section{Solar transpired air heating systems}
+
+%The unglazed transpired solar collector has a dark, perforated vertical/inclined sheet metal absorber is fixed to another parallel surface or wall, with a gap between them, with all sides closed and sealed. Ambient air, pulled through the perforations using a blower, absorbs the heat available at the absorber, and delivers hot air at the blower outlet. These collectors reportedly offer the lowest cost and highest efficiency (60–75\%) for air heating (IEA, 1999; Christensen, 1998).(\cite{Leon2007}).
+
+%\subsubsection{Effect of absorber material}
+
+%A few researchers have studied absorber materials for unglazed perforated collectors 
+%\section{Building integrated systems}
+
+
+%In this chapter, a review of published research on symmetric, asymmetric and inverted absorber parabolic concentrators was undertaken. The review also regards the optical systems reported and how the optical analysis can be undertaken in order to characterise them. There has been no previous relevant research reported on an inverted asymmetric CPC collector to heat air for building integration. The system was designed to minimise heat losses and deliver airflow at a temperature set by an application. Considering high latitude locations, an integrated ACPC can increase the density of solar radiation reaching the absorber area. A highly reflective concentrator can allow solar radiation to be reflected onto the inverted absorber.
+
+
+
+%A for abbreviations
+\nomenclature[A]{PV}{Photovoltaic}
+%\nomenclature[A]{SEH}{Square Elliptical Hyperboloid}
+\nomenclature[A]{BISTS}{Building Integratied Solar Thermal System}
+\nomenclature[A]{ACPC}{Asymmetric Compound Parabolic Concentration}
+\nomenclature[A]{ETC}{Evacuated Tube Collector}
+\nomenclature[P]{$\rm{\delta}$}{Thickness (m)}
+\nomenclature[P]{$\rm{\Gamma}$}{Fraction of total solar radiation accepted}
+\nomenclature[N]{$\rm{K_{ext}}$}{Extinction coefficient of the glazing (m$^{-1}$)}
+\nomenclature[N]{$\rm{N_{c}}$}{Number of glazing covers}
+
+
+
+%N for latin
+%\nomenclature[N]{$\rm{e_{i}}$}{Single ray's energy}
+
+%P for greek
+%\nomenclature[P]{$\beta$}{Glazing inclination angle (deg.)}
+
+
+
+
+
+
+
+
+
+
+
+
+%2.5 CPC Integrated with Solar Collectors   
+
+%The usefulness of the CPC for solar energy collection was noted by numerous  researchers (Rabl, 1985, Welford and Winston, 1978; Winston, 1974; Norton et al., 1989;  Norton et al., 1991; Eames et al., 1995).   
+
+%A numerical simulation model was developed by (Eames and Norton, 1993a) for  the   prediction   of   the   combined   optical   and   thermo-fluid   behaviour   of   line   axis  concentrating  solar  energy  collectors  which  combines  two-dimensional  steady  state  finite element analysis of convective heat  transfer and ray trace techniques.  A detailed  parametric  analysis  of  heat  transfer  in  CPC  integrated  solar  energy  collectors  was  performed using unified model for their optical and thermophysical behaviour (Eames  and Norton, 1993b). The effects of angular inclination and collector acceptance angles on  free convection within the cavity were presented.   
+
+%A  theoretical  and  experimental  investigation  into  the  modifications  in  optical  and thermal performance resulting from the introduction of a baffle into the cavity of a  CPC integrated solar energy  collector was presented (Eames and Norton, 1995).  It was  showed that by the introduction of a baffle into the cavity of a non evacuated CPC the  total collector efficiency can be increased.   
+
+%A  design  and  thermal  performance  of  modified  CPC  integrated  solar  energy  collector were descried by Norton et al., (1989) which incorporated a curved inverted- Vee  absorber  fin  which  allows  a  reflector  of  simple  geometry.  The  CPC  collector  showed a superior optical efficiency and heat removal factor to that of a conventional  cusp    reflector   CPC   design. An extensive   review   on   the   optical   and   thermal  characteristics  of  line  axis  concentrating  solar  energy  collectors  was  presented  by  Norton  et  al.,  (1991)  which  details  the  thermal  and  optical  aspects  of  symmetric  and  asymmetric CPC integrated solar energy collectors.  
+
+%Several researchers (Adsten, 2002; Mallick, 2003; Nilsson, 2005) suggested that  the concentrator design  should be highly  asymmetric at high latitude.  The  ACPC is a  transformed form of a non-imaging CPC. The foci and end points of the two parabolas  of  an  ACPC  make  different  angles with  the  absorber  surface.  Truncation  of  the  reflectors  of  an  ACPC  reduces  the  size  and cost  of  a  system  but  results  in  a  loss  of  concentration (Mallick, 2003).    
+
+%Mallick (2003) has demonstrated different ACPC implementation for building- integrated wall facade. The asymmetric CPC designed by Mallick et al. (2006) is shown  in  Figure  2.7,  based  on  a  detailed  optical  and  heat  transfer  analysis  (Mallick,  2003).  This  research  showed  the  feasibility  of  asymmetric  CPC  integration  with  building  facade.  An  integrated  Collector  storage  (ICS)  solar  system  with  ACPC  is  shown  in  Figure  2.8  (Tripanagnostopoulos  and  Souliotis,  2004).  The  systems  were  developed  to  absorb solar radiation directly and after concentration on the absorber for heating water.  
+
+%The irradiation in MaReCo concentrator  (Nilsson, 2005)  reaches the absorber on both  sides due to the circular section inserted between the endpoints of the two parabolas.  The circular section reflects all incoming irradiation onto the absorber.  
+
+%Two  stage  ACPC  systems  with  an  inverted  absorber  were  developed  to  heat  water through tubular absorber. The system showed reduced convection loss due to the  inverted absorber (Eames, 2002; Eames et al., 2001; Smyth et al., 2005). Increasing the  CPC  concentration  ratio  leads  to  higher  working  fluid  temperatures  but  reduced  utilization  of  available  insolation.  The  junction  section  of  primary  and  secondary  concentrator creates a non-uniform surface in the two stage concentrator structure.  An  absorber placed horizontally, facing downward was presented in a previous study (Rabl,  1976a) which showed a lower radiation loss compare to absorber surface facing sky.  
+
+%A    concentrating        system      employing       inverted      flat   plate     absorbers      was  demonstrated (Kienzlen et al., 1988)  in which radiation was reflected from below onto  the downward facing absorber. Kothdiwala et al. (1995) conducted optical parametric  analysis  on  asymmetric  line-axis  Inverted  ACPC.  Optical  efficiency  of  an  inverted  absorber  was  estimated  highest  at  the  lowest  height  of  the  tertiary  reflector.  This  phenomenon is due to reduction of reflection loss at the tertiary section.   
+
+%However, the research suggested a tertiary section to improve thermal efficiency  of the collector. This is mostly due to convection suppression at the absorber due to the  formation of a pocket of hot air at tertiary  section  (Eames et al., 1993a;  Eames et al.,  1993b; Eames et al., 1996; Kothdiwala et al., 1995; Kothdiwala et al., 1996; Kothdiwala  et  al.,  1999;  Norton,  1994).  It  also  stabilise  the  thermal  layer  below  absorber  surface  from the interference of the air flow.  
+
+%2.6 Why integration of transpired absorber and CPC   
+
+%Low  convective  heat  transfer  coefficients  arising  from  low  thermo-physical  properties of air i.e. low density, volumetric heat capacity and heat conductivity are the  vital  reason  for  the  poor  thermal  heat  transfer  performances  of  flat  plate  solar  air  collectors (Esen, 2008; Ma et al., 2011; Moummi et al., 2004). Poor heat removal gives  high  absorber  plate  temperatures,  leading  to  high  heat  losses  to  the  environment  resulting in low thermal efficiency.   
+
+%Glazing  design has to consider the best way to allow the sunshine to  reach the  absorber  plate  while  preventing  external  weather  conditions  from  harming  the  plate  surface and stealing away collected heat. However,  optical loss due to reflection at the  glazing  surface  is  another  factor  for  stationary  solar  collectors.  The  improvement  of  these  drawbacks  is  a  trade-off  with  manufacturing  cost.  UTC  system  design  solved  some  of  these  issues.  UTC  is  an  unglazed  solar  air  heating  collector  which  avoids  optical loss due to glazing and provides intimate heat exchange between flowing air and  absorber  surface  as  air  flows  through  the  perforated  absorber  surface  (Dymond  and  Kutscher, 1997; Kutscher, 1994).   
+
+%The cost of the UTC was minimised  compared to glazed solar collectors due to  absence of the glazing surface. However, the surface area of UTC has to be significantly  large because the typical range of mass suction flow rates is 0.006 to 0.04 kg/s/m  . At a  stable radiation level of 700 W/m , the corresponding temperature rise was 36 C at low  flow rate (0.006 kg/s/m ) range and 12   C at high flow range  (0.04 kg/s/m )  (Kutscher,  1994; Kutscher et al., 1993).   
+
+%Basically   UTC   system   may   look   very   simple   without   a   glazing   surface.  However, it is not  possible to avoid  radiation loss from the large  uncovered  absorber  surface. The performance of UTC can be affected due to reverse flow effect, high wind  speed effect, rain effect as it is exposed to the environment. Also at low air flow range  the efficiency of the system is poor because the amount of air to be heated is very low.  
+
+%Integration of a concentrator  in a transpired collector  can increase the radiation  concentration onto the absorber surface. However, it may enhance radiation loss due to  a higher absorber temperature, conduction loss from the metal absorber, convection loss  from the glazing and back plate. These critical issues of optical loss, heat transfer loss,  absorber  size  reduction,  system  weight  reduction  and  cost  reduction  aspects  were  considered during CTAH design.   
+
+%Integration of transpired absorber with asymmetric CPC for air heating purposes has  been  investigated  in  this  thesis  for  the  first  time.  However,  there  have  been  numerous researches reported on CPC integration with solar collectors  (Kienzlen et al.,  1988;  Kothdiwala et al., 1995; Kothdiwala et al., 1997; Kothdiwala, 1999; Mallick et  al., 2006; Nilsson, 2005; Rabl, 1976a; Tripanagnostopoulos and Souliotis, 2004). Also,  very few analyses reported on CPC integrated solar air heating collectors  (Pramuang and  Exell, 2005; Tchinda, 2008).  The previous research presented feasible designs of solar  thermal   collectors.   This   research   presents   Concentrating   Transpired   Air   Heating-collector  (CTAH)   which   is   integration of   an inverted   transpired   absorber   and  asymmetric CPC.     
+
+%2.7 Design issues of Concentrating Transpired Air Heating-collector    
+
+%Schematic diagram of the  CTAH system  is presented  in Figure 2.9  which is a  combination of transpired absorber and Asymmetric Compound Parabolic Concentrator  (ACPC).  ACPC  in  CTAH  has  been  designed  with  upper  and  lower  reflectors  of  identical reflectance. Upper reflector is a combination of primary parabolic and straight  tertiary reflector.  
+
+%Lower  reflector  is  a  combination  of  parabolic  primary,  circular  secondary  and  
+%straight  tertiary  reflectors.  The  secondary  circular  part  of  the  concentrator  in  CTAH  
+%concentrates  all  incident  radiation  on  the  inverted  absorber.  The  concentration  ratio between inlet and outlet of the secondary circular reflector is 1.  
+
+%Concentration  of  solar  radiation  becomes  necessary  when  higher  temperatures  
+%are  desired.  Heat  losses  from  the  collector  are  proportional  to  the  absorber  area. Concentration  ratio  is  the  ratio  of  aperture  area  to  absorber  area.  So,  heat  losses  are inversely proportional to the concentration.   
+
+%A  perforated  absorber  is  placed  at  the  end  of  the  tertiary  reflector.  Air  flows  through the inlet to the secondary and tertiary reflector. A fan is placed at the end of the  air  duct  to  extract  air  through  the  perforated  absorber.  The  input  of  the  system  is  insolation   at  the   aperture.   The   available   insolation   varies   for   local   climate   and  orientation of the aperture. The concentrator of the system works as an amplifier which  increases   the   amount of solar   radiation   on   a   decreased   absorber   area.   Aperture  geometry, reflector properties, tilt angle, position of the absorber, and properties of the  absorber are to be considered to reduce energy loss.  
+
+%The basic optimisation factors considered in designing the CTAH system were to:   
+
+%enhance  the  optical  efficiency  of  the  collector  using  a  low  concentration  ratio  
+%concentrator;  
+
+%minimise the radiation and convection heat loss from absorber to ambient which  
+%can be achieved by using an inverted absorber facing downward;           
+
+%maximise convection heat transfer from absorber to inward airflow by using a  perforated absorber and tertiary section to maintain a  stable thermal layer in the  concentrator  cavity  and  applying  low conductive  absorber  material  to  reduce  conduction loss and enhance convection heat transfer;  
+
+%minimise  weight  of  the  heating  system  by  using  a  low  weight  perforated  absorber; and   
+
+%minimise cost of the system by using unconventional low cost absorber material  to avoid expensive selective coated metal absorber.   
+
+%\section{Chapter summary}  
+
+%In  this  chapter,  a  review  of  published  research  on  conventional  glazed  and  unglazed solar air heating collectors, optical  concentrators and concentrator integrated  solar collectors was undertaken. Four important factors that influence the design of solar  air heating collectors (glazed and unglazed) were investigated. They include: absorber  modification;  glazing  modification;  airflow  and  airflow  passage  modification;  system  modification (Orientation of building integrated solar air heating system components).  
+%
+%Depending  on  the  absorber  characteristics  and  existence  of  a  glazing  cover,  major types of solar air heating collectors  are: glazed flat plate collector and Unglazed  Transpired  Collector  (UTC).  Flat  plate  collectors  are  constructed  with  metal  absorber  and  glazing  surface.  UTCs  are  constructed  with  a  perforated  absorber  without  any  glazing surface. Commonly used absorber materials in experimental flat plate solar air  heating  collectors  are  black  painted  copper,  aluminium  and  galvanized  steel  with  a  thickness of 1 mm. Absorber thicknesses vary between 0.4 mm and 1 mm.   
+%
+%The  geometry  of  a  perforated  absorber  for  a  CTAH  is  similar  to  that  of  UTC collectors. Experimental  analysis  of  previous  research  suggested  that  the  porosity  of perforated absorbers need to be less than 5\% to avoid the effect of the conductivity of the  absorber  material. The  perforation  of  the  absorber  basically  enhances  the  heat transfer  which  reduces  the  obligation  of  the  absorber  to  be  with  high  conductive material  as  flat  plate collector. So a non-metallic  perforated  absorber  with  inherent perforation can reduce manufacturing cost. The use of a fabric absorber (carbon fibre) with  inherent  perforation  leads  to  a  reduction  in  the  overall  life-cycle  cost. The low weight of the absorber surface may also allow the designer to reduce the overall weight of the system.     
+%
+%A glazed solar collector traps heat using a glazing surface on top of the absorber. Glazing of solar collectors is a critical issue considering the weather (wind speed, rain, and dust) of the location which may have an effect on the performance of the collector, deterioration of the concentration surface and dust deposition causing regular maintenance. The glazing material used in previous experimental prototypes varied in material type, number of glazing and thickness.   
+%
+%The material of the  glazing in experiments varied within glass, polycarbonate, polyethylene etc. Glass was the most commonly used glazing material in experiments  which  varies  in quality  and  thickness.  Glass  was  used  from  3  mm  to  10  mm  and  its quality varied from low iron glass to general window glass. The number of glazing used  was either one or two. Polyethylene was the thinnest with 150μm.  Two  glass of  5 mm  was the thickest glazing.
+%
+%A glazing cover  transmits  shorter wavelength solar radiation  but  blocks  the  longer  wavelength solar  radiation  from  re-radiating  from  the  absorber  plate.  Glass for this application fulfils the requirements of transmission and toughness  and is almost totally opaque to thermal radiation (5 –- 50 µm).
+%
+%The insulation materials used in previous experimental solar air collectors were:  styrofoam, polystyrene, wood, foam, glass wool and hardboard. The highest thickness  was 5 cm of polystyrene and the thinnest was 2 cm of Styrofoam and hardboard.  
+%
+%There  has  been  no  previous  relevant  research  reported  on  transpired  inverted  solar absorber integrated with CPC concentrator to heat air. The CTAH was designed in  this research with low concentration ratio ACPC to collect most of diffuse insolation.  
+%
+%Considering  high  latitude  locations,  an  integrated  ACPC  can  increase  the  density  of  solar  radiation  that  reaches  the  absorber  surface.  A  highly  reflective  concentrator  can  allow  solar  radiation  to  be  reflected  onto  the  inverted  absorber.  Concentrating  solar  energy with transpired absorber fundamentally improves the utility of such systems, by  providing higher outlet air temperatures at higher air flow rate. The reduced surface area  of  the  absorber  decreases  radiation  loss  and  the  inverted  transpired  absorber  reduces convection loss from the absorber to glazing.  
+

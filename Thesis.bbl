@@ -1,0 +1,5901 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{AbdelKhalik1978}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AKSI}{%
+         family={Abdel-Khalik},
+         familyi={A\bibinithyphendelim K\bibinitperiod},
+         given={S.\bibnamedelima I.},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=LHW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={H.-W.},
+         giveni={H\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=RKR}{%
+         family={Randall},
+         familyi={R\bibinitperiod},
+         given={K.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{ASME} International}%
+    }
+    \strng{namehash}{AKSI+1}
+    \strng{fullhash}{AKSILHWRKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1978}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1115/1.3450781
+    \endverb
+    \field{number}{2}
+    \field{pages}{199\bibrangedash 204}
+    \field{title}{Natural Convection In Compound Parabolic Concentrators -- A
+  Finite-Element Solution}
+    \field{volume}{100}
+    \field{journaltitle}{Journal of Heat Transfer}
+    \field{year}{1978}
+  \endentry
+
+  \entry{Abdullahi2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AB}{%
+         family={Abdullahi},
+         familyi={A\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ADR}{%
+         family={Al-Dadah},
+         familyi={A\bibinithyphendelim D\bibinitperiod},
+         given={R.K.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mahmoud},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hood},
+         familyi={H\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{AB+1}
+    \strng{fullhash}{ABADRMSHR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.apenergy.2015.08.063
+    \endverb
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{Optical and thermal performance of double receiver compound
+  parabolic concentrator}
+    \field{volume}{159}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Applied Energy/Optical and thermal performance of
+    \verb double receiver compound parabolic.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Abu-Bakar2014}{article}{}
+    \name{author}{7}{}{%
+      {{hash=ABSH}{%
+         family={Abu-Bakar},
+         familyi={A\bibinithyphendelim B\bibinitperiod},
+         given={Siti\bibnamedelima Hawa},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=MSF}{%
+         family={Muhammad-Sukki},
+         familyi={M\bibinithyphendelim S\bibinitperiod},
+         given={Firdaus},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RIR}{%
+         family={Ramirez-Iniguez},
+         familyi={R\bibinithyphendelim I\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MTK}{%
+         family={Mallick},
+         familyi={M\bibinitperiod},
+         given={Tapas\bibnamedelima Kumar},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MAB}{%
+         family={Munir},
+         familyi={M\bibinitperiod},
+         given={Abu\bibnamedelima Bakar},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=YSHM}{%
+         family={Yasin},
+         familyi={Y\bibinitperiod},
+         given={Siti Hajar\bibnamedelima Mohd},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=RRA}{%
+         family={Rahim},
+         familyi={R\bibinitperiod},
+         given={Ruzairi\bibnamedelima Abdul},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{ABSH+1}
+    \strng{fullhash}{ABSHMSFRIRMTKMABYSHMRRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.apenergy.2014.09.053
+    \endverb
+    \field{pages}{363\bibrangedash 372}
+    \field{title}{Rotationally asymmetrical compound parabolic concentrator for
+  concentrating photovoltaic applications}
+    \field{volume}{136}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Applied Energy/Rotationally asymmetrical compound
+    \verb parabolic concentrator.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Alanod2016}{online}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Alanod},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{MIRO-SUN}
+    \verb{url}
+    \verb https://www.alanod.com/en/reflection/miro-sun/
+    \endverb
+    \list{location}{1}{%
+      {Germany}%
+    }
+    \field{year}{2016}
+  \endentry
+
+  \entry{Ali2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AIMS}{%
+         family={Ali},
+         familyi={A\bibinitperiod},
+         given={Imhamed M.\bibnamedelima Saleh},
+         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+      {{hash=OTS}{%
+         family={O'Donovan},
+         familyi={O\bibinitperiod},
+         given={Tadhg\bibnamedelima S.},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Reddy},
+         familyi={R\bibinitperiod},
+         given={K.S.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MTK}{%
+         family={Mallick},
+         familyi={M\bibinitperiod},
+         given={Tapas\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{AIMS+1}
+    \strng{fullhash}{AIMSOTSRKMTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.solener.2012.11.004
+    \endverb
+    \field{pages}{57\bibrangedash 70}
+    \field{title}{An optical analysis of a static 3-D solar concentrator}
+    \field{volume}{88}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/An optical analysis of a static 3-D
+    \verb  solar concentrator.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Ali2014}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AIMS}{%
+         family={Ali},
+         familyi={A\bibinitperiod},
+         given={Imhamed M.\bibnamedelima Saleh},
+         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+      {{hash=VTS}{%
+         family={Vikram},
+         familyi={V\bibinitperiod},
+         given={T.\bibnamedelima Srihari},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=OTS}{%
+         family={O'Donovan},
+         familyi={O\bibinitperiod},
+         given={Tadhg\bibnamedelima S.},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Reddy},
+         familyi={R\bibinitperiod},
+         given={K.S.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MTK}{%
+         family={Mallick},
+         familyi={M\bibinitperiod},
+         given={Tapas\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{AIMS+1}
+    \strng{fullhash}{AIMSVTSOTSRKMTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.solener.2014.01.031
+    \endverb
+    \field{pages}{257\bibrangedash 266}
+    \field{title}{Design and experimental analysis of a static 3-D elliptical
+  hyperboloid concentrator for process heat applications}
+    \field{volume}{102}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Design and experimental analysis of
+    \verb  a static 3-D elliptical hyperboloid concentrator for process heat ap
+    \verb plications.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Alta2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AD}{%
+         family={Alta},
+         familyi={A\bibinitperiod},
+         given={Deniz},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Bilgili},
+         familyi={B\bibinitperiod},
+         given={Emin},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=EC}{%
+         family={Ertekin},
+         familyi={E\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=YO}{%
+         family={Yaldiz},
+         familyi={Y\bibinitperiod},
+         given={Osman},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{AD+1}
+    \strng{fullhash}{ADBEECYO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.apenergy.2010.04.016
+    \endverb
+    \field{number}{10}
+    \field{pages}{2953\bibrangedash 2973}
+    \field{title}{Experimental investigation of three different solar air
+  heaters: Energy and exergy analyses}
+    \field{volume}{87}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Applied Energy/Experimental investigation of three
+    \verb  different solar air heaters Energy and exergy analyses.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Ammari2003}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AH}{%
+         family={Ammari},
+         familyi={A\bibinitperiod},
+         given={H.D.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{AH1}
+    \strng{fullhash}{AH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/s0960-1481(02)00253-7
+    \endverb
+    \field{number}{10}
+    \field{pages}{1597\bibrangedash 1615}
+    \field{title}{A mathematical model of thermal performance of a solar air
+  heater with slats}
+    \field{volume}{28}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable Energy/A mathematical model of thermal p
+    \verb erformance of a solar air heater with slats.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Arulanandam1999}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AS}{%
+         family={Arulanandam},
+         familyi={A\bibinitperiod},
+         given={S.J.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hollands},
+         familyi={H\bibinitperiod},
+         given={K.G.Terry},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Brundrett},
+         familyi={B\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{ASHKBE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/S0038-092X(00)00042-6
+    \endverb
+    \field{number}{1-3}
+    \field{pages}{93\bibrangedash 100}
+    \field{title}{{A CFD heat transfer analysis of the transpired solar
+  collector under no-wind conditions}}
+    \field{volume}{67}
+    \verb{file}
+    \verb :C$\backslash$:/Users/ferna/Google Drive/PhD/Research/Literature Revi
+    \verb ew/Journals, Proceedings and Reviews/Solar Energy 1/A CFD heat transf
+    \verb er analysis of the transpired solar collector under no wind condition
+    \verb s.pdf:pdf
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Assari2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AMR}{%
+         family={Assari},
+         familyi={A\bibinitperiod},
+         given={M.\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=THB}{%
+         family={Tabrizi},
+         familyi={T\bibinitperiod},
+         given={H.\bibnamedelima Basirat},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=JI}{%
+         family={Jafari},
+         familyi={J\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{AMR+1}
+    \strng{fullhash}{AMRTHBJI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.solener.2011.01.006
+    \endverb
+    \field{number}{3}
+    \field{pages}{601\bibrangedash 608}
+    \field{title}{Experimental and theoretical investigation of dual purpose
+  solar collector}
+    \field{volume}{85}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Experimental and theoretical invest
+    \verb igation of dual purpose solar collector.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Athienitis2011}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AAK}{%
+         family={Athienitis},
+         familyi={A\bibinitperiod},
+         given={Andreas\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bambara},
+         familyi={B\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OB}{%
+         family={O'Neill},
+         familyi={O\bibinitperiod},
+         given={Brendan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Faille},
+         familyi={F\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{AAK+1}
+    \strng{fullhash}{AAKBJOBFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.solener.2010.10.008
+    \endverb
+    \field{number}{1}
+    \field{pages}{139\bibrangedash 153}
+    \field{title}{A prototype photovoltaic/thermal system integrated with
+  transpired collector}
+    \field{volume}{85}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 1/A prototype photovoltaic thermal sy
+    \verb stem integrated with transpired collector.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Badache2014}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BM}{%
+         family={Badache},
+         familyi={B\bibinitperiod},
+         given={Messaoud},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hall{\'{e}}},
+         familyi={H\bibinitperiod},
+         given={St{\'{e}}phane},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RDR}{%
+         family={Rousse},
+         familyi={R\bibinitperiod},
+         given={Daniel\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=QG}{%
+         family={Quesada},
+         familyi={Q\bibinitperiod},
+         given={Guillermo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DY}{%
+         family={Dutil},
+         familyi={D\bibinitperiod},
+         given={Yvan},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BMHSRDRQGDY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1016/j.enbuild.2013.09.010
+    \endverb
+    \field{pages}{232\bibrangedash 241}
+    \field{title}{An experimental investigation of a two-dimensional prototype
+  of a transparent transpired collector}
+    \field{volume}{68}
+    \field{journaltitle}{Energy and Buildings}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Bala2017}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BBK}{%
+         family={Bala},
+         familyi={B\bibinitperiod},
+         given={B.\bibnamedelima K.},
+         giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {John Wiley}%
+      {Sons Ltd.}%
+    }
+    \strng{namehash}{BBK1}
+    \strng{fullhash}{BBK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1002/9781119124207
+    \endverb
+    \field{edition}{2}
+    \field{isbn}{9781119124238}
+    \field{title}{Drying and Storage of Cereal Grains}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Banks1987}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=BJ}{%
+         family={Banks},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CJS}{%
+         family={Carson},
+         familyi={C\bibinitperiod},
+         given={J.\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{ACM} Press}%
+    }
+    \strng{namehash}{BJCJS1}
+    \strng{fullhash}{BJCJS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1987}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Proceedings of the 19$^{th}$ Conference on Winter
+  Simulation}
+    \verb{doi}
+    \verb 10.1145/318371.318386
+    \endverb
+    \field{title}{Applying the simulation process}
+    \field{year}{1987}
+  \endentry
+
+  \entry{Bellos2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BE}{%
+         family={Bellos},
+         familyi={B\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Korres},
+         familyi={K\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tzivanidis},
+         familyi={T\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Antonopoulos},
+         familyi={A\bibinitperiod},
+         given={K.A.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{BE+1}
+    \strng{fullhash}{BEKDTCAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1016/j.seta.2016.04.005
+    \endverb
+    \field{pages}{53\bibrangedash 63}
+    \field{title}{Design, simulation and optimization of a compound parabolic
+  collector}
+    \field{volume}{16}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/General Journals/Design, simulation and optimizati
+    \verb on of a compound parabolic collector.pdf:PDF
+    \endverb
+    \field{journaltitle}{Sustainable Energy Technologies and Assessments}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Benrejeb2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BR}{%
+         family={Benrejeb},
+         familyi={B\bibinitperiod},
+         given={Raouf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HO}{%
+         family={Helal},
+         familyi={H\bibinitperiod},
+         given={Olfa},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chaouachi},
+         familyi={C\bibinitperiod},
+         given={Bechir},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{BR+1}
+    \strng{fullhash}{BRHOCB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1016/j.solener.2014.11.011
+    \endverb
+    \field{pages}{108\bibrangedash 119}
+    \field{title}{Optical and thermal performances improvement of an {ICS}
+  solar water heater system}
+    \field{volume}{112}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Optical and thermal performances im
+    \verb provement of an ICS solar water heater system.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Benrejeb2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BR}{%
+         family={Benrejeb},
+         familyi={B\bibinitperiod},
+         given={Raouf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HO}{%
+         family={Helal},
+         familyi={H\bibinitperiod},
+         given={Olfa},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chaouachi},
+         familyi={C\bibinitperiod},
+         given={Bechir},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{BR+1}
+    \strng{fullhash}{BRHOCB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1016/j.solener.2016.02.057
+    \endverb
+    \field{pages}{84\bibrangedash 95}
+    \field{title}{Study of the effect of truncation on the optical and thermal
+  performances of an {ICS} solar water heater system}
+    \field{volume}{132}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Study of the effect of truncation o
+    \verb n the optical and thermal performances of an ICS solar water heater s
+    \verb ystem.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Binotti2013}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BM}{%
+         family={Binotti},
+         familyi={B\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZG}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Guangdong},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Allison},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Manzolini},
+         familyi={M\bibinitperiod},
+         given={Giampaolo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{BM+2}
+    \strng{fullhash}{BMZGGAMGSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1016/j.solener.2012.10.025
+    \endverb
+    \field{pages}{88\bibrangedash 96}
+    \field{title}{Geometric analysis of three-dimensional effects of parabolic
+  trough collectors}
+    \field{volume}{88}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Geometric analysis of three-dimensi
+    \verb onal effects of parabolic trough collectors.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Buker2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BMS}{%
+         family={Buker},
+         familyi={B\bibinitperiod},
+         given={Mahmut\bibnamedelima Sami},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RSB}{%
+         family={Riffat},
+         familyi={R\bibinitperiod},
+         given={Saffa\bibnamedelima B.},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{BMSRSB1}
+    \strng{fullhash}{BMSRSB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1016/j.rser.2015.06.009
+    \endverb
+    \field{pages}{327\bibrangedash 346}
+    \field{title}{Building integrated solar thermal collectors {\textendash} A
+  review}
+    \field{volume}{51}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable and Sustainable Energy Reviews/Building
+    \verb integrated solar thermal collectors–A review.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Carvalho1985}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CM}{%
+         family={Carvalho},
+         familyi={C\bibinitperiod},
+         given={M.J.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CPM}{%
+         family={Collares-Pereira},
+         familyi={C\bibinithyphendelim P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gordon},
+         familyi={G\bibinitperiod},
+         given={J.M.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rabl},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMCPMGJRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1985}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1016/0038-092x(85)90127-6
+    \endverb
+    \field{number}{5}
+    \field{pages}{393\bibrangedash 399}
+    \field{title}{Truncation of {CPC} solar collectors and its effect on energy
+  collection}
+    \field{volume}{35}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/Check - TRUNCATION OF CPC SOLAR COL
+    \verb LECTORS AND ITS EFFECT ON ENERGY COLLECTION.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1985}
+  \endentry
+
+  \entry{Cengel2005}{book}{}
+    \name{author}{2}{}{%
+      {{hash=CYA}{%
+         family={Cengel},
+         familyi={C\bibinitperiod},
+         given={Yunus\bibnamedelima A.},
+         giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=TRH}{%
+         family={Turner},
+         familyi={T\bibinitperiod},
+         given={Robert\bibnamedelima H.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill}%
+    }
+    \strng{namehash}{CYATRH1}
+    \strng{fullhash}{CYATRH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{edition}{2}
+    \field{isbn}{0-07-245426-1}
+    \field{title}{Fundamentals of Thermal-Fluid Sciences}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Fundamentals of
+    \verb  Thermal Fluid Sciences - Cengel and Turner.pdf:PDF
+    \endverb
+    \field{year}{2004}
+  \endentry
+
+  \entry{Christensen1997}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=CCB}{%
+         family={Christensen},
+         familyi={C\bibinitperiod},
+         given={C\bibnamedelima B},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KCF}{%
+         family={Kutscher},
+         familyi={K\bibinitperiod},
+         given={C\bibnamedelima F},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=GKM}{%
+         family={Gawlik},
+         familyi={G\bibinitperiod},
+         given={K\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCB+1}
+    \strng{fullhash}{CCBKCFGKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{howpublished}{U. S. Patent No. 5,692,491, Application No. 639,852}
+    \field{title}{Unglazed transpired solar collector having a low thermal
+  conductance absorber}
+    \field{year}{1997}
+  \endentry
+
+  \entry{COSTOffice2015}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{COST Office}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=KSA}{%
+         family={Kalogirou},
+         familyi={K\bibinitperiod},
+         given={Soteris\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of COST Action TU1205 Symposium}
+    \field{isbn}{978-9963-697-17-5}
+    \field{title}{Building Integration of Solar Thermal Systems}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Decker2001}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DGV}{%
+         family={Decker},
+         familyi={D\bibinitperiod},
+         given={G.W.E.\bibnamedelima Van},
+         giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hollands},
+         familyi={H\bibinitperiod},
+         given={K.G.T.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Brunger},
+         familyi={B\bibinitperiod},
+         given={A.P.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{DGV+1}
+    \strng{fullhash}{DGVHKBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1016/s0038-092x(01)00014-7
+    \endverb
+    \field{number}{1}
+    \field{pages}{33\bibrangedash 45}
+    \field{title}{Heat-exchange relations for unglazed transpired solar
+  collectors with circular holes on a square or triangular pitch}
+    \field{volume}{71}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 1/HEAT-EXCHANGE RELATIONS FOR UNGLAZE
+    \verb D TRANSPIRED SOLAR COLLECTORS WITH CIRCULAR HOLES ON A SQUARE OR TRIA
+    \verb NGULAR PITCH.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Devices2018}{online}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Delta-T Devices}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{DL2e Data Logger}
+    \verb{url}
+    \verb https://www.delta-t.co.uk/product/dl2e/
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Dev2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DR}{%
+         family={Dev},
+         familyi={D\bibinitperiod},
+         given={Rahul},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AWSA}{%
+         family={Abdul-Wahab},
+         familyi={A\bibinithyphendelim W\bibinitperiod},
+         given={Sabah\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tiwari},
+         familyi={T\bibinitperiod},
+         given={G.N.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{DR+1}
+    \strng{fullhash}{DRAWSATG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1016/j.apenergy.2010.08.001
+    \endverb
+    \field{number}{1}
+    \field{pages}{252\bibrangedash 264}
+    \field{title}{Performance study of the inverted absorber solar still with
+  water depth and total dissolved solid}
+    \field{volume}{88}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Applied Energy/Performance study of the inverted a
+    \verb bsorber solar still with water depth and total dissolved solid.pdf:PD
+    \verb F
+    \endverb
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Diaz2008}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DG}{%
+         family={Diaz},
+         familyi={D\bibinitperiod},
+         given={Gerardo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Winston},
+         familyi={W\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Informa {UK} Limited}%
+    }
+    \strng{namehash}{DGWR1}
+    \strng{fullhash}{DGWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1080/10407780701789518
+    \endverb
+    \field{number}{9}
+    \field{pages}{891\bibrangedash 906}
+    \field{title}{Effect of Surface Radiation on Natural Convection in
+  Parabolic Enclosures}
+    \field{volume}{53}
+    \field{journaltitle}{Numerical Heat Transfer, Part A: Applications}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Duffie2013}{book}{}
+    \name{author}{2}{}{%
+      {{hash=DJA}{%
+         family={Duffie},
+         familyi={D\bibinitperiod},
+         given={John\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BWA}{%
+         family={Beckman},
+         familyi={B\bibinitperiod},
+         given={William\bibnamedelima A.},
+         giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons, Inc.}%
+    }
+    \strng{namehash}{DJABWA1}
+    \strng{fullhash}{DJABWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{edition}{4}
+    \field{isbn}{978-0-470-87366-3}
+    \field{title}{Solar Engineering of Thermal Processes}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Books, Chapters
+    \verb  and Reports/Solar Engineering of Thermal Processes 4th Edition.pdf:P
+    \verb DF
+    \endverb
+    \field{year}{2013}
+  \endentry
+
+  \entry{Eames1996}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EPC}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KAF}{%
+         family={Kothdiwala},
+         familyi={K\bibinitperiod},
+         given={A.\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{EPC+1}
+    \strng{fullhash}{EPCNBKAF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1016/0960-1481(96)88352-2
+    \endverb
+    \field{number}{1-4}
+    \field{pages}{562\bibrangedash 567}
+    \field{title}{The state of the art in modelling line-axis concentrating
+  solar energy collectors}
+    \field{volume}{9}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/From Brian Nort
+    \verb on/Check - THE STATE OF THE ART IN MODELLING LINE-AXIS CONCENTRATING
+    \verb SOLAR ENERGY COLLECTORS.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Eames1993}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EP}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.C.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{EPNB1}
+    \strng{fullhash}{EPNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1016/0038-092x(93)90027-l
+    \endverb
+    \field{number}{4}
+    \field{pages}{321\bibrangedash 338}
+    \field{title}{Detailed parametric analyses of heat transfer in {CPC} solar
+  energy collectors}
+    \field{volume}{50}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/Check - DETAILED PARAMETRIC ANALYSE
+    \verb S OF HEAT TRANSFER IN CPC SOLAR ENERGY COLLECTORS.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1993}
+  \endentry
+
+  \entry{Eames1993a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EP}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.C.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{EPNB1}
+    \strng{fullhash}{EPNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1016/0038-092x(93)90028-m
+    \endverb
+    \field{number}{4}
+    \field{pages}{339\bibrangedash 355}
+    \field{title}{Validated, unified model for optics and heat transfer in
+  line-axis concentrating solar energy collectors}
+    \field{volume}{50}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/VALIDATED, UNIFIED MODEL FOR OPTICS
+    \verb  AND HEAT TRANSFER IN LINE-AXIS CONCENTRATING SOLAR ENERGY COLLECTORS
+    \verb .pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1993}
+  \endentry
+
+  \entry{Eames1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EP}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.C.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{EPNB1}
+    \strng{fullhash}{EPNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1016/0038-092x(95)00039-t
+    \endverb
+    \field{number}{2}
+    \field{pages}{139\bibrangedash 150}
+    \field{title}{Thermal and optical consequences of the introduction of
+  baffles into compound parabolic concentrating solar energy collector
+  cavities}
+    \field{volume}{55}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/THERMAL AND OPTICAL CONSEQUENCES OF
+    \verb  THE INTRODUCTION OF BAFFLES INTO COMPOUND PARABOLIC CONCENTRATING SO
+    \verb LAR ENERGY COLLECTOR CAVITIES.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Eames2001}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EP}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.C},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Smyth},
+         familyi={S\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{EP+1}
+    \strng{fullhash}{EPSMNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1016/s0038-092x(01)00027-5
+    \endverb
+    \field{number}{2}
+    \field{pages}{121\bibrangedash 133}
+    \field{title}{The experimental validation of a comprehensive unified model
+  for optics and heat transfer in line-axis solar energy systems}
+    \field{volume}{71}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/Check - THE EXPERIMENTAL VALIDATION
+    \verb  OF A COMPREHENSIVE UNIFIED MODEL FOR OPTICS AND HEAT TRANSFER IN LIN
+    \verb E-AXIS SOLAR ENERGY SYSTEMS.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2001}
+  \endentry
+
+  \entry{EasyComposites2017}{online}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{Easy Composites}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E1}
+    \strng{fullhash}{E1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Carbon Fibre Plain Weave 3k 210g 1m Wide}
+    \verb{url}
+    \verb https://www.easycomposites.co.uk/#!/fabric-and-reinforcement/carbon-f
+    \verb ibre-reinforcement/woven-carbon-cloth-under-400gsm/plain-weave-200gsm
+    \verb -3k.html
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{ElSebaii2011}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ESA}{%
+         family={El-Sebaii},
+         familyi={E\bibinithyphendelim S\bibinitperiod},
+         given={A.A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AES}{%
+         family={Aboul-Enein},
+         familyi={A\bibinithyphendelim E\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Ramadan},
+         familyi={R\bibinitperiod},
+         given={M.R.I.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Shalaby},
+         familyi={S\bibinitperiod},
+         given={S.M.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Moharram},
+         familyi={M\bibinitperiod},
+         given={B.M.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{ESA+1}
+    \strng{fullhash}{ESAAESRMSSMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1016/j.energy.2010.11.042
+    \endverb
+    \field{number}{2}
+    \field{pages}{1076\bibrangedash 1086}
+    \field{title}{Investigation of thermal performance of-double pass-flat and
+  v-corrugated plate solar air heaters}
+    \field{volume}{36}
+    \field{journaltitle}{Energy}
+    \field{year}{2011}
+  \endentry
+
+  \entry{El-Sebaii2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ESA}{%
+         family={El-Sebaii},
+         familyi={E\bibinithyphendelim S\bibinitperiod},
+         given={A.A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ASH}{%
+         family={Al-Snani},
+         familyi={A\bibinithyphendelim S\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ESAASH1}
+    \strng{fullhash}{ESAASH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1016/j.energy.2009.12.037
+    \endverb
+    \field{number}{4}
+    \field{pages}{1820\bibrangedash 1828}
+    \field{title}{{Effect of selective coating on thermal performance of flat
+  plate solar air heaters}}
+    \field{volume}{35}
+    \field{journaltitle}{Energy}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Embrapa2021}{online}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={Embrapa},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=dSPPRV}{%
+         prefix={da},
+         prefixi={d\bibinitperiod},
+         family={Silva\bibnamedelima Pereira},
+         familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Paulo Roberto\bibnamedelima Valle},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  V\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Minella},
+         familyi={M\bibinitperiod},
+         given={Euclydes},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E2}
+    \strng{fullhash}{E2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{subtitle}{Secagem}
+    \field{title}{Cevada}
+    \verb{url}
+    \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/cultivos/cev
+    \verb ada/pos-producao/secagem
+    \endverb
+    \field{day}{20}
+    \field{month}{12}
+    \field{year}{2021}
+  \endentry
+
+  \entry{ESTTP2009}{report}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{European Solar Thermal Technology Platform}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E3}
+    \strng{fullhash}{E3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Solar Heating and Cooling for a Sustainable Energy Future in
+  Europe}
+    \verb{url}
+    \verb https://www.rhc-platform.org/content/uploads/2019/05/ESTTP_SRA_Revise
+    \verb dVersion.pdf
+    \endverb
+    \list{institution}{1}{%
+      {{European Technology and Innovation Platform on Renewable Heating and
+  Cooling}}%
+    }
+    \field{type}{techreport}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Evangelisti2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EL}{%
+         family={Evangelisti},
+         familyi={E\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=VRDL}{%
+         family={Vollaro},
+         familyi={V\bibinitperiod},
+         given={Roberto De\bibnamedelima Lieto},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+      {{hash=AF}{%
+         family={Asdrubali},
+         familyi={A\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{EL+1}
+    \strng{fullhash}{ELVRDLAF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1016/j.rser.2019.109318
+    \endverb
+    \field{pages}{109318}
+    \field{title}{Latest advances on solar thermal collectors: A comprehensive
+  review}
+    \field{volume}{114}
+    \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Fanney1981}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FAH}{%
+         family={Fanney},
+         familyi={F\bibinitperiod},
+         given={A.\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=TWC}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={W.\bibnamedelima C.},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{ASME} International}%
+    }
+    \strng{namehash}{FAHTWC1}
+    \strng{fullhash}{FAHTWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1981}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1115/1.3266249
+    \endverb
+    \field{number}{3}
+    \field{pages}{258\bibrangedash 267}
+    \field{title}{Simulation of Thermal Performance of Solar Collector Arrays}
+    \field{volume}{103}
+    \field{journaltitle}{Journal of Solar Energy Engineering}
+    \field{year}{1981}
+  \endentry
+
+  \entry{FirstGlass2016}{online}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{First Glass Ltd}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Toughened Glass}
+    \verb{url}
+    \verb http://www.firstglass.ie/products_toughened_glass.html
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Francesconi2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FM}{%
+         family={Francesconi},
+         familyi={F\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Antonelli},
+         familyi={A\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{FMAM1}
+    \strng{fullhash}{FMAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1016/j.tsep.2017.12.005
+    \endverb
+    \field{pages}{278\bibrangedash 288}
+    \field{title}{A {CFD} analysis to investigate thermal losses in a panel
+  composed of several {CPC} concentrators}
+    \field{volume}{5}
+    \field{journaltitle}{Thermal Science and Engineering Progress}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Furbo2003}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FS}{%
+         family={Furbo},
+         familyi={F\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SLJ}{%
+         family={Shah},
+         familyi={S\bibinitperiod},
+         given={L.\bibnamedelima Jivan},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{FSSLJ1}
+    \strng{fullhash}{FSSLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1016/s0038-092x(03)00186-5
+    \endverb
+    \field{number}{6}
+    \field{pages}{513\bibrangedash 523}
+    \field{title}{Thermal advantages for solar heating systems with a glass
+  cover with antireflection surfaces}
+    \field{volume}{74}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Thermal advantages for solar heatin
+    \verb g systems with a glass cover with antireflection surfaces.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Gawlik2005}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GK}{%
+         family={Gawlik},
+         familyi={G\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Christensen},
+         familyi={C\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Kutscher},
+         familyi={K\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GK+1}
+    \strng{fullhash}{GKCCKC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1115/1.1823494
+    \endverb
+    \field{number}{1}
+    \field{pages}{153\bibrangedash 155}
+    \field{title}{{A Numerical and Experimental Investigation of
+  Low-conductivity Unglazed, Transpired Solar Air Heaters}}
+    \field{volume}{127}
+    \field{journaltitle}{Journal of Solar Energy Engineering}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Gawlik2002}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GKM}{%
+         family={Gawlik},
+         familyi={G\bibinitperiod},
+         given={Keith\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KCF}{%
+         family={Kutscher},
+         familyi={K\bibinitperiod},
+         given={Charles\bibnamedelima F.},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{ASME} International}%
+    }
+    \strng{namehash}{GKMKCF1}
+    \strng{fullhash}{GKMKCF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb https://doi.org/10.1115/1.1487886
+    \endverb
+    \field{number}{3}
+    \field{pages}{256\bibrangedash 261}
+    \field{title}{Wind Heat Loss From Corrugated, Transpired Solar Collectors}
+    \field{volume}{124}
+    \field{month}{08}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Goswami2015}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GDY}{%
+         family={Goswami},
+         familyi={G\bibinitperiod},
+         given={D.\bibnamedelima Yogi},
+         giveni={D\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=GTF}{%
+         family={Group},
+         familyi={G\bibinitperiod},
+         given={Taylor \&\bibnamedelima Francis},
+         giveni={T\bibinitperiod\bibinitdelim \bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {CRC Press}%
+    }
+    \strng{namehash}{GDY1}
+    \strng{fullhash}{GDY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{edition}{3}
+    \field{isbn}{9781466563780}
+    \field{title}{Principles of Solar Engineering}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Books, Chapters
+    \verb  and Reports/[Goswami,_D._Yogi]_Principles_of_Solar_Engineering.pdf:P
+    \verb DF
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{GOVUK2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=GU}{%
+         family={GOV-UK},
+         familyi={G\bibinithyphendelim U\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GU1}
+    \strng{fullhash}{GU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Digest of UK Energy Statistics (DUKES): calorific values and
+  density of fuels}
+    \verb{url}
+    \verb https://www.gov.uk/government/statistics/dukes-calorific-values
+    \endverb
+    \field{day}{28}
+    \field{month}{07}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Harmim2012}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HA}{%
+         family={Harmim},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Merzouk},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Boukar},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Amar},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{HA+1}
+    \strng{fullhash}{HAMMBMAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1016/j.solener.2012.03.020
+    \endverb
+    \field{number}{6}
+    \field{pages}{1673\bibrangedash 1682}
+    \field{title}{Mathematical modeling of a box-type solar cooker employing an
+  asymmetric compound parabolic concentrator}
+    \field{volume}{86}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 1/Mathematical modeling of a box-type
+    \verb  solar cooker employing an asymmetric compound parabolic concentrator
+    \verb .pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Hastings2000}{book}{}
+    \name{editor}{1}{}{%
+      {{hash=HORM}{%
+         family={Hastings},
+         familyi={H\bibinitperiod},
+         suffix={Robert;\bibnamedelima Morck},
+         suffixi={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Ove},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HRMO1}
+    \strng{fullhash}{HRMO1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{edition}{1}
+    \field{title}{Solar Air Systems: A Design Handbook}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Hegazy1999}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HAA}{%
+         family={Hegazy},
+         familyi={H\bibinitperiod},
+         given={Adel\bibnamedelima A},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{HAA2}
+    \strng{fullhash}{HAA2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1016/S0196-8904(98)00107-1
+    \endverb
+    \field{number}{7}
+    \field{pages}{757\bibrangedash 774}
+    \field{title}{Optimum channel geometry for solar air heaters of
+  conventional design and constant flow operation}
+    \field{volume}{40}
+    \field{journaltitle}{Energy Conversion and Management}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Hegazy2000}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HAA}{%
+         family={Hegazy},
+         familyi={H\bibinitperiod},
+         given={Adel\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{HAA1}
+    \strng{fullhash}{HAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1016/s0196-8904(99)00136-3
+    \endverb
+    \field{number}{8}
+    \field{pages}{861\bibrangedash 881}
+    \field{title}{Comparative study of the performances of four
+  photovoltaic/thermal solar air collectors}
+    \field{volume}{41}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy Conversion and Management/Comparative study
+    \verb  of the performances of four photovoltaic-thermal solar air collector
+    \verb s.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy Conversion and Management}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Heimsath2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HA}{%
+         family={Heimsath},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bern},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=vRD}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Rooyen},
+         familyi={R\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nitz},
+         familyi={N\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{HA+2}
+    \strng{fullhash}{HABGRDvNP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1016/j.egypro.2014.02.010
+    \endverb
+    \field{pages}{77\bibrangedash 86}
+    \field{title}{Quantifying Optical Loss Factors of Small Linear
+  Concentrating Collectors for Process Heat Application}
+    \field{volume}{48}
+    \field{journaltitle}{Energy Procedia}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Hoffman2001}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HJD}{%
+         family={Hoffman},
+         familyi={H\bibinitperiod},
+         given={Joe\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Marcel Dekker}%
+    }
+    \strng{namehash}{HJD1}
+    \strng{fullhash}{HJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{edition}{2}
+    \field{isbn}{0-8247-0443-6}
+    \field{title}{Numerical Methods For Engineers And Scientists}
+    \list{location}{1}{%
+      {New York, USA}%
+    }
+    \field{year}{2001}
+  \endentry
+
+  \entry{Hongn2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HM}{%
+         family={Hongn},
+         familyi={H\bibinitperiod},
+         given={Marcos},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LSF}{%
+         family={Larsen},
+         familyi={L\bibinitperiod},
+         given={Silvana\bibnamedelima Flores},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gea},
+         familyi={G\bibinitperiod},
+         given={Marcelo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Altamirano},
+         familyi={A\bibinitperiod},
+         given={Mart{\'{\i}}n},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{HM+1}
+    \strng{fullhash}{HMLSFGMAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1016/j.solener.2014.10.042
+    \endverb
+    \field{pages}{264\bibrangedash 276}
+    \field{title}{Least square based method for the estimation of the optical
+  end loss of linear Fresnel concentrators}
+    \field{volume}{111}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Least square based method for the e
+    \verb stimation of the optical end loss.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Incropera2006}{book}{}
+    \name{author}{4}{}{%
+      {{hash=IFP}{%
+         family={Incropera},
+         familyi={I\bibinitperiod},
+         given={Frank\bibnamedelima P.},
+         giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=DDP}{%
+         family={DeWitt},
+         familyi={D\bibinitperiod},
+         given={David\bibnamedelima P.},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BTL}{%
+         family={Bergman},
+         familyi={B\bibinitperiod},
+         given={Theodore\bibnamedelima L.},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=LAS}{%
+         family={Lavine},
+         familyi={L\bibinitperiod},
+         given={Adrienne\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{IFP+1}
+    \strng{fullhash}{IFPDDPBTLLAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{edition}{6}
+    \field{isbn}{978-0471457282}
+    \field{title}{Fundamentals of Heat and Mass Transfer}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Jaaz2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=JAH}{%
+         family={Jaaz},
+         familyi={J\bibinitperiod},
+         given={Ahed\bibnamedelima Hameed},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HHA}{%
+         family={Hasan},
+         familyi={H\bibinitperiod},
+         given={Husam\bibnamedelima Abdulrasool},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Sopian},
+         familyi={S\bibinitperiod},
+         given={Kamaruzzaman},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=RMHBH}{%
+         family={Ruslan},
+         familyi={R\bibinitperiod},
+         given={Mohd Hafidz Bin\bibnamedelima Haji},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  B\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=ZSH}{%
+         family={Zaidi},
+         familyi={Z\bibinitperiod},
+         given={Saleem\bibnamedelima Hussain},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{JAH+1}
+    \strng{fullhash}{JAHHHASKRMHBHZSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1016/j.rser.2017.03.127
+    \endverb
+    \field{pages}{1108\bibrangedash 1121}
+    \field{title}{Design and development of compound parabolic concentrating
+  for photovoltaic solar collector: Review}
+    \field{volume}{76}
+    \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Jafarkazemi2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JF}{%
+         family={Jafarkazemi},
+         familyi={J\bibinitperiod},
+         given={Farzad},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Ahmadifard},
+         familyi={A\bibinitperiod},
+         given={Emad},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{JFAE1}
+    \strng{fullhash}{JFAE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1016/j.renene.2012.10.031
+    \endverb
+    \field{pages}{55\bibrangedash 63}
+    \field{title}{Energetic and exergetic evaluation of flat plate solar
+  collectors}
+    \field{volume}{56}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable Energy/Energetic and exergetic evaluatio
+    \verb n of flat plate solar collectors.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Kalogirou2004}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KSA}{%
+         family={Kalogirou},
+         familyi={K\bibinitperiod},
+         given={Soteris\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KSA1}
+    \strng{fullhash}{KSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/j.pecs.2004.02.001
+    \endverb
+    \field{number}{3}
+    \field{pages}{231\bibrangedash 295}
+    \field{title}{Solar thermal collectors and applications}
+    \field{volume}{30}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Progress in Energy and Combustion Science/Check -
+    \verb Solar thermal collectors and applications.pdf:PDF
+    \endverb
+    \field{journaltitle}{Progress in Energy and Combustion Science}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Karim2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Karim},
+         familyi={K\bibinitperiod},
+         given={M.A.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hawlader},
+         familyi={H\bibinitperiod},
+         given={M.N.A.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KMHM1}
+    \strng{fullhash}{KMHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/s0196-8904(03)00158-4
+    \endverb
+    \field{number}{3}
+    \field{pages}{329\bibrangedash 344}
+    \field{title}{Development of solar air collectors for drying applications}
+    \field{volume}{45}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy Conversion and Management/Development of so
+    \verb lar air collectors for drying applications.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy Conversion and Management}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Karsli2007}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KS}{%
+         family={Karsli},
+         familyi={K\bibinitperiod},
+         given={Suleyman},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KS1}
+    \strng{fullhash}{KS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/j.renene.2006.08.005
+    \endverb
+    \field{number}{10}
+    \field{pages}{1645\bibrangedash 1660}
+    \field{title}{Performance analysis of new-design solar air collectors for
+  drying applications}
+    \field{volume}{32}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable Energy/Performance analysis of new-desig
+    \verb n solar air collectors for drying applications.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Khoukhi2006}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Khoukhi},
+         familyi={K\bibinitperiod},
+         given={Maatouk},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Maruyama},
+         familyi={M\bibinitperiod},
+         given={Shigenao},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KMMS1}
+    \strng{fullhash}{KMMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/j.solener.2005.06.002
+    \endverb
+    \field{number}{7}
+    \field{pages}{787\bibrangedash 794}
+    \field{title}{Theoretical approach of a flat-plate solar collector taking
+  into account the absorption and emission within glass cover layer}
+    \field{volume}{80}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Theoretical approach of a flat-plat
+    \verb e solar collector taking into account the absorption and emission.pdf
+    \verb :PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Kienzlen1988}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KV}{%
+         family={Kienzlen},
+         familyi={K\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=GJM}{%
+         family={Gordon},
+         familyi={G\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KJF}{%
+         family={Kreider},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{ASME} International}%
+    }
+    \strng{namehash}{KV+1}
+    \strng{fullhash}{KVGJMKJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1988}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1115/1.3268232
+    \endverb
+    \field{number}{1}
+    \field{pages}{23}
+    \field{title}{The Reverse Flat Plate Collector: A Stationary, Nonevacuated,
+  Low-Technology, Medium-Temperature Solar Collector}
+    \field{volume}{110}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/General Journals/The Reverse Flat Plate Collector
+    \verb A Stationary, Nonevacuated, Low-Technology, Medium Temperature Solar
+    \verb Collector.pdf:PDF
+    \endverb
+    \field{journaltitle}{Journal of Solar Energy Engineering}
+    \field{year}{1988}
+  \endentry
+
+  \entry{Kostic2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KLT}{%
+         family={Kosti{\'{c}}},
+         familyi={K\bibinitperiod},
+         given={Ljiljana\bibnamedelima T.},
+         giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=PZT}{%
+         family={Pavlovi{\'{c}}},
+         familyi={P\bibinitperiod},
+         given={Zoran\bibnamedelima T.},
+         giveni={Z\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KLTPZT1}
+    \strng{fullhash}{KLTPZT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/j.enbuild.2011.10.059
+    \endverb
+    \field{pages}{161\bibrangedash 168}
+    \field{title}{Optimal position of flat plate reflectors of solar thermal
+  collector}
+    \field{volume}{45}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy and Buildings/Optimal position of flat plat
+    \verb e reflectors of solar thermal collector.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy and Buildings}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Kothdiwala1997}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KAF}{%
+         family={Kothdiwala},
+         familyi={K\bibinitperiod},
+         given={A.\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=EPC}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KAF+1}
+    \strng{fullhash}{KAFEPCNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/0960-1481(96)00071-7
+    \endverb
+    \field{number}{2-3}
+    \field{pages}{235\bibrangedash 238}
+    \field{title}{Experimental analysis and performance of an asymmetric
+  inverted absorber compound parabolic concentrating solar collector at various
+  absorber gap configurations}
+    \field{volume}{10}
+    \verb{file}
+    \verb :C\:/Users/ferna/GOOGLE~1/PhD/Research/LITERA~1/JOURNA~1/RENEWA~1/CHE
+    \verb CK-~1.PDF:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{1997}
+  \endentry
+
+  \entry{Kothdiwala1999}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KAF}{%
+         family={Kothdiwala},
+         familyi={K\bibinitperiod},
+         given={A.\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=EPC}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zacharopolous},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KAF+1}
+    \strng{fullhash}{KAFEPCNBZA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/s0960-1481(98)00786-1
+    \endverb
+    \field{number}{2}
+    \field{pages}{277\bibrangedash 281}
+    \field{title}{Technical note: Comparison between inverted absorber
+  asymmetric and symmetric tubular-absorber compound parabolic concentrating
+  solar collectors}
+    \field{volume}{18}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable Energy/Check - Comparison between invert
+    \verb ed absorber asymmetric and symmetric tubular absorber compound parabo
+    \verb lic concentrating solar collectors.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Kothdiwala1996}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KAF}{%
+         family={Kothdiwala},
+         familyi={K\bibinitperiod},
+         given={A.\bibnamedelima Farouk},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=EPC}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KAF+2}
+    \strng{fullhash}{KAFEPCNB2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/0960-1481(96)88355-8
+    \endverb
+    \field{number}{1-4}
+    \field{pages}{576\bibrangedash 579}
+    \field{title}{Optical performance of an asymmetric inverted absorber
+  compound parabolic concentrating solar collector}
+    \field{volume}{9}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/From Brian Nort
+    \verb on/Check - OPTICAL PERFORMANCE OF AN ASYMMETRIC INVERTED ABSORBER COM
+    \verb POUND PARABOLIC CONCENTRATING SOLAR COLLECTOR.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Kothdiwala1995}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KAF}{%
+         family={Kothdiwala},
+         familyi={K\bibinitperiod},
+         given={A.\bibnamedelima Farouk},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.C.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KAF+2}
+    \strng{fullhash}{KAFNBEP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/0038-092x(95)00049-w
+    \endverb
+    \field{number}{4}
+    \field{pages}{301\bibrangedash 309}
+    \field{title}{The effect of variation of angle of inclination on the
+  performance of low-concentration-ratio compound parabolic concentrating solar
+  collectors}
+    \field{volume}{55}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/Check - THE EFFECT OF VARIATION OF
+    \verb ANGLE OF INCLINATION ON THE PERFORMANCE OF LOW-CONCENTRATION-RATIO CO
+    \verb MPOUND PARABOLIC CONCENTRATING SOLAR COLLECTORS.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Koyuncu2006}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KT}{%
+         family={Koyuncu},
+         familyi={K\bibinitperiod},
+         given={Turhan},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KT1}
+    \strng{fullhash}{KT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/j.renene.2005.05.017
+    \endverb
+    \field{number}{7}
+    \field{pages}{1073\bibrangedash 1088}
+    \field{title}{Performance of various design of solar air heaters for crop
+  drying applications}
+    \field{volume}{31}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable Energy/Performance of various design of
+    \verb solar air heaters.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Kurtbas2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KI}{%
+         family={Kurtbas},
+         familyi={K\bibinitperiod},
+         given={Irfan},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Durmus},
+         familyi={D\bibinitperiod},
+         given={Aydin},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{KIDA1}
+    \strng{fullhash}{KIDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1016/j.renene.2004.01.006
+    \endverb
+    \field{number}{9}
+    \field{pages}{1489\bibrangedash 1501}
+    \field{title}{Efficiency and exergy analysis of a new solar air heater}
+    \field{volume}{29}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable Energy/Efficiency and exergy analysis of
+    \verb  a new solar air heater.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Kutscher1994}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KCF}{%
+         family={Kutscher},
+         familyi={K\bibinitperiod},
+         given={C.\bibnamedelima F.},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KCF1}
+    \strng{fullhash}{KCF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1115/1.2911411
+    \endverb
+    \field{number}{2}
+    \field{pages}{391\bibrangedash 399}
+    \field{title}{Heat Exchange Effectiveness and Pressure Drop for Air Flow
+  Through Perforated Plates with and without Crosswind}
+    \field{volume}{116}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/General Journals/Heat Exchange Effectiveness and P
+    \verb ressure Drop for Air Flow Through Perforated Plates With and Without
+    \verb Crosswind.pdf:PDF
+    \endverb
+    \field{journaltitle}{Journal of Heat Transfer}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Leon2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LMA}{%
+         family={Leon},
+         familyi={L\bibinitperiod},
+         given={M.\bibnamedelima Augustus},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{LMAKS1}
+    \strng{fullhash}{LMAKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1016/j.solener.2006.06.017
+    \endverb
+    \field{number}{1}
+    \field{pages}{62\bibrangedash 75}
+    \field{title}{Mathematical modeling and thermal performance analysis of
+  unglazed transpired solar collectors}
+    \field{volume}{81}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 1/Mathematical modeling and thermal p
+    \verb erformance analysis of unglazed transpired solar collectors.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Li2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xianli},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Chao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Bojia},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{LX+1}
+    \strng{fullhash}{LXLCLB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1016/j.applthermaleng.2015.12.069
+    \endverb
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{Net heat gain assessment on a glazed transpired solar air
+  collector with slit-like perforations}
+    \field{volume}{99}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Applied Thermal Engineering/Net heat gain assessme
+    \verb nt on a glazed transpired solar air collector with slit-like perforat
+    \verb ions.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied Thermal Engineering}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Mallick2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MT}{%
+         family={Mallick},
+         familyi={M\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=EP}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{MTEP1}
+    \strng{fullhash}{MTEP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1016/j.solmat.2006.11.016
+    \endverb
+    \field{number}{7}
+    \field{pages}{597\bibrangedash 608}
+    \field{title}{Design and fabrication of low concentrating second generation
+  {PRIDE} concentrator}
+    \field{volume}{91}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy Materials and Solar Cells/Design and
+    \verb fabrication of low concentrating second generation PRIDE concentrator
+    \verb .pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy Materials and Solar Cells}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Mallick2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MTK}{%
+         family={Mallick},
+         familyi={M\bibinitperiod},
+         given={Tapas\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=EPC}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={Philip\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{MTK+1}
+    \strng{fullhash}{MTKEPCNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1016/j.solener.2005.05.011
+    \endverb
+    \field{number}{7}
+    \field{pages}{834\bibrangedash 849}
+    \field{title}{Non-concentrating and asymmetric compound parabolic
+  concentrating building fa{\c{c}}ade integrated photovoltaics: An experimental
+  comparison}
+    \field{volume}{80}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/Non-concentrating and asymmetric co
+    \verb mpound parabolic concentrating building facade integrated photovoltai
+    \verb cs.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Mallick2007b}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MTK}{%
+         family={Mallick},
+         familyi={M\bibinitperiod},
+         given={Tapas\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=EPC}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={Philip\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{MTK+1}
+    \strng{fullhash}{MTKEPCNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1016/j.solener.2006.04.003
+    \endverb
+    \field{number}{2}
+    \field{pages}{173\bibrangedash 184}
+    \field{title}{Using air flow to alleviate temperature elevation in solar
+  cells within asymmetric compound parabolic concentrators}
+    \field{volume}{81}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/Using air flow to alleviate tempera
+    \verb ture elevation in solar cells within asymmetric compound parabolic co
+    \verb ncentrators.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2007}
+  \endentry
+
+  \entry{McCabe1993}{book}{}
+    \name{author}{3}{}{%
+      {{hash=MWL}{%
+         family={McCabe},
+         familyi={M\bibinitperiod},
+         given={W.\bibnamedelima L.},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SJC}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Harriott},
+         familyi={H\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill}%
+    }
+    \strng{namehash}{MWL+1}
+    \strng{fullhash}{MWLSJCHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{isbn}{0070448442}
+    \field{pages}{1130}
+    \field{title}{Unit operations of chemical engineering}
+    \field{year}{1993}
+  \endentry
+
+  \entry{McIntire1979}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MWR}{%
+         family={McIntire},
+         familyi={M\bibinitperiod},
+         given={W.\bibnamedelima R.},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{MWR1}
+    \strng{fullhash}{MWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1979}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1016/0038-092x(79)90130-0
+    \endverb
+    \field{number}{4}
+    \field{pages}{351\bibrangedash 355}
+    \field{title}{Truncation of nonimaging cusp concentrators}
+    \field{volume}{23}
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1979}
+  \endentry
+
+  \entry{MetEireann2018}{online}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Met Eireann}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Historical Data}
+    \verb{url}
+    \verb https://www.met.ie/climate/available-data/historical-data
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Michalopoulos1994}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MD}{%
+         family={Michalopoulos},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Massouros},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{MDMG1}
+    \strng{fullhash}{MDMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1016/0360-5442(94)90044-2
+    \endverb
+    \field{number}{8}
+    \field{pages}{911\bibrangedash 918}
+    \field{title}{The effect of glazing on solar collectors}
+    \field{volume}{19}
+    \field{journaltitle}{Energy}
+    \field{month}{08}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Mills1978}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MDR}{%
+         family={Mills},
+         familyi={M\bibinitperiod},
+         given={David\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GJE}{%
+         family={Giutronich},
+         familyi={G\bibinitperiod},
+         given={John\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{MDRGJE1}
+    \strng{fullhash}{MDRGJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1978}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1016/0038-092x(78)90140-8
+    \endverb
+    \field{number}{1}
+    \field{pages}{45\bibrangedash 55}
+    \field{title}{Asymmetrical non-imaging cylindrical solar concentrators}
+    \field{volume}{20}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/ASYMMETRICAL NON-IMAGING CYLINDRICA
+    \verb L SOLAR CONCENTRATORS.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1978}
+  \endentry
+
+  \entry{Norton2012}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{NB1}
+    \strng{fullhash}{NB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{booktitle}{Comprehensive Renewable Energy}
+    \verb{doi}
+    \verb 10.1016/b978-0-08-087872-0.00317-6
+    \endverb
+    \field{pages}{567\bibrangedash 594}
+    \field{title}{Industrial and Agricultural Applications of Solar Heat}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/From Brian Nort
+    \verb on/Industrial and Agricultural Applications of Solar Heat.pdf:PDF
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{Norton1991}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=EPC}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=YYP}{%
+         family={Yadav},
+         familyi={Y\bibinitperiod},
+         given={Y.\bibnamedelima P.},
+         giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Informa {UK} Limited}%
+    }
+    \strng{namehash}{NB+1}
+    \strng{fullhash}{NBEPCYYP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1991}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb 10.1080/01430750.1991.9675201
+    \endverb
+    \field{number}{4}
+    \field{pages}{171\bibrangedash 190}
+    \field{title}{Symmetric and asymmetric linear compound parabolic
+  concentrating solar energy collectors: The state-of-the-art in optical and
+  thermo-physical analysis}
+    \field{volume}{12}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/From Brian Nort
+    \verb on/Symmetric and asymmetric linear compound parabolic concentrating s
+    \verb olar energy collectors The state-of-the-art in optical and thermo-phy
+    \verb sical analysis.pdf:PDF
+    \endverb
+    \field{journaltitle}{International Journal of Ambient Energy}
+    \field{year}{1991}
+  \endentry
+
+  \entry{Norton2006}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{NB1}
+    \strng{fullhash}{NB2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb 10.1016/s1471-0846(06)70570-4
+    \endverb
+    \field{number}{3}
+    \field{pages}{32\bibrangedash 35}
+    \field{title}{Anatomy of a solar collector}
+    \field{volume}{7}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/From Brian Nort
+    \verb on/Anatomy of a solar collector.pdf:PDF
+    \endverb
+    \field{journaltitle}{Refocus}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Nowzari2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NR}{%
+         family={Nowzari},
+         familyi={N\bibinitperiod},
+         given={Raheleh},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mirzaei},
+         familyi={M\bibinitperiod},
+         given={Nima},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AL}{%
+         family={Aldabbagh},
+         familyi={A\bibinitperiod},
+         given={L.B.Y.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{NR+1}
+    \strng{fullhash}{NRMNAL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb 10.1016/j.enconman.2015.04.058
+    \endverb
+    \field{pages}{131\bibrangedash 137}
+    \field{title}{Finding the best configuration for a solar air heater by
+  design and analysis of experiment}
+    \field{volume}{100}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy Conversion and Management/Finding the best
+    \verb configuration for a solar air heater by design and analysis of experi
+    \verb ment.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy Conversion and Management}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Oonk1979}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ORL}{%
+         family={Oonk},
+         familyi={O\bibinitperiod},
+         given={Rodney\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=JDE}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Dennis\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=CABE}{%
+         family={Cole-Appel},
+         familyi={C\bibinithyphendelim A\bibinitperiod},
+         given={Bruce\bibnamedelima E.},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{ORL+1}
+    \strng{fullhash}{ORLJDECABE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1979}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \verb{doi}
+    \verb 10.1016/0038-092X(79)90079-3
+    \endverb
+    \field{number}{6}
+    \field{pages}{535\bibrangedash 536}
+    \field{title}{Calculation of performance of N collectors in series from
+  test data on a single collector}
+    \field{volume}{23}
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1979}
+  \endentry
+
+  \entry{Pottler1999}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PK}{%
+         family={Pottler},
+         familyi={P\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sippel},
+         familyi={S\bibinitperiod},
+         given={C.M.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Beck},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fricke},
+         familyi={F\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{PK+1}
+    \strng{fullhash}{PKSCBAFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1016/S0038-092X(00)00036-0
+    \endverb
+    \field{number}{1-3}
+    \field{pages}{35\bibrangedash 52}
+    \field{title}{Optimized finned absorber geometries for solar air heating
+  collectors}
+    \field{volume}{67}
+    \field{journaltitle}{Solar Energy}
+    \field{month}{07}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Pranesh2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PV}{%
+         family={Pranesh},
+         familyi={P\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={Velraj},
+         familyi={V\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Christopher},
+         familyi={C\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kumaresan},
+         familyi={K\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{PV+1}
+    \strng{fullhash}{PVVRCSKV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1016/j.solener.2019.04.056
+    \endverb
+    \field{pages}{293\bibrangedash 340}
+    \field{title}{A 50 year review of basic and applied research in compound
+  parabolic concentrating solar thermal collector for domestic and industrial
+  applications}
+    \field{volume}{187}
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Prapas1987}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PDE}{%
+         family={Prapas},
+         familyi={P\bibinitperiod},
+         given={D.\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PSD}{%
+         family={Probert},
+         familyi={P\bibinitperiod},
+         given={S.\bibnamedelima D.},
+         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{PDE+1}
+    \strng{fullhash}{PDENBPSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1987}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1016/0038-092x(87)90061-2
+    \endverb
+    \field{number}{6}
+    \field{pages}{541\bibrangedash 550}
+    \field{title}{Optics of parabolic-trough, solar-energy collectors,
+  possessing small concentration ratios}
+    \field{volume}{39}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/OPTICS OF PARABOLIC-TROUGH, SOLAR-E
+    \verb NERGY COLLECTORS, POSSESSING SMALL CONCENTRATION RATIOS.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1987}
+  \endentry
+
+  \entry{Pu2011}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=PS}{%
+         family={Pu},
+         familyi={P\bibinitperiod},
+         given={Shaoxuan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=XC}{%
+         family={Xia},
+         familyi={X\bibinitperiod},
+         given={Chaofeng},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{PSXC1}
+    \strng{fullhash}{PSXC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Asia-Pacific Power and Energy Engineering Conference}
+    \verb{doi}
+    \verb 10.1109/APPEEC.2011.5748793
+    \endverb
+    \field{title}{End-Effect of Linear Fresnel Collectors}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Pujol-Nadal2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PNR}{%
+         family={Pujol-Nadal},
+         familyi={P\bibinithyphendelim N\bibinitperiod},
+         given={Ramon},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MMV}{%
+         family={Mart{\'{\i}}nez-Moll},
+         familyi={M\bibinithyphendelim M\bibinitperiod},
+         given={V{\'{\i}}ctor},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Sallaberry},
+         familyi={S\bibinitperiod},
+         given={Fabienne},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MPA}{%
+         family={Moi{\`{a}}-Pol},
+         familyi={M\bibinithyphendelim P\bibinitperiod},
+         given={Andreu},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{PNR+1}
+    \strng{fullhash}{PNRMMVSFMPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1016/j.apenergy.2015.06.005
+    \endverb
+    \field{pages}{110\bibrangedash 119}
+    \field{title}{Optical and thermal characterization of a variable geometry
+  concentrator using ray-tracing tools and experimental data}
+    \field{volume}{155}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Applied Energy/Optical and thermal characterizatio
+    \verb n of a variable geometry concentrator using ray-tracing tools and exp
+    \verb erimental data.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Qin2013}{article}{}
+    \name{author}{5}{}{%
+      {{hash=QH}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Hua},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lei},
+         familyi={L\bibinitperiod},
+         given={Chengxin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Hanfa},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Wenfeng},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{QH+1}
+    \strng{fullhash}{QHLCLHWYYW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \verb{doi}
+    \verb 10.1016/j.energy.2013.05.059
+    \endverb
+    \field{pages}{751\bibrangedash 758}
+    \field{title}{Optical design of an aspherical cylinder-type reflecting
+  solar concentrator}
+    \field{volume}{57}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy/Optical design of an aspherical cylinder-ty
+    \verb pe reflecting solar concentrator.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Rabl1980}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RA}{%
+         family={Rabl},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={O'Gallagher},
+         familyi={O\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Winston},
+         familyi={W\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{RA+1}
+    \strng{fullhash}{RAOJWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1016/0038-092X(80)90346-1
+    \endverb
+    \field{number}{4}
+    \field{pages}{335\bibrangedash 351}
+    \field{title}{Design and test of non-evacuated solar collectors with
+  compound parabolic concentrators}
+    \field{volume}{25}
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1980}
+  \endentry
+
+  \entry{Rabl1976a}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rabl},
+         familyi={R\bibinitperiod},
+         given={Ari},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1976}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1016/0038-092x(76)90043-8
+    \endverb
+    \field{number}{2}
+    \field{pages}{93\bibrangedash 111}
+    \field{title}{Comparison of solar concentrators}
+    \field{volume}{18}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/COMPARISON OF SOLAR CONCENTRATORS.p
+    \verb df:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1976}
+  \endentry
+
+  \entry{Rabl1976}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rabl},
+         familyi={R\bibinitperiod},
+         given={Ari},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1976}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1016/0038-092x(76)90069-4
+    \endverb
+    \field{number}{6}
+    \field{pages}{497\bibrangedash 511}
+    \field{title}{Optical and Thermal Properties of Compound Parabolic
+  Concentrators}
+    \field{volume}{18}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/Check - OPTICAL AND THERMAL PROPERT
+    \verb IES OF COMPOUND PARABOLIC CONCENTRATORS.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1976}
+  \endentry
+
+  \entry{Rabl1985}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rabl},
+         familyi={R\bibinitperiod},
+         given={Ari},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1985}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{isbn}{0195035461}
+    \field{pagetotal}{518}
+    \field{title}{Active Solar Collectors and Their Applications}
+    \field{year}{1985}
+  \endentry
+
+  \entry{Ratismith2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RW}{%
+         family={Ratismith},
+         familyi={R\bibinitperiod},
+         given={Wattana},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={Inthongkhum},
+         familyi={I\bibinitperiod},
+         given={Anusorn},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Briggs},
+         familyi={B\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{RW+1}
+    \strng{fullhash}{RWIABJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1016/j.apenergy.2014.06.030
+    \endverb
+    \field{pages}{201\bibrangedash 210}
+    \field{title}{Two non-tracking solar collectors: Design criteria and
+  performance analysis}
+    \field{volume}{131}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Applied Energy/Two non-tracking solar collectors D
+    \verb esign criteria and performance analysis.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Roux2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RWL}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={W.G.\bibnamedelima Le},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{RWL1}
+    \strng{fullhash}{RWL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1016/j.renene.2016.05.003
+    \endverb
+    \field{pages}{603\bibrangedash 612}
+    \field{title}{Optimum tilt and azimuth angles for fixed solar collectors in
+  South Africa using measured data}
+    \field{volume}{96}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable Energy/Optimum tilt and azimuth angles f
+    \verb or fixed solar collectors in South Africa using measured data.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Sarmah2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SN}{%
+         family={Sarmah},
+         familyi={S\bibinitperiod},
+         given={Nabin},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RBS}{%
+         family={Richards},
+         familyi={R\bibinitperiod},
+         given={Bryce\bibnamedelima S.},
+         giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MTK}{%
+         family={Mallick},
+         familyi={M\bibinitperiod},
+         given={Tapas\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Optical Society}%
+    }
+    \strng{namehash}{SN+1}
+    \strng{fullhash}{SNRBSMTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1364/ao.50.003303
+    \endverb
+    \field{number}{19}
+    \field{pages}{3303\bibrangedash 3310}
+    \field{title}{Evaluation and optimization of the optical performance of
+  low-concentrating dielectric compound parabolic concentrator using
+  ray-tracing methods}
+    \field{volume}{50}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/General Journals/Evaluation and optimization of th
+    \verb e optical performance of low concentrating dielectric compound parabo
+    \verb lic concentrator using ray tracing methods.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied Optics}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Saxena2015a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SA}{%
+         family={Saxena},
+         familyi={S\bibinitperiod},
+         given={Abhishek},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=V}{%
+         family={Varun},
+         familyi={V\bibinitperiod},
+      }}%
+      {{hash=ESA}{%
+         family={El-Sebaii},
+         familyi={E\bibinithyphendelim S\bibinitperiod},
+         given={A.A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{SA+1}
+    \strng{fullhash}{SAVESA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/j.rser.2014.11.059
+    \endverb
+    \field{pages}{863\bibrangedash 890}
+    \field{title}{A thermodynamic review of solar air heaters}
+    \field{volume}{43}
+    \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Sellami2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SN}{%
+         family={Sellami},
+         familyi={S\bibinitperiod},
+         given={Nazmi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MTK}{%
+         family={Mallick},
+         familyi={M\bibinitperiod},
+         given={Tapas\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{SNMTK1}
+    \strng{fullhash}{SNMTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/j.apenergy.2012.08.052
+    \endverb
+    \field{pages}{868\bibrangedash 876}
+    \field{title}{Optical efficiency study of {PV} Crossed Compound Parabolic
+  Concentrator}
+    \field{volume}{102}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Applied Energy/Optical efficiency study of PV Cros
+    \verb sed Compound Parabolic Concentrator.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Sellami2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SN}{%
+         family={Sellami},
+         familyi={S\bibinitperiod},
+         given={Nazmi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MTK}{%
+         family={Mallick},
+         familyi={M\bibinitperiod},
+         given={Tapas\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MDA}{%
+         family={McNeil},
+         familyi={M\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{SN+2}
+    \strng{fullhash}{SNMTKMDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/j.enconman.2012.05.028
+    \endverb
+    \field{pages}{579\bibrangedash 586}
+    \field{title}{Optical characterisation of 3-D static solar concentrator}
+    \field{volume}{64}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy Conversion and Management/Optical character
+    \verb isation of 3-D static solar concentrator.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy Conversion and Management}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Shams2013}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=SN}{%
+         family={Shams},
+         familyi={S\bibinitperiod},
+         given={Nassif},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SN1}
+    \strng{fullhash}{SN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.21427/D7NK67
+    \endverb
+    \field{title}{Design of a Transpired Air Heating Solar Collector with an
+  Inverted Perforated Absorber and Asymmetric Compound Parabolic Concentrator}
+    \list{institution}{1}{%
+      {Dublin Institute of Technology. Dublin, Ireland}%
+    }
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Thesis/Design o
+    \verb f a Transpired Air Heating Solar Collector with an Invert Perforated
+    \verb Absorber and Asymmetric Compound Parabolic Concentrator.pdf:PDF
+    \endverb
+    \field{type}{PhD Thesis}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Shams2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SSMN}{%
+         family={Shams},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima M.\bibnamedelima N.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  N\bibinitperiod},
+      }}%
+      {{hash=KMM}{%
+         family={Keever},
+         familyi={K\bibinitperiod},
+         given={M.\bibnamedelima Mc},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CSM}{%
+         family={Cormack},
+         familyi={C\bibinitperiod},
+         given={S.\bibnamedelima Mc},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{SSMN+1}
+    \strng{fullhash}{SSMNKMMCSMNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/j.energy.2015.12.136
+    \endverb
+    \field{pages}{374\bibrangedash 383}
+    \field{title}{Design and experiment of a new solar air heating collector}
+    \field{volume}{100}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy/Design and experiment of a new solar air he
+    \verb ating collector.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Shukla2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SA}{%
+         family={Shukla},
+         familyi={S\bibinitperiod},
+         given={Ashish},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NDN}{%
+         family={Nkwetta},
+         familyi={N\bibinitperiod},
+         given={Dan\bibnamedelima Nchelatebe},
+         giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={Y.J.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Stevenson},
+         familyi={S\bibinitperiod},
+         given={Vicki},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=JP}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Phil},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{SA+2}
+    \strng{fullhash}{SANDNCYSVJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/j.rser.2012.02.029
+    \endverb
+    \field{number}{6}
+    \field{pages}{3975\bibrangedash 3985}
+    \field{title}{A state of art review on the performance of transpired solar
+  collector}
+    \field{volume}{16}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable and Sustainable Energy Reviews/A state o
+    \verb f art review on the performance of transpired solar collector.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Smyth2005}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SM}{%
+         family={Smyth},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={McGarrigle},
+         familyi={M\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=EPC}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMMPEPCNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/j.solener.2004.06.004
+    \endverb
+    \field{number}{2}
+    \field{pages}{223\bibrangedash 233}
+    \field{title}{Experimental comparison of alternative convection suppression
+  arrangements for concentrating integral collector storage solar water
+  heaters}
+    \field{volume}{78}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/Experimental comparison of alternat
+    \verb ive convection suppression arrangements for concentrating integral co
+    \verb llector storage solar water heaters.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Smyth1999}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SM}{%
+         family={Smyth},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zacharopoulos},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.C.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMZAEPNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/s0960-1481(98)00274-2
+    \endverb
+    \field{number}{1-4}
+    \field{pages}{761\bibrangedash 764}
+    \field{title}{An experimental procedure to determine solar energy flux
+  distributions on the absorber of line-axis compound parabolic concentrators}
+    \field{volume}{16}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable Energy/AN EXPERIMENTAL PROCEDURE TO DETE
+    \verb RMINE SOLAR ENERGY FLUX.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable Energy}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Soares2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SMAB}{%
+         family={Soares},
+         familyi={S\bibinitperiod},
+         given={Maiara Aparecida\bibnamedelima Bomfim},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+      }}%
+      {{hash=dMJLM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Matos\bibnamedelima Jorge},
+         familyi={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Luiz\bibnamedelima Mario},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MFD}{%
+         family={Montanuci},
+         familyi={M\bibinitperiod},
+         given={Fl{\'{a}}via\bibnamedelima Daiana},
+         giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMAB+1}
+    \strng{fullhash}{SMABMJLMdMFD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1590/1678-457X.11916
+    \endverb
+    \field{number}{4}
+    \field{pages}{638\bibrangedash 645}
+    \field{title}{Drying kinetics of barley grains and effects on the
+  germination index}
+    \field{volume}{36}
+    \field{journaltitle}{Food Science and Technology}
+    \field{year}{2016}
+  \endentry
+
+  \entry{SolarTribune2011}{online}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{Solar Tribune}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Solar Air Collectors}
+    \verb{url}
+    \verb https://solartribune.com/solar-hot-air-panels/
+    \endverb
+    \field{year}{2011}
+  \endentry
+
+  \entry{Souliotis2011}{article}{}
+    \name{author}{7}{}{%
+      {{hash=SM}{%
+         family={Souliotis},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=QP}{%
+         family={Quinlan},
+         familyi={Q\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Smyth},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Tripanagnostopoulos},
+         familyi={T\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zacharopoulos},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Ramirez},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YP}{%
+         family={Yianoulis},
+         familyi={Y\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{SM+2}
+    \strng{fullhash}{SMQPSMTYZARMYP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1016/j.solener.2011.07.005
+    \endverb
+    \field{number}{10}
+    \field{pages}{2474\bibrangedash 2487}
+    \field{title}{Heat retaining integrated collector storage solar water
+  heater with asymmetric {CPC} reflector}
+    \field{volume}{85}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 1/Heat retaining integrated collector
+    \verb  storage solar water heater with asymmetric CPC reflector.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2011}
+  \endentry
+
+  \entry{SunCalc2018}{online}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={SunCalc},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=HT}{%
+         family={Hoffmann},
+         familyi={H\bibinitperiod},
+         given={Torsten},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S2}
+    \strng{fullhash}{S2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Computation path of the Sun}
+    \verb{url}
+    \verb https://www.suncalc.org/#/53.3621,-6.2779,5/
+    \endverb
+    \field{day}{02}
+    \field{month}{05}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Syngenta2020}{online}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Syngenta},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S3}
+    \strng{fullhash}{S3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Drying malt barley for acceptance}
+    \verb{url}
+    \verb https://www.syngenta.ca/agronomy/drying-malt-barley
+    \endverb
+    \field{day}{02}
+    \field{month}{07}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Tchinda2008}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TR}{%
+         family={Tchinda},
+         familyi={T\bibinitperiod},
+         given={R\'{e}n\'{e}},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TR1}
+    \strng{fullhash}{TR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1016/j.enconman.2007.08.004
+    \endverb
+    \field{pages}{529\bibrangedash 540}
+    \field{title}{Thermal behaviour of solar air heater with compound parabolic
+  concentrator}
+    \field{volume}{49}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy Conversion and Management/Thermal behaviour
+    \verb  of solar air heater with compound parabolic concentrator.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy Conversion \& Management}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Tian2018}{article}{}
+    \name{author}{6}{}{%
+      {{hash=TM}{%
+         family={Tian},
+         familyi={T\bibinitperiod},
+         given={Meng},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Yuehong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Hongfei},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Pei},
+         familyi={P\bibinitperiod},
+         given={Gang},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Guiqiang},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Riffat},
+         familyi={R\bibinitperiod},
+         given={Saffa},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{TM+1}
+    \strng{fullhash}{TMSYZHPGLGRS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1016/j.rser.2017.09.050
+    \endverb
+    \field{pages}{1272\bibrangedash 1296}
+    \field{title}{A review on the recent research progress in the compound
+  parabolic concentrator ({CPC}) for solar energy applications}
+    \field{volume}{82}
+    \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Time2018}{online}{}
+    \name{author}{2}{}{%
+      {{hash=T}{%
+         family={Time},
+         familyi={T\bibinitperiod},
+      }}%
+      {{hash=D}{%
+         family={Date},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=BK}{%
+         family={Bikos},
+         familyi={B\bibinitperiod},
+         given={Konstantin},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TD1}
+    \strng{fullhash}{TD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Sun calculator}
+    \verb{url}
+    \verb https://www.timeanddate.com/sun/ireland/dublin
+    \endverb
+    \field{day}{02}
+    \field{month}{05}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Tiwari1998}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TG}{%
+         family={Tiwari},
+         familyi={T\bibinitperiod},
+         given={G.N.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Suneja},
+         familyi={S\bibinitperiod},
+         given={Sangeeta},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{TGSS1}
+    \strng{fullhash}{TGSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1016/s0196-8904(96)00227-0
+    \endverb
+    \field{number}{3-4}
+    \field{pages}{173\bibrangedash 180}
+    \field{title}{Performance evaluation of an inverted absorber solar still}
+    \field{volume}{39}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy Conversion and Management/PERFORMANCE EVALU
+    \verb ATION OF AN INVERTED ABSORBER SOLAR STILL.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy Conversion and Management}
+    \field{year}{1998}
+  \endentry
+
+  \entry{Tonui2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TJ}{%
+         family={Tonui},
+         familyi={T\bibinitperiod},
+         given={J.K.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Tripanagnostopoulos},
+         familyi={T\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{TJTY1}
+    \strng{fullhash}{TJTY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1016/j.solener.2006.08.002
+    \endverb
+    \field{number}{4}
+    \field{pages}{498\bibrangedash 511}
+    \field{title}{Air-cooled {PV}/T solar collectors with low cost performance
+  improvements}
+    \field{volume}{81}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Air-cooled PVT solar collectors wit
+    \verb h low cost performance improvements.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Tonui2008}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TJ}{%
+         family={Tonui},
+         familyi={T\bibinitperiod},
+         given={J.K.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Tripanagnostopoulos},
+         familyi={T\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{TJTY1}
+    \strng{fullhash}{TJTY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1016/j.solener.2007.06.004
+    \endverb
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{Performance improvement of {PV}/T solar collectors with
+  natural air flow operation}
+    \field{volume}{82}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Performance improvement of PVT sola
+    \verb r collectors with natural air flow operation.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Tourlonias2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TM}{%
+         family={Tourlonias},
+         familyi={T\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BMA}{%
+         family={Bueno},
+         familyi={B\bibinitperiod},
+         given={Marie-Ange},
+         giveni={M\bibinithyphendelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TMBMA1}
+    \strng{fullhash}{TMBMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1016/j.compositesa.2015.07.024
+    \endverb
+    \field{pages}{228\bibrangedash 236}
+    \field{title}{{Experimental simulation of friction and wear of carbon yarns
+  during the weaving process}}
+    \field{volume}{80}
+    \field{journaltitle}{Composites Part A: Applied Science and Manufacturing}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Tripanagnostopoulos2000}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TY}{%
+         family={Tripanagnostopoulos},
+         familyi={T\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+      {{hash=YP}{%
+         family={Yianoulis},
+         familyi={Y\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=PS}{%
+         family={Papaefthimiou},
+         familyi={P\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=ZS}{%
+         family={Zafeiratos},
+         familyi={Z\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{TY+1}
+    \strng{fullhash}{TYYPPSZS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1016/s0038-092x(00)00061-x
+    \endverb
+    \field{number}{3}
+    \field{pages}{191\bibrangedash 203}
+    \field{title}{{CPC} Solar Collectors With Flat Bifacial Absorbers}
+    \field{volume}{69}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/CPC SOLAR COLLECTORS WITH FLAT BIFA
+    \verb CIAL ABSORBERS.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Tyagi2012}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TV}{%
+         family={Tyagi},
+         familyi={T\bibinitperiod},
+         given={V.V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Panwar},
+         familyi={P\bibinitperiod},
+         given={N.L.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Rahim},
+         familyi={R\bibinitperiod},
+         given={N.A.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kothari},
+         familyi={K\bibinitperiod},
+         given={Richa},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{TV+1}
+    \strng{fullhash}{TVPNRNKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1016/j.rser.2011.12.005
+    \endverb
+    \field{number}{4}
+    \field{pages}{2289\bibrangedash 2303}
+    \field{title}{Review on solar air heating system with and without thermal
+  energy storage system}
+    \field{volume}{16}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable and Sustainable Energy Reviews/Review on
+    \verb  solar air heating system with and without thermal energy storage sys
+    \verb tem.pdf:PDF
+    \endverb
+    \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Ustaoglu2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=UA}{%
+         family={Ustaoglu},
+         familyi={U\bibinitperiod},
+         given={Abid},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Alptekin},
+         familyi={A\bibinitperiod},
+         given={Mustafa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={Okajima},
+         familyi={O\bibinitperiod},
+         given={Junnosuke},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Maruyama},
+         familyi={M\bibinitperiod},
+         given={Shigenao},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{UA+1}
+    \strng{fullhash}{UAAMOJMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \verb{doi}
+    \verb 10.1016/j.solener.2016.03.014
+    \endverb
+    \field{pages}{150\bibrangedash 164}
+    \field{title}{Evaluation of uniformity of solar illumination on the
+  receiver of compound parabolic concentrator ({CPC})}
+    \field{volume}{132}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 3/Evaluation of uniformity of solar i
+    \verb llumination on the receiver of compound parabolic concentrator (CPC).
+    \verb pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Wall2012}{article}{}
+    \name{author}{7}{}{%
+      {{hash=WM}{%
+         family={Wall},
+         familyi={W\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PMCM}{%
+         family={Probst},
+         familyi={P\bibinitperiod},
+         given={Maria Cristina\bibnamedelima Munari},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roecker},
+         familyi={R\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DMC}{%
+         family={Dubois},
+         familyi={D\bibinitperiod},
+         given={Marie-Claude},
+         giveni={M\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Horvat},
+         familyi={H\bibinitperiod},
+         given={Miljana},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JOB}{%
+         family={J{\o}rgensen},
+         familyi={J\bibinitperiod},
+         given={Olaf\bibnamedelima Bruun},
+         giveni={O\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kappel},
+         familyi={K\bibinitperiod},
+         given={Karin},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{WM+1}
+    \strng{fullhash}{WMPMCMRCDMCHMJOBKK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1016/j.egypro.2012.11.138
+    \endverb
+    \field{pages}{1250\bibrangedash 1260}
+    \field{title}{Achieving Solar Energy in Architecture-{IEA} {SHC} Task 41}
+    \field{volume}{30}
+    \field{journaltitle}{Energy Procedia}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Winston1974}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WR}{%
+         family={Winston},
+         familyi={W\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{WR1}
+    \strng{fullhash}{WR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1974}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1016/0038-092x(74)90004-8
+    \endverb
+    \field{number}{2}
+    \field{pages}{89\bibrangedash 95}
+    \field{title}{Principles of solar concentrators of a novel design}
+    \field{volume}{16}
+    \field{journaltitle}{Solar Energy}
+    \field{year}{1974}
+  \endentry
+
+  \entry{Winston2005}{book}{}
+    \name{author}{3}{}{%
+      {{hash=WR}{%
+         family={Winston},
+         familyi={W\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MJC}{%
+         family={Minano},
+         familyi={M\bibinitperiod},
+         given={Juan\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BPG}{%
+         family={Benitez},
+         familyi={B\bibinitperiod},
+         given={Pablo\bibnamedelima G.},
+         giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic Press}%
+    }
+    \strng{namehash}{WR+1}
+    \strng{fullhash}{WRMJCBPG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1016/B978-0-12-759751-5.X5000-3
+    \endverb
+    \field{isbn}{0-12-759751-4}
+    \field{title}{Nonimaging Optics}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Books, Chapters
+    \verb  and Reports/High Collection Nonimaging Optics.pdf:PDF
+    \endverb
+    \field{year}{2005}
+  \endentry
+
+  \entry{Wu2012}{report}{}
+    \name{author}{7}{}{%
+      {{hash=WSS}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={S\bibnamedelima S},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BCD}{%
+         family={Boley},
+         familyi={B\bibinitperiod},
+         given={C\bibnamedelima D},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=FJN}{%
+         family={Florando},
+         familyi={F\bibinitperiod},
+         given={J\bibnamedelima N},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=LMM}{%
+         family={LeBlanc},
+         familyi={L\bibinitperiod},
+         given={M\bibnamedelima M},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LWH}{%
+         family={Lowdermilk},
+         familyi={L\bibinitperiod},
+         given={W\bibnamedelima H},
+         giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RSM}{%
+         family={Rubenchik},
+         familyi={R\bibinitperiod},
+         given={S\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SJR}{%
+         family={Stanley},
+         familyi={S\bibinitperiod},
+         given={J\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Office of Scientific}%
+      {Technical Information ({OSTI})}%
+    }
+    \strng{namehash}{WSS+1}
+    \strng{fullhash}{WSSBCDFJNLMMLWHRSMSJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.2172/1059098
+    \endverb
+    \field{title}{Deep Penetration in Aerospace Composite Materials Using
+  Near-Infrared Laser Radiation}
+    \list{location}{1}{%
+      {Livermore, United States}%
+    }
+    \list{institution}{1}{%
+      {Lawrence Livermore National Lab. (LLNL)}%
+    }
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/General Journals/Carbonfibre Absorptivity.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Wu2009}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Yupeng},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WY1}
+    \strng{fullhash}{WY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Thermal Management of Concentrator Photovoltaics}
+    \verb{url}
+    \verb http://go.warwick.ac.uk/wrap/3218
+    \endverb
+    \list{institution}{1}{%
+      {University of Warwick. Warwick, UK}%
+    }
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Thesis/Thermal
+    \verb Management of Concentrator Photovoltaics.pdf:PDF
+    \endverb
+    \field{type}{PhD Thesis}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Xu2014}{article}{}
+    \name{author}{7}{}{%
+      {{hash=XC}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Chengmu},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Zhiping},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Ming},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Peng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JX}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Xu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Luo},
+         familyi={L\bibinitperiod},
+         given={Xi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jiangtao},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{XC+1}
+    \strng{fullhash}{XCCZLMZPJXLXLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{X}
+    \field{sortinithash}{X}
+    \verb{doi}
+    \verb 10.1016/j.apenergy.2013.11.003
+    \endverb
+    \field{pages}{128\bibrangedash 139}
+    \field{title}{Research on the compensation of the end loss effect for
+  parabolic trough solar collectors}
+    \field{volume}{115}
+    \field{journaltitle}{Applied Energy}
+    \field{month}{02}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Yeh2009}{article}{}
+    \name{author}{2}{}{%
+      {{hash=YHM}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Ho\bibnamedelima Ming},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HCD}{%
+         family={Ho},
+         familyi={H\bibinitperiod},
+         given={Chii\bibnamedelima Dong},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{YHMHCD1}
+    \strng{fullhash}{YHMHCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \verb{doi}
+    \verb 10.1016/j.applthermaleng.2008.07.027
+    \endverb
+    \field{number}{8-9}
+    \field{pages}{1694\bibrangedash 1701}
+    \field{title}{Solar air heaters with external recycle}
+    \field{volume}{29}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Applied Thermal Engineering/Check - Solar air heat
+    \verb ers with external recycle.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied Thermal Engineering}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Yousef2008}{article}{}
+    \name{author}{2}{}{%
+      {{hash=YB}{%
+         family={Yousef},
+         familyi={Y\bibinitperiod},
+         given={B.A.A.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={N.M.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academy of Science of South Africa}%
+    }
+    \strng{namehash}{YBAN1}
+    \strng{fullhash}{YBAN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \verb{doi}
+    \verb 10.17159/2413-3051/2008/v19i4a3336
+    \endverb
+    \field{number}{4}
+    \field{pages}{32\bibrangedash 42}
+    \field{title}{Performance analysis for flat plate collector with and
+  without porous media}
+    \field{volume}{19}
+    \field{journaltitle}{Journal of Energy in Southern Africa}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Zacharopoulos2000}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZA}{%
+         family={Zacharopoulos},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EPC}{%
+         family={Eames},
+         familyi={E\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={McLarnon},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{ZA+1}
+    \strng{fullhash}{ZAEPCMDNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{doi}
+    \verb 10.1016/s0038-092x(00)00013-x
+    \endverb
+    \field{number}{5}
+    \field{pages}{439\bibrangedash 452}
+    \field{title}{Linear Dielectric Non-Imaging Concentrating Covers For {PV}
+  Integrated Building Facades}
+    \field{volume}{68}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Solar Energy 2/LINEAR DIELECTRIC NON-IMAGING CONCE
+    \verb NTRATING COVERS FOR PV INTEGRATED BUILDING FACADES.pdf:PDF
+    \endverb
+    \field{journaltitle}{Solar Energy}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Zheng2011}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZH}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Hongfei},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TT}{%
+         family={Tao},
+         familyi={T\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dai},
+         familyi={D\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={Huifang},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{ZH+1}
+    \strng{fullhash}{ZHTTDJKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{doi}
+    \verb 10.1016/j.enconman.2010.12.042
+    \endverb
+    \field{number}{6}
+    \field{pages}{2373\bibrangedash 2377}
+    \field{title}{Light tracing analysis of a new kind of trough solar
+  concentrator}
+    \field{volume}{52}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy Conversion and Management/Light tracing ana
+    \verb lysis of a new kind of trough solar concentrator.pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy Conversion and Management}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Zheng2016}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZW}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Wandong},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Bojia},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Huan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={You},
+         familyi={Y\bibinitperiod},
+         given={Shijun},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YT}{%
+         family={Ye},
+         familyi={Y\bibinitperiod},
+         given={Tianzhen},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{ZW+1}
+    \strng{fullhash}{ZWLBZHYSLYYT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{doi}
+    \verb 10.1016/j.energy.2016.05.064
+    \endverb
+    \field{pages}{781\bibrangedash 790}
+    \field{title}{Thermal characteristics of a glazed transpired solar
+  collector with perforating corrugated plate in cold regions}
+    \field{volume}{109}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Energy/Thermal characteristics of a glazed transpi
+    \verb red solar collector with perforating corrugated plate in cold regions
+    \verb .pdf:PDF
+    \endverb
+    \field{journaltitle}{Energy}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Zomorodian2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZA}{%
+         family={Zomorodian},
+         familyi={Z\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zamanian},
+         familyi={Z\bibinitperiod},
+         given={Maryam},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hindawi Limited}%
+    }
+    \strng{namehash}{ZAZM1}
+    \strng{fullhash}{ZAZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{doi}
+    \verb 10.5402/2012/282538
+    \endverb
+    \field{pages}{1\bibrangedash 5}
+    \field{title}{Designing and Evaluating an Innovative Solar Air Collector
+  with Transpired Absorber and Cover}
+    \field{volume}{2012}
+    \verb{file}
+    \verb :C\:/Users/ferna/Google Drive/PhD/Research/Literature/Journals, Proce
+    \verb edings and Reviews/Renewable Energy/Designing and Evaluating an Innov
+    \verb ative Solar Air Collector with Transpired Absorber and Cover.pdf:PDF
+    \endverb
+    \field{journaltitle}{{ISRN} Renewable Energy}
+    \field{year}{2012}
+  \endentry
+\enddatalist
+\endinput

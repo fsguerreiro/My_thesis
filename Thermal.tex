@@ -1,0 +1,1335 @@
+\chapter{Heat Transfer Modelling and Simulation}
+\label{Cap:Thermal}
+%\vspace{-1.0cm}
+
+%Modelling and simulation are important tools used for predicting a solar heating system's performance.
+
+It is desirable to analyse theoretically a new solar energy, any given system before the prototype fabrication (\cite{Tchinda2008}). A thermal model for simulation of a solar air heater is an important tool to predict its long-term performance under different weather conditions (\cite{Shams2013}). Therefore, this chapter aims to: 
+
+\begin{enumerate}[topsep=5pt,partopsep=0pt] \itemsep0pt
+	\item develop a heat transfer model to simulate the thermal performance of the proposed solar air heater, when in operation;
+	\item validate the model against experimental data from the tests described in Chapter \ref{Cap:Exp}.
+	\item determine how to operate and control the collector based on model.
+\end{enumerate}
+
+%1) develop a heat transfer modelling to characterise and simulate the thermal performance of the proposed solar air heater in operation, and; 2) learn how to operate and control base on model. 
+
+Consequently, the specific objectives of this chapter are to:
+
+\begin{itemize}[topsep=5pt,partopsep=0pt] \itemsep0pt
+	\item simulate the collector under different solar radiation levels and airflow rates;
+	%\item Analyse the effect of the tertiary section on the performance;
+	\item estimate outlet airflow temperatures;
+	\item evaluate the system's thermal efficiency;
+	\item determine useful energy delivered to the airflow;
+	%\item Gain understanding of the interaction between system inputs, design parameters and system outputs.
+\end{itemize}
+
+%The model was simulated under steady and transient state conditions.
+
+%The model envisages to simulate solar radiation; validate the design prior to fabrication; gain understanding of the interaction between system inputs and outputs, and design parameters; and learn how to operate and control based on the simulation.
+
+The model will be employed to gain an insight and understanding of the interactions between system inputs and outputs shown in Figure \ref{block_diagram}. The model algorithm implemented for simulation was created to predict behaviour under transient state conditions. 
+
+%At a later stage a model validation against experimental data (over the summer period using local weather data) will be undertaken by using statistical tools.
+
+%The validated model will then be used to simulate the system's outlet air temperature and the total useful heat collected with several solar air heater connected altogether. The model was simulated under steady and transient state conditions.
+
+\Figure[scale=0.50,placement=!ht,label={block_diagram},caption={Block diagram of the heat transfer model.},shortcaption={Block diagram of the heat transfer model}]{figs/block_diagram.eps}
+
+\section{Solar air heating collector's heat transfer modelling}
+
+The first step for modelling the solar air heating system is to establish what are the collector's components to be modelled for simulation. In this case there are three: the first one is the absorber surface, the second one is the glazing cover, and the last one is the airflow inside the collector. The next step is to state assumptions in order to simplify the model, which are listed as follows:
+
+\begin{itemize}
+	\item Solar radiation is incident uniformly over the components' surfaces;
+	\item Absorber and glazing temperatures are uniform;
+	\item Thermal and physical properties of the components are independent of temperature;
+	\item Heat transfer at the reflectors and wooden cavity, and conduction losses are neglected;
+	\item Airflow rate is uniform through all the absorber holes;
+	%\item There is no interaction between the airflow and the air below the absorber;
+\end{itemize}
+
+The following step of the modelling depicts how the energy balance in the components are evaluated according to the following statements:
+
+\begin{equation*}
+\left( \begin{array}{l}
+{\rm{\ \ \ \ \ \ Rate \ of}}\\
+{\rm{\ internal \ energy }}\\
+{\rm{\ in \ the \ absorber}}
+\end{array} \right) = \left( \begin{array}{l}
+{\rm{Absorbed \ solar}}\\
+{\rm{\ \ radiation \ in}}\\
+{\rm{\ \ the \ absorber}}
+\end{array} \right) - \left( \begin{array}{l}
+{\rm{\ \ Heat \ losses}}\\
+{\rm{from \ absorber}}
+\end{array} \right) - \left( \begin{array}{l}
+{\rm{Useful \ heat}}\\
+{\rm{ rate \ to \ airflow}}
+\end{array} \right)
+\label{text_equation_ABS}
+\end{equation*}
+\vspace*{-0.10cm}
+\begin{equation*}
+\left( \begin{array}{l}
+{\rm{\ \ \ \ \ \ Rate \ of}}\\
+{\rm{\ internal \ energy }}\\
+{\rm{\ in \ the \ glazing}}
+\end{array} \right) = \left( \begin{array}{l}
+{\rm{Absorbed \ solar}}\\
+{\rm{\ \ radiation \ in}}\\
+{\rm{\ \ the \ glazing}}
+\end{array} \right) + \left( \begin{array}{l}
+{\rm{\ \ Heat \ losses}}\\
+{\rm{from \ absorber}}
+\end{array} \right) - \left( \begin{array}{l}
+{\rm{Heat \ losses}}\\
+{\rm{from \ glazing}}
+\end{array} \right)
+\label{text_equation_GLAZ}
+\end{equation*}
+\vspace*{-0.10cm}
+\begin{equation*}
+	\left( \begin{array}{l}
+		{\rm{\ \ \ \ \ \ Rate \ of}}\\
+		{\rm{\ useful \ energy }}\\
+		{\rm{\ in \ the \ airflow}}
+	\end{array} \right) = \left( \begin{array}{l}
+		{\rm{Convective \ heat}}\\
+		{\rm{\ transfer \ from \ the \ }}\\
+		{\rm{\ \ absorber \ plate}}
+	\end{array} \right) - \left( \begin{array}{l}
+		{\rm{\ \ Heat \ losses}}\\
+		{\rm{from \ airflow \ }} \\
+		{\rm{to \ the \ glazing \ }}
+	\end{array} \right) 
+	\label{text_equation_air}
+\end{equation*}
+
+%\noindent where the heat losses are convective and radiative. %Translating the previous expressions into variables, Eqs. (\ref{EBabsorber1}) and (\ref{EBglazing1}) are obtained:
+
+%\begin{equation}
+%\mathrm{\frac{{d{U_{abs}}}}{{dt}} = {S_{abs}} - {Q_{\!_{L,1}}} - {Q_u}}
+%\label{EBabsorber1}
+%\end{equation}
+%\vspace*{-0.5cm}
+%\begin{equation}
+%\mathrm{\frac{{d{U_{glaz}}}}{{dt}} = {S_{glaz}} + {Q_{\!_{L,1}}} - {Q_{\!_{L,2}}}}
+%\label{EBglazing1}
+%\end{equation}
+
+\noindent where the heat losses are convective and radiative. In order to visualise how these heat rates are placed, Figure \ref{thermal_network} presents the collector's thermal network as an analogy to an electric circuit, where absorber, glazing and air inside the collector are nodes. The energy input here is the total solar radiation $\rm{I_{\!_{T}}}$, and mathematical expressions above each resistor were used to calculate the thermal resistances.
+
+\Figure[scale=0.75,placement=!ht,label={thermal_network},caption={Thermal network to illustrate heat flows in the air heater, where the subscripts C and R refer to convection and radiation, respectively.}, shortcaption={Thermal network to illustrate heat flows in the air heater.}]{figs/resistances.png}
+
+From the absorber node, the circuit path to the the right is the path of heat transfer to the airflow (upper path) and radiative (lower path) heat losses. At the upper path there is also the convective resistance from the airflow to the glazing indicating that there is convective loss inside the collector. Similarly there are losses from glazing to the ambient indicated by the thermal resistances to the right of its node. These heat transfer types will be addressed later. Applying the concept of heat loss rate as the ratio of temperature difference to the corresponding thermal resistance:
+
+%Alternatively, the solar air heater's cross section with the indexes to represent the thermal energy losses is shown in Figure \ref{scheme_collector}.
+%
+%\Figure[scale=0.60,placement=!ht,label={scheme_collector},caption={Air heater's cross section with indexes for the heat losses.}]{figs/collector_HT.png}
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{M_{abs}}{C_{p,abs}}\frac{{d{T_{abs}}}}{{dt}} = {S_{abs}} - \left( {\frac{{{T_{abs}} - {T_{air}}}}{R_{\!_{HX}}} + \frac{{{T_{abs}} - {T_{glaz}}}}{R_{\!_{R1}}}} \right) }
+\label{eqabsorber1}
+\end{equation}
+\vspace*{-0.25cm}
+\begin{equation}
+\mathrm{{M_{glaz}}{C_{p,glaz}}\frac{{d{T_{glaz}}}}{{dt}} = {S_{glaz}} + \left( {\frac{{{T_{air}} - {T_{glaz}}}}{R_{\!_{C1}}} + \frac{{{T_{abs}} - {T_{glaz}}}}{R_{\!_{R1}}}} \right) - \frac{{{T_{glaz}} - {T_{amb}}}}{{{\displaystyle{\left( {\frac{1}{{{R_{\!_{C2}}}}} + \frac{1}{{{R_{\!_{R2}}}}}} \right)}^{-1}}}}}
+\label{eqglazing1}
+\end{equation}
+\vspace*{-0.25cm}
+\begin{equation}
+	\mathrm{G_{air}A_{abs}C_{p,air}\frac{dT_{air}}{dt} = \frac{(T_{abs} - T_{air})}{R_{\!_{HX}}} - \frac{(T_{air} - T_{glaz})}{R_{\!_{C1}}}}
+	\label{EBair1}
+\end{equation}
+
+Substituting the thermal resistances by the mathematical expressions properly and isolating the derivative terms, Eqs. (\ref{EBabsorber2}), Eq. (\ref{EBglazing2}) and Eq. (\ref{EBair2}) are obtained.
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{\frac{{d{T_{abs}}}}{{dt}} = \frac{1}{{M _{abs}}{C_{p,abs}}} \left[S_{abs} - {h_{\!_{R1}}}{A_{abs}}({T_{abs} - T_{glaz}}) - {h_{\!_{HX}}A_{abs}(T_{abs} - T_{air})} \right]} 
+\label{EBabsorber2}
+\end{equation}
+\vspace*{-0.25cm}
+\begin{equation}
+\mathrm{\frac{{d{T_{glaz}}}}{{dt}} = \frac{1}{{{M_{glaz}}{C_{p,glaz}}}}}\left[ \begin{array}{l}
+\mathrm{{S_{glaz}} + {h_{\!_{R1}}}{A_{abs}}( {{T_{abs}} - {T_{glaz}}} ) + {h_{\!_{C1}}}{A_{abs}}( {{T_{air}} - {T_{glaz}}} )}\\
+\mathrm{- ( {{h_{\!_{R2}}} + {h_{\!_{C2}}}} ){A_{glaz}}( {{T_{glaz}} - {T_{amb}}} )}
+\end{array} \right]
+\label{EBglazing2}
+\end{equation}
+\vspace*{-0.25cm}
+\begin{equation}
+	\mathrm{G_{air}A_{abs}C_{p,air}\frac{dT_{air}}{dt} = h_{\!_{HX}}A_{abs}(T_{abs} - T_{air}) - h_{\!_{C1}}A_{abs}(T_{air} - T_{glaz})       }
+	\label{EBair2}
+\end{equation}
+
+%Lastly, the thermal efficiency, which is the ratio of useful heat rate to the incoming total solar radiation on the aperture, is calculated by Eq. (\ref{ThermalEf}). Such efficiency can be evaluated either instantaneously or as an average over a certain period of time (\cite{Goswami2015}).
+%
+%\begin{equation}
+%\mathrm{\mathlarger{\eta}_{\mathrm{th}} = \frac{Q_u}{I_{\!_T}A_{apt}}}
+%\label{ThermalEf}
+%\end{equation}
+
+The next subsections describe how the absorbed solar radiation terms, convective and radiative heat transfer coefficients, useful energy rate and outlet air temperature from the thermal model were determined.
+
+\subsection{Absorbed solar radiation terms}
+
+%However, it is not possible to measure the amount of $\rm{G_{\!_{T}}}$ to be absorbed in the elements. Hence, it is necessary to estimate how much of the total solar radiation is absorbed by each element.
+
+%The incident solar radiation on the solar collector's aperture undergoes optical losses on glazing cover and reflectors before it reaches the absorber surface. The optical loss on the glazing surface depends on the incident angle which varies over time of day and the absorption property of the glazing material. The optical efficiency varies based on the proportion of the beam and diffuse radiation for a particular time of the day.
+
+%The total solar radiation ($\rm{I_{\!_{T}}}$) incident on the concentrator's aperture is the sum of the beam ($\rm{I_{\!_{B}}}$) and diffuse ($\rm{I_{\!_{D}}}$) components. However, since only part of the diffuse radiation is exploitable by concentrators, the factor $\xi$ must be defined, as being the fraction of total solar radiation accepted. Assuming that the diffuse distribution is isotropic, this factor can be estimated as (\cite{Prapas1987}):
+%
+%\begin{equation}
+%\mathrm{\xi  = \frac{\displaystyle {\left( {{I_{\!_B}} + \frac{{{I_{\!_D}}}}{C}} \right)}}{{{I_{\!_T}}}}}
+%\label{IC}
+%\end{equation} 
+%
+%\noindent and therefore the incoming solar radiation available to reach the absorber surface is assumed to be $\rm{I_{\!_T}\xi}$. 
+The portion of total solar radiation undergoes optical losses before it reaches the absorber -- expressed in terms of ${\eta_{\!_{0}}}$ and previously discussed in Chapters \ref{Cap:Lit} and \ref{Cap:Opt}. Hence, $\rm{S_{abs}}$ is given by Eq. (\ref{Sabs}).
+%In order to estimate $\rm{S_{abs}}$, it is necessary to regard that the portion of incoming solar radiation goes through optical losses -- expressed in terms of ${\eta_{\!_{0}}}$ and previously discussed in Chapter \ref{Cap:Opt}. Therefore, $\rm{S_{abs}}$ is given by Eq. (\ref{Sabs}).
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{S_{abs}} = I_{\!_{T}}\xi A_{apt}\mathlarger{{\eta_{\!_{0}}}}}
+\label{Sabs}
+\end{equation}
+
+The absorbed solar radiation by the glazing, which is based on the capacity of this component to retain the incoming radiation incident on the aperture, can be expressed as:
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{S_{glaz}} = I_{\!_{T}}A_{apt}{\mathlarger{\alpha}_{\mathrm{glaz}}}}
+\label{Sglaz}
+\end{equation}
+
+\noindent where the glazing absorptivity $\alpha_{\rm{glaz}}$ was also estimated in Chapter \ref{Cap:Opt}.
+
+\subsection{Radiative heat transfer coefficients}
+
+The radiative heat transfer coefficient from the absorber to the glazing $\rm{h_{\!_{R1}}}$ can be evaluated by Eq. (\ref{hr1}):
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{h_{\!_{R1}}} = {\varepsilon _{eff}}\sigma \left( {T_{abs}^2 + T_{glaz}^2} \right)\left( {{T_{abs}} + {T_{glaz}}} \right)}
+\label{hr1}
+\end{equation}
+
+\noindent where $\rm{\varepsilon_{eff}}$ is the effective emissivity, a radiative property developed by \citet{Rabl1976} for a CPC comprised by specular reflectors. Although the solar air heater to be modelled here is not a simple CPC, such methodology of assessing $\rm{h_{\!_{R1}}}$ was used, given the similarity of both geometries. The calculation of $\rm{\varepsilon_{eff}}$ takes into account: the radiative properties of the absorber, reflector and glazing, such as emissivity and reflectivity, and the concentrator's geometric concentration ratio. 
+%Given the assumption os constant properties of the elements defined earlier, this effective emissivity assumes a constant value.
+
+The radiative heat transfer coefficient from the glazing to the ambient $\rm{h_{\!_{R2}}}$ was evaluated by Eq. (\ref{hr2}):
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{h_{\!_{R2}}} = {\varepsilon _{glaz}}\sigma \left( {T_{glaz}^2 + T_{amb}^2} \right)\left( {{T_{glaz}} + {T_{amb}}} \right)}
+\label{hr2}
+\end{equation}
+
+\noindent where the glazing is considered to emit radiation to the ambient only, which absorbs all the emitted energy from that, thus acting as a blackbody (\cite{Duffie2013}).
+
+\subsection{Convective heat transfer coefficients}
+
+%The estimation of $\rm{h_{\!_{C1}}}$ takes two stages of heat transfer: the first is from the absorber to the bottom of the tertiary section and the second is from there to the glazing cover. In the first stage, as the hotter surface is at the top inside the cavity, no convective current will be developed naturally, since the lighter mass of air is always above the heavier. Such type of heat transfer is called pure conduction downwards and then the Nusselt number is a unity (\cite{Cengel2005}). Due to this phenomenon, air layers are formed below the absorber surface inside the cavity (indicated in Figure \ref{figTS}). The convective heat transfer coefficient for this stage is given by:
+%
+%%it is assumed that the air below the absorber within the tertiary section does not circulate naturally. As there is no heat losses to the reflectors and above the absorber, the heat loss can only "escape" downwards in a conductive manner, thus leading to formation of air layers at that location (indicated in Figure \ref{figTS}). Such type of heat transfer is called pure conduction downwards, where the Nusselt number is unity (\cite{Cengel2005}). The convective heat transfer coefficient for this stage is given by:
+%
+%\begin{equation}
+%\mathrm{h_{\!_{C11}} = \frac{{{k_{air}}}}{{{H_{\!_{TS}}}}}Nu_{\!_{C11}} = \frac{{{k_{air}}}}{{{H_{\!_{TS}}}}}}
+%\label{hc11}
+%\end{equation}
+%
+%\noindent where the air thermal conductivity $\rm{k_{air}}$ is calculated as (\cite{Rabl1976}):
+%
+%\begin{equation}
+%\mathrm{{k_{air}} = 4.86 \cdot {10^{-4}}T^{0.7}}
+%\label{kair}
+%\end{equation}
+%
+%\noindent with $\rm{k_{air}}$ evaluated at the average temperature between $\rm{T_{abs}}$ and $\rm{T_{\!_{TS}}}$.
+%
+%\Figure[scale=0.65,placement=!ht,label={figTS},caption={Convective heat transfer taking place within the tertiary section and at the surroundings of the glazing (whose coefficients are $\rm{h_{\!_{C11}}}$ and $\rm{h_{\!_{C12}}}$, respectively).}]{figs/figTS.eps}
+%
+%The second stage involves the heat transfer from the air at the surroundings of the glazing to this component by natural convection. Hence, the convective heat transfer coefficient $\rm{h_{\!_{C12}}}$ is calculated as:
+%
+%\begin{equation}
+%\mathrm{h_{\!_{C12}} = \frac{{{k_{air}}}}{{{{\overline W}_{glaz}}}}Nu_{\!_{C12}} = a{(Ra)^b}}
+%\label{hc12a}
+%\end{equation}
+%
+%\noindent where the parameters a and b depend on the geometry and the flow regime (\cite{Cengel2005}). Assuming laminar flow and an average glazing inclination, a = 0.56 and \mbox{b = 1/4} (\cite{Rabl1976}). The Rayleigh number is defined by Eq.(\ref{hc12b}):
+%
+%\begin{equation}
+%\mathrm{Ra = {\frac{{g{\beta_{th}}}}{{\nu_{air}^2}}{{\overline W}_{glaz}}({T_{c}} - {T_{glaz}})\Pr}}
+%\label{hc12b}
+%\end{equation}
+%
+%\noindent where: $\rm{T_{c}}$ is the temperature near the glazing assumed to be the average between $\rm{T_{\!_{TS}}}$ and $\rm{T_{glaz}}$ (shown in Figure \ref{figTS}); the volume expansion coefficient $\beta_{\rm{th}}$ is 1/$\rm{T_{c}}$ as the air is considered an ideal gas; the Prandtl number Pr is assumed to be a constant value; and $\rm{\overline W_{glaz}}$ and $\nu_{\rm{air}}$ are the glazing characteristic length and the air kinematic viscosity, respectively, which are calculated as follows:
+%
+%\begin{equation}
+%\mathrm{{\overline W _{glaz}} = \frac{{{L_{col}}{W_{glaz}}}}{{2({L_{col}} + {W_{glaz}})}}}
+%\end{equation}
+%\vspace*{-0.5cm}
+%\begin{equation}
+%\mathrm{{\nu_{air}} = {9.76 \cdot 10^{-10}}{T^{1.7}}}
+%\label{nuair}
+%\end{equation}
+%
+%\noindent where, in this stage, $\rm{k_{air}}$ and ${\nu_{\rm{air}}}$ is evaluated at $\rm{T_{c}}$.  Substituting Eqs. (\ref{kair}), (\ref{nuair}) and (\ref{hc12b}) in Eq. (\ref{hc12a}) and thus making arrangements, $\rm{h_{\!_{C12}}}$ can be obtained after the above considerations:
+%
+%\begin{equation}
+%\mathrm{{h_{\!_{C12}}} = 14.2{\left( {\frac{{{T_{c}} - {T_{glaz}}}}{{{{\overline W }_{glaz}}}}} \right)^{0.25}}T_{c}^{ - 0.4}}
+%\label{hc12}
+%\end{equation}
+%
+%In order to find $\rm{T_{\!_{TS}}}$ and then calculate $\rm{h_{\!_{C11}}}$ and $\rm{h_{\!_{C12}}}$, an auxiliary equation must be proposed. From the thermal network, it is possible to state that the convective heat loss rate from the absorber to the tertiary section bottom is equivalent to the rate from that position to the glazing, which is presented by Eq. (\ref{Qseries}):
+%
+%\begin{equation}
+%\mathrm{{h_{\!_{C11}}}{A_{abs}}({T_{abs}} - {T_{\!_{TS}}}) = {h_{\!_{C12}}}{A_{glaz}}({T_{\!_{TS}}} - {T_{glaz}})}
+%\label{Qseries}
+%\end{equation}
+%
+%This non-linear equation has only $\rm{T_{\!_{TS}}}$ as unknown variable. Newton's Method was applied to solve it iteratively (\cite{Hoffman2001}). After finding $\rm{T_{\!_{TS}}}$, the values of $\rm{h_{\!_{C11}}}$ and $\rm{h_{\!_{C12}}}$ are calculated and, finally, the convective heat transfer coefficient $\rm{h_{\!_{C1}}}$ is obtained:
+%
+%\begin{equation}
+%\mathrm{{h_{\!_{C1}}} = \frac{1}{\displaystyle \frac{1}{h_{\!_{C11}}} + \frac{1}{h_{\!_{C12}}}}}
+%\label{hc1}
+%\end{equation}
+%
+%It is important to highlight that when $\rm{H_{\!_{TS}}}$ = 0, it would not be possible to calculate $\rm{h_{\!_{C11}}}$. However, this issue can be overcome by making $\rm{h_{\!_{C11}}}$ = 0, replacing $\rm{T_{\!_{TS}}}$ by $\rm{T_{abs}}$ and proceeding to calculate $\rm{h_{\!_{C12}}}$ with no need to apply any iterative method. In this case, $\rm{h_{\!_{C1}}}$ will be equivalent to $\rm{h_{\!_{C12}}}$. 
+
+%\begin{equation}
+%\mathrm{T_{\!_{TS}}^{(j+1)} = T_{\!_{TS}}^{(j)} - %\frac{{{F_1}(T_{\!_{TS}}^{(j)})}}{\displaystyle {{{\left. %{\left( {\frac{{d{F_1}}}{{d{T_{\!_{TS}}}}}} \right)} %\right|}_{T_{\!_{TS}}^{(j)}}}}}}
+%\label{NRM}
+%\end{equation}
+
+%\noindent where j is the iteration step. The function F$_1$ -- which is Eq. (\ref{Qseries}) with its terms rearranged in only one hand side -- and the derivative of f$_1$ in relation to $\rm{T_{\!_{TS}}}$ are evaluated at $\rm{T_{\!_{TS}}^{(j)}}$. The initial guess is always the average between $\rm{T_{abs}}$ and $\rm{T_{glaz}}$. The absolute difference between $\rm{T_{\!_{TS}}^{(j+1)}}$ and $\rm{T_{\!_{TS}}^{(j)}}$ must be smaller than the tolerance level for convergence. 
+
+In order to calculate the heat transfer coefficient from airflow to glazing $\rm{h_{\!_{C1}}}$, it is assumed that the airflow circulating within the collector loses part of its thermal energy to the glazing by convection. Therefore, the estimation of $\rm{h_{\!_{C1}}}$ is given by Eq. (\ref{hc1}) (\cite{Zheng2016}):
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{h_{\!_{C1}}} = \frac{k_{air}}{L_{col}}{Nu_{\!_{C1}}} = \frac{{{k_{air}}}}{{{L_{col}}}}\left( {0.664{\rm{Re}}_{\!_{C1}}^{1/2}{\rm{Pr}}^{1/3}} \right)}
+\label{hc1}
+\end{equation}
+
+\noindent where it is assumed that the air thermal properties are evaluated at the average between $\rm{T_{abs}}$ and $\rm{T_{in}}$; the Reynolds number based on the air velocity at the inlet ($\rm{v_{in}}$) is:
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{{\mathop{\rm Re}\nolimits}_{\!_{C1}}} = \frac{{{v_{in}}{L_{col}}}}{{{\mathlarger{\nu}_{air}}}}}
+\label{Rec1}
+\end{equation}
+
+In order to calculate the heat transfer coefficient from glazing to ambient $\rm{h_{\!_{C2}}}$, it is assumed that the convection loss is forced by the wind. Therefore, the estimation of it is given by Eq. (\ref{wind}) (\cite{Tchinda2008}):
+
+\vspace{-0.75cm}
+\begin{equation}
+	\mathrm{h_{\!_{C2}} = 2.8 + 3v_w}
+	\label{wind}
+\end{equation}
+
+%\subsection{Useful energy rate and outlet air temperature}
+
+%The useful heat rate transferred to the airflow is determined by Eq. (\ref{usefulenergy}):
+%
+%\begin{equation}
+%\mathrm{{Q_u} = {G_{air}}{A_{abs}}{C_{p,air}}({T_{out}} - {T_{in}})}
+%\label{usefulenergy}
+%\end{equation}
+
+%The useful energy rate was given in Eq. (\ref{usefulenergy}). It should be noted that the outlet air temperature is unknown in the modelling. Therefore, understanding heat transfer from the absorber to the airflow becomes necessary to estimate $\rm{T_{out}}$. To do so, another way of assessing $\rm{Q_u}$ is by using fundamentals of heat exchange (\cite{Incropera2006}), which is proposed by means of Eq. (\ref{heatlog}):
+%
+%\begin{equation}
+%\mathrm{{Q_u} = {h_{\!_{HX}}}A_{abs}^{'}\Delta {T_m}}
+%\label{heatlog}
+%\end{equation}
+%
+%\noindent where $\rm{A_{abs}^{'}}$ is the absorber surface area excluding holes:
+%
+%\begin{equation}
+%\mathrm{A_{abs}^{'} = A_{abs}(1 - \varphi_p)}
+%\label{areap}
+%\end{equation}
+%
+%\noindent and $\rm{\Delta {T_m}}$ is called logarithmic mean temperature difference, which needs to take into account the absorber, inlet and outlet air temperatures, calculated as:
+%
+%\begin{equation}
+%\mathrm{\Delta {T_m} = \frac{{({T_{abs}} - {T_{out}}) - ({T_{abs}} - {T_{in}})}}{{\displaystyle \ln \left({\frac{{{T_{abs}} - {T_{out}}}}{{{T_{abs}} - {T_{in}}}}} \right)}}}
+%\label{Tlog}
+%\end{equation}
+%
+%Combining Eqs. (\ref{usefulenergy}) and (\ref{heatlog}), and then isolating $\rm{T_{out}}$, Eq. (\ref{Tair}) is obtained.
+%
+%\begin{equation}
+%\mathrm{{T_{out}} = {T_{abs}} - ({T_{abs}} - {T_{in}})\left[ {1 - \exp \left( { - \frac{{{h_{\!_{HX}}}(1 - \varphi_{p} )}}{{{G_{air}}{C_{p,air}}}}} \right)} \right]}
+%\label{Tair}
+%\end{equation}
+
+The convective heat transfer coefficient for the air flowing through a perforated plate ($\rm{h_{\!_{HX}}}$) is calculated by the correlation developed by \citet{Kutscher1994} for a normal flow:
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{h_{\!_{HX}}} = \frac{{{k_{air}}}}{{{\varphi_h}}}Nu_{h} = \frac{{{k_{air}}}}{{{\varphi_h}}}\left[ {2.75{{\left( {\frac{\ell }{{{\varphi_h}}}} \right)}^{ - 1.2}}{\rm{Re}}_{h}^{0.43}} \right]}
+\label{convectionholes}
+\end{equation}
+
+\noindent where the hole pitch and the hole diameter at the absorber are calculated based on the hole area $\rm{A_h}$ in Eqs. (\ref{phole}) and (\ref{dhole}), respectively, whereas Figure \ref{pitch} illustrates a drawing of carbon fibre fabric to indicate the geometry parameters used in the modelling. 
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{\ell = \sqrt{\frac{{{\mathrm{A_h}}}}{\varphi_{\mathrm{p}}}}}
+\label{phole}
+\end{equation}
+\vspace*{-0.25cm}
+\begin{equation}
+\mathrm{{\varphi_h} = \sqrt{{\mathrm{A_h}}}}
+\label{dhole}
+\end{equation}
+
+\Figure[scale=0.50,placement=!ht,label={pitch},caption={Carbon fibre magnified image and drawing for indication of geometric parameters.}]{figs/carbonfiber2.png}
+
+Furthermore, the Reynolds number in the holes is:
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{{\mathop{\rm Re}\nolimits} _h} = \frac{{{v_h}{\varphi_h}}}{{{\mathlarger{\nu} _{air}}}}}
+\label{reynoldshole}
+\end{equation}
+
+\noindent with the average air velocity in the holes as:
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{{v_h} = \frac{{{G_{air}}}}{{{d_{air}}\varphi_p}}}
+\label{vh}
+\end{equation}
+
+\noindent where the air physical properties $\rm{d_{air}}$, $\rm{k_{air}}$ and $\rm{\nu_{air}}$ were evaluated at a temperature assumed to be the average between $\rm{T_{in}}$ and $\rm{T_{out}}$ so the value of $\rm{h_{\!_{HX}}}$ could be estimated. 
+
+The useful energy rate $\rm{Q_u}$ was given in Eq. (\ref{usefulenergy}). It should be noted that the outlet air temperature is unknown in the modelling. Therefore, understanding heat transfer from the absorber to the airflow becomes necessary to estimate $\rm{T_{out}}$. One way of assessing this temperature is finding $\rm{T_{air}}$ by solving the energy balance equations and assuming that as the average between inlet and outlet temperatures.
+
+\section{Simulation results and model validation}
+
+\subsection{Simulation settings}
+
+After describing all the variables and parameters, the method for solving the system of two ordinary differential equations (ODEs) must be defined, which is the explicit Euler method for initial condition. It derives from the Taylor series truncated at the second term where the solution of the model is fairly accurate for small values of time step $\Delta \mathrm{t}$ (\cite{Hoffman2001}). The ODEs system is then shown in Eq. (\ref{sysEq}):
+
+\vspace{-0.75cm}
+\begin{equation}
+\left\{ \begin{array}{l}
+\mathrm{{T_{abs}}({t_{m + 1}}) = {T_{abs}}({t_m}) + \Delta t \cdot {f_1}({T_{abs}}({t_m}),{T_{glaz}}({t_m}),{T_{air}}({t_m}))}\\
+\mathrm{{T_{glaz}}({t_{m + 1}}) = {T_{glaz}}({t_m}) + \Delta t \cdot {f_2}({T_{abs}}({t_m}),{T_{glaz}}({t_m}),{T_{air}}({t_m}))}\\
+\mathrm{{T_{air}}({t_{m + 1}}) = {T_{air}}({t_m}) + \Delta t \cdot {f_3}({T_{abs}}({t_m}),{T_{glaz}}({t_m}),{T_{air}}({t_m}))      }
+\end{array} \right.
+\label{sysEq}
+\end{equation}
+
+\noindent where the functions f$_1$, f$_2$ and f$_3$ are the right hand sides of Eqs. (\ref{EBabsorber2}), (\ref{EBglazing2}) and (\ref{EBair2}), respectively. The initial conditions are the data collected at 9 am of each day of experiment and the time step $\Delta \mathrm{t}$ was set as 1 s. The algorithm used for modelling and simulation was implemented in Matlab$^{\circledR}$ and it followed the steps depicted as follows:
+
+%The time step $\Delta \mathrm{t}$ was set as 0.01 s to reduce truncation error. The initial conditions are:
+
+%%\begin{equation*}
+%%\left\{ \begin{array}{l}
+%%\mathrm{{T_{abs}}(0) = {T_{amb}}}\\
+%%\mathrm{{T_{glaz}}(0) = {T_{amb}}}
+%%\end{array} \right.
+%%\end{equation*} 
+
+%the initial values of $\rm{T_{abs}}$, $\rm{T_{glaz}}$ and $\rm{T_{in}}$ were at ambient temperature $\rm{T_{amb}}$.
+
+%%\noindent and the inlet air temperature $\rm{T_{in}}$ also considered to be at $\rm{T_{amb}}$. 
+
+
+\begin{description}[before={\setcounter{descriptcount}{0}},font=\bfseries\stepcounter{descriptcount}\thedescriptcount~]
+	\item Input geometric parameters, optical efficiency data ($\eta_{\!_{0}}$) and the components' physical properties;
+	\item Input solar radiation ($\rm{I_{\!_T}}$), ambient temperature ($\rm{T_{amb}}$), inlet air temperature ($\rm{T_{in}}$) and wind speed ($\rm{v_w}$) data;
+	%, $\rm{I_{\!_B}}$ and $\rm{I_{\!_D}}$
+	%\item Input optical efficiency data ($\eta_{\!_{0}}$);
+	\item Set time step ($\Delta \rm{t}$), simulation time ($\rm{t_{s}}$ = 8h), initial conditions and initiate time index m = 1;
+	\item Run current time ($\rm{t_m}$);
+	\item Calculate the terms $\rm{S_{abs}}$, $\rm{S_{glaz}}$, $\rm{h_{\!_{R1}}}$, $\rm{h_{\!_{R2}}}$, $\rm{h_{\!_{C1}}}$, $\rm{h_{\!_{C2}}}$ and $\rm{h_{\!_{HX}}}$;
+	%\item Initiate iteration step (j) as zero and assume initial guess as $\rm{T_{\!_{TS}}^{(j)}}$;
+	%\item Apply Newton's method to calculate $\rm{T_{\!_{TS}}}$;
+	%\item Calculate $\Delta \rm{T_{\!_{TS}}}$ = $\lvert \rm{T_{\!_{TS}}^{(j+1)}}$ -- $\rm{T_{\!_{TS}}^{(j)}} \rvert$;
+	%\item Check convergence: if $\Delta \rm{T_{\!_{TS}}}$ is smaller than tolerance level (tol), calculate $\rm{h_{\!_{C1}}}$. If not, do $\rm{j = j + 1}$ and go back to step 8;
+    %\item Use $\rm{T_{\!_{TS}}}$ to calculate $\rm{h_{\!_{C1}}}$;
+	%\item Check if air is flowing through the air heater. If not, go to step 16;
+	%\item Initiate iteration step (j) as zero and assume initial guess as $\rm{T_{out}^{(j)}}$;
+	%\item Apply Fixed Point Iteration to calculate $\rm{T_{out}}$;
+	%\item Calculate $\Delta \rm{T_{out}}$ = $\lvert \rm{T_{out}^{(j+1)}}$ -- $\rm{T_{out}^{(j)}} \rvert$;
+	%\item Check convergence: if $\Delta \rm{T_{out}}$ is smaller than tolerance level, use $\rm{T_{out}}(t_m)$ to calculate $\rm{Q_u}(t_m)$ and $\eta_{\rm{th}}(\rm{t_m})$. If not, do $\rm{j = j + 1}$ and go back to step 13;
+    %\item Use $\rm{T_{out}}(t_m)$ to calculate $\rm{Q_u}(t_m)$ and $\eta_{\rm{th}}(\rm{t_m})$;
+	\item Calculate $\rm{T_{abs}}(t_{m+1})$, $\rm{T_{glaz}}(t_{m+1})$ and $\rm{T_{air}}(t_{m+1})$;
+	\item Calculate $\rm{T_{out}}(t_{m+1})$ and $\rm{Q_u}(t_m)$;
+	%\item Go to the next time ($\rm{t_{m+1} = t_m + \Delta t}$);
+	\item Check if $\rm{t_{m+1}}$ is the final time. If so, end the simulation. If not, do m = m + 1 and go back to step 4.
+\end{description}
+
+%\Figure[scale=0.48,placement=!ht,label={flowchart},caption={Simulation procedure flowchart of the thermal modelling.}]{figs/HT_flowchart.eps}
+
+\begin{table}[!ht]
+	\caption{Model parameters values used in the heat transfer modelling.}
+	\centering
+\begin{tabular}{p{1.75cm}p{5.5cm}p{2.5cm}}
+	\hline \\[-10pt]
+	Symbol & Model parameter & Value \\ [2pt]
+	 \hline \\[-12pt]
+	$\rm{C_{p,abs}}$ & Absorber heat capacity & 1000 J/(kg K) \\ [2pt]
+	
+	$\rm{M_{abs}}$ & Absorber mass & 0.075 kg \\ [2pt]
+	
+	$\rm{A_{abs}^{'}}$ & Absorber area without holes & 0.17 m$^2$ \\ [2pt]
+	
+	$\varphi_{\rm{p}}$ & Carbon fibre porosity & 4.19\% \\ [2pt]
+	
+	$\rm{A_h}$ & Hole area & 0.147 mm$^2$ \\ [2pt]
+	
+	$\ell$ & Hole pitch & 1.87 mm \\ [2pt]
+	
+	$\varphi_{\rm{h}}$ & Hole diameter & 0.383 mm \\ [2pt]
+ 
+	$\rm{C_{p,glaz}}$ & Glazing heat capacity & 880 J/(kg K) \\ [2pt]
+ 
+	$\rm{M_{glaz}}$ & Glazing mass & 3.7 kg \\ [2pt]
+	
+    $\rm{n_{glaz}}$ & Glazing refraction index & 1.526 \\ [2pt]
+ 
+	$\rm{K_{ext}}$ & Glaz. extinction coefficient & 4 m$^{-1}$ \\ [2pt]
+	
+	$\rm{{\overline W}_{glaz}}$ & Glaz. characteristic length & 0.11 m \\ [2pt]
+	
+	%$\rho_{\rm{ref}}$ & Reflector reflectivity & 0.95 \\ [2pt]
+
+	$\varepsilon_{\rm{eff}}$ & Effective emissivity & 0.68 \\ [2pt]
+
+	$\rm{C_{p,air}}$ & Air heat capacity & 1000 J/(kg K) \\ [2pt]
+ 
+	$\rm{Pr}$ & Prandtl number & 0.72 \\ [2pt]
+
+	$\xi$ & Intercept factor & 0.93 \\ [2pt]
+ 
+	$\Delta {\rm{t}}$ & Time step & 1 s \\ 
+	\hline 
+\end{tabular}
+	\label{model_parameters}
+\end{table}
+
+The experimental data were used to validate the heat transfer model. The purpose of validation is to determine if the model is an accurate representation of this air heating system (\cite{Banks1987}). In order to measure the model accuracy in predicting experimental data, an error estimator was used: the mean absolute error (MAE), defined as the percentage mean of absolute errors relative to individual observations. Such estimator is calculated by Eq. (\ref{MAE})(\cite{Pujol-Nadal2015}):
+
+\vspace{-0.75cm}
+\begin{equation}
+\mathrm{MAE(\% ) = \frac{{100}}{{{N_{obs}}}}\sum\limits_{i = 1}^{{N_{obs}}} {\left| {\frac{{{X_{exp,i}} - {X_{sim,i}}}}{{{X_{exp,i}}}}} \right|} }
+\label{MAE}
+\end{equation}
+
+\noindent where $\rm{X_{exp,i}}$ is the experimental (observed) value and $\rm{X_{sim,i}}$ is the simulated (estimated) value of the same variable. Another way to measure accuracy is to assess the frequency and magnitude of residues (difference between experimental and simulated values) generated by the mathematical model. A positive residue indicates model underestimation while a negative one indicates overestimation.
+
+\subsection{Model validation}
+
+The model validation consisted of comparing the simulated variables $\rm{T_{out}}$ and $\rm{Q_{u}}$ to the experimental ones under the same conditions of the experimental results presented in Chapter \ref{Cap:Exp}.
+
+\subsubsection{Validation of results at low airflow rate}
+
+Figure \ref{004-3}(a) shows the graphs of solar radiation data, experimental and simulated results of the test on 9$^{\rm{th}}$ June ($\rm{G_{air}}$ = 0.04 kg/m$^2$.s), whereas Figures \ref{004-3}(b) and \ref{004-3}(c) present the residue plot in relation to the simulated values. On this clear sky day the calculated MAE for $\rm{T_{out}}$ and $\rm{Q_{u}}$ are 1.9\% and 5.3\%, respectively. During the hour of highest solar radiation (13:00 -- 14:00) the residues are mostly between $\pm$1 $^{\rm{o}}$C and $\pm$20 W/m$^2$. It was found that 70\% of the residues have magnitude of $\pm$1 $^{\rm{o}}$C;  80\% are between $\pm$20 W/m$^2$ and 60\% of the predictions are underestimated (positive residues).
+
+%From Figure \ref{004-3}(b), the maximum relative error is close to 4\% observed in the beginning and end of the day; such error corresponds to 1 $^{\rm{o}}$C of residue. From 11:00 to 13:00 and 14:00 to 15:30 the model prediction underestimates the performance by 2 $^{\rm{o}}$C at most. From Figure \ref{004-3}(c), the maximum relative error is 20\% observed between 09:00 to 10:00; however, this error corresponds only to 20 W/m$^2$ in residue. From 10:00 the model predicts the performance by less than 10\% of relative error, corresponding to 40 W/m$^2$ of underestimation.
+
+
+\begin{figure}[ht!]
+\begin{minipage}{0.60\columnwidth}
+		\includegraphics[width=0.99\columnwidth,height=65mm]{figs/004-3.eps}
+		%\\[-9mm]
+		\subcaption{Experimental and simulated results over time.}
+	\end{minipage}
+	\begin{minipage}{0.39\columnwidth}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/004-residue-5.eps}
+		\subcaption{Residue vs. simulated $\rm{T_{out}}$.}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/004-residue-6.eps}
+		\subcaption{Residue vs. simulated $\rm{Q_{u}}$.}
+	\end{minipage}
+	
+	\caption{(a) Experimental and simulated results, (b) residues of $\rm{T_{out}}$, and (c) residues of $\rm{Q_{u}}$ from 09$^{\rm{th}}$ June at 0.04 kg/(s m$^2$).}
+	\label{004-3}
+\end{figure}
+
+%\Figure[scale=0.63,placement=!ht,label={004-3},caption={Experimental and simulated results from 09$^{\rm{th}}$ June at 0.04 kg/m$^2$.s. MAE is 2.3\% in terms of $\rm{T_{out}}$ and 7.1\% in terms of $\rm{Q_u}$.}]{figs/004-3.eps}
+
+\subsubsection{Validation of results at low-med airflow rate}
+
+Figure \ref{0055-3}(a) shows solar radiation, experimental and simulated data of the test on 22$^{\rm{nd}}$ June ($\rm{G_{air}}$ = 0.055 kg/(s m$^2$)). On this clear sky day with intermittent clouds, the calculated MAE regarding $\rm{T_{out}}$ and $\rm{Q_{u}}$ are 2.2\% and 6.0\%, respectively. Although it was a day with sudden variation in solar radiation at different moments, the model predicted the outputs which most of the residues are between -0.5 and 1 $^{\rm{o}}$C, and -10 and 30 W/m$^2$, except in two periods: after 16:00, when the decay of $\rm{I_{\!_T}}$ lasted 10 minutes before rising to the natural trend; and shortly before 14:00, when $\rm{I_{\!_T}}$ became highly unstable. These events might explain why the model underestimated the outputs by more than 1.5 $^{\rm{o}}$C and 30 W/m$^2$. From Figures \ref{0055-3}(b) and \ref{0055-3}(c), 85\% of the residues have magnitude of $\pm$1 $^{\rm{o}}$C;  90\% of the residues are between $\pm$30 W/m$^2$ and 88\% of the predictions are underestimated.
+
+%The regions of maximum error is observed in the beginning and in the end of the operation (6\% in $\rm{T_{out}}$ and 20\% in $\rm{Q_u}$). 
+
+\begin{figure}[ht!]
+\begin{minipage}{0.60\columnwidth}
+		\includegraphics[width=0.99\columnwidth,height=65mm]{figs/0055-3.eps}
+		%\\[-9mm]
+		\subcaption{Experimental and simulated results over time.}
+	\end{minipage}
+	\begin{minipage}{0.39\columnwidth}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/0055-residue-5.eps}
+		\subcaption{Residue vs. simulated $\rm{T_{out}}$.}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/0055-residue-6.eps}
+		\subcaption{Residue vs. simulated $\rm{Q_{u}}$.}
+	\end{minipage}
+	
+	\caption{(a) Experimental and simulated results, (b) residues of $\rm{T_{out}}$, and (c) residues of $\rm{Q_{u}}$ from 22$^{\rm{nd}}$ June at 0.055 kg/(s m$^2$).}
+	\label{0055-3}
+\end{figure}
+
+%\Figure[scale=0.60,placement=!ht,label={0055-3},caption={Experimental and simulated results from 22$^{\rm{nd}}$ June at 0.055 kg/m$^2$.s. MAE is 4.3\% in terms of $\rm{T_{out}}$ and 11.8\% in terms of $\rm{Q_u}$.}]{figs/0055-3.eps}
+
+\subsubsection{Validation of results at medium airflow rate}
+
+Figure \ref{007-3}(a) shows the graphs of solar radiation data, experimental and simulated results of the test on 29$^{\rm{th}}$ May ($\rm{G_{air}}$ = 0.07 kg/m$^2$.s), whereas Figures \ref{007-3}(b) and \ref{007-3}(c) present the residue plot in relation to the simulated values. On this clear sky day with intermittent clouds mainly before 12:00, the calculated MAE for $\rm{T_{out}}$ and $\rm{Q_{u}}$ are 1.6\% and 4.9\%, respectively. The outputs also did not fall substantially due to the solar radiation's sudden variation. In this case, the model underestimated 88\% of the predictions, where 95\% of the residues are between $\pm$1 $^{\rm{o}}$C and 93\% are between $\pm$30 W/m$^2$. It is also noted that the maximum residue is less than 1.2 $^{\rm{o}}$C and less than 40 W/m$^2$. 
+
+\begin{figure}[ht!]
+\begin{minipage}{0.60\columnwidth}
+		\includegraphics[width=0.99\columnwidth,height=65mm]{figs/007-3.eps}
+		%\\[-9mm]
+		\subcaption{Experimental and simulated results over time.}
+	\end{minipage}
+	\begin{minipage}{0.39\columnwidth}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/007-residue-5.eps}
+		\subcaption{Residue vs. simulated $\rm{T_{out}}$.}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/007-residue-6.eps}
+		\subcaption{Residue vs. simulated $\rm{Q_{u}}$.}
+	\end{minipage}
+	
+	\caption{(a) Experimental and simulated results, (b) residues of $\rm{T_{out}}$, and (c) residues of $\rm{Q_{u}}$ from 29$^{\rm{th}}$ May at 0.07 kg/(s m$^2$).}
+	\label{007-3}
+\end{figure}
+
+%\Figure[scale=0.63,placement=!ht,label={007-3},caption={Experimental and simulated results from 29$^{\rm{th}}$ May at 0.07 kg/m$^2$.s. MAE is 6.3\% in terms of $\rm{T_{out}}$ and 19\% in terms of $\rm{Q_u}$.}]{figs/007-3.eps}
+
+\subsubsection{Validation of results at medium-high airflow rate}
+
+Figure \ref{009-3}(a) shows solar radiation, experimental and simulated data of the test on 29$^{\rm{th}}$ May ($\rm{G_{air}}$ = 0.09 kg/m$^2$.s). The calculated MAE for $\rm{T_{out}}$ and $\rm{Q_{u}}$ are 2.5\% and 13.7\%, respectively. The model prediction is the least accurate in this case due to high variations in $\rm{I_{\!_T}}$ throughout the day. From 14:00 to 15:00 the model overestimated the experimental data by more than 2 $^{\rm{o}}$C and more than 56 W/m$^2$ and up to 130 W/m$^2$. This large difference can be due to any unknown experimental fluctuation during the test. From Figures \ref{009-3}(b) and \ref{009-3}(c), the simulated outputs were also underestimated compared to the experimental results in 79\% of the cases. It was found that 70\% of the residues have magnitude of \mbox{$\pm$1 $^{\rm{o}}$C} and 75\% are between $\pm$40 W/m$^2$.
+
+\begin{figure}[ht!]
+\begin{minipage}{0.60\columnwidth}
+		\includegraphics[width=0.99\columnwidth,height=65mm]{figs/009-3.eps}
+		%\\[-9mm]
+		\subcaption{Experimental and simulated results over time.}
+	\end{minipage}
+	\begin{minipage}{0.39\columnwidth}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/009-residue-5.eps}
+		\subcaption{Residue vs. simulated $\rm{T_{out}}$.}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/009-residue-6.eps}
+		\subcaption{Residue vs. simulated $\rm{Q_{u}}$.}
+	\end{minipage}
+	
+	\caption{Experimental and simulated results from 31$^{\rm{st}}$ May at 0.09 kg/(s m$^2$).}
+	\label{009-3}
+\end{figure}
+
+%\Figure[scale=0.63,placement=!ht,label={009-3},caption={Experimental and simulated results from 31$^{\rm{st}}$ May at 0.09 kg/m$^2$.s. MAE is 4.9\% in terms of $\rm{T_{out}}$ and 27.5\% in terms of $\rm{Q_u}$.}]{figs/009-3.eps}
+
+\subsubsection{Validation of results at high airflow rate}
+
+Figure \ref{0115-3}(a) shows the graphs of solar radiation data, experimental and simulated results of the test on 28$^{\rm{th}}$ June ($\rm{G_{air}}$ = 0.115 kg/(s m$^2$), whereas Figures \ref{0115-3}(b) and \ref{0115-3}(c) present the residue plot in relation to the simulated values. On this clear sky day the calculated MAE for $\rm{T_{out}}$ and $\rm{Q_{u}}$ are 1.1\% and 7.0\%, respectively. In this case, the model underestimated 78\% of the predictions, where 83\% of the residues are between $\pm$0.6 $^{\rm{o}}$C and 83\% are between $\pm$30 W/m$^2$. After 14:00 the model mostly underestimated $\rm{Q_{u}}$ by 20 to 40 W/m$^2$. It is also noticed that the maximum residue is less than 1.0 $^{\rm{o}}$C and less than 40 W/m$^2$.
+
+\begin{figure}[ht!]
+\begin{minipage}{0.60\columnwidth}
+		\includegraphics[width=0.99\columnwidth,height=65mm]{figs/0115-3.eps}
+		%\\[-9mm]
+		\subcaption{Experimental and simulated results over time.}
+	\end{minipage}
+	\begin{minipage}{0.39\columnwidth}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/0115-residue-5.eps}
+		\subcaption{Residue vs. simulated $\rm{T_{out}}$.}
+		\includegraphics[scale=0.5,width=1.0\columnwidth]{figs/0115-residue-6.eps}
+		\subcaption{Residue vs. simulated $\rm{Q_{u}}$.}
+	\end{minipage}
+	
+	\caption{(a) Experimental and simulated results, (b) residues of $\rm{T_{out}}$, and (c) residues of $\rm{Q_{u}}$ from 28$^{\rm{th}}$ June at 0.115 kg/(s m$^2$).}
+	\label{0115-3}
+\end{figure}
+
+%\Figure[scale=0.63,placement=!ht,label={0115-3},caption={Experimental and simulated results from 28$^{\rm{th}}$ June at 0.115 kg/m$^2$.s. MAE is 2.2\% in terms of $\rm{T_{out}}$ and 14\% in terms of $\rm{Q_u}$.}]{figs/0115-3.eps}
+
+Hence, from the calculated MAE and residue plots, there was no effect of the airflow rate and time of operation on the model prediction. To check if solar radiation has influence on the model prediction, all residues were plotted against $\rm{I_{\!_T}}$ and shown in Figure \ref{res_it}. It can be seen that the residues are concentrated on the region of $\rm{I_{\!_T}}$ above 600 W/m$^2$ and most of them are between $\pm$2.0 $^{\rm{o}}$C and $\pm$50 W/m$^2$. The highest residues were observed for days with high intermittent clouds.
+
+\begin{figure}[ht!]
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[width=0.95\columnwidth,height=5.5cm]{figs/residueT_it.eps}
+		\subcaption{Residue vs. solar radiation for $\rm{T_{out}}$.}
+	\end{minipage}
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[width=1.0\columnwidth,height=5.5cm]{figs/residueQ_it.eps}
+		\subcaption{Residue vs. solar radiation for $\rm{Q_u}$.}
+	\end{minipage}
+	\caption{Residues vs. solar radiation for (a) $\rm{T_{out}}$, and (b) $\rm{Q_u}$.}
+	\label{res_it}
+\end{figure}
+
+Another way to analyse these residue data is by plotting the cumulative frequency distribution of each simulated output, as shown in Figure \ref{cdf}. From the cumulative distributions, 95\% of the data predicted have residues between $\pm$2 $^{\rm{o}}$C and $\pm$50 W/m$^{2}$C. It was also found that 65\% of the predictions are underestimated, which highlights the underestimation of the simulation results at most of the time.
+
+\begin{figure}[ht!]
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[width=0.95\columnwidth,height=5.5cm]{figs/cdf_T.eps}
+		\subcaption{Cumulative frequency of residues from $\rm{T_{out}}$.}
+	\end{minipage}
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[width=1.0\columnwidth,height=5.5cm]{figs/cdf_Q.eps}
+		\subcaption{Cumulative frequency of residues from $\rm{Q_u}$.}
+	\end{minipage}
+	\caption{Residual cumulative frequency distribution of (a) $\rm{T_{out}}$, and (b) $\rm{Q_u}$.}
+	\label{cdf}
+\end{figure}
+
+
+\section{Thermal characterisation from simulation results}
+
+After validation, the heat transfer model was used to characterise the system's thermal performance under the conditions of clear sky days at transient state. The inputs ranges, of which this system can be modelled, are depicted as follows:
+
+\begin{description}
+	\item[Solar radiation:] 500 -- 1000 W/m$^2$, where the lowest limit corresponds to the airflow temperature increase at the beginning of the operation;
+	\item[Mass airflow rate:] 0.04 -- 0.12 kg/(s m$^2$), where the limits are coincident to the ones of the tests;
+	\item[Ambient temperature:] 20 -- 30 $^{\rm{o}}$C, which includes all the measured data on clear sky days;
+	\item[Wind speed:] 0 -- 10 m/s, to include all the data taken from Met Eireann website.
+\end{description}
+
+%In the first scenario,
+
+%The parameters $\rm{T_{amb}}$, $\rm{v_w}$ and $\rm{I_{\!_T}}$ were kept constant during the simulations regardless the amount of beam and diffuse components, which allows to assume that $\gamma = $1.
+
+
+
+
+
+%\begin{table}[!ht]
+%	\caption{Input values for simulation}
+%	\centering
+%	\begin{tabular}{p{5.1cm}p{3.7cm}}
+%		\hline \\[-10pt] 
+%		\rule[-1ex]{0pt}{2.5ex} Model Input & Value/Range \\ [3pt]
+%		\hline \\[-10pt]
+%		\rule[-1ex]{0pt}{2.5ex} Total solar radiation ($\rm{I_{\!_T}}$) & 500 -- 1000 W/m$^2$ \\ [5pt]
+%		\rule[-1ex]{0pt}{2.5ex} Ambient temperature ($\rm{T_{amb}}$) & 20 -- 30 $\rm{^o}$C \\ [5pt] 
+%		\rule[-1ex]{0pt}{2.5ex} Wind speed ($\rm{v_w}$) & 0 -- 10 m/s \\ [5pt]
+%		\rule[-1ex]{0pt}{2.5ex} Inlet air temperature ($\rm{T_{in}}$) & 20 -- 30 $\rm{^o}$C  \\ [5pt]
+%		\rule[-1ex]{0pt}{2.5ex} Airflow rate ($\rm{G_{air}}$) & 0.04 -- 0.12 kg/(m$^2$.s)  \\ [5pt]
+%		%\rule[-1ex]{0pt}{2.5ex} Optical efficiency ($\eta_{\rm{o}}$) & Eq. (\ref{optHts}) \\ 
+%		
+%		\hline 
+%	\end{tabular} 
+%	\label{inputs}
+%\end{table}
+
+\subsection{Thermal performance of a single collector}
+
+To characterise this air heating system with one concentrator, a particular clear sky day (30$^{\rm{th}}$ June) was taken to represent the results. The simulation was performed at the five different airflow rates and the correspondent graphs of $\rm{T_{out}}$ were plotted in Figure \ref{Touts_sim}. All the temperature profiles reached their maximum levels in the hour of highest solar radiation ($\rm{I_{\!_T}}$ = 860 W/m$^2$). 
+
+\Figure[scale=0.69,placement=!ht,label={Touts_sim},caption={Simulated $\rm{T_{out}}$ at the five different airflow rates used in the tests, under conditions of 30$^{\rm{th}}$ June.}]{figs/series_1st.eps}
+
+With the simulation data obtained, Figure \ref{Tout-IT-Gair} presents the surface and contour plot to fit the air temperature rise ($\Delta \rm{T}$) as function of the solar radiation and airflow rate. In overall, the air temperature rise is observed from $\rm{I_{\!_T}}$ above 500 W/m$^2$ and increases in a nearly linear was as more energy is coming into the system. The opposite effect is noticed as the airflow is increased because $\Delta \rm{T}$ is inversely proportional to $\rm{G_{air}}$. Temperature rises above 27 $^{\rm{o}}$C can be obtained at airflow rate of 0.04 kg/(s m$^2$) when $\rm{I_{\!_T}}$ is above \mbox{860 W/m$^2$}.
+
+\begin{figure}[ht!]
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[scale=0.49]{figs/Tout_x_GT_Gair.eps}
+		\subcaption{Surface plot.}
+	\end{minipage}
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[scale=0.49]{figs/contour_dT.eps}
+		\subcaption{Contour plot.}
+	\end{minipage}
+	\caption{(a) Surface and (b) contour plot of air temperature rise vs. solar radiation and airflow rate.}
+	\label{Tout-IT-Gair}
+\end{figure}
+
+%\Figure[scale=0.60,placement=!ht,label={Tout-IT-Gair},caption={Surface plot of air temperature rise vs. solar radiation and airflow rate.}]{figs/Tout_x_GT_Gair.eps}
+
+To express these results in terms of useful energy, Figure \ref{QU-Tout-Gair} shows surface and contour plot of this output against air temperature rise and airflow rate. $\rm{Q_u}$ increases as $\rm{G_{air}}$ and $\Delta \rm{T}$ become higher as it is directly proportional to both inputs. The temperature increases more at lower airflow rates but at the cost of delivering low useful energy rate, which highlights the trade-off between energy collected and outlet air temperature.
+
+\begin{figure}[ht!]
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[scale=0.48]{figs/QU_Tout_Gair.eps}
+		\subcaption{Surface plot.}
+	\end{minipage}
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[scale=0.48]{figs/contour_Q.eps}
+		\subcaption{Contour plot.}
+	\end{minipage}
+	\caption{(a) Surface and (b) contour plot of useful energy vs. air temperature rise and airflow rate.}
+	\label{QU-Tout-Gair}
+\end{figure}
+
+%\Figure[scale=0.60,placement=!ht,label={QU-Tout-Gair},caption={Surface plot of useful energy rate vs. air temperature rise and airflow rates.}]{figs/QU_Tout_Gair.eps}
+
+Figure \ref{ef_curve2} shows simulated data takes under the same conditions depicted in Chapter \ref{Cap:Exp} at nearly steady state. Comparing the parameters of the Hottel-Whillier-Bliss equation, $\rm{F_{\!_R}}\eta_{\rm{o}}$ and $\rm{ F_{\!_R}{U_{\!_L}}}$ calculated by the thermal model are 0.64 and -3.02, respectively, with relative difference of 2\% and 10\% in relation to the parameters of the experimental data. The coefficient of correlation  of the simulated curve is 0.9.
+
+\Figure[scale=0.65,placement=!ht,label={ef_curve2},caption={Experimental and simulated thermal efficiency curves.}]{figs/ef_curve2.eps}
+
+\subsection{Simulation of three connected collectors}
+
+The thermal performance of three collectors that are interconnected was analysed with regard to their connection in series and parallel configurations. The reason for selecting three collectors in this simulation is due to their collective total aperture height of approximately 1 meter when stacked above one another on a wall.
+
+\subsubsection{Connection in series}
+
+Figure \ref{D-series} illustrates the frontal view drawing of the collectors arranged in series. In this configuration, the airflow enters the system through the labeled inlet duct and exits through the indicated outlet duct. The drawing indicates that the airflow leaving the first collector (IACPC 1) immediately enters the second collector (IACPC 2) at its right end, while the airflow leaving IACPC 2 enters the third collector (IACPC 3) at its left end.
+
+\Figure[scale=0.70,placement=!ht,label={D-series},caption={Frontal view of three collectors connected in series.}]{figs/Drawing-Series.png}
+
+The outlet air temperature profiles at four different airflow levels throughout time of operation for the other two collectors are shown in Figure \ref{Temp-series}, where the results are for (a) the second collector and (b) for the third one.
+
+\begin{figure}[ht!]
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[scale=0.49]{figs/series_2nd.eps}
+		\subcaption{Simulation results for the second collector.}
+		
+	\end{minipage}
+	\begin{minipage}{0.49\columnwidth}
+		\includegraphics[scale=0.49]{figs/series_3rd.eps}
+		\subcaption{Simulation results for the third collector.}
+		
+	\end{minipage}
+	\caption{Simulated $\rm{T_{out}}$ at four different airflow rates, for connection in series.}
+	\label{Temp-series}
+\end{figure}
+
+Figure \ref{series2} shows the useful heat and the mean air temperature at noon hour as function of the airflow rate leaving each collector. The maximum mean $\rm{T_{out}}$ of the system is 72 $^{\rm{o}}$C for the lowest level of $\rm{G_{air}}$. On the other hand, the highest $\rm{G_{air}}$ is able to collect the highest $\rm{Q_{u}}$ value of 21.5 MJ/m$^{\rm 2}$ in total and delivering a mean temperature at noon of 48 $^{\rm{o}}$C. It is important to mention that the highest airflow rate can deliver approximately the same outlet air temperature as the the system consisting of a standalone collector at the lowest airflow rate. However the three-collector system collects 3 times more useful heat.  
+
+\Figure[scale=0.65,placement=!ht,label={series2},caption={Total useful heat and mean $\rm{T_{out}}$ as function os the airflow rate level for connection in series.}]{figs/Qu-Tout-Gair-series.eps}
+
+\subsubsection{Connection in parallel}
+
+In Figure \ref{D-parallel} is shown the drawing of the collectors in frontal view connected in series, where the airflow is fed through the duct labelled as inlet. The main airflow is split into three equal airflows, each one coming into each collector on the left end. After leaving them on the right end, the small airflows are gathered and leave the system by the outlet duct.
+
+\Figure[scale=0.70,placement=!ht,label={D-parallel},caption={Frontal view of three collectors connected in parallel.}]{figs/D-Parallel.png}
+
+In Figure \ref{parallel1} is shown the graph of useful heat and outlet air temperature versus airflow rate for connection in parallel. In this case there is no increase in $\rm{T_{out}}$ but only for energy collection. This is the reason why the $\rm{T_{out}}$ graph is the profile leaving the first collector from Figure \ref{series2}. However the useful heat collection was found to be higher than for the system in series if the same level of $\rm{G_{air}}$ is considered. For instance, at $\rm{G_{air}}$ = 0.12 kg/(m$^{\rm 2}$.s), $\rm{Q_{u}}$ = 22.5 MJ/m$^{\rm 2}$. This type of connection is useful if the operator needs to deliver more thermal energy with a considerable increase in $\rm{T_{out}}$.
+
+\Figure[scale=0.65,placement=!ht,label={parallel1},caption={Total useful heat and mean $\rm{T_{out}}$ as function os the airflow rate level for connection in parallel.}]{figs/Qu-Tout-Gair-parallel.eps}
+
+%\subsubsection{Connection in series/parallel}
+
+%\Figure[scale=0.70,placement=!ht,label={D-combo1-23},caption={Frontal view of three collectors connected in series/parallel mode 1.}]{figs/D-Combo1-23.png}
+
+%\Figure[scale=0.70,placement=!ht,label={D-combo12-3},caption={Frontal view of three collectors connected in series/parallel mode 2.}]{figs/D-Combo12-3.png}
+
+%\section{CFD modelling and simulation}
+%
+%Computational fluid dynamics or CFD is the analysis of systems involving fluid flow, heat and mass transfer by means of computer-based simulation. The technique is very powerful and spans a wide range of industrial and non-industrial application areas. The availability of affordable high-performance computing hardware and the introduction of user-friendly interfaces have led to a recent upsurge of interest, and CFD has entered into the wider industrial community since the 1990s. There are several unique advantages of CFD over experiment-based approaches to fluid systems design:
+%
+%\begin{itemize}
+%    \item substantial reduction of lead times and costs of new designs;
+%    \item ability to study systems where controlled experiments are difficult or impossible to perform (e.g., very large systems);
+%    \item ability to study systems under hazardous conditions at and beyond their normal performance limits (e.g., safety studies and accident scenarios);
+%    \item practically unlimited level of detail of results.
+%\end{itemize}
+%
+%The equations governing the fluid flow are the continuity (conservation of mass), the Navier-Stokes (balance of momentum), and the energy (conservation of energy) equations. These equations form a system of coupled non-linear partial differential equations (PDEs). Due to the coupled nature of the equations and the presence of non-linear terms, the fluid flow equations are not trivial to be solved by analytical methods. Closed form analytical solutions are possible only if these PDEs can be made linear, either because non-linear terms naturally drop out or because the non-linear terms are  neglected compared to others. If the non-linearities in the governing PDEs cannot be neglected, which is often the case for most engineering flows, numerical methods need to be used to obtain solutions(\cite{Yadav2013}).
+
+%CFD is the art of replacing the differential equations governing the Fluid Flow, with a set of algebraic equations (this process is called the discretization), which in turn can be solved with the aid of a digital computer to get an approximate solution. The commonly used discretization methods in CFD analysis are the finite difference method (FDM), the finite volume method (FVM), the finite element method (FEM), and the boundary element method (BEM). Some special cases of flow problems can also be solved using nonstandard method like, boundary integral methods, spectral methods, and pseudo-spectral methods. From the 1960s the aerospace industry has integrated CFD techniques into the design, R&D and manufacture of aircraft and jet engines.
+
+%Increasingly CFD is becoming a vital component in the design of industrial products and processes. The ultimate aim of developments in the CFD field is to provide a capability comparable with other CAE (computer-aided engineering) tools such as stress analysis codes. The main reason why CFD has lagged behind is the tremendous complexity of the underlying behaviour, which precludes a description of fluid flows that is at the same time economical and sufficiently complete. The availability of affordable high-performance computing hardware and the introduction of user-friendly interfaces have led to a recent upsurge of interest, and CFD has entered into the wider industrial community since the 1990s. There are several unique advantages of CFD over experiment-based approaches to fluid systems design:
+
+\section{Case study: barley drying}
+
+%Barley is a versatile crop that finds application in the production of malted goods, flour or flakes for bakery products, formulation of dietary products, and animal feed. Around 90\% of barley is utilized for malting due to its sturdy grain texture, the presence of a protective hull during germination, and the long-standing tradition in brewing (Food Agricultural Organization of the United Nations, 2014).
+
+Drying is a thermal process involving the evaporation of moisture from grains in order to maintain 
+their quality during storage and prevent the proliferation of bacteria, fungi, and pests. Drying also enables farmers to produce higher quality products that are suitable for both personal consumption and commercial purposes. For cereal grain, the recommended safe moisture content is typically within the range of 13 -- 16\% on a dry basis. Heated air is employed to dry, being the most common means of heat transfer. As a result of the heat application, a concentration gradient is established, creating a vapour pressure differential that causes moisture to move from the interior of the kernel towards the surface; the moisture is then evaporated and carried away from the product by the circulating air (\cite{Bala2017}).
+
+Barley is a versatile crop used for the production of malted products, flour, flakes for bakery, dietary formulations, and animal feed. The majority of barley production, approximately 90\%, is intended for malting purposes due to the grain's firm texture, the presence of a protective hull during the germination process, and traditional use in brewing. The malting process involves hydration, germination, and drying, which convert the starch and protein in barley seeds into amino acids and fermentable carbohydrates. These components are utilized by yeast during the fermentation process and contribute to the sensory characteristics of the malt. It is essential that the metabolic activity and germination index of barley are preserved following processing, drying, and storage to facilitate effective germination (\cite{Soares2016}).
+
+In order to dry barley for malting, it is advised to maintain the maximum temperature in the grains at 45 $^{\rm{o}}$C, which can typically be achieved by using inlet air temperatures of approximately 60 -- 65 $^{\rm{o}}$C (\cite{Embrapa2021}; \cite{Syngenta2020}). These temperature parameters are crucial to achieve proper drying of barley grains without harming their cell structure, which in turn preserves their ability to germinate successfully. (\cite{Soares2016}).
+
+Mathematical models can be employed to describe the process of drying. The thermal energy demand to dry a certain mass of product $\rm{M_{bar}}$ is described by Eq. (\ref{heat-duty}) (\cite{McCabe1993}):
+
+\vspace{-0.75cm}
+\begin{equation}
+	\mathrm{Q_{dryer} = M_{bar}}\left[
+	\begin{array}{l} 
+		\mathrm{C_{p,bar}(T_{bar,out} - T_{bar,in}) + X_{in}C_{p,wl}(T_v - T_{bar,in}) + (X_{in} - X_{out})\lambda_v } \\
+		\mathrm{+ X_{out}C_{p,wl}(T_{bar,out} - T_v) + (X_{in} - X_{out})C_{p,v}(T_{bar,out} - T_v)   }
+	\end{array} \right]
+	\label{heat-duty}
+\end{equation}
+
+\noindent where it takes into account: i) the initial and final barley's moisture content $\rm{X_{in}}$ and $\rm{X_{out}}$; ii) the initial barley temperature $\rm{T_{bar,in}}$; iii) the air temperature at the dryer's inlet; iv) implicitly, the air humidity, and; v) specific heat of barley, liquid and vapour water, and latent heat of vaporization. The inlet air temperature at the dryer is the outlet temperature at the solar heating system $\rm{T_{out}}$. The estimation of the temperature of vaporization $\rm{T_v}$ considers the ambient relative humidity and ambient temperature, and can be found using a numerical algorithm.
+
+This energy demand is provided by an airflow pre-heated by gas burner, electric resistance or, partially, by solar air heaters to offset any other source of heating. Therefore, this topic aims at simulating the use of the solar air heating system previously validated to provide heated air to partially meet the energy required to dry barley. The assumptions for the simulation are depicted as follows:
+
+%\Figure[scale=0.65,placement=!ht,label={auxiliary},caption={Schematic drawing of main heating system and auxiliary system for air heating.}]{figs/auxiliary.png}
+
+\begin{itemize}
+	\item Initial moisture content of barley is 20\% to be dried until it reaches 15\%;
+	\item The source of heating is obtained by burning natural gas whose calorific value is 40 MJ/m$^{\rm{3}}$ (\cite{GOVUK2022});
+	%\item 3 liters of natural gas is needed to dry 1 ton of barley by 1\% of moisture content;
+	\item The airflow temperature set to dry barley is 60 $^{\rm{o}}$C so that it speeds up the drying process while it does not hinge metabolic activity;
+	\item The dryer is adiabatic.
+\end{itemize}
+
+The present topic considered three scenarios: 
+\begin{enumerate}
+	\item Simulating only a gas burner to heat the airflow up to 60 $^{\rm{o}}$C to meet the energy demand;
+	\item Simulating the solar heating system and a gas burner to heat the airflow up to 60 $^{\rm{o}}$C to meet the energy demand;
+	\item Simulating only the solar heating system to heat the airflow with no air temperature limit to meet the energy demand.
+\end{enumerate}
+
+% Figure \ref{diagram-dry} shows the block diagram of the drying operation simulated in this topic. The whole system includes heating by the solar air heating system (SAHS), gas burner, a control system and a barley dryer. The control system is used to manipulate airflow rate to keep the airflow temperature lower or equal 60 $^{\rm{o}}$C. In case the temperature is lower, the valve is manipulated to allow natural gas (NG) to be fed into the gas burner to the airflow to reach 60 $^{\rm{o}}$C. In scenario 1, the SAHS is turned off hence the fresh air is entering the gas burner directly. In scenario 2, both SAHS and gas burner work together. Lastly, in scenario 3 the valve is closed off so that the fresh air is exclusively heated by the SAHS.
+
+Figure \ref{diagram-dry} illustrates the schematic diagram of the drying process discussed in this study. The system comprises several key components: the Solar Air Heating System (SAHS), a gas burner, a control system, and a barley dryer. The role of the control system is to regulate the airflow rate, maintaining the airflow temperature at or below 60 $^{\rm{o}}$C. When this temperature falls below that threshold, the valve adjusts to introduce natural gas (NG) into the gas burner, raising the airflow temperature to 60 $^{\rm{o}}$C. In Scenario 1, the SAHS is inactive, allowing ambient air to enter the gas burner directly. In Scenario 2, both the SAHS and the gas burner operate simultaneously. Finally, in Scenario 3, the valve is closed, relying solely on the SAHS to heat the incoming fresh air.
+
+\Figure[scale=0.74,placement=!ht,label={diagram-dry},caption={Block diagram of the simulated process of solar drying.}]{figs/system-drying.png}
+
+All the scenarios considered the calculation of the barley mass dried and the amount of $\rm{CO_2}$ released to atmosphere by burning natural gas in 8h of operation to match the solar heating system working hours (9:00 to 17:00). The airflow rate levels used were the ones used previously in the model simulation. The solar radiation levels used was the real solar data presented in Figure \ref{Touts_sim} of 30$^{\rm{th}}$ June 2018 (clear sky day).
+
+To illustrate in terms of energy, the SAHS is considered to be operating in series with the lowest and highest evaluated flow rates, as shown in Figures \ref{dry_1col}, \ref{dry_2col}, and \ref{dry_3col}. In these Figures, the red line represents the energy required for heated air to enter the dryer at 60 $^{\rm{o}}$C, while the blue line represents the energy supplied by the SAHS. In Figure \ref{dry_1col}, which represents the energy at the output of the first solar collector, for both flow rates, there is an energy deficit between the supplied and required energy, necessitating the activation of the gas burner to bridge this gap. In Figure \ref{dry_2col}, illustrating the energy at the output of the second collector, for the lowest airflow rate, there is a period of operation (between 12:20 and 14:30) where the energy from the SAHS surpasses the required energy, resulting in a surplus, and thus, the burner does not need to operate. Conversely, in Figure \ref{dry_3col}, at the output of the third collector, the period of surplus energy extends (between 11:30 and 15:00), requiring less from the burner. In the simulation with the highest airflow rate, the energy deficit naturally decreases.
+
+\begin{figure}[ht!]
+	\begin{minipage}{0.50\columnwidth}
+		\includegraphics[scale=0.45]{figs/dry_low_1col.eps}
+		\subcaption{Energy results at $\rm{G_{air}}$ = 26.10 kg/h.}
+		
+	\end{minipage}
+	\begin{minipage}{0.50\columnwidth}
+		\includegraphics[scale=0.45]{figs/dry_high_1col.eps}
+		\subcaption{Energy results at $\rm{G_{air}}$ = 78.30 kg/h.}
+		
+	\end{minipage}
+	\caption{Simulated energies for two different airflow rates at the first collector in series.}
+	\label{dry_1col}
+\end{figure}
+
+
+\begin{figure}[ht!]
+	\begin{minipage}{0.50\columnwidth}
+		\includegraphics[scale=0.45]{figs/dry_low_2col.eps}
+		\subcaption{Energy results at $\rm{G_{air}}$ = 26.10 kg/h.}
+		
+	\end{minipage}
+	\begin{minipage}{0.50\columnwidth}
+		\includegraphics[scale=0.45]{figs/dry_high_2col.eps}
+		\subcaption{Energy results at $\rm{G_{air}}$ = 78.30 kg/h.}
+		
+	\end{minipage}
+	\caption{Simulated energies for two different airflow rates at the second collector in series.}
+	\label{dry_2col}
+\end{figure}
+
+
+\begin{figure}[ht!]
+	\begin{minipage}{0.50\columnwidth}
+		\includegraphics[scale=0.45]{figs/dry_low_3col.eps}
+		\subcaption{Energy results at $\rm{G_{air}}$ = 26.10 kg/h.}
+		
+	\end{minipage}
+	\begin{minipage}{0.50\columnwidth}
+		\includegraphics[scale=0.45]{figs/dry_high_3col.eps}
+		\subcaption{Energy results at $\rm{G_{air}}$ = 78.30 kg/h.}
+		
+	\end{minipage}
+	\caption{Simulated energies for two different airflow rates at the third collector in series.}
+	\label{dry_3col}
+\end{figure}
+
+\subsection{Scenario 1 -- Air heating by gas burner alone}
+
+The required heat rate transferred to the airflow by the gas burner is calculated by Eq. (\ref{usefulenergy}). At an average ambient temperature of 25 $^{\rm{o}}$C and average relative humidity of 55\% on a clear sky day, the energy demand $\rm{Q_{dryer}}$ calculated is 0.05 kWh/kg of dried barley. Table \ref{gas-only} shows the values of energy required, mass dried, volume of natural gas burned and mass of $\rm{CO_2}$ released for each airflow level.
+
+\begin{table}[h]
+	\caption{Quantity of barley dried and amount of $\rm{CO_2}$ released for 8h of operation as function of the airflow rate only using gas burner for air heating.}
+	\centering
+	
+	\begin{tabular}{ccccc}
+		\hline \\ [-10pt]
+		$\rm{G_{air}}$ (kg/h) & $\rm{Q_{req}}$ (kWh) & $\rm{M_{bar,dried}}$ (kg) & Gas volume (L) & $\rm{M_{CO2}}$ (kg) \\
+		\hline \\ [-12pt]
+		26.10 & 2.053 & 41 & 184.75 & 0.364 \\ [2pt]
+		39.15 & 3.083 & 61 & 277.50 & 0.547 \\ [2pt]
+		52.20 & 4.108 & 81 & 369.75 & 0.728 \\ [2pt]
+		78.30 & 6.161 & 122 & 554.50 & 1.092 \\ 
+		\hline
+	\end{tabular}
+	
+	\label{gas-only}
+\end{table}
+
+At this airflow rate range and operating for 8 hours, 41 -- 122 kg of barley can be dried to reduce its moisture content from 20 to 15\% in dry basis.
+
+\subsection{Scenario 2 -- Air heating using gas burner and solar system}
+
+In this scenario, the energy required to heat the airflow to 60 $^{\rm{o}}$C is partially provided by the solar heating system and the complementary is by the gas burner. The connection between solar collectors in the system is also considered. Table \ref{gas-solar} shows the values for a connection of up to 3 collectors in series of energy required and energy provided by each mode, volume of natural gas burned, mass of $\rm{CO_2}$ released and the solar fraction for each airflow level. The solar fraction is defined as the ratio of the energy provided by the solar system ($\rm{Q_u}$) and the energy required ($\rm{Q_{req}}$). Additionally, Table \ref{gas-solar-parallel} shows values for a connection of 3 collectors operating in parallel, where the total airflow rates are triple the values for the range in series (78.30 -- 235 kg/h).
+
+
+\begin{table}[h]
+	\caption{Quantity of barley dried and amount of $\rm{CO_2}$ released for 8h of operation as function of the airflow rate using gas burner and solar system for air heating for connection of up to 3 collectors in series.}
+	\centering
+	
+	\begin{tabular}{rrrrrrrr}
+		\hline \\ [-10pt]
+		 \makecell{$\rm{G_{air}}$ \\ (kg/h)} & \makecell{$\rm{Q_{req}}$ \\ (kWh)} & 	\makecell{$\rm{Q_{u}}$ \\ (kWh)} & 	\makecell{$\rm{Q_{burner}}$  \\ (kWh)} & \makecell{Gas Volume \\ (L)} & \makecell{$\rm{M_{CO2}}$  \\ (kg)} & \makecell{Solar \\ Fraction} \\
+		\hline \\ [-10pt]
+		\multicolumn{7}{c}{After the $\rm{1^{st}}$ collector} \\ \hline \\ [-10pt]
+		26.10 & 2.053 & 0.933 & 1.119 & 100.75 & 0.198 & 0.4547 \\ [2pt]
+		39.15 & 3.083 & 0.978 & 2.106 & 189.50 & 0.373 & 0.3171 \\ [2pt]
+		52.20 & 4.108 & 1.000 & 3.108 & 279.75 & 0.551 & 0.2434 \\ [2pt]
+		78.30 & 6.161 & 1.100 & 5.061 & 455.50 & 0.897 & 0.1785 \\
+		\hline \\ [-10pt]
+		\multicolumn{7}{c}{After the $\rm{2^{nd}}$ collector in series} \\ \hline \\ [-10pt]
+		26.10 & 2.053 & 1.544 & 0.508 & 45.75 & 0.090 & 0.7524 \\ [2pt]
+		39.15 & 3.083 & 1.635 & 1.448 & 130.31 & 0.257 & 0.5304 \\ [2pt]
+		52.20 & 4.108 & 1.726 & 2.382 & 214.38 & 0.422 & 0.4202 \\ [2pt]
+		78.30 & 6.161 & 1.908 & 4.253 & 382.75 & 0.754 & 0.3097 \\ 
+		\hline \\ [-10pt]
+		\multicolumn{7}{c}{After the $\rm{3^{rd}}$ collector in series} \\ \hline \\ [-10pt]
+		26.10 & 2.053 & 1.819 & 0.233 & 21.00 & 0.041 & 0.7904 \\ [2pt]
+		39.15 & 3.083 & 2.015 & 1.068 & 96.13 & 0.189 & 0.6850 \\ [2pt]
+		52.20 & 4.108 & 2.211 & 1.897 & 170.75 & 0.336 & 0.5766 \\ [2pt]
+		78.30 & 6.161 & 2.603 & 3.558 & 320.25 & 0.631 & 0.4225 \\
+		\hline
+	\end{tabular}
+	
+	\label{gas-solar}
+\end{table}
+
+The amount of barley dried is the same as shown in Table \ref{gas-only} because the air temperature is set to 60 $^{\rm{o}}$C to enter the dryer. For a connection of 3 collectors in series, this solar heating system can offset from 42 to 79\% of the energy provided by the gas burner alone. 
+
+\begin{table}[h]
+	\caption{Quantity of barley dried and amount of $\rm{CO_2}$ released for 8h of operation as function of the airflow rate using gas burner and solar system for air heating for connection of 3 collectors in parallel.}
+	\centering
+	
+	\begin{tabular}{rrrrrrrr}
+		\hline \\ [-10pt]
+		\makecell{$\rm{G_{air}}$ \\ (kg/h)} & \makecell{$\rm{Q_{req}}$ \\ (kWh)} & 	\makecell{$\rm{Q_{u}}$ \\ (kWh)} & 	\makecell{$\rm{Q_{burner}}$  \\ (kWh)} & \makecell{Gas Volume \\ (L)} & \makecell{$\rm{M_{CO2}}$  \\ (kg)} & \makecell{Solar \\ Fraction} \\
+		\hline \\ [-10pt]
+		3x26.10 & 6.161 & 4.870 & 1.291 & 116.20 & 0.229 & 0.7904 \\ [2pt]
+		3x39.15 & 9.250 & 6.336 & 2.914 & 262.55 & 0.517 & 0.6850 \\ [2pt]
+		3x52.20 & 12.325 & 7.107 & 5.218 & 469.66 & 0.925 & 0.5766 \\ [2pt]
+		3x78.30 & 18.483 & 7.810 & 10.673 & 960.60 & 1.892 & 0.4225 \\ 
+		\hline
+	\end{tabular}
+	
+	\label{gas-solar-parallel}
+\end{table}
+
+Considering collectors operating in parallel, the energy required is evidently increased due to higher airflow levels. The useful energy collected by the solar system is also higher. The solar fraction calculated is the same obtained when the system is operated in series, meaning that both connections will offset the the same energy levels relative to the required ones. The advantage of operating in parallel over in series is that the amount of barley dried is increased by 3 times: 122 -- 366 kg of barley can be dried to reduce its moisture content from 20 to 15\% in dry basis.
+
+
+
+
+\subsection{Scenario 3 -- Air heating using solar system alone}
+
+In this scenario, the energy transferred to the airflow is only provided by the solar collectors. For most of the time, the solar energy is insufficient to rise the temperature to 60 $^{\rm{o}}$C, which resulted in low drying rates, and therefore in lower dried mass of barley. Table \ref{solar-only} shows the mass of barley that can be dried if only the solar heating system is would be used in the operation. The quantity of mass dried varies from 22 -- 61 kg, considerably less compared to the other systems as the drying rate is lower. 
+
+\begin{table}[h]
+	\caption{Quantity of barley dried and amount of $\rm{CO_2}$ released for 8h of operation as function of the airflow rate using solar system alone for air heating for connection of 3 collectors in series.}
+	\centering
+	
+	\begin{tabular}{cccccccc}
+		\hline \\ [-10pt]
+		\multirow{2}{*}{ $\rm{G_{air}}$  (kg/h)} & \multicolumn{2}{c}{After $\rm{1^{st}}$ collector} & \multicolumn{2}{c}{After $\rm{2^{nd}}$ collector} & \multicolumn{2}{c}{After $\rm{3^{rd}}$ collector} \\
+		
+		 & \makecell{$\rm{Q_{u}}$ \\ (kWh)} & 	\makecell{$\rm{M_{bar,dried}}$ \\ (kg)} & 	\makecell{$\rm{Q_{u}}$  \\ (kWh)} & \makecell{$\rm{M_{bar,dried}}$ \\ (kg)} & \makecell{$\rm{Q_{u}}$  \\ (kWh)} & \makecell{$\rm{M_{bar,dried}}$ \\ (kg)} \\
+		\hline \\ [-10pt]
+		26.10 & 0.933 & 22 & 1.544 & 33 & 1.819 & 37 \\ [2pt]
+		39.15 & 0.978 & 24 & 1.635 & 37 & 2.015 & 43 \\ [2pt]
+		52.20 & 1.000 & 25 & 1.726 & 40 & 2.211 & 50 \\ [2pt]
+		78.30 & 1.100 & 28 & 1.908 & 47 & 2.603 & 61 \\ 
+		\hline
+	\end{tabular}
+	
+	\label{solar-only}
+\end{table}
+
+When the air heating collectors are connected in parallel, the thermal energy absorbed by the airflow rate is higher, which results in more mass dried, as shown in Table \ref{gas-only-parallel}. As the airflow rate is tripled, the quantity of barley dried is tripled as well (66 -- 84 kg), which is an advantage over the connection in series.
+
+\begin{table}[h]
+	\caption{Quantity of barley dried and amount of $\rm{CO_2}$ released for 8h of operation as function of the airflow rate using solar system alone for air heating for connection of 3 collectors in parallel.}
+	\centering
+	
+	\begin{tabular}{ccc}
+		\hline \\ [-10pt]
+		$\rm{G_{air}}$ (kg/h) & $\rm{Q_{u}}$ (kWh) & $\rm{M_{bar,dried}}$ (kg) \\
+		\hline \\ [-10pt]
+		3x26.10 & 2.800 & 66 \\ [2pt]
+		3x39.15 & 2.933 & 72 \\ [2pt]
+		3x52.20 & 3.000 & 75 \\ [2pt]
+		3x78.30 & 3.300 & 84 \\ 
+		\hline
+	\end{tabular}
+	
+	\label{gas-only-parallel}
+\end{table}
+
+%From the airflow range used in this research, one common level can be taken to compare the 3 scenarios treated previously, which is 78.3 kg/h. This comparison can be made considering mass of barley dried, volume of natural gas burnt and solar fraction, as shown in Table \ref{scenario-comparison}.  The data suggests that the use of solar air heating systems can significantly reduce the reliance on gas heating, with the gas burner + SAHS in parallel system having the lowest consumption of gas and highest solar fraction of all the systems listed. However, the choice of heating system will depend on various factors, including the availability of sunlight, the cost and availability of natural gas.
+
+In this study, a particular airflow range was utilized, and a common level of 78.3 kg/h can be used to compare the three previously analyzed scenarios. This assessment can be conducted by examining the mass of dried barley, the amount of natural gas burned, and the solar fraction, all of which are presented in Table \ref{scenario-comparison}.  The gas burner system has the highest gas volume consumption of 554.5 L and a solar fraction of 0, meaning it relies completely on gas for heating. On the other hand, the SAHS standalone system produces less dried mass, but both connections have a solar fraction of 1, indicating that they rely solely on solar energy. The results indicate that the use of solar air heating systems can substantially reduce dependence on natural gas heating. Specifically, the gas burner + SAHS in parallel configuration exhibited the lowest gas consumption and highest solar fraction among all the listed systems with gas burner. Nevertheless, the selection of a heating system will depend on various factors, such as sunlight availability, natural gas cost, and accessibility.
+
+\begin{table}[h]
+	\caption{Comparison of the 3 scenarios at $\rm{G_{air}}$ = 78.3 kg/h for 8h of operation. }
+	\centering
+	
+	\begin{tabular}{lrrr}
+		\hline \\ [-10pt]
+		Type of system & $\rm{M_{bar,dried}}$ (kg) & Gas volume (L) & Solar fraction \\
+		\hline \\ [-10pt]
+		Gas burner only & 122 & 554.50 & 0.00 \\ [2pt]
+		Gas burner + SAHS series & 122 & 320.25 & 0.42 \\ [2pt]
+		Gas burner + SAHS parallel & 122 & 116.20 & 0.79 \\ [2pt]
+		SAHS series & 61 & 0.00 & 1.00 \\ [2pt] 
+		SAHS parallel & 65 & 0.00 & 1.00 \\
+		\hline
+	\end{tabular}
+	
+	\label{scenario-comparison}
+\end{table}
+
+\section{Chapter Summary}
+
+A thermal modelling and simulation of the proposed solar air heating system was developed and it was validated against experimental data. Results show that, in general, the heat transfer model underestimates 65\% of the data and 95\% of the residues generated are between $\pm$2 $^{\rm{o}}$C and $\pm$50 W/m$^2$. In overall, the mean absolute error in terms of temperature was found to be 2\% and in terms of useful energy was 8\%. After validation, the system has been characterised within a certain range of inputs.
+
+The model was also used to simulate results at nearly steady state condition. The thermal efficiency curve was plotted and compare it to the experimental one. The parameters of the Hottel-Whillier-Bliss equation $\rm{F_{\!_R}}\eta_{\rm{o}}$ and $\rm{ F_{\!_R}{U_{\!_L}}}$ calculated by the thermal model are 0.64 and -3.02, with relative difference of 2\% and 10\%, respectively, in relation to the parameters of the experimental data.
+
+The thermal modelling was also used to predict the thermal performance of three connected collectors in series and in parallel. The connection in series is able to deliver higher outlet airflow temperatures whereas the connection in parallel can collect more useful heat but delivering the same airflow temperature as if it is leaving the first collector in series.
+
+Lastly, this model was used for simulating barley drying. Three scenarios were considered to meet the energy demand: simulating only a gas burner to heat the airflow up to 60 $^{\rm{o}}$C; simulating the solar heating system and a gas burner to heat the airflow up to 60 $^{\rm{o}}$C, and; simulating only the solar heating system to heat the airflow with no air temperature limit. From an specific airflow level used in the simulations, the gas burner system has the highest gas volume consumption and a solar fraction of 0, meaning it relies completely on gas for heating. On the other hand, the SAHS standalone system produces less dried mass, but both connections have a solar fraction of 1, indicating that they rely solely on solar energy. The results indicate that the use of solar air heating systems can substantially reduce dependence on natural gas heating. Specifically, the gas burner + SAHS in parallel configuration exhibited the lowest gas consumption and highest solar fraction among all the listed systems with gas burner. Nevertheless, the selection of a heating system will depend on various factors, such as sunlight availability, natural gas cost, and accessibility.
+
+
+
+
+
+%A for abbreviations
+\nomenclature[A]{ODE}{Ordinary Differential Equation}
+\nomenclature[A]{CPC}{Compound Parabolic Concentrator}
+\nomenclature[A]{CFD}{Computational Fluid Dynamics}
+\nomenclature[A]{IACPC}{Inverted Absorber Compound Parabolic Concentrator}
+
+%N for latin
+\nomenclature[N]{$\rm{U}$}{Internal energy (J)}
+\nomenclature[N]{$\rm{S}$}{Solar radiation rate absorbed (W)}
+%\nomenclature[N]{$\rm{Q_{L,1}}$}{Heat loss rate from the absorber (W)}
+%\nomenclature[N]{$\rm{Q_{L,2}}$}{Heat loss rate from the glazing (W)}
+\nomenclature[N]{$\rm{Q_{u}}$}{Useful energy rate transferred to the airflow (W)}
+\nomenclature[N]{$\rm{t}$}{Time (s)}
+\nomenclature[N]{R}{Thermal resistance (K/W)}
+\nomenclature[N]{h}{Heat transfer coefficient (W/(m$^2$K))}
+\nomenclature[N]{$\rm{T}$}{Temperature (K)}
+\nomenclature[N]{$\rm{M}$}{Mass (kg)}
+\nomenclature[N]{$\rm{I_D}$}{Diffuse solar radiation (W/m$^2$)}
+\nomenclature[N]{$\rm{I_B}$}{Beam solar radiation (W/m$^2$)}
+\nomenclature[N]{$\rm{C}$}{Geometric concentration ratio}
+\nomenclature[N]{$\rm{I_T}$}{Global solar radiation (W/m$^2$)}
+\nomenclature[N]{$\rm{A}$}{Area (m$^2$)}
+\nomenclature[N]{$\rm{L_{col}}$}{Collector length (m)}
+%\nomenclature[N]{$\rm{\overline W_{glaz}}$}{Glazing characteristic length (m)}
+%\nomenclature[N]{$\rm{T_c}$}{Temperature at the surroundings of the glazing (K)}
+\nomenclature[N]{$\rm{Re}$}{Reynolds number}
+\nomenclature[N]{$\rm{Ra}$}{Rayleigh number}
+\nomenclature[N]{$\rm{Pr}$}{Prandtl number}
+\nomenclature[N]{$\rm{W}$}{Width (m)}
+\nomenclature[N]{$\rm{k_{air}}$}{Air thermal conductivity (W/m K)}
+\nomenclature[N]{$\rm{C_{p}}$}{Specific heat (J/(kg K))}
+\nomenclature[N]{$\rm{G_{air}}$}{Mass airflow rate based on the absorber area (kg/(s m$^2$))}
+\nomenclature[N]{$\rm{A_{abs}^{'}}$}{Absorber area without the holes (m$^2$)}
+\nomenclature[N]{$\rm{Nu}$}{Nusselt number}
+\nomenclature[N]{$\rm{v}$}{Air velocity (m/s)}
+\nomenclature[N]{$\rm{g}$}{Acceleration due to gravity (9.81 m/s$^2$)}
+\nomenclature[N]{H}{Height (m)}
+\nomenclature[N]{$\rm{U_L}$}{Overall heat loss coefficient (W/(m$^2$ K))}
+\nomenclature[N]{$\rm{d_{air}}$}{Air density (kg/m$^3$)}
+\nomenclature[N]{$\rm{N_{obs}}$}{Number of observations}
+\nomenclature[N]{$\rm{X_{exp}}$}{Experimental or observed value of the variable X}
+\nomenclature[N]{$\rm{X_{sim}}$}{Simulated of predicted value of the variable X}
+%\nomenclature[N]{$\rm{MAE}$}{Mean absolute error}
+\nomenclature[N]{$\rm{a_{s}}$}{Altitude solar angle}
+\nomenclature[N]{$\rm{t_{ST}}$}{Solar time}
+\nomenclature[N]{$\rm{t_{LST}}$}{Local standard time}
+\nomenclature[N]{$\rm{E_{T}}$}{Equation of time}
+\nomenclature[N]{$\rm{l_{ST}}$}{Standard longitude}
+\nomenclature[N]{$\rm{l_{local}}$}{Local longitude}
+\nomenclature[N]{$\rm{X_{in}}$}{Barley moisture content at the dryer's inlet (in dry base)}
+\nomenclature[N]{$\rm{X_{out}}$}{Barley moisture content at the dryer's outlet (in dry base)}
+
+%P for greek
+\nomenclature[P]{$\rm{\ell}$}{Hole pitch (m)}
+\nomenclature[P]{$\rm{\varphi_p}$}{Absorber porosity}
+\nomenclature[P]{$\rm{\varphi_h}$}{Hole size (m)}
+%\nomenclature[P]{$\rm{\Delta T_{m}}$}{Logarithmic mean difference temperature (K)}
+\nomenclature[P]{$\Delta \rm{t}$}{Time step (s)}
+\nomenclature[P]{$\nu_{\rm{air}}$}{Air kinematic viscosity (m$^2$/s)}
+\nomenclature[P]{$\varepsilon_{\rm{eff}}$}{Effective emissivity}
+\nomenclature[P]{$\varepsilon$}{Infra-red emissivity}
+\nomenclature[P]{$\alpha$}{Absorptivity}
+\nomenclature[P]{$\beta_{\rm{th}}$}{Volume expansion coefficient of the air (K$^{-1}$)}
+\nomenclature[P]{$\sigma$}{Stefan-Boltzmann constant ($5.67$ \rm{x} ${10^{-8}}$ W/(m$^2$ K$^4$))}
+\nomenclature[P]{$\eta_{\rm{th}}$}{Thermal efficiency}
+\nomenclature[P]{$\eta_{\rm{o}}$}{Optical efficiency}
+\nomenclature[P]{$\xi$}{Mean absolute error}
+\nomenclature[P]{$\tau$}{Transmissivity}
+\nomenclature[P]{$\gamma_{\rm{col}}$}{Collector's azimuth angle}
+\nomenclature[P]{$\gamma_{\rm{s}}$}{Solar azimuth angle}
+
+%S for subscripts
+\nomenclature[S]{in}{Air at the inlet}
+\nomenclature[S]{out}{Air at the outlet}
+\nomenclature[S]{h}{Hole}
+\nomenclature[S]{w}{Wind}
+\nomenclature[S]{R1}{Radiation from absorber to glazing}
+\nomenclature[S]{C1}{Convection from absorber to glazing}
+\nomenclature[S]{R2}{Radiation from glazing to ambient}
+\nomenclature[S]{C2}{Convection from glazing to ambient}
+%\nomenclature[S]{C11}{Convection from absorber to bottom of tertiary section}
+%\nomenclature[S]{C12}{Convection from bottom of tertiary section to glazing}
+\nomenclature[S]{HX}{Convection from absorber to airflow}
+\nomenclature[S]{abs}{Absorber}
+\nomenclature[S]{glaz}{Glazing}
+\nomenclature[S]{amb}{Ambient}
+\nomenclature[S]{apt}{Aperture}
+\nomenclature[S]{TS}{Tertiary section}
+\nomenclature[S]{avg}{Average}
+\nomenclature[S]{v}{Vaporization point}
+\nomenclature[S]{bar}{Barley grains}
+
+
+%constant solar radiation at various levels, ambient temperature and wind speed at the steady state condition, and; ii) solar radiation, ambient temperature and wind speed data under transient state. Table \ref{inputs} presents all the inputs values used in the simulation.
+
+%In the first scenario,
+
+%The parameters $\rm{T_{amb}}$, $\rm{v_w}$ and $\rm{I_{\!_T}}$ were kept constant during the simulations regardless the amount of beam and diffuse components, which allows to assume that $\gamma = $1. The constant values of $\rm{T_{amb}}$ and $\rm{v_w}$ used are averages over the period of operation (summertime). The effect of the tertiary section height ($\rm{H_{\!_{TS}}}$) was under investigation and the optical efficiency $\eta_{\rm{o}}$ assumed average values over the period of operation, only as a function of $\rm{H_{\!_{TS}}}$. Hence, the relationship between $\eta_{\rm{o}}$ and $\rm{H_{\!_{TS}}}$ is given by Eq. (\ref{optHts}):
+
+%\begin{equation}
+%\mathrm{\eta_o = 0.6801 - 0.2386H_{\!_{TS}} + 0.0492H_{\!_{TS}}^2}
+%\label{optHts}
+%\end{equation}
+
+%\noindent which is a quadratic curve fit from the optical data obtained by the 3D ray tracing discussed in Chapter \ref{Cap:Opt}. %Table \ref{inputs} presents all the inputs values used in the simulation. The range of inputs selected is depicted as follows:
+
+%%\begin{description}
+%%	\item[Solar radiation:] range of 0 -- 1200 W/m$^2$, which corresponds from zero to high levels achievable in the summer;
+%%	\item[Mass airflow rate:] from 0.04 to 0.11 kg/(m$^2$.s) to represent the values used in the experiments (Table \ref{GxV});
+%%	\item[Tertiary section height:] 0 -- 0.29 m (or 0 -- 2$\rm{W_{abs}}$) to better understand the effect of this parameter.
+%%\end{description}
+
+%In the last scenario, solar and met data used are from 2014 measured at Kevin St roof. Therefore, the simulation steps must be ran once per day. Table \ref{inputs} presents all the inputs values used in the simulation. 
+
+%Moreover, the data collection frequency is once a minute and then was interpolated to be used once a second throughout the period of analysis. 
+
+%%\begin{table}[!ht]
+%%	\caption{Input values for simulation}
+%%	\centering
+%%	\begin{tabular}{p{5.1cm}p{3.7cm}}
+%%		\hline \\[-10pt] 
+%%		\rule[-1ex]{0pt}{2.5ex} Model Input & Value/Range \\ [3pt]
+%%		\hline \\[-10pt]
+%%		\rule[-1ex]{0pt}{2.5ex} Total solar radiation ($\rm{I_{\!_T}}$) & 0 -- 1200 W/m$^2$ \\ [5pt]
+%%		\rule[-1ex]{0pt}{2.5ex} Ambient temperature ($\rm{T_{amb}}$) & 23 $\rm{^o}$C \\ [5pt] 
+%%		\rule[-1ex]{0pt}{2.5ex} Wind speed ($\rm{v_w}$) & 6 m/s \\ [5pt]
+%%		\rule[-1ex]{0pt}{2.5ex} Tertiary section height ($\rm{H_{\!_{TS}}}$) & 0 -- 0.29 m  \\ [5pt]
+%%		\rule[-1ex]{0pt}{2.5ex} Airflow rate ($\rm{G_{air}}$) & 0.04 -- 0.11 kg/(m$^2$.s)  \\ [5pt]
+%%		\rule[-1ex]{0pt}{2.5ex} Optical efficiency ($\eta_{\rm{o}}$) & Eq. (\ref{optHts}) \\ 
+		
+%%		\hline 
+%%	\end{tabular} 
+%%	\label{inputs}
+%%\end{table}
+
+%\begin{table}[!ht]
+%	\caption{Input values for simulation}
+%	\centering
+%	\begin{tabular}{p{5.1cm}p{3.7cm}p{4.9cm}}
+%		\hline \\[-10pt] 
+%		\rule[-1ex]{0pt}{2.5ex} \multirow{2}{*}{Input} & \multicolumn{2}{c}{Value/Range} \\ [3pt]
+%		\cline{2-3} \\[-10pt]
+%		& Steady state & Transient state \\ [3pt]
+%		\hline \\[-10pt]
+%		\rule[-1ex]{0pt}{2.5ex} Total solar radiation ($\rm{I_{\!_T}}$) & 700 -- 1100 W/m$^2$ & Solar data from 2014 \\ [5pt]
+%		\rule[-1ex]{0pt}{2.5ex} Ambient temperature ($\rm{T_{amb}}$) & 20 $\rm{^o}$C  & Met data from 2014 \\ [5pt] 
+%		\rule[-1ex]{0pt}{2.5ex} Wind speed ($\rm{v_w}$) & 6 m/s & Met data from 2014 \\ [5pt]
+%		\rule[-1ex]{0pt}{2.5ex} Airflow rate ($\rm{G_{air}}$) & 0.02 -- 0.09 kg/(m$^2$.s) & 0.027, 0.051, 0.064 kg/(m$^2$.s)  \\ [5pt]
+%		\rule[-1ex]{0pt}{2.5ex} Tertiary section height ($\rm{H_{\!_{TS}}}$) & 0 -- 0.29 m & 0 -- 0.29 m \\ [5pt]
+%		\rule[-1ex]{0pt}{2.5ex} Optical efficiency ($\eta_{\!_{0}}$) & Eq. (\ref{optHts}) & Data from Chapter \ref{Cap:Opt} \\
+%		\hline 
+%	\end{tabular} 
+%	\label{inputs}
+%\end{table}
+
+%\subsection{Steady state condition}
+
+%\Figure[scale=0.65,placement=!ht,label={Tabs-t-GT},caption={Absorber temperature along time for different radiation levels with no airflow through the collector and no tertiary section.}]{figs/Tabs_x_t_GT.png}
+
+%\Figure[scale=0.70,placement=!ht,label={QL-GT-emit},caption={Graph of the heat losses for different radiation levels and glazing emissivities.}]{figs/QL_x_GT_emit.png}
+
+%%Figure \ref{Tout-IT-Gair} presents the outlet air temperature variation as function of the solar radiation for different airflow rates with no tertiary section. As $\rm{I_{\!_T}}$ goes up, the estimated values of $\rm{T_{out}}$ are found higher due to the more intense incoming energy to the system. Temperatures above 55 $^{\rm{o}}$C were obtained for  airflow rates smaller than 0.04 kg/(m$^2$.s) with $\rm{I_{\!_T}}$ above \mbox{1000 W/m$^2$}. Moreover, as the airflow rate is increased, the variation in temperature becomes smaller.
+
+%%\Figure[scale=0.60,placement=!ht,label={Tout-IT-Gair},caption={Outlet air temperature as function of total solar radiation for different airflow rates with no tertiary section.}]{figs/Tout_x_GT_Gair.eps}
+
+%At this level of solar radiation, the outlet air temperature and the thermal efficiency were evaluated as function of the airflow rate without tertiary section, which is shown in Figure \ref{Tout-eff-Gair}. Both graphs have an exponential profile, which is typical of first-order models. As $\rm{G_{air}}$ increases, the heat losses become smaller, making $\eta_{\rm{th}}$ to approximate the value of $\eta_{\rm{o}}$. On the other hand, $\rm{T_{out}}$ decreases and tends to the inlet temperature $\rm{T_{in}}$ due to the higher mass of airflow to be heated. It is a trade-off between thermal efficiency and outlet air temperature.
+
+%\Figure[scale=0.48,placement=!ht,label={Tout-eff-Gair},caption={Outlet air temperature and thermal efficiency \textit{versus} mass airflow rate, for $\rm{I_{\!_T} = 900 W/m^2}$ with no tertiary section.}]{figs/Tout_eff_x_Gair.png}
+
+%%To express these results in terms of the useful energy, Figure \ref{QU-Tout-Gair} presents the relationship between that and outlet air temperature for different airflow rates. $\rm{Q_u}$ increases as $\rm{G_{air}}$ and $\rm{T_{out}}$ become higher. This temperature increases more at lower airflow rates but at the cost of delivering low useful heat rate, which highlights the trade-off between thermal efficiency and outlet air temperature.
+
+%%\Figure[scale=0.60,placement=!ht,label={QU-Tout-Gair},caption={Useful heat rate \textit{versus} outlet air temperature for different mass airflow rates with no tertiary section.}]{figs/QU_Tout_Gair.eps}
+
+%To begin analysing the effect of the tertiary section height on the thermal performance, Figure \ref{Tabs_hTS_GT} shows the absorber temperature variation as a function of $\rm{H_{\!_{TS}}}$ for different solar radiation levels, with no airflow. It was observed that $\rm{T_{abs}}$ goes up as the height increases up to a region of maximum temperature when $\rm{H_{\!_{TS}}}$ is around 72.5 mm (half the value of absorber width). From there $\rm{T_{abs}}$ drops slightly at higher values of $\rm{H_{\!_{TS}}}$ because the optical losses outperform the convection suppression within the cavity. The temperatures at this optimum region are 12\% higher in average compared to the ones with no tertiary section, which is positive in terms of heat transfer purposes. \citet{Kothdiwala1997} carried out experimental tests on an IACPC to investigate the absorber temperature at different heights. They found out that this temperature increases as the tertiary section becomes higher but no optimal height was observed in the tests.
+
+%\Figure[scale=0.55,placement=!ht,label={Tabs_hTS_GT},caption={Absorber temperature as function of the tertiary section at different solar radiation levels without airflow rate.}]{figs/Tabs_hTS_GT.png}
+
+%%Introducing the tertiary section on this analysis, Figure \ref{Tout_hTS_Gair} illustrates the effect of  $\rm{H_{\!_{TS}}}$ on $\rm{T_{out}}$ at two levels of airflow rate. As $\rm{G_{air}}$ goes up, the tendency is to reduce convection suppression thus leading to smaller variations in $\rm{T_{out}}$. Despite these small changes in temperature, a region of maximum $\rm{T_{out}}$ was also observed but at around 29 mm of $\rm{H_{\!_{TS}}}$ (one fifth of the absorber width). For  $\rm{H_{\!_{TS}}}$ above 145 mm $\rm{T_{out}}$ becomes smaller than the temperature without tertiary section. For airflow rates above 0.04 kg/(m$^2$.s), the gain in $\rm{T_{out}}$ is not considerable. The same behaviour was also noticed for other solar radiation levels.
+
+%\Figure[scale=0.65,placement=!ht,label={Tout_hTS_Gair},caption={Outlet air temperature \textit{versus} tertiary section height at different airflow rates and $\rm{I_{\!_T}}$ = 900 W/m$^2$.}]{figs/Tout_hTS_Gair.png}
+
+%%\begin{figure}[ht!]
+%%%%		\includegraphics[width=0.95\columnwidth,height=5cm]{figs/Tout_hTS_Gair1.eps}
+%%		\subcaption{Graph for $\rm{G_{air}}$ = 0.040 kg/(m$^2$.s).}
+
+%%	\end{minipage}
+%%	\begin{minipage}{0.49\columnwidth}
+%%		\includegraphics[width=0.95\columnwidth,height=5cm]{figs/Tout_hTS_Gair2.eps}
+%%		\subcaption{Graph for $\rm{G_{air}}$ = 0.115 kg/(m$^2$.s).}
+		
+%%	\end{minipage}
+%%	\caption{Outlet air temperature \textit{versus} tertiary section height at two different airflow rates and $\rm{I_{\!_T}}$ = 1000 W/m$^2$.}
+%%	\label{Tout_hTS_Gair}
+%%\end{figure}
+
+%\Figure[scale=0.70,placement=!ht,label={Tabs-hTS},caption={Graph of the absorber temperature as function of the tertiary section.}]{figs/Tabs_x_hTS.png}
+
+%%A similar trend can be observed to the useful heat rate, shown in Figure \ref{QL-QU-hTS}. In the particular case where $\rm{I_{\!_T}}$ = 1000 W/m$^2$ and $\rm{G_{air}}$ = 0.04 kg/(m$^2$.s), a maximum value in $\rm{Q_u}$ was found at $\rm{H_{\!_{TS}}}$ = 29 mm, with a gain of approximately 3\% compared to the useful heat rate with no tertiary section. The graph of heat losses as function of the height was also plotted to demonstrate how it decreases as $\rm{H_{\!_{TS}}}$ becomes higher. Above 29 mm this reduction does not compensate the optical losses and then $\rm{Q_u}$ starts decaying.  
+
+%%\Figure[scale=0.60,placement=!ht,label={QL-QU-hTS},caption={Heat losses and useful heat \textit{versus} tertiary section height at $\rm{I_{\!_T}}$ = 1000 W/m$^2$ and $\rm{G_{air}}$ = 0.04 kg/(m$^2$.s).}]{figs/QL_QU_x_hTS.eps}
+
+%%Another way of assessing the performance of a solar air heating system is by evaluating the thermal efficiency under steady state according to the Hottel-Whillier-Bliss equation, expressed by Eq. (\ref{hottel-whiller-eq}):
+
+%%\begin{equation}
+%%\mathrm{\eta_{\rm{th}} = \eta_o - {U_{\!_L}}\frac{(T_{out} - T_{amb})}{I_{\!_T}}}
+%%\label{hottel-whiller-eq}
+%%\end{equation}
+
+%%\noindent where $\rm{U_{\!_L}}$ is the system's overall heat loss coefficient. From this equation, $\eta_{\rm{th}}$ can be plotted against $\rm{(T_{out} - T_{amb})/I_{\!_T}}$, resulting in a linear curve, with $\eta_{\rm{o}}$ and $\rm{- {U_{\!_L}}}$ as the linear coefficient and the slope, respectively (\cite{Goswami2015}). From this, the maximum thermal efficiency is $\eta_{\rm{o}}$ when all the radiation absorbed is transferred to the airflow, but with no temperature change. Figure \ref{curve_efficiency1} shows a thermal efficiency curve for each tertiary section height in order to analyse the effect of this parameter on $\eta_{\rm{th}}$.
+%and it decreases as the temperature difference goes up due to higher heat losses.
+
+%%\Figure[scale=0.60,placement=!ht,label={curve_efficiency1},caption={Efficiency curves for different tertiary section heights.}]{figs/curve_efficiency1.eps}
+
+%%These results show that the curve with no tertiary section has the highest slope because there is no convection suppression. This configuration is outperformed by the one with 29 mm in $\rm{H_{\!_{TS}}}$ for abscissa values above 0.01 m$^2$K/W. The performance represented by curves with $\rm{H_{\!_{TS}}}$ of 145 and 290 mm are less efficient due to smaller optical efficiencies although more convection losses are suppressed. Over the full operational range analysed, a system with tertiary section height between 29 and 72.5 mm is more efficient than the other configurations. In order to better analyse this result, the coefficients of Eq. (\ref{hottel-whiller-eq}) for each configuration is shown in Table \ref{hottel-whiller}.
+
+%%\begin{table}[!ht]
+%%	\caption{Hottel-Whiller-Bliss coefficients for different tertiary section heights.}
+%%	\centering
+%%	\begin{tabular}{p{2cm}p{1.5cm}p{1.5cm}}
+%%		\hline \\[-10pt] 
+%%		$\rm{H_{TS}}$ (m) & $\eta_{\rm{o}}$ & $\rm{U_{\!_L}}$ \\ [3pt]
+%%		\hline \\[-10pt] 
+%%		0 & 0.6801 & 3.320 \\ [5pt]
+%%		0.029 & 0.6732 & 2.677 \\ [5pt]
+%%		0.0725 & 0.6631 & 2.547 \\ [5pt]
+%%		0.145 & 0.6465 & 2.478 \\ [5pt]
+%%		0.290 & 0.6150 & 2.419 \\ [5pt]
+%%		\hline 
+%%\end{tabular} 
+%%\label{hottel-whiller}
+%%\end{table}
+
+%%As the tertiary section height increases, $\eta_{\rm{o}}$ is reduced due to higher number of reflections as well as $\rm{{U_{\!_L}}}$ due to more convection suppression. The reduction of $\rm{{U_{\!_L}}}$ when $\rm{H_{\!_{TS}}}$ changes from 0 to 29 mm is the highest and this might be the reason why the configuration at 29 mm of $\rm{H_{\!_{TS}}}$ has the best performance, which makes this height as the optimal one. For $\rm{H_{\!_{TS}}}$ higher than 29 mm, the reduction in $\rm{{U_{\!_L}}}$ is gradual so it does not compensate the optical losses involved. This optimal height is a trade-off between optical efficiency and reduced convective heat losses from the absorber.
+
+%\subsection{Transient state condition}
+%
+%\Figure[scale=0.65,placement=!ht,label={transient1},caption={Outlet air temperature \textit{versus} daytime at different tertiary section heights for $\rm{G_{air}}$ = 0.027 kg/(m$^2$.s) on 25/07/2014.}]{figs/transient_state_Gair1.png}

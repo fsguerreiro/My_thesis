@@ -1,0 +1,159 @@
+\documentclass[12pt,a4paper,oneside,openright,fleqn]{report}
+
+%----------------------------------- Loading packages==============================
+\usepackage[a4paper,left=40mm,right=20mm,top=25mm,bottom=25mm,headheight=15pt,headsep=15pt,footskip=10mm,columnsep=1cm]{geometry}
+\usepackage[backend=bibtex,style=authoryear,citestyle=authoryear,maxbibnames=8,maxcitenames=2,natbib=true,dashed=false,firstinits=true]{biblatex} %
+\usepackage{latexsym,amssymb,amsmath,pifont} 				% Package of symbols
+\usepackage[notintoc]{nomencl}										   % Insertion of List of Symbols
+\usepackage{subcaption}                   								   % Captions in subfigures        
+\usepackage{eurosym,wasysym}                                          % For the Euro symbol and other symbols
+\usepackage[hidelinks,pdfencoding=auto]{hyperref}			 % Creation of hyperlink for citation
+\usepackage{indentfirst} 		   		          							 % Indent first paragraph of a chapter
+\usepackage{mathtools} 												        % Edition of equation environment
+\usepackage{enumitem} 							  						   % Edition of lists (spacing, indentation)
+\usepackage[nodisplayskipstretch]{setspace}	                       % Edition of spacing between lines	  
+\usepackage{titlesec} 						      								% Edition of titles and subtitles
+\usepackage{mathptmx}     												  % Times new roman for text/formulas
+\usepackage{txfonts} 						                                  % More symbols
+\usepackage{fancyhdr}						      							  % Edition of headers and footnotes
+\usepackage{relsize}															 % Edition of size of symbols
+\usepackage{graphicx}														  % Enhanced insertion of figures
+\usepackage{easyfig}															% A way of inserting figure: \Figure
+\usepackage{multirow} 						      							  % More edition of tables
+\usepackage{hhline}																% Insertion of horizontal line
+\usepackage{etoolbox}
+\usepackage{tikz}																 % Insertion of graphs, flowcharts, etc.
+\usepackage{tikz-3dplot}
+\usepackage{makecell}
+
+
+%\usepackage{pgf}
+%\usepackage{graphics} 						                                % Insertion of figures \includegraphics
+%\usepackage{amsthm} 
+%\usepackage{multicol}    													 % Split the page into columns
+%\usepackage{longtable} 						      						% Long tables (more than 1 page)
+%\usepackage{subfigure}		      
+%\usepackage{enumerate}													 % Other ways to edit lists (bullets)
+%\usepackage{rotating} 				              							% Rotation of figures
+%\usepackage{fontenc}
+%\usepackage{color} 						          						 % Edition of color in figures, pages, etc.
+%\usepackage{yfonts}
+%\usepackage{adjustbox}                                                   % Box an item (figure, text, etc.)
+%\usepackage[bf]{caption} 												   % Edition of captions
+%\usepackage{tablefootnote}												% Insertion of footnote in tables
+%\usepackage{epstopdf}													  % Convert EPS to PDF file		
+%\usepackage{url}
+%\usepackage{fncychap} 
+%\usepackage{lmodern} 
+%\usepackage{bm}
+%\usepackage{shorttoc} 
+%\usepackage{lastpage} 
+%\usepackage{changepage}
+%\usepackage[normalem]{ulem} 
+%\usepackage{microtype}
+
+% ------------------------------------- Page settings =======================
+\parindent 1cm          
+\doublespacing	   	   
+\captionsetup[table]{skip=0pt}
+\setlength{\emergencystretch}{8pt}
+
+
+% ---------------------------------- List settings =========================
+\setlist{align=left,leftmargin=*,noitemsep,nosep,topsep=6pt}
+\renewcommand{\labelitemi}{$\checked$}
+\newcounter{descriptcount}
+\renewcommand*\thedescriptcount{Step \arabic{descriptcount}:}
+
+%------------------------------ Nomenclature settings =====================
+\makenomenclature
+\renewcommand{\nomname}{List of Symbols}
+\renewcommand\nomgroup[1]{%
+	\vspace{0.6cm}
+	\item[\bfseries
+	\ifstrequal{#1}{N}{\Large \hspace*{1.5cm} Latin}{%
+		\ifstrequal{#1}{P}{\Large \hspace*{1.5cm} Greek}{%
+			\ifstrequal{#1}{S}{\Large \hspace*{1.5cm} Subscripts}{%
+				\ifstrequal{#1}{A}{\Large \hspace*{1.5cm} Acronyms}}}}]}
+\setlength{\nomitemsep}{-8pt}
+%\renewcommand*\nompreamble{\begin{multicols}{1}}
+%\renewcommand*\nompostamble{\end{multicols}}
+%\setlength{\columnsep}{0.8cm}
+
+%-------------------------------------- List of references settings ====================
+\addbibresource{References.bib}
+\renewbibmacro{in:}{}
+\DeclareNameAlias{sortname}{last-first}
+
+%-----------------------------------Title and subtitle settings ======================
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\titleformat{\chapter}[display]{\normalfont\Huge\filcenter \bfseries}
+{\vspace{-1.5cm} \titlerule[4pt] \vspace{3pt} \titlerule \vspace{1pc}%
+	\Huge\MakeUppercase{\chaptertitlename} \thechapter}
+{1pc}{\titlerule[2pt] \vspace{1pc} \Huge \MakeUppercase}
+\titlespacing{\section}{0pc}{1pc}{1pc}
+\titlespacing{\subsection}{0pc}{1pc}{0.75pc}
+\titlespacing{\subsubsection}{0pc}{0.75pc}{0.5pc}
+
+%------------------------------------------Tikz settings ==============================
+\usetikzlibrary{shapes.arrows,shapes.geometric,positioning,arrows.meta,shapes,backgrounds,angles, quotes, decorations.pathreplacing,datavisualization}
+\let\svtikzpicture\tikzpicture
+\def\tikzpicture{\noindent\svtikzpicture}
+\tikzset{
+	ultra thin/.style= {line width=0.1pt}, very thin/.style=  {line width=0.2pt},
+	thin/.style= {line width=0.4pt},% thin is the default
+	semithick/.style=  {line width=0.6pt}, thick/.style=      {line width=0.8pt},
+	very thick/.style= {line width=1.2pt}, ultra thick/.style={line width=1.6pt}
+}
+\tikzstyle{startstop} = [draw, rounded rectangle, minimum width=1.75cm, minimum height=1cm,text centered, draw=black,very thick]
+\tikzstyle{input} = [trapezium, trapezium left angle=70, trapezium right angle=110, text width=7cm, minimum height=1cm, text centered, draw=black,very thick, node distance = 5.25cm]
+\tikzstyle{decision} = [diamond, text width = 2.5cm, draw=black,very thick, text centered, node distance = 3.5cm, inner sep = 0pt]
+\tikzstyle{block} = [rectangle, draw=black,very thick, text width = 2cm, text centered, text height = 0.5cm]
+\tikzstyle{line} = [draw=black,very thick, -latex]
+\tikzstyle{arrow} = [very thick,->,>=stealth]
+
+\tdplotsetmaincoords{60}{110}
+\pgfmathsetmacro{\rvec}{1.25}
+\pgfmathsetmacro{\thetavec}{40}
+\pgfmathsetmacro{\phivec}{40}
+
+%------------------------------------------------ Initiating text ==========================
+
+\begin{document}
+	\raggedbottom
+	\setlength{\belowdisplayskip}{10pt}      \setlength{\abovedisplayskip}{-4pt}
+	\pagenumbering{gobble}
+	\input{Cover}
+	
+	\newpage
+	\thispagestyle{empty}
+	\printnomenclature[1.5cm]
+	\newpage
+	
+	\setcounter{page}{1}       \pagenumbering{arabic}
+	\pagestyle{fancy}		\lhead{}		\rhead{\nouppercase{\rightmark}}
+	
+	\clearpage     						\renewcommand*\contentsname{Table of contents}
+	\tableofcontents				 \addtocontents{toc}{~\hfill\textbf{Page}\par}
+	
+	\clearpage     \addcontentsline{toc}{chapter}{List of Figures} 	  \listoffigures
+	
+	\clearpage     \addcontentsline{toc}{chapter}{List of Tables}      \listoftables
+	
+	\newpage
+	\rhead{\nouppercase{\rightmark}}      \lhead{Chapter \thechapter}
+	\input{Introduction}
+	\input{Literature}
+	\input{Optical}
+	\input{Experimental}
+	\input{Thermal}
+
+	\input{Conclusions}
+	\newpage
+	\lhead{}
+	\printbibliography[title={References}]
+	\addcontentsline{toc}{chapter}{References}
+	\newpage
+	
+\end{document}
