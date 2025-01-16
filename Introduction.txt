@@ -1,0 +1,131 @@
+\chapter{Introduction}
+\label{Cap:Int}
+
+%To achieve the carbon emission target, high fraction of locally available renewable energy sources will become necessary to reduce energy demand. Solar energy is one of the most important renewable sources for use in building heating, cooling, hot water supply and power production. Solar thermal systems for water and air heating are well established technologies. Their use promotes environmental sustainability, as it eliminates the need to provide heat by combusting of fossil fuels therefore contributing to reducing greenhouse gases emissions. Building integrated solar thermal systems (BISTS) can be a potential solution towards the enhanced energy efficiency and reduced operational cost in contemporary built environment. According to the vision plan issued by European Solar Thermal Technology Platform (ESTTP), by 2030 up to 50\% of the low and medium temperature heat will be delivered through solar thermal systems (\cite{ESTTP2009}).
+
+To achieve the carbon emission target, a high fraction of locally available renewable energy sources will become necessary to reduce energy demand. Solar energy is one of the most important renewable sources for use in building heating, cooling, hot water supply, and power production. Solar thermal systems for water and air heating are well-established technologies. Their use promotes environmental sustainability, as they eliminate the need to provide heat by combusting fossil fuels, thereby contributing to the reduction of greenhouse gas emissions. Building integrated solar thermal systems (BISTS) can be a potential solution towards enhanced energy efficiency and reduced operational costs in the contemporary built environment. According to the vision plan issued by the European Solar Thermal Technology Platform (ESTTP), by 2030, up to 50\% of low and medium-temperature heat will be delivered through solar thermal systems (\cite{ESTTP2009}).
+
+%Solar air heating collectors transfer solar thermal energy from an absorbing surface to an airflow. The heated air can be used for applications, such as space heating, timber seasoning, curing of industrial products and food drying (\cite{Shams2016}), as can be seen in Table \ref{air-application} with the corresponding air temperature range. A solar air heater can integrate to a concentrator to produce air at medium or high temperatures (\cite{Duffie2013}). A concentrating collector combining inverted absorber and asymmetric compound parabolic concentrator (IACPC), in which solar radiation is reflected to be incident from below onto the absorbing surface, has been proposed by \citet{Rabl1976}. Although there are optical losses due to the multiple reflections of incident solar energy (\cite{Kothdiwala1996}), this type of concentrator is able to achieve higher absorber temperatures by suppressing convective and radiative heat losses (\cite{Kothdiwala1999}). A competing technology for this application is on evacuated tube collectors (ETC). This also has optical losses due to reflection from the tubular aperture. An ETC's low heat losses arise from a vacuum between the glass tube envelope and an absorber. As well as limiting long-term durability, this is challenging to fabricate and to envelope the large cross-section duct required for airflow. 
+
+Solar air heating collectors transfer solar thermal energy from an absorbing surface to an airflow. The heated air can be used for applications such as space heating, timber seasoning, curing industrial products, and food drying (\cite{Shams2016}), as shown in Table 1.1 with the corresponding air temperature ranges. A solar air heater can integrate with a concentrator to produce air at medium or high temperatures (\cite{Duffie2013}). A concentrating collector combining an inverted absorber and asymmetric compound parabolic concentrator (IACPC), in which solar radiation is reflected to be incident from below onto the absorbing surface, was proposed by \citet{Rabl1976}. Although there are optical losses due to the multiple reflections of incident solar energy (\cite{Kothdiwala1996}), this type of concentrator is able to achieve higher absorber temperatures by suppressing convective and radiative heat losses (\cite{Kothdiwala1999}). A competing technology for this application is evacuated tube collectors (ETC). These also have optical losses due to reflection from the tubular aperture. An ETC’s low heat losses arise from a vacuum between the glass tube envelope and the absorber. However, the design limits long-term durability and poses challenges for fabricating and enclosing the large cross-section duct required for airflow.
+
+\begin{table}[!ht]
+	\caption{Application for air heating and operating air temperature range. From \citet{Norton2012} and \citet{Pranesh2019}}
+	\centering
+	\begin{tabular}{p{4cm}p{4cm}}
+		\hline \\[-10pt]
+		Application & Temperature range ($^{\rm{o}}$C) \\
+		\hline \\[-10pt]
+		Timber drying & 60 -- 100 \\ [3pt]
+		Food drying & 30 -- 90 \\ [3pt]
+		Brick curing & 60 -- 140 \\ [3pt]
+		Space heating & 30 -- 100 \\ [3pt]
+		\hline
+	\end{tabular}
+\label{air-application}
+\end{table}
+
+An IACPC was designed to be used as a solar air heater collector by \citet{Shams2013}. This collector had a perforated absorber surface made of carbon fibre placed at a fixed cavity height, a glazed aperture, a concentration ratio of 2.0, and was optically characterised and experimentally tested at different airflow rates. In this design, the air inlet was located at one end below the absorber, and the outlet was placed at the top near the other end. The lowest experimental airflow rate (0.03~kg/(m\textsuperscript{2}·s)) resulted in the highest temperature rise of 38 \textdegree C at a radiation level of 1000~W/m\textsuperscript{2}. The highest experimental operating flow rate (0.09~kg/(m\textsuperscript{2}·s)) resulted in a temperature rise of 19.6 \textdegree C at a radiation level of 1000~W/m\textsuperscript{2}.
+
+%An IACPC was designed to be used as a solar air heater collector by \citet{Shams2013}. This collector had a perforated absorber surface made of carbon fibre placed at a fixed cavity height, a glazed aperture, a concentration ratio of 2.0, and was optically characterised and experimentally tested at different airflow rates. In this design, the air inlet was located at one end below the absorber and the outlet was placed at the top near the other end. The lowest experimental airflow rate (0.03 kg/(m$^2$.s)) resulted in the highest temperature rise of 38 $^{\rm{o}}$C at a radiation level of 1000 W/m$^2$. The highest experimental operating flow rate (0.09 kg/(m$^2$.s)) resulted in a temperature rise of 19.6 $^{\rm{o}}$C at a radiation level of 1000 W/m$^2$.
+
+%This current research designed IACPC collectors to be stacked on a wall. The collector had a vertical aperture so that shading could be avoided when two or more collectors are stacked on a vertical wall, enabling the full façade area available to be harnessed (as shown in Figure \ref{array1}). The concentration ratio was increased to receive more solar radiation. However, solar air heating systems comprising more than one interconnected IACPC collector have not been thermal characterised to date. The number of collectors needed to meet air temperature requirement for specified conditions is not known nor is the cost involved. The behaviour of the airflow and the heat transfer mechanism inside the collector have never been studied in sufficient detail to enable detailed parametric analysis. Such understanding will allow designers to propose improvements to the system. Based on the scale and size of the collector developed, the system has the potential application for pre-heating fresh air for buildings.
+
+This current research designed IACPC collectors to be stacked on a wall. The collector had a vertical aperture so that shading could be avoided when two or more collectors are stacked on a vertical wall, enabling the full façade area to be harnessed (as shown in Figure \ref{array1}). The concentration ratio was increased to receive more solar radiation. However, solar air heating systems comprising more than one interconnected IACPC collector have not yet been thermally characterised. The number of collectors needed to meet air temperature requirements for specified conditions is unknown, nor is the cost involved. The behaviour of the airflow and the heat transfer mechanism inside the collector have never been studied in sufficient detail to enable detailed parametric analysis. Such understanding will allow designers to propose improvements to the system. Based on the scale and size of the collector developed, the system has potential applications for pre-heating fresh air for buildings and agricultural purposes.
+
+
+\Figure[scale=0.40,placement=!ht,label={array1},caption={Array of 3 collectors stacked on a 1-m$^2$ wall of facade.}]{figs/array1.png}
+
+\section{Aim and objectives of this research}
+This research aims to design a solar air heating system (SAHS) comprising  an asymmetric compound parabolic concentrator with an inverted transpired absorber. The intended application constraint is a building integrated system consisting of multiple collectors capable of collecting solar radiation for eight hours per day during summer, delivering heated airflow. An array of three collectors, as depicted in Figure \ref{array1}, exemplifies a system configuration. The specific objectives are to:
+
+\begin{itemize}
+	\item create a robust mathematical model capable of accurately designing the collector's shape, ensuring that the geometry aligns with the desired operational and application constraints;
+	\item use the developed model for evaluating the optical performance of the collector using a 3D ray tracing technique. This assessment will help identify and optimise the collector’s design parameters, including its ability to collect and concentrate solar radiation efficiently;
+	\item fabricate a prototype of the solar collector and conduct field tests. These tests aim to characterise the collector and gain a thorough understanding of the key operational variables affecting its performance under real-world conditions;
+	\item simulate the transient thermal behaviour of the collector through heat transfer modelling. The simulation results will be validated against experimental data obtained from the prototype, ensuring the model’s accuracy and reliability;
+	\item extend the validated thermal model for simulating the performance of systems with multiple collectors connected in series and parallel. This will provide insights into how such configurations can achieve higher airflow temperatures or increase the total energy output;
+	\item apply the validated thermal model to simulate the system’s performance in a practical agricultural context -- specifically, a barley drying process. The simulation will determine how effectively the SAHS can meet the energy demands of this application.
+
+\end{itemize}
+
+\section{Significant new knowledge to the research area}
+
+%The significant new contribution to knowledge in the research area of solar thermal energy for air heating are:
+%
+%\begin{itemize}
+%	\item development of an accurate model capable of bulding the shape of CPCs, ACPCs and coupled with inverted absorbers. It considers design parameters, such as parabolic shape, concentration ratio, truncation, length, inclination and absorber position;
+%	\item coupling of this model to a 3D ray tracing technique that simulates direct solar radiation using solar angles (azimuth and altitude) from the Sun's position;
+%	\item additional results obtained from an optical modelling in 3D when compared to the modelling in 2D, such as end losses and energy distribution along the absorber area;
+%	\item thermal modelling and simulation of more than one collector connected in series and in parallel to deliver higher airflow temperatures or more useful energy rate;
+%	\item use of the thermal modelling to simulate barley drying application to find how much energy can be replaced by the solar air heating system.
+%\end{itemize}
+
+The significant new contributions to knowledge in the field of solar thermal energy for air heating are detailed as follows:
+
+\begin{itemize}
+	\item \textbf{Advanced Modelling for Concentrator Design}:	development of an accurate computational model to design CPCs, ACPCs and inverted absorber configurations. It considers key design parameters such as reflectors' shape, concentration ratio, truncation, length, glazing inclination, and absorber positioning, enabling adaptability and performance optimisation across applications;
+	
+	\item \textbf{Integration with 3D Ray Tracing Technique}: integration of the model with a 3D ray tracing technique capable of accurately simulating direct solar radiation. This integration accounts for the Sun’s position using solar angles, including azimuth and altitude, to predict how sunlight enters the collector. Such simulations provide valuable insights into the optical efficiency of the concentrator system, enabling the optimisation of designs for enhanced energy collection.
+	
+	\item \textbf{Enhanced Insights from 3D Optical Modelling}: by employing 3D optical modelling, the research has uncovered additional phenomena that are not captured by traditional 2D modelling. These include detailed end-loss effects and a comprehensive understanding of energy distribution across the absorber surface. Such insights enable more accurate predictions of system performance and inform design improvements that minimise energy losses.
+	
+	\item \textbf{Thermal Modelling of Complex Collector Configurations}: development of thermal model to simulate systems comprising multiple collectors arranged in series and parallel configurations. These configurations allow for greater flexibility in meeting diverse heating requirements, such as achieving higher airflow temperatures or increasing the total useful energy output. Such advancements make the systems more adaptable for industrial and agricultural applications.
+	
+	\item \textbf{Application to Agricultural Drying Systems}: application of the thermal modelling to a practical case study involving barley drying, demonstrating the potential of solar air heating systems to replace conventional energy sources. The simulations quantify the energy savings achievable through this technology, highlighting its economic and environmental benefits. This application underscores the viability of solar air heating systems as a sustainable alternative for agricultural processes.
+\end{itemize}
+
+These contributions collectively advance the state of knowledge in solar thermal energy systems, providing a foundation for future research and development in this domain. The findings offer practical solutions to enhance energy efficiency and promote the adoption of renewable energy technologies in various sectors.
+
+
+\section{Thesis overview}
+
+%\Figure[scale=0.47,placement=!ht,label={schematics_intro},caption={Research Methodology.}]{figs/schematics_intro.eps}
+
+The research methodology is shown in Figure \ref{scheme-intro}, which provides the key topics of the systematic steps undertaken throughout the research process. The Thesis' chapters are depicted as follows:
+
+\newpage
+
+\begin{figure}[!ht]
+	\centering
+	\begin{tikzpicture}[scale=1, node distance = 5 cm, very thick]
+		\node[block, text width=6cm] (intro) {Introduction and literature review};
+		\node[block, below of=intro,text width=3cm,yshift=3cm] (mat) {Materials selection};
+		\node[block, below of=mat,text width=3cm,yshift=2cm] (fab) {Fabrication of a prototype};
+		\node[block, below of=fab,text width=3cm,yshift=2cm] (exp) {Thermal performance of the prototype};
+		\node[block, left of=mat,text width=3cm] (opt) {Optical analysis};
+		\node[block, left of=fab,text width=3cm] (opt2) {Optical characterisation and design};
+		\node[block, right of=mat,text width=3cm] (thermal) {Thermal modelling};
+		\node[block, right of=fab,text width=3cm] (thermal2) {Thermal simulation};
+		\node[block, right of=exp,text width=3cm] (vali) {Modelling validation};
+		\node[block, below of=exp,text width=5cm,yshift=2cm] (two) {Simulation of more than one prototype connected};
+		\node[block, below of=two,text width=4cm,yshift=2.5cm] (dry) {Drying simulation};
+		\draw[arrow] (intro) -- (mat);
+		\draw[arrow] (mat) -- (fab);
+		\draw[arrow] (fab) -- (exp);
+		\draw[arrow] (exp) -- (two);
+		\draw[arrow] (intro) -| (opt);
+		\draw[arrow] (opt) -- (opt2);
+		\draw[arrow] (opt2) -- (fab);
+		\draw[arrow] (intro) -| (thermal);
+		\draw[arrow] (thermal) -- (thermal2);
+		\draw[arrow] (thermal2) -- (vali);
+		\draw[arrow] (exp) -- (vali);
+		\draw[arrow] (vali) |- (two);
+		\draw[arrow] (two) -- (dry);
+	\end{tikzpicture}
+	%\label{scheme-intro}
+	\caption{Research methodology.}
+	\label{scheme-intro}
+\end{figure}
+
+\begin{itemize}
+	\item Chapter \ref{Cap:Int} introduces the research topic, highlighting the motivation for the study and clearly defining the problem statement. It presents the research aim, outlines the specific objectives, emphasizes the contribution of new knowledge to the research area, and provides an overview of the methodology used to achieve these goals;
+	\item Chapter \ref{Cap:Lit} -- Literature review: it provides a comprehensive survey of the state-of-the-art in solar thermal collectors for medium-temperature applications, with a particular focus on the key factors influencing the thermal performance. It presents the optical characteristics of compound parabolic concentrators (CPCs) and explores methodologies for conducting optical analyses. Various optical concentrator designs are evaluated to identify innovative approaches for concentrating solar radiation onto an inverted absorber. Finally, the chapter offers an overview of building-integrated solar thermal collectors, highlighting their potential applications and benefits;
+	\item Chapter \ref{Cap:Opt} -- Optical modelling and design analysis: presents the design of the solar air heating concentrator as well as the development of a model to calculate optical efficiency. It also depicts details of the concentrator's geometric specification. A 3D ray tracing technique implemented in Matlab software were developed to calculate the energy distribution at the absorber surface and the effect of the end plates on the optical performance;
+	\item Chapter \ref{Cap:Exp} -- Experimental performance analysis: it describes physical properties of the materials, fabrication and experimental characterisation of the built collector prototype at different airflow rates. The performance of the system depends on wind speed, solar radiation, inlet air and ambient temperatures;
+	\item Chapter \ref{Cap:Thermal} -- Heat transfer modelling and simulation: depicts the heat transfer model developed to characterise and simulate the thermal performance of the proposed solar air heater in operation. This model was used to calculate the outlet airflow temperature and thermal efficiency and experimental data was used to validate the model. Then the model was used to simulate the thermal performance of collectors connected in series and in parallel. Lastly, the validated model was used as an energy input for simulating barley drying to meet the energy demand for an application.
+	\item Chapter \ref{Cap:Con} -- Conclusions: it provides a concise summary of the key findings, highlights the research's contributions to advancing knowledge in the field, and offers thoughtful recommendations for future work to build on the study's outcomes.
+\end{itemize}
+
+

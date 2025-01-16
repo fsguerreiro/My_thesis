@@ -1,92 +1,140 @@
 
 \begin{thenomenclature} 
 \nomgroup{A}
-  \item [{ACPC}]\begingroup Asymmetric Compound Parabolic Concentration\nomeqref {2.19}\nompageref{51}
-  \item [{BISTS}]\begingroup Building Integratied Solar Thermal System\nomeqref {2.19}\nompageref{51}
-  \item [{CFD}]\begingroup Computational Fluid Dynamics\nomeqref {5.21}\nompageref{123}
-  \item [{CPC}]\begingroup Compound Parabolic Concentrator\nomeqref {5.21}\nompageref{123}
-  \item [{ETC}]\begingroup Evacuated Tube Collector\nomeqref {2.19}\nompageref{51}
-  \item [{IACPC}]\begingroup Inverted Absorber Compound Parabolic Concentrator\nomeqref {5.21}\nompageref{123}
-  \item [{ODE}]\begingroup Ordinary Differential Equation\nomeqref {5.21}\nompageref{123}
-  \item [{PV}]\begingroup Photovoltaic\nomeqref {2.19}\nompageref{51}
+  \item [{ACPC}]\begingroup Asymmetric Compound Parabolic Concentrator\nomeqref {5.21}\nompageref{116}
+  \item [{BISTS}]\begingroup Building Integrated Solar Thermal System\nomeqref {5.21}\nompageref{116}
+  \item [{CFD}]\begingroup Computational Fluid Dynamics\nomeqref {5.21}\nompageref{116}
+  \item [{CPC}]\begingroup Compound Parabolic Concentrator\nomeqref {5.21}\nompageref{116}
+  \item [{ESTTP}]\begingroup European Solar Thermal Technology Platform\nomeqref {5.21}\nompageref{116}
+  \item [{GAHC}]\begingroup Glazed Air Heating Collector\nomeqref {5.21}\nompageref{116}
+  \item [{IACPC}]\begingroup Inverted Absorber Compound Parabolic Concentrator\nomeqref {5.21}\nompageref{116}
+  \item [{ODE}]\begingroup Ordinary Differential Equation\nomeqref {5.21}\nompageref{116}
+  \item [{PTC}]\begingroup Parabolic Trough Concentrator\nomeqref {5.21}\nompageref{116}
+  \item [{SAHC}]\begingroup Solar Air Heating Collector\nomeqref {5.21}\nompageref{116}
+  \item [{SAHS}]\begingroup Solar Air Heating System\nomeqref {5.21}\nompageref{116}
+  \item [{UTSC}]\begingroup Unglazed Transpired Solar Collector\nomeqref {5.21}\nompageref{116}
 \nomgroup{N}
-  \item [{$\rm{A_{abs}^{'}}$}]\begingroup Absorber area without the holes (m$^2$)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{a_{s}}$}]\begingroup Altitude solar angle\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{A}$}]\begingroup Area (m$^2$)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{C_{p}}$}]\begingroup Specific heat (J/(kg K))\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{C}$}]\begingroup Geometric concentration ratio\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{d_{air}}$}]\begingroup Air density (kg/m$^3$)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{E_{T}}$}]\begingroup Equation of time\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{G_{air}}$}]\begingroup Mass airflow rate based on the absorber area (kg/(s m$^2$))\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{g}$}]\begingroup Acceleration due to gravity (9.81 m/s$^2$)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{I_B}$}]\begingroup Beam solar radiation (W/m$^2$)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{I_D}$}]\begingroup Diffuse solar radiation (W/m$^2$)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{I_T}$}]\begingroup Global solar radiation (W/m$^2$)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{k_{air}}$}]\begingroup Air thermal conductivity (W/m K)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{K_{ext}}$}]\begingroup Extinction coefficient of the glazing (m$^{-1}$)\nomeqref {2.19}\nompageref{51}
-  \item [{$\rm{L_{col}}$}]\begingroup Collector length (m)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{l_{local}}$}]\begingroup Local longitude\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{l_{ST}}$}]\begingroup Standard longitude\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{M}$}]\begingroup Mass (kg)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{N_{c}}$}]\begingroup Number of glazing covers\nomeqref {2.19}\nompageref{51}
-  \item [{$\rm{N_{obs}}$}]\begingroup Number of observations\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{Nu}$}]\begingroup Nusselt number\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{Pr}$}]\begingroup Prandtl number\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{Q_{u}}$}]\begingroup Useful energy rate transferred to the airflow (W)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{Ra}$}]\begingroup Rayleigh number\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{Re}$}]\begingroup Reynolds number\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{S}$}]\begingroup Solar radiation rate absorbed (W)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{t_{LST}}$}]\begingroup Local standard time\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{t_{ST}}$}]\begingroup Solar time\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{T}$}]\begingroup Temperature (K)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{t}$}]\begingroup Time (s)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{U_L}$}]\begingroup Overall heat loss coefficient (W/(m$^2$ K))\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{U}$}]\begingroup Internal energy (J)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{v}$}]\begingroup Air velocity (m/s)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{W}$}]\begingroup Width (m)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{X_{exp}}$}]\begingroup Experimental or observed value of the variable X\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{X_{in}}$}]\begingroup Barley moisture content at the dryer's inlet (in dry base)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{X_{out}}$}]\begingroup Barley moisture content at the dryer's outlet (in dry base)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{X_{sim}}$}]\begingroup Simulated of predicted value of the variable X\nomeqref {5.21}\nompageref{123}
-  \item [{H}]\begingroup Height (m)\nomeqref {5.21}\nompageref{123}
-  \item [{h}]\begingroup Heat transfer coefficient (W/(m$^2$K))\nomeqref {5.21}\nompageref{123}
-  \item [{R}]\begingroup Thermal resistance (K/W)\nomeqref {5.21}\nompageref{123}
+  \item [{$\rm{A_{abs}^{'}}$}]\begingroup Absorber area without the holes [m$^2$]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{a_{s}}$}]\begingroup Altitude solar angle [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{A}$}]\begingroup Area [m$^2$]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{C_{p}}$}]\begingroup Specific heat [J/(kg.\textdegree C)]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{CR}$}]\begingroup Geometric concentration ratio\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{d_{air}}$}]\begingroup Air density [kg/m$^3$]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{E_{T}}$}]\begingroup Equation of time [min]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{F_{R}}$}]\begingroup Heat removal factor\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{f}$}]\begingroup Focal distance [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{G_{air}}$}]\begingroup Mass airflow rate based on the absorber area [kg/(s.m$^2$)]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{g}$}]\begingroup Acceleration due to gravity [9.81 m/s$^2$]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{H}$}]\begingroup Height [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{h}$}]\begingroup Heat transfer coefficient [W/(m$^2$.\textdegree C)]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{I_B}$}]\begingroup Beam solar radiation [W/m$^2$]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{I_D}$}]\begingroup Diffuse solar radiation [W/m$^2$]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{I_T}$}]\begingroup Global solar radiation [W/m$^2$]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{k_{air}}$}]\begingroup Air thermal conductivity [W/(m.\textdegree C)]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{K_{ext}}$}]\begingroup Glazing's extinction coefficient [m$^{-1}$]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{L_{col}}$}]\begingroup Collector length [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{m_{air}}$}]\begingroup Mass airflow rate [kg/h]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{M}$}]\begingroup Mass [kg]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{N_{c}}$}]\begingroup Number of glazing covers\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{n_{idx}}$}]\begingroup Glazing's refractive index\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{N_{obs}}$}]\begingroup Number of observations\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Nu}$}]\begingroup Nusselt number\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Pr}$}]\begingroup Prandtl number\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Q_{burner}}$}]\begingroup Energy provided by the gas burner [W or J/s]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Q_{dryer}}$}]\begingroup Energy demand to dried a certain mass of barley [W or J/s]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Q_{req}}$}]\begingroup Energy required to heat the airflow to 60 \textdegree C [W or J/s]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Q_{u}}$}]\begingroup Useful energy rate transferred to the airflow [W or J/s]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{r_{inc}}$}]\begingroup Vector of the incident ray\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{r_{n}}$}]\begingroup Vector normal at the intersect point\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{r_{par}}$}]\begingroup Parallel component of unpolarized radiation\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{r_{perp}}$}]\begingroup Perpendicular component of unpolarized radiation\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{r_{ref}}$}]\begingroup Vector of the reflected ray\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Ra}$}]\begingroup Rayleigh number\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Re}$}]\begingroup Reynolds number\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{R}$}]\begingroup Thermal resistance [\textdegree C/W]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{S}$}]\begingroup Solar radiation rate absorbed [W]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{t_{LST}}$}]\begingroup Local standard time [h]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{t_{p}}$}]\begingroup Parametric variable in the xy-plane\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{t_{ST}}$}]\begingroup Solar time [h]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{T}$}]\begingroup Temperature [\textdegree C]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{t}$}]\begingroup Time [s]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{U_L}$}]\begingroup Overall heat loss coefficient [W/(m$^2$.\textdegree C)]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{u_{g}}$}]\begingroup Systematic uncertainty related to the airflow rate [kg/(s.m$^2$)]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{U}$}]\begingroup Internal energy [J]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{V_{a}}$}]\begingroup Voltage input supplied by the adaptor [V]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{v}$}]\begingroup Air velocity [m/s]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{W_{col}}$}]\begingroup Collector depth [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{W}$}]\begingroup Width [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{x_{apt}}$}]\begingroup x-coordinate of the aperture position\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{X_{in}}$}]\begingroup Barley moisture content at the dryer's inlet (in dry base)\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{X_{out}}$}]\begingroup Barley moisture content at the dryer's outlet (in dry base)\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{x}$}]\begingroup x-coordinates\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{y_{apt,lowper}}$}]\begingroup y-coordinate of the aperture at the lower parabola\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{y_{apt,upper}}$}]\begingroup y-coordinate of the aperture at the upper parabola\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Y_{exp}}$}]\begingroup Experimental or observed value of the variable Y\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{Y_{sim}}$}]\begingroup Simulated of predicted value of the variable Y\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{y_{TS}}$}]\begingroup y-coordinate of the tertiary section position\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{y}$}]\begingroup y-coordinates\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{z}$}]\begingroup z-coordinates\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{{\overline W}_{glaz}}$}]\begingroup Glazing characteristic length [m]\nomeqref {5.21}\nompageref{116}
 \nomgroup{P}
-  \item [{$\alpha$}]\begingroup Absorptivity\nomeqref {5.21}\nompageref{123}
-  \item [{$\beta_{\rm{th}}$}]\begingroup Volume expansion coefficient of the air (K$^{-1}$)\nomeqref {5.21}\nompageref{123}
-  \item [{$\Delta \rm{t}$}]\begingroup Time step (s)\nomeqref {5.21}\nompageref{123}
-  \item [{$\eta_{\rm{o}}$}]\begingroup Optical efficiency\nomeqref {5.21}\nompageref{123}
-  \item [{$\eta_{\rm{th}}$}]\begingroup Thermal efficiency\nomeqref {5.21}\nompageref{123}
-  \item [{$\gamma_{\rm{col}}$}]\begingroup Collector's azimuth angle\nomeqref {5.21}\nompageref{123}
-  \item [{$\gamma_{\rm{s}}$}]\begingroup Solar azimuth angle\nomeqref {5.21}\nompageref{123}
-  \item [{$\nu_{\rm{air}}$}]\begingroup Air kinematic viscosity (m$^2$/s)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{\delta}$}]\begingroup Thickness (m)\nomeqref {2.19}\nompageref{51}
-  \item [{$\rm{\ell}$}]\begingroup Hole pitch (m)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{\Gamma}$}]\begingroup Fraction of total solar radiation accepted\nomeqref {2.19}\nompageref{51}
-  \item [{$\rm{\varphi_h}$}]\begingroup Hole size (m)\nomeqref {5.21}\nompageref{123}
-  \item [{$\rm{\varphi_p}$}]\begingroup Absorber porosity\nomeqref {5.21}\nompageref{123}
-  \item [{$\sigma$}]\begingroup Stefan-Boltzmann constant ($5.67$ \rm{x} ${10^{-8}}$ W/(m$^2$ K$^4$))\nomeqref {5.21}\nompageref{123}
-  \item [{$\tau$}]\begingroup Transmissivity\nomeqref {5.21}\nompageref{123}
-  \item [{$\varepsilon$}]\begingroup Infra-red emissivity\nomeqref {5.21}\nompageref{123}
-  \item [{$\varepsilon_{\rm{eff}}$}]\begingroup Effective emissivity\nomeqref {5.21}\nompageref{123}
-  \item [{$\xi$}]\begingroup Mean absolute error\nomeqref {5.21}\nompageref{123}
+  \item [{$\alpha$}]\begingroup Absorptivity\nomeqref {5.21}\nompageref{116}
+  \item [{$\beta$}]\begingroup Glazing inclination angle [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\Delta \rm{t}$}]\begingroup Time step [s]\nomeqref {5.21}\nompageref{116}
+  \item [{$\delta$}]\begingroup Thickness [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\delta_{\rm{s}}$}]\begingroup Solar declination angle [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\Delta{\rm{x}}$}]\begingroup Displacement of the parabola in the x-coordinates [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\Delta{\rm{y}}$}]\begingroup Displacement of the parabola in the y-coordinates [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\eta_{\rm{o}}$}]\begingroup Optical efficiency\nomeqref {5.21}\nompageref{116}
+  \item [{$\eta_{\rm{th}}$}]\begingroup Thermal efficiency\nomeqref {5.21}\nompageref{116}
+  \item [{$\Gamma$}]\begingroup Intercept factor\nomeqref {5.21}\nompageref{116}
+  \item [{$\gamma_{\rm{col}}$}]\begingroup Collector's azimuth angle [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\gamma_{\rm{s}}$}]\begingroup Solar azimuth angle [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\lambda_{\rm{v}}$}]\begingroup Latent heat of vaporisation [J/kg]\nomeqref {5.21}\nompageref{116}
+  \item [{$\nu_{\rm{air}}$}]\begingroup Air kinematic viscosity [m$^2$/s]\nomeqref {5.21}\nompageref{116}
+  \item [{$\omega_{\rm{s}}$}]\begingroup Solar hour angle [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\phi$}]\begingroup Local latitude angle [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rho$}]\begingroup Reflectivity\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{\ell_{local}}$}]\begingroup Local longitude angle [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{\ell_{ST}}$}]\begingroup Standard longitude angle [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{\ell}$}]\begingroup Hole pitch [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{\varphi_h}$}]\begingroup Hole size [m]\nomeqref {5.21}\nompageref{116}
+  \item [{$\rm{\varphi_p}$}]\begingroup Absorber porosity\nomeqref {5.21}\nompageref{116}
+  \item [{$\sigma$}]\begingroup Stefan-Boltzmann constant [$5.67$ \rm{x} ${10^{-8}}$ W/(m$^2$.K$^4$)]\nomeqref {5.21}\nompageref{116}
+  \item [{$\tau$}]\begingroup Transmissivity\nomeqref {5.21}\nompageref{116}
+  \item [{$\tau_{\rm{col}}$}]\begingroup Collector's transmissivity\nomeqref {5.21}\nompageref{116}
+  \item [{$\theta_{\rm{acc}}$}]\begingroup Angular acceptance for a specific parabola [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\theta_{\rm{a}}$}]\begingroup Angular parameter for a specific parabola [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\theta_{\rm{iy}}$}]\begingroup Angle of the solar ray to the horizontal in the xy-plane [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\theta_{\rm{iz}}$}]\begingroup Angle of the solar ray to the horizontal in the xz-plane [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\theta_{\rm{i}}$}]\begingroup Incident angle at the glazing cover [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\theta_{\rm{P1}}$}]\begingroup Angle of the upper parabola axis to the horizontal [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\theta_{\rm{P2}}$}]\begingroup Angle of the lower parabola axis to the horizontal [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\theta_{\rm{r}}$}]\begingroup Refracted angle in the glazing cover [degrees]\nomeqref {5.21}\nompageref{116}
+  \item [{$\varepsilon$}]\begingroup Infrared emissivity\nomeqref {5.21}\nompageref{116}
+  \item [{$\varepsilon_{\rm{eff}}$}]\begingroup Effective emissivity\nomeqref {5.21}\nompageref{116}
+  \item [{$\xi$}]\begingroup Mean absolute error\nomeqref {5.21}\nompageref{116}
 \nomgroup{S}
-  \item [{abs}]\begingroup Absorber\nomeqref {5.21}\nompageref{123}
-  \item [{amb}]\begingroup Ambient\nomeqref {5.21}\nompageref{123}
-  \item [{apt}]\begingroup Aperture\nomeqref {5.21}\nompageref{123}
-  \item [{avg}]\begingroup Average\nomeqref {5.21}\nompageref{123}
-  \item [{bar}]\begingroup Barley grains\nomeqref {5.21}\nompageref{123}
-  \item [{C1}]\begingroup Convection from absorber to glazing\nomeqref {5.21}\nompageref{123}
-  \item [{C2}]\begingroup Convection from glazing to ambient\nomeqref {5.21}\nompageref{123}
-  \item [{glaz}]\begingroup Glazing\nomeqref {5.21}\nompageref{123}
-  \item [{h}]\begingroup Hole\nomeqref {5.21}\nompageref{123}
-  \item [{HX}]\begingroup Convection from absorber to airflow\nomeqref {5.21}\nompageref{123}
-  \item [{in}]\begingroup Air at the inlet\nomeqref {5.21}\nompageref{123}
-  \item [{out}]\begingroup Air at the outlet\nomeqref {5.21}\nompageref{123}
-  \item [{R1}]\begingroup Radiation from absorber to glazing\nomeqref {5.21}\nompageref{123}
-  \item [{R2}]\begingroup Radiation from glazing to ambient\nomeqref {5.21}\nompageref{123}
-  \item [{TS}]\begingroup Tertiary section\nomeqref {5.21}\nompageref{123}
-  \item [{v}]\begingroup Vaporization point\nomeqref {5.21}\nompageref{123}
-  \item [{w}]\begingroup Wind\nomeqref {5.21}\nompageref{123}
+  \item [{abs}]\begingroup Absorber plate\nomeqref {5.21}\nompageref{116}
+  \item [{amb}]\begingroup Ambient\nomeqref {5.21}\nompageref{116}
+  \item [{apt}]\begingroup Aperture\nomeqref {5.21}\nompageref{116}
+  \item [{avg}]\begingroup Average\nomeqref {5.21}\nompageref{116}
+  \item [{bar}]\begingroup Barley grains\nomeqref {5.21}\nompageref{116}
+  \item [{C1}]\begingroup Convection from absorber to glazing\nomeqref {5.21}\nompageref{116}
+  \item [{C2}]\begingroup Convection from glazing to ambient\nomeqref {5.21}\nompageref{116}
+  \item [{col}]\begingroup Collector\nomeqref {5.21}\nompageref{116}
+  \item [{glaz}]\begingroup Glazing cover\nomeqref {5.21}\nompageref{116}
+  \item [{h}]\begingroup Hole\nomeqref {5.21}\nompageref{116}
+  \item [{HX}]\begingroup Convection from absorber to airflow\nomeqref {5.21}\nompageref{116}
+  \item [{in}]\begingroup Inlet\nomeqref {5.21}\nompageref{116}
+  \item [{int}]\begingroup Intersection point\nomeqref {5.21}\nompageref{116}
+  \item [{out}]\begingroup Outlet\nomeqref {5.21}\nompageref{116}
+  \item [{R1}]\begingroup Radiation from absorber to glazing\nomeqref {5.21}\nompageref{116}
+  \item [{R2}]\begingroup Radiation from glazing to ambient\nomeqref {5.21}\nompageref{116}
+  \item [{ref}]\begingroup Reflector\nomeqref {5.21}\nompageref{116}
+  \item [{TS}]\begingroup Tertiary section\nomeqref {5.21}\nompageref{116}
+  \item [{v}]\begingroup Vaporization point\nomeqref {5.21}\nompageref{116}
+  \item [{w}]\begingroup Wind\nomeqref {5.21}\nompageref{116}
+  \item [{wl}]\begingroup Liquid water\nomeqref {5.21}\nompageref{116}
 
 \end{thenomenclature}

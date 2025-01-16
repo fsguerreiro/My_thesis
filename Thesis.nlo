@@ -1,84 +1,132 @@
-\nomenclatureentry{APV@[{PV}]\begingroup Photovoltaic\nomeqref {2.19}|nompageref}{52}
-\nomenclatureentry{ABISTS@[{BISTS}]\begingroup Building Integratied Solar Thermal System\nomeqref {2.19}|nompageref}{52}
-\nomenclatureentry{AACPC@[{ACPC}]\begingroup Asymmetric Compound Parabolic Concentration\nomeqref {2.19}|nompageref}{52}
-\nomenclatureentry{AETC@[{ETC}]\begingroup Evacuated Tube Collector\nomeqref {2.19}|nompageref}{52}
-\nomenclatureentry{P$\rm{\delta}$@[{$\rm{\delta}$}]\begingroup Thickness (m)\nomeqref {2.19}|nompageref}{52}
-\nomenclatureentry{P$\rm{\Gamma}$@[{$\rm{\Gamma}$}]\begingroup Fraction of total solar radiation accepted\nomeqref {2.19}|nompageref}{52}
-\nomenclatureentry{N$\rm{K_{ext}}$@[{$\rm{K_{ext}}$}]\begingroup Extinction coefficient of the glazing (m$^{-1}$)\nomeqref {2.19}|nompageref}{52}
-\nomenclatureentry{N$\rm{N_{c}}$@[{$\rm{N_{c}}$}]\begingroup Number of glazing covers\nomeqref {2.19}|nompageref}{52}
-\nomenclatureentry{AODE@[{ODE}]\begingroup Ordinary Differential Equation\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{ACPC@[{CPC}]\begingroup Compound Parabolic Concentrator\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{ACFD@[{CFD}]\begingroup Computational Fluid Dynamics\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{AIACPC@[{IACPC}]\begingroup Inverted Absorber Compound Parabolic Concentrator\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{U}$@[{$\rm{U}$}]\begingroup Internal energy (J)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{S}$@[{$\rm{S}$}]\begingroup Solar radiation rate absorbed (W)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{Q_{u}}$@[{$\rm{Q_{u}}$}]\begingroup Useful energy rate transferred to the airflow (W)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{t}$@[{$\rm{t}$}]\begingroup Time (s)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{NR@[{R}]\begingroup Thermal resistance (K/W)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Nh@[{h}]\begingroup Heat transfer coefficient (W/(m$^2$K))\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{T}$@[{$\rm{T}$}]\begingroup Temperature (K)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{M}$@[{$\rm{M}$}]\begingroup Mass (kg)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{I_D}$@[{$\rm{I_D}$}]\begingroup Diffuse solar radiation (W/m$^2$)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{I_B}$@[{$\rm{I_B}$}]\begingroup Beam solar radiation (W/m$^2$)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{C}$@[{$\rm{C}$}]\begingroup Geometric concentration ratio\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{I_T}$@[{$\rm{I_T}$}]\begingroup Global solar radiation (W/m$^2$)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{A}$@[{$\rm{A}$}]\begingroup Area (m$^2$)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{L_{col}}$@[{$\rm{L_{col}}$}]\begingroup Collector length (m)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{Re}$@[{$\rm{Re}$}]\begingroup Reynolds number\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{Ra}$@[{$\rm{Ra}$}]\begingroup Rayleigh number\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{Pr}$@[{$\rm{Pr}$}]\begingroup Prandtl number\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{W}$@[{$\rm{W}$}]\begingroup Width (m)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{k_{air}}$@[{$\rm{k_{air}}$}]\begingroup Air thermal conductivity (W/m K)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{C_{p}}$@[{$\rm{C_{p}}$}]\begingroup Specific heat (J/(kg K))\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{G_{air}}$@[{$\rm{G_{air}}$}]\begingroup Mass airflow rate based on the absorber area (kg/(s m$^2$))\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{A_{abs}^{'}}$@[{$\rm{A_{abs}^{'}}$}]\begingroup Absorber area without the holes (m$^2$)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{Nu}$@[{$\rm{Nu}$}]\begingroup Nusselt number\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{v}$@[{$\rm{v}$}]\begingroup Air velocity (m/s)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{g}$@[{$\rm{g}$}]\begingroup Acceleration due to gravity (9.81 m/s$^2$)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{NH@[{H}]\begingroup Height (m)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{U_L}$@[{$\rm{U_L}$}]\begingroup Overall heat loss coefficient (W/(m$^2$ K))\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{d_{air}}$@[{$\rm{d_{air}}$}]\begingroup Air density (kg/m$^3$)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{N_{obs}}$@[{$\rm{N_{obs}}$}]\begingroup Number of observations\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{X_{exp}}$@[{$\rm{X_{exp}}$}]\begingroup Experimental or observed value of the variable X\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{X_{sim}}$@[{$\rm{X_{sim}}$}]\begingroup Simulated of predicted value of the variable X\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{a_{s}}$@[{$\rm{a_{s}}$}]\begingroup Altitude solar angle\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{t_{ST}}$@[{$\rm{t_{ST}}$}]\begingroup Solar time\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{t_{LST}}$@[{$\rm{t_{LST}}$}]\begingroup Local standard time\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{E_{T}}$@[{$\rm{E_{T}}$}]\begingroup Equation of time\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{l_{ST}}$@[{$\rm{l_{ST}}$}]\begingroup Standard longitude\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{l_{local}}$@[{$\rm{l_{local}}$}]\begingroup Local longitude\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{X_{in}}$@[{$\rm{X_{in}}$}]\begingroup Barley moisture content at the dryer's inlet (in dry base)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{N$\rm{X_{out}}$@[{$\rm{X_{out}}$}]\begingroup Barley moisture content at the dryer's outlet (in dry base)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\rm{\ell}$@[{$\rm{\ell}$}]\begingroup Hole pitch (m)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\rm{\varphi_p}$@[{$\rm{\varphi_p}$}]\begingroup Absorber porosity\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\rm{\varphi_h}$@[{$\rm{\varphi_h}$}]\begingroup Hole size (m)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\Delta \rm{t}$@[{$\Delta \rm{t}$}]\begingroup Time step (s)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\nu_{\rm{air}}$@[{$\nu_{\rm{air}}$}]\begingroup Air kinematic viscosity (m$^2$/s)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\varepsilon_{\rm{eff}}$@[{$\varepsilon_{\rm{eff}}$}]\begingroup Effective emissivity\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\varepsilon$@[{$\varepsilon$}]\begingroup Infra-red emissivity\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\alpha$@[{$\alpha$}]\begingroup Absorptivity\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\beta_{\rm{th}}$@[{$\beta_{\rm{th}}$}]\begingroup Volume expansion coefficient of the air (K$^{-1}$)\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\sigma$@[{$\sigma$}]\begingroup Stefan-Boltzmann constant ($5.67$ \rm{x} ${10^{-8}}$ W/(m$^2$ K$^4$))\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\eta_{\rm{th}}$@[{$\eta_{\rm{th}}$}]\begingroup Thermal efficiency\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\eta_{\rm{o}}$@[{$\eta_{\rm{o}}$}]\begingroup Optical efficiency\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\xi$@[{$\xi$}]\begingroup Mean absolute error\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\tau$@[{$\tau$}]\begingroup Transmissivity\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\gamma_{\rm{col}}$@[{$\gamma_{\rm{col}}$}]\begingroup Collector's azimuth angle\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{P$\gamma_{\rm{s}}$@[{$\gamma_{\rm{s}}$}]\begingroup Solar azimuth angle\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Sin@[{in}]\begingroup Air at the inlet\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Sout@[{out}]\begingroup Air at the outlet\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Sh@[{h}]\begingroup Hole\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Sw@[{w}]\begingroup Wind\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{SR1@[{R1}]\begingroup Radiation from absorber to glazing\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{SC1@[{C1}]\begingroup Convection from absorber to glazing\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{SR2@[{R2}]\begingroup Radiation from glazing to ambient\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{SC2@[{C2}]\begingroup Convection from glazing to ambient\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{SHX@[{HX}]\begingroup Convection from absorber to airflow\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Sabs@[{abs}]\begingroup Absorber\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Sglaz@[{glaz}]\begingroup Glazing\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Samb@[{amb}]\begingroup Ambient\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Sapt@[{apt}]\begingroup Aperture\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{STS@[{TS}]\begingroup Tertiary section\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Savg@[{avg}]\begingroup Average\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Sv@[{v}]\begingroup Vaporization point\nomeqref {5.21}|nompageref}{126}
-\nomenclatureentry{Sbar@[{bar}]\begingroup Barley grains\nomeqref {5.21}|nompageref}{126}
+\nomenclatureentry{AODE@[{ODE}]\begingroup Ordinary Differential Equation\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{ACPC@[{CPC}]\begingroup Compound Parabolic Concentrator\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{AACPC@[{ACPC}]\begingroup Asymmetric Compound Parabolic Concentrator\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{ACFD@[{CFD}]\begingroup Computational Fluid Dynamics\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{AIACPC@[{IACPC}]\begingroup Inverted Absorber Compound Parabolic Concentrator\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{ASAHS@[{SAHS}]\begingroup Solar Air Heating System\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{AESTTP@[{ESTTP}]\begingroup European Solar Thermal Technology Platform\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{ASAHC@[{SAHC}]\begingroup Solar Air Heating Collector\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{AGAHC@[{GAHC}]\begingroup Glazed Air Heating Collector\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{APTC@[{PTC}]\begingroup Parabolic Trough Concentrator\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{AUTSC@[{UTSC}]\begingroup Unglazed Transpired Solar Collector\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{ABISTS@[{BISTS}]\begingroup Building Integrated Solar Thermal System\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{r_{par}}$@[{$\rm{r_{par}}$}]\begingroup Parallel component of unpolarized radiation\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{r_{perp}}$@[{$\rm{r_{perp}}$}]\begingroup Perpendicular component of unpolarized radiation\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{n_{idx}}$@[{$\rm{n_{idx}}$}]\begingroup Glazing's refractive index\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{K_{ext}}$@[{$\rm{K_{ext}}$}]\begingroup Glazing's extinction coefficient [m$^{-1}$]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{N_{c}}$@[{$\rm{N_{c}}$}]\begingroup Number of glazing covers\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{r_{inc}}$@[{$\rm{r_{inc}}$}]\begingroup Vector of the incident ray\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{r_{ref}}$@[{$\rm{r_{ref}}$}]\begingroup Vector of the reflected ray\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{r_{n}}$@[{$\rm{r_{n}}$}]\begingroup Vector normal at the intersect point\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{m_{air}}$@[{$\rm{m_{air}}$}]\begingroup Mass airflow rate [kg/h]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{u_{g}}$@[{$\rm{u_{g}}$}]\begingroup Systematic uncertainty related to the airflow rate [kg/(s.m$^2$)]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{V_{a}}$@[{$\rm{V_{a}}$}]\begingroup Voltage input supplied by the adaptor [V]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{F_{R}}$@[{$\rm{F_{R}}$}]\begingroup Heat removal factor\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{U}$@[{$\rm{U}$}]\begingroup Internal energy [J]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{S}$@[{$\rm{S}$}]\begingroup Solar radiation rate absorbed [W]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Q_{u}}$@[{$\rm{Q_{u}}$}]\begingroup Useful energy rate transferred to the airflow [W or J/s]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Q_{req}}$@[{$\rm{Q_{req}}$}]\begingroup Energy required to heat the airflow to 60 \textdegree C [W or J/s]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Q_{dryer}}$@[{$\rm{Q_{dryer}}$}]\begingroup Energy demand to dried a certain mass of barley [W or J/s]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Q_{burner}}$@[{$\rm{Q_{burner}}$}]\begingroup Energy provided by the gas burner [W or J/s]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{t}$@[{$\rm{t}$}]\begingroup Time [s]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{R}$@[{$\rm{R}$}]\begingroup Thermal resistance [\textdegree C/W]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{h}$@[{$\rm{h}$}]\begingroup Heat transfer coefficient [W/(m$^2$.\textdegree C)]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{T}$@[{$\rm{T}$}]\begingroup Temperature [\textdegree C]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{M}$@[{$\rm{M}$}]\begingroup Mass [kg]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{I_D}$@[{$\rm{I_D}$}]\begingroup Diffuse solar radiation [W/m$^2$]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{I_B}$@[{$\rm{I_B}$}]\begingroup Beam solar radiation [W/m$^2$]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{CR}$@[{$\rm{CR}$}]\begingroup Geometric concentration ratio\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{I_T}$@[{$\rm{I_T}$}]\begingroup Global solar radiation [W/m$^2$]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{A}$@[{$\rm{A}$}]\begingroup Area [m$^2$]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{L_{col}}$@[{$\rm{L_{col}}$}]\begingroup Collector length [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Re}$@[{$\rm{Re}$}]\begingroup Reynolds number\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Ra}$@[{$\rm{Ra}$}]\begingroup Rayleigh number\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Pr}$@[{$\rm{Pr}$}]\begingroup Prandtl number\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{W}$@[{$\rm{W}$}]\begingroup Width [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{k_{air}}$@[{$\rm{k_{air}}$}]\begingroup Air thermal conductivity [W/(m.\textdegree C)]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{C_{p}}$@[{$\rm{C_{p}}$}]\begingroup Specific heat [J/(kg.\textdegree C)]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{G_{air}}$@[{$\rm{G_{air}}$}]\begingroup Mass airflow rate based on the absorber area [kg/(s.m$^2$)]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{A_{abs}^{'}}$@[{$\rm{A_{abs}^{'}}$}]\begingroup Absorber area without the holes [m$^2$]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Nu}$@[{$\rm{Nu}$}]\begingroup Nusselt number\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{v}$@[{$\rm{v}$}]\begingroup Air velocity [m/s]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{g}$@[{$\rm{g}$}]\begingroup Acceleration due to gravity [9.81 m/s$^2$]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{H}$@[{$\rm{H}$}]\begingroup Height [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{U_L}$@[{$\rm{U_L}$}]\begingroup Overall heat loss coefficient [W/(m$^2$.\textdegree C)]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{d_{air}}$@[{$\rm{d_{air}}$}]\begingroup Air density [kg/m$^3$]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{N_{obs}}$@[{$\rm{N_{obs}}$}]\begingroup Number of observations\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Y_{exp}}$@[{$\rm{Y_{exp}}$}]\begingroup Experimental or observed value of the variable Y\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{Y_{sim}}$@[{$\rm{Y_{sim}}$}]\begingroup Simulated of predicted value of the variable Y\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{a_{s}}$@[{$\rm{a_{s}}$}]\begingroup Altitude solar angle [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{t_{ST}}$@[{$\rm{t_{ST}}$}]\begingroup Solar time [h]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{t_{LST}}$@[{$\rm{t_{LST}}$}]\begingroup Local standard time [h]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{E_{T}}$@[{$\rm{E_{T}}$}]\begingroup Equation of time [min]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{f}$@[{$\rm{f}$}]\begingroup Focal distance [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{X_{in}}$@[{$\rm{X_{in}}$}]\begingroup Barley moisture content at the dryer's inlet (in dry base)\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{X_{out}}$@[{$\rm{X_{out}}$}]\begingroup Barley moisture content at the dryer's outlet (in dry base)\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{x}$@[{$\rm{x}$}]\begingroup x-coordinates\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{y}$@[{$\rm{y}$}]\begingroup y-coordinates\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{z}$@[{$\rm{z}$}]\begingroup z-coordinates\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{t_{p}}$@[{$\rm{t_{p}}$}]\begingroup Parametric variable in the xy-plane\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{{\overline W}_{glaz}}$@[{$\rm{{\overline W}_{glaz}}$}]\begingroup Glazing characteristic length [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{W_{col}}$@[{$\rm{W_{col}}$}]\begingroup Collector depth [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{y_{TS}}$@[{$\rm{y_{TS}}$}]\begingroup y-coordinate of the tertiary section position\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{x_{apt}}$@[{$\rm{x_{apt}}$}]\begingroup x-coordinate of the aperture position\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{y_{apt,upper}}$@[{$\rm{y_{apt,upper}}$}]\begingroup y-coordinate of the aperture at the upper parabola\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{N$\rm{y_{apt,lowper}}$@[{$\rm{y_{apt,lowper}}$}]\begingroup y-coordinate of the aperture at the lower parabola\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\Gamma$@[{$\Gamma$}]\begingroup Intercept factor\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\rm{\ell}$@[{$\rm{\ell}$}]\begingroup Hole pitch [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\rm{\varphi_p}$@[{$\rm{\varphi_p}$}]\begingroup Absorber porosity\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\rm{\varphi_h}$@[{$\rm{\varphi_h}$}]\begingroup Hole size [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\Delta \rm{t}$@[{$\Delta \rm{t}$}]\begingroup Time step [s]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\nu_{\rm{air}}$@[{$\nu_{\rm{air}}$}]\begingroup Air kinematic viscosity [m$^2$/s]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\varepsilon_{\rm{eff}}$@[{$\varepsilon_{\rm{eff}}$}]\begingroup Effective emissivity\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\varepsilon$@[{$\varepsilon$}]\begingroup Infrared emissivity\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\alpha$@[{$\alpha$}]\begingroup Absorptivity\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\sigma$@[{$\sigma$}]\begingroup Stefan-Boltzmann constant [$5.67$ \rm{x} ${10^{-8}}$ W/(m$^2$.K$^4$)]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\eta_{\rm{th}}$@[{$\eta_{\rm{th}}$}]\begingroup Thermal efficiency\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\eta_{\rm{o}}$@[{$\eta_{\rm{o}}$}]\begingroup Optical efficiency\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\xi$@[{$\xi$}]\begingroup Mean absolute error\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\tau$@[{$\tau$}]\begingroup Transmissivity\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\gamma_{\rm{col}}$@[{$\gamma_{\rm{col}}$}]\begingroup Collector's azimuth angle [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\gamma_{\rm{s}}$@[{$\gamma_{\rm{s}}$}]\begingroup Solar azimuth angle [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\tau_{\rm{col}}$@[{$\tau_{\rm{col}}$}]\begingroup Collector's transmissivity\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\delta$@[{$\delta$}]\begingroup Thickness [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\theta_{\rm{i}}$@[{$\theta_{\rm{i}}$}]\begingroup Incident angle at the glazing cover [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\theta_{\rm{r}}$@[{$\theta_{\rm{r}}$}]\begingroup Refracted angle in the glazing cover [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\rho$@[{$\rho$}]\begingroup Reflectivity\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\theta_{\rm{P1}}$@[{$\theta_{\rm{P1}}$}]\begingroup Angle of the upper parabola axis to the horizontal [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\theta_{\rm{P2}}$@[{$\theta_{\rm{P2}}$}]\begingroup Angle of the lower parabola axis to the horizontal [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\theta_{\rm{acc}}$@[{$\theta_{\rm{acc}}$}]\begingroup Angular acceptance for a specific parabola [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\theta_{\rm{a}}$@[{$\theta_{\rm{a}}$}]\begingroup Angular parameter for a specific parabola [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\rm{\ell_{ST}}$@[{$\rm{\ell_{ST}}$}]\begingroup Standard longitude angle [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\rm{\ell_{local}}$@[{$\rm{\ell_{local}}$}]\begingroup Local longitude angle [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\omega_{\rm{s}}$@[{$\omega_{\rm{s}}$}]\begingroup Solar hour angle [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\delta_{\rm{s}}$@[{$\delta_{\rm{s}}$}]\begingroup Solar declination angle [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\phi$@[{$\phi$}]\begingroup Local latitude angle [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\beta$@[{$\beta$}]\begingroup Glazing inclination angle [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\Delta{\rm{x}}$@[{$\Delta{\rm{x}}$}]\begingroup Displacement of the parabola in the x-coordinates [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\Delta{\rm{y}}$@[{$\Delta{\rm{y}}$}]\begingroup Displacement of the parabola in the y-coordinates [m]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\theta_{\rm{iy}}$@[{$\theta_{\rm{iy}}$}]\begingroup Angle of the solar ray to the horizontal in the xy-plane [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\theta_{\rm{iz}}$@[{$\theta_{\rm{iz}}$}]\begingroup Angle of the solar ray to the horizontal in the xz-plane [degrees]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{P$\lambda_{\rm{v}}$@[{$\lambda_{\rm{v}}$}]\begingroup Latent heat of vaporisation [J/kg]\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sin@[{in}]\begingroup Inlet\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sout@[{out}]\begingroup Outlet\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sh@[{h}]\begingroup Hole\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sw@[{w}]\begingroup Wind\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{SR1@[{R1}]\begingroup Radiation from absorber to glazing\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{SC1@[{C1}]\begingroup Convection from absorber to glazing\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{SR2@[{R2}]\begingroup Radiation from glazing to ambient\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{SC2@[{C2}]\begingroup Convection from glazing to ambient\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{SHX@[{HX}]\begingroup Convection from absorber to airflow\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sabs@[{abs}]\begingroup Absorber plate\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sglaz@[{glaz}]\begingroup Glazing cover\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Samb@[{amb}]\begingroup Ambient\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sapt@[{apt}]\begingroup Aperture\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{STS@[{TS}]\begingroup Tertiary section\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Savg@[{avg}]\begingroup Average\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sv@[{v}]\begingroup Vaporization point\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sbar@[{bar}]\begingroup Barley grains\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Scol@[{col}]\begingroup Collector\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sref@[{ref}]\begingroup Reflector\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Sint@[{int}]\begingroup Intersection point\nomeqref {5.21}|nompageref}{116}
+\nomenclatureentry{Swl@[{wl}]\begingroup Liquid water\nomeqref {5.21}|nompageref}{116}

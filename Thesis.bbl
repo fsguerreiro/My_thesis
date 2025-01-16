@@ -2472,6 +2472,40 @@
     \field{year}{2013}
   \endentry
 
+  \entry{Cenkowski1992}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JSCDS}{%
+         family={Jayas},
+         familyi={J\bibinitperiod},
+         given={S.\bibnamedelima Cenkowski; D.\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hao},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JSCDSHD1}
+    \strng{fullhash}{JSCDSHD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1992}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{number}{3}
+    \field{title}{Latent heat of vaporization for selectedfoods and crops}
+    \verb{url}
+    \verb http://www.csbe-scgab.ca/docs/journal/34/34_3_281_ocr.pdf
+    \endverb
+    \field{volume}{34}
+    \field{journaltitle}{Canadian Agricultural Engineering}
+    \field{year}{1992}
+  \endentry
+
   \entry{Kalogirou2004}{article}{}
     \name{author}{1}{}{%
       {{hash=KSA}{%

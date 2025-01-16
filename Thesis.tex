@@ -25,6 +25,8 @@
 \usepackage{tikz}																 % Insertion of graphs, flowcharts, etc.
 \usepackage{tikz-3dplot}
 \usepackage{makecell}
+\usepackage[none]{hyphenat}
+\usepackage{microtype}
 
 
 %\usepackage{pgf}
@@ -50,7 +52,7 @@
 %\usepackage{lastpage} 
 %\usepackage{changepage}
 %\usepackage[normalem]{ulem} 
-%\usepackage{microtype}
+
 
 % ------------------------------------- Page settings =======================
 \parindent 1cm          
@@ -122,6 +124,7 @@
 
 \begin{document}
 	\raggedbottom
+	\sloppy
 	\setlength{\belowdisplayskip}{10pt}      \setlength{\abovedisplayskip}{-4pt}
 	\pagenumbering{gobble}
 	\input{Cover}
@@ -131,7 +134,7 @@
 	\printnomenclature[1.5cm]
 	\newpage
 	
-	\setcounter{page}{1}       \pagenumbering{arabic}
+	%\setcounter{page}{1}       \pagenumbering{roman}
 	\pagestyle{fancy}		\lhead{}		\rhead{\nouppercase{\rightmark}}
 	
 	\clearpage     						\renewcommand*\contentsname{Table of contents}
@@ -143,6 +146,7 @@
 	
 	\newpage
 	\rhead{\nouppercase{\rightmark}}      \lhead{Chapter \thechapter}
+	\setcounter{page}{1}       \pagenumbering{arabic}
 	\input{Introduction}
 	\input{Literature}
 	\input{Optical}
@@ -152,8 +156,8 @@
 	\input{Conclusions}
 	\newpage
 	\lhead{}
-	\printbibliography[title={References}]
 	\addcontentsline{toc}{chapter}{References}
-	\newpage
+	\printbibliography[title={References}]
+	%\newpage
 	
 \end{document}

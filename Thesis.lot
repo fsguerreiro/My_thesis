@@ -1,22 +1,23 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Application for air heating and operating air temperature range. From \citet {Norton2012} and \citet {Pranesh2019}\relax }}{13}{table.caption.9}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Application for air heating and operating air temperature range. From \citet {Norton2012} and \citet {Pranesh2019}\relax }}{2}{table.caption.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Expressions for the parabolas' parameters.\relax }}{58}{table.caption.29}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Reflector coordinate limits.\relax }}{58}{table.caption.31}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Geometric parameters of the concentrator to be fabricated.\relax }}{78}{table.caption.57}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Expressions for the parabolas' parameters.\relax }}{48}{table.caption.29}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Reflector coordinate limits.\relax }}{48}{table.caption.31}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Geometric parameters of the concentrator to be fabricated.\relax }}{69}{table.caption.56}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Carbon fibre weave properties.\relax }}{83}{table.caption.60}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Glazing cover properties.\relax }}{84}{table.caption.62}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces \textit {MiroSun} reflector properties (\blx@tocontentsinit {0}\cite {Alanod2016}).\relax }}{85}{table.caption.63}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Measurements and standard uncertainty.\relax }}{88}{table.caption.67}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Mass and volumetric flow rates calculated at each voltage input.\relax }}{88}{table.caption.68}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Carbon fibre weave properties.\relax }}{72}{table.caption.59}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Glazing cover properties.\relax }}{73}{table.caption.61}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces \textit {MiroSun} reflector properties (\blx@tocontentsinit {0}\cite {Alanod2016}).\relax }}{74}{table.caption.62}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Measurements and standard uncertainty.\relax }}{77}{table.caption.66}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Mass and volumetric flow rates calculated at each voltage input.\relax }}{77}{table.caption.67}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Model parameters values used in the heat transfer modelling.\relax }}{104}{table.caption.82}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8h of operation as function of the airflow rate only using gas burner for air heating.\relax }}{122}{table.caption.103}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8h of operation as function of the airflow rate using gas burner and solar system for air heating for connection of up to 3 collectors in series.\relax }}{123}{table.caption.104}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8h of operation as function of the airflow rate using gas burner and solar system for air heating for connection of 3 collectors in parallel.\relax }}{124}{table.caption.105}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8h of operation as function of the airflow rate using solar system alone for air heating for connection of 3 collectors in series.\relax }}{124}{table.caption.106}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8h of operation as function of the airflow rate using solar system alone for air heating for connection of 3 collectors in parallel.\relax }}{125}{table.caption.107}%
-\contentsline {table}{\numberline {5.7}{\ignorespaces Comparison of the 3 scenarios at $\rm {G_{air}}$ = 78.3 kg/h for 8h of operation. \relax }}{125}{table.caption.108}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Model parameter values used in the heat transfer modelling.\relax }}{94}{table.caption.83}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Model parameter values used in the drying modelling and simulation. From \citet {Bala2017} and \citet {Cenkowski1992}.\relax }}{109}{table.caption.100}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8h of operation as function of the airflow rate only using gas burner for air heating.\relax }}{112}{table.caption.105}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8 hours of operation as a function of the airflow rate using a gas burner and the solar system for air heating for connection of up to 3 collectors in series.\relax }}{113}{table.caption.106}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8h of operation as a function of the airflow rate using a gas burner and sothe lar system for air heating for connection of 3 collectors in parallel.\relax }}{114}{table.caption.107}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8h of operation as a function of the airflow rate using the solar system alone for air heating for connection of 3 collectors in series.\relax }}{114}{table.caption.108}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Quantity of barley dried and amount of $\rm {CO_2}$ released for 8h of operation as a function of the airflow rate using the solar system alone for air heating for connection of 3 collectors in parallel.\relax }}{115}{table.caption.109}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Comparison of the 3 scenarios at $\rm {m_{air}}$ = 78.3 kg/h for 8h of operation. \relax }}{115}{table.caption.110}%
 \addvspace {10\p@ }

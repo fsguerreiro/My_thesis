@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.18)  21 SEP 2023 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.18)  6 JAN 2025 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1288,11 +1288,43 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \c@nlinenum=\count449
 \TeXr@lab=\toks41
 )
-\c@descriptcount=\count450
+(C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language80
+LaTeX Info: Redefining \_ on input line 43.
+)
+(C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
+\MT@toks=\toks42
+\MT@tempbox=\box74
+\MT@count=\count450
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
+LaTeX Info: Redefining \leftprotrusion on input line 1062.
+\MT@prot@toks=\toks43
+LaTeX Info: Redefining \rightprotrusion on input line 1081.
+LaTeX Info: Redefining \textls on input line 1392.
+\MT@outer@kern=\dimen315
+LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
+\MT@listname@count=\count451
+
+(C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
+tex.def
+File: microtype-pdftex.def 2024/03/29 v3.1b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip99
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
+))
+\c@descriptcount=\count452
 \@nomenclaturefile=\write5
 \openout5 = `Thesis.nlo'.
 
-Package nomencl Info: Writing nomenclature file Thesis.nlo on input line 69.
+Package nomencl Info: Writing nomenclature file Thesis.nlo on input line 71.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.arrows.code.tex
@@ -1317,10 +1349,10 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen315
-\pgfarrowlength=\dimen316
-\pgfarrowwidth=\dimen317
-\pgfarrowlinewidth=\dimen318
+\pgfarrowinset=\dimen316
+\pgfarrowlength=\dimen317
+\pgfarrowwidth=\dimen318
+\pgfarrowlinewidth=\dimen319
 )
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.code.tex
@@ -1353,32 +1385,32 @@ File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
 pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box74
-\pgfnodeparttwobox=\box75
-\pgfnodepartthreebox=\box76
-\pgfnodepartfourbox=\box77
-\pgfnodeparttwentybox=\box78
-\pgfnodepartnineteenbox=\box79
-\pgfnodeparteighteenbox=\box80
-\pgfnodepartseventeenbox=\box81
-\pgfnodepartsixteenbox=\box82
-\pgfnodepartfifteenbox=\box83
-\pgfnodepartfourteenbox=\box84
-\pgfnodepartthirteenbox=\box85
-\pgfnodeparttwelvebox=\box86
-\pgfnodepartelevenbox=\box87
-\pgfnodeparttenbox=\box88
-\pgfnodepartninebox=\box89
-\pgfnodeparteightbox=\box90
-\pgfnodepartsevenbox=\box91
-\pgfnodepartsixbox=\box92
-\pgfnodepartfivebox=\box93
+\pgfnodepartlowerbox=\box75
+\pgfnodeparttwobox=\box76
+\pgfnodepartthreebox=\box77
+\pgfnodepartfourbox=\box78
+\pgfnodeparttwentybox=\box79
+\pgfnodepartnineteenbox=\box80
+\pgfnodeparteighteenbox=\box81
+\pgfnodepartseventeenbox=\box82
+\pgfnodepartsixteenbox=\box83
+\pgfnodepartfifteenbox=\box84
+\pgfnodepartfourteenbox=\box85
+\pgfnodepartthirteenbox=\box86
+\pgfnodeparttwelvebox=\box87
+\pgfnodepartelevenbox=\box88
+\pgfnodeparttenbox=\box89
+\pgfnodepartninebox=\box90
+\pgfnodeparteightbox=\box91
+\pgfnodepartsevenbox=\box92
+\pgfnodepartsixbox=\box93
+\pgfnodepartfivebox=\box94
 )))
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box94
-\pgf@layerboxsaved@background=\box95
+\pgf@layerbox@background=\box95
+\pgf@layerboxsaved@background=\box96
 )
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryangles.code.tex
@@ -1394,16 +1426,16 @@ z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 z/libraries\tikzlibrarydecorations.code.tex
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 decorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen319
-\pgfdecoratedremainingdistance=\dimen320
-\pgfdecoratedinputsegmentcompleteddistance=\dimen321
-\pgfdecoratedinputsegmentremainingdistance=\dimen322
-\pgf@decorate@distancetomove=\dimen323
-\pgf@decorate@repeatstate=\count451
-\pgfdecorationsegmentamplitude=\dimen324
-\pgfdecorationsegmentlength=\dimen325
+\pgfdecoratedcompleteddistance=\dimen320
+\pgfdecoratedremainingdistance=\dimen321
+\pgfdecoratedinputsegmentcompleteddistance=\dimen322
+\pgfdecoratedinputsegmentremainingdistance=\dimen323
+\pgf@decorate@distancetomove=\dimen324
+\pgf@decorate@repeatstate=\count453
+\pgfdecorationsegmentamplitude=\dimen325
+\pgfdecorationsegmentlength=\dimen326
 )
-\tikz@lib@dec@box=\box96
+\tikz@lib@dec@box=\box97
 )
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
 ions\pgflibrarydecorations.pathreplacing.code.tex))
@@ -1417,75 +1449,75 @@ File: pgfmoduledatavisualization.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 oo.code.tex
-\pgfoo@objectcount=\count452
-\pgfoothis@count=\count453
-\pgfoo@toks=\toks42
+\pgfoo@objectcount=\count454
+\pgfoothis@count=\count455
+\pgfoo@toks=\toks44
 )
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryfpu.code.tex)
-\pgf@lib@dv@cache@count=\count454
-\pgf@lib@dv@cache@count=\count455
+\pgf@lib@dv@cache@count=\count456
+\pgf@lib@dv@cache@count=\count457
 )
-\tikzdvvisualizercounter=\count456
+\tikzdvvisualizercounter=\count458
 )
-\@quotelevel=\count457
-\@quotereset=\count458
+\@quotelevel=\count459
+\@quotereset=\count460
 
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 123.
+(biblatex)                Setting 'uniquename=init' on input line 125.
 
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-23.
+25.
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 (Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 123.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 125.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-123.
+125.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 125.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-123.
+125.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 125.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-123.
+125.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 125.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-23.
+25.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1539,12 +1571,12 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Thesis.bbl' found.
  (Thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 123.
-Package biblatex Info: Reference segment=0 on input line 123.
+Package biblatex Info: Reference section=0 on input line 125.
+Package biblatex Info: Reference segment=0 on input line 125.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 123.
+Package hyperref Info: Link coloring OFF on input line 125.
  (Thesis.out) (Thesis.out)
 \@outlinefile=\write6
 \openout6 = `Thesis.out'.
@@ -1553,36 +1585,67 @@ Package hyperref Info: Link coloring OFF on input line 123.
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count459
-\scratchdimen=\dimen326
-\scratchbox=\box97
-\nofMPsegments=\count460
-\nofMParguments=\count461
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count462
-\MPscratchDim=\dimen327
-\MPnumerator=\count463
-\makeMPintoPDFobject=\count464
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count461
+\scratchdimen=\dimen327
+\scratchbox=\box98
+\nofMPsegments=\count462
+\nofMParguments=\count463
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count464
+\MPscratchDim=\dimen328
+\MPnumerator=\count465
+\makeMPintoPDFobject=\count466
+\everyMPtoPDFconversion=\toks46
 )
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (Cover.tex
-<figs/TUD-logo.png, id=406, 1027.84pt x 647.41875pt>
+))
+LaTeX Info: Redefining \microtypecontext on input line 125.
+Package microtype Info: Applying patch `item' on input line 125.
+Package microtype Info: Applying patch `toc' on input line 125.
+Package microtype Info: Applying patch `eqnum' on input line 125.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 125.
+
+Package microtype Info: Applying patch `verbatim' on input line 125.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 125.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+(Cover.tex
+<figs/TUD-logo.png, id=417, 1027.84pt x 647.41875pt>
 File: figs/TUD-logo.png Graphic file (type png)
 <use figs/TUD-logo.png>
 Package pdftex.def Info: figs/TUD-logo.png  used on input line 4.
 (pdftex.def)             Requested size: 1027.8375pt x 647.41716pt.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20.74> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 7.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.d
@@ -1592,228 +1655,222 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 
 {C:/Users/ferna/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figs/TUD-l
 ogo.png>]
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 24
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 28.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 32
 .
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-4.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 3
+2.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-4.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 3
+2.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 24
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 32
 .
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-4.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+2.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 3
+2.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-4.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 3
+2.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-4.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 3
+2.
 
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.25 
-      [2
+[1
 
-]
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 \chapter
-             *{Declaration} [3]
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.48 \chapter
-             *{Acknowledgement} [4
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 40--47
 
-])
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.129 	\newpage
-                [5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]\OT1/txr/m/n/12 (+20) Signature
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+[3
+
+]) [4
 
 ] (Thesis.nls
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 3.
+ [5
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29   \item [{$\rm{l_{ST}}$}]
-                              \begingroup Standard longitude\nomeqref {5.21}...
-[6
-
-]
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62   \item [{$\nu_{\rm{air}}$}]
-                                 \begingroup Air kinematic viscosity (m$^2$/...
-[7])
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.132 	\newpage
-                [8] (Thesis.toc [1
+] [6] [7] [8]) [9] (Thesis.toc [10
 
 
-] [2] [3])
+] [11] [12])
 \tf@toc=\write7
 \openout7 = `Thesis.toc'.
 
- [4] (Thesis.lof [5
+ [13]
+(Thesis.lof [14
 
 
-] [6] [7]
-[8])
+]
+Underfull \hbox (badness 1931) in paragraph at lines 24--24
+ [][] [][]\OT1/txr/m/n/12 (+20) Concentrator's cross-section view with the ap-p
+ro-pri-ate co-or-di-nate 
+ []
+
+[15] [16] [17])
 \tf@lof=\write8
 \openout8 = `Thesis.lof'.
 
- [9] (Thesis.lot [10
+ [18] (Thesis.lot [19
 
 
 ])
 \tf@lot=\write9
 \openout9 = `Thesis.lot'.
 
- [11] (Introduction.tex
+ [20] (Introduction.tex
 Chapter 1.
-[12
+[1
 
-] [13]
-<figs/array1.png, id=894, 783.67781pt x 627.09282pt>
+] [2]
+<figs/array1.png, id=933, 783.67781pt x 627.09282pt>
 File: figs/array1.png Graphic file (type png)
 <use figs/array1.png>
-Package pdftex.def Info: figs/array1.png  used on input line 30.
+Package pdftex.def Info: figs/array1.png  used on input line 47.
 (pdftex.def)             Requested size: 783.67589pt x 627.0913pt.
- [14 <./figs/array1.png (PNG copy)>] [15] [16]) (Literature.tex
-[17]
+ [3 <./figs/array1.png (PNG copy)>] [4] [5] [6]) (Literature.tex
+[7]
 Chapter 2.
-[18
+[8
 
 ]
-<figs/unglazed-glazed.png, id=931, 721.94719pt x 290.58563pt>
+<figs/unglazed-glazed.png, id=975, 721.94719pt x 290.58563pt>
 File: figs/unglazed-glazed.png Graphic file (type png)
 <use figs/unglazed-glazed.png>
 Package pdftex.def Info: figs/unglazed-glazed.png  used on input line 22.
 (pdftex.def)             Requested size: 721.94542pt x 290.58492pt.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 26.
- [19 <./figs/unglazed-glazed.png>]
+ [9 <./figs/unglazed-glazed.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
- [20] [21] [22] [23]
-<figs/modified_area.png, id=1020, 642.14906pt x 255.20343pt>
+ [10] [11] [12] [13]
+<figs/modified_area.png, id=1065, 642.14906pt x 255.20343pt>
 File: figs/modified_area.png Graphic file (type png)
 <use figs/modified_area.png>
-Package pdftex.def Info: figs/modified_area.png  used on input line 147.
+Package pdftex.def Info: figs/modified_area.png  used on input line 106.
 (pdftex.def)             Requested size: 642.14749pt x 255.2028pt.
- [24] [25 <./figs/modified_area.png>] [26]
-<figs/airflow_effect.png, id=1074, 366.61969pt x 323.70938pt>
+ [14 <./figs/modified_area.png>] [15] [16]
+<figs/airflow_effect.png, id=1120, 366.61969pt x 323.70938pt>
 File: figs/airflow_effect.png Graphic file (type png)
 <use figs/airflow_effect.png>
-Package pdftex.def Info: figs/airflow_effect.png  used on input line 170.
+Package pdftex.def Info: figs/airflow_effect.png  used on input line 128.
 (pdftex.def)             Requested size: 366.61879pt x 323.70859pt.
- [27 <./figs/airflow_effect.png>]
-<figs/double_pass.png, id=1089, 411.78844pt x 183.68625pt>
+ [17 <./figs/airflow_effect.png>]
+<figs/double_pass.png, id=1135, 411.78844pt x 183.68625pt>
 File: figs/double_pass.png Graphic file (type png)
 <use figs/double_pass.png>
-Package pdftex.def Info: figs/double_pass.png  used on input line 182.
+Package pdftex.def Info: figs/double_pass.png  used on input line 140.
 (pdftex.def)             Requested size: 411.78741pt x 183.68578pt.
- [28] [29 <./figs/double_pass.png>]
-<figs/series-parallel.png, id=1120, 329.73187pt x 294.34969pt>
+ [18 <./figs/double_pass.png>]
+Underfull \hbox (badness 1365) in paragraph at lines 148--149
+[][]\OT1/txr/m/n/12 (+20) Hegazy ([]1999[]) showed a cri-te-rion for de-ter-min
+-ing the chan-nel's op-ti-mum
+ []
+
+[19]
+<figs/series-parallel.png, id=1163, 329.73187pt x 294.34969pt>
 File: figs/series-parallel.png Graphic file (type png)
 <use figs/series-parallel.png>
-Package pdftex.def Info: figs/series-parallel.png  used on input line 196.
+Package pdftex.def Info: figs/series-parallel.png  used on input line 154.
 (pdftex.def)             Requested size: 329.73105pt x 294.34895pt.
- [30] [31 <./figs/series-parallel.png>] [32] [33]
-<figs/sun_orientation.png, id=1156, 470.50781pt x 319.94531pt>
-File: figs/sun_orientation.png Graphic file (type png)
-<use figs/sun_orientation.png>
-Package pdftex.def Info: figs/sun_orientation.png  used on input line 257.
-(pdftex.def)             Requested size: 470.50665pt x 319.94452pt.
- [34 <./figs/sun_orientation.png>] [35] [36]
-<figs/CPC-2D-3D.png, id=1206, 530.73282pt x 325.96782pt>
+ [20 <./figs/series-parallel.png>] [21] [22]
+<figs/Figure_orientation.png, id=1197, 377.91188pt x 258.21469pt>
+File: figs/Figure_orientation.png Graphic file (type png)
+<use figs/Figure_orientation.png>
+Package pdftex.def Info: figs/Figure_orientation.png  used on input line 217.
+(pdftex.def)             Requested size: 377.91095pt x 258.21405pt.
+ [23] [24 <./figs/Figure_orientation.png>] [25] [26]
+<figs/CPC-2D-3D.png, id=1254, 530.73282pt x 325.96782pt>
 File: figs/CPC-2D-3D.png Graphic file (type png)
 <use figs/CPC-2D-3D.png>
-Package pdftex.def Info: figs/CPC-2D-3D.png  used on input line 342.
+Package pdftex.def Info: figs/CPC-2D-3D.png  used on input line 300.
 (pdftex.def)             Requested size: 530.73152pt x 325.96701pt.
- [37]
-<figs/untruncated.png, id=1225, 910.15031pt x 308.65312pt>
+ [27 <./figs/CPC-2D-3D.png>]
+<figs/untruncated.png, id=1272, 910.15031pt x 308.65312pt>
 File: figs/untruncated.png Graphic file (type png)
 <use figs/untruncated.png>
-Package pdftex.def Info: figs/untruncated.png  used on input line 353.
+Package pdftex.def Info: figs/untruncated.png  used on input line 311.
 (pdftex.def)             Requested size: 910.1481pt x 308.65236pt.
-<figs/ang_acc2.jpg, id=1228, 454.69875pt x 313.17pt>
+<figs/ang_acc2.jpg, id=1275, 454.69875pt x 313.17pt>
 File: figs/ang_acc2.jpg Graphic file (type jpg)
 <use figs/ang_acc2.jpg>
-Package pdftex.def Info: figs/ang_acc2.jpg  used on input line 355.
+Package pdftex.def Info: figs/ang_acc2.jpg  used on input line 313.
 (pdftex.def)             Requested size: 454.69763pt x 313.16922pt.
- [38 <./figs/CPC-2D-3D.png> <./figs/untruncated.png>] [39 <./figs/ang_acc2.jpg>
-] [40]
-<figs/ACPC.png, id=1273, 503.63156pt x 264.23718pt>
+ [28 <./figs/untruncated.png> <./figs/ang_acc2.jpg>] [29] [30]
+<figs/ACPC.png, id=1321, 503.63156pt x 264.23718pt>
 File: figs/ACPC.png Graphic file (type png)
 <use figs/ACPC.png>
-Package pdftex.def Info: figs/ACPC.png  used on input line 396.
+Package pdftex.def Info: figs/ACPC.png  used on input line 355.
 (pdftex.def)             Requested size: 503.63033pt x 264.23653pt.
- [41] [42 <./figs/ACPC.png>]
-<figs/ACPCzac.PNG, id=1298, 585.68813pt x 284.56313pt>
+ [31 <./figs/ACPC.png>]
+<figs/ACPCzac.PNG, id=1337, 585.68813pt x 284.56313pt>
 File: figs/ACPCzac.PNG Graphic file (type png)
 <use figs/ACPCzac.PNG>
-Package pdftex.def Info: figs/ACPCzac.PNG  used on input line 407.
+Package pdftex.def Info: figs/ACPCzac.PNG  used on input line 366.
 (pdftex.def)             Requested size: 585.68669pt x 284.56242pt.
+ [32 <./figs/ACPCzac.PNG>]
 Package epstopdf Info: Source file: <figs/col_rev.eps>
 (epstopdf)                    date: 2020-06-07 23:13:18
 (epstopdf)                    size: 482221 bytes
@@ -1822,15 +1879,15 @@ Package epstopdf Info: Source file: <figs/col_rev.eps>
 (epstopdf)                    size: 140869 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/col_rev-eps-con
 verted-to.pdf figs/col_rev.eps>
-(epstopdf)             \includegraphics on input line 415.
+(epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
-<figs/col_rev-eps-converted-to.pdf, id=1308, 465.74pt x 383.4325pt>
+<figs/col_rev-eps-converted-to.pdf, id=1354, 465.74pt x 383.4325pt>
 File: figs/col_rev-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/col_rev-eps-converted-to.pdf>
 Package pdftex.def Info: figs/col_rev-eps-converted-to.pdf  used on input line 
-415.
+374.
 (pdftex.def)             Requested size: 465.73886pt x 383.43156pt.
- [43 <./figs/ACPCzac.PNG>] [44 <./figs/col_rev-eps-converted-to.pdf>]
+ [33 <./figs/col_rev-eps-converted-to.pdf>] [34]
 Package epstopdf Info: Source file: <figs/ref_point.eps>
 (epstopdf)                    date: 2020-06-07 23:13:24
 (epstopdf)                    size: 2177339 bytes
@@ -1839,25 +1896,31 @@ Package epstopdf Info: Source file: <figs/ref_point.eps>
 (epstopdf)                    size: 101561 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/ref_point-eps-c
 onverted-to.pdf figs/ref_point.eps>
-(epstopdf)             \includegraphics on input line 441.
+(epstopdf)             \includegraphics on input line 399.
 Package epstopdf Info: Output file is already uptodate.
-<figs/ref_point-eps-converted-to.pdf, id=1340, 315.1775pt x 248.93pt>
+<figs/ref_point-eps-converted-to.pdf, id=1388, 315.1775pt x 248.93pt>
 File: figs/ref_point-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/ref_point-eps-converted-to.pdf>
 Package pdftex.def Info: figs/ref_point-eps-converted-to.pdf  used on input lin
-e 441.
+e 399.
 (pdftex.def)             Requested size: 315.17673pt x 248.92938pt.
- [45] [46 <./figs/ref_point-eps-converted-to.pdf>] [47] [48] [49]
+ [35 <./figs/ref_point-eps-converted-to.pdf>] [36] [37] [38] [39]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 519.
+(enumitem)                sense, on input line 477.
 
-[50] [51]) (Optical.tex [52]
+[40] [41]
+Underfull \hbox (badness 1953) in paragraph at lines 522--523
+[]\OT1/txr/m/n/12 (+20) Concentrating col-lec-tors, in-clud-ing parabolic troug
+hs, com-pound parabolic
+ []
+
+) (Optical.tex [42]
 Chapter 3.
-[53
+[43
 
 ]
-<figs/collector3D.PNG, id=1444, 995.97093pt x 496.10344pt>
+<figs/collector3D.PNG, id=1489, 995.97093pt x 496.10344pt>
 File: figs/collector3D.PNG Graphic file (type png)
 <use figs/collector3D.PNG>
 Package pdftex.def Info: figs/collector3D.PNG  used on input line 27.
@@ -1872,14 +1935,14 @@ Package epstopdf Info: Source file: <figs/CSview2.eps>
 verted-to.pdf figs/CSview2.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<figs/CSview2-eps-converted-to.pdf, id=1445, 553.06625pt x 315.1775pt>
+<figs/CSview2-eps-converted-to.pdf, id=1490, 553.06625pt x 315.1775pt>
 File: figs/CSview2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/CSview2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/CSview2-eps-converted-to.pdf  used on input line 
 29.
 (pdftex.def)             Requested size: 553.0649pt x 315.17673pt.
- [54 <./figs/collector3D.PNG> <./figs/CSview2-eps-converted-to.pdf>]
-[55]
+ [44 <./figs/collector3D.PNG> <./figs/CSview2-eps-converted-to.pdf>]
+[45]
 Package epstopdf Info: Source file: <figs/Alt_Azz2.eps>
 (epstopdf)                    date: 2020-06-07 23:13:36
 (epstopdf)                    size: 211178 bytes
@@ -1888,51 +1951,51 @@ Package epstopdf Info: Source file: <figs/Alt_Azz2.eps>
 (epstopdf)                    size: 80322 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/Alt_Azz2-eps-co
 nverted-to.pdf figs/Alt_Azz2.eps>
-(epstopdf)             \includegraphics on input line 78.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
-<figs/Alt_Azz2-eps-converted-to.pdf, id=1473, 553.06625pt x 453.695pt>
+<figs/Alt_Azz2-eps-converted-to.pdf, id=1518, 553.06625pt x 453.695pt>
 File: figs/Alt_Azz2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/Alt_Azz2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Alt_Azz2-eps-converted-to.pdf  used on input line
- 78.
+ 72.
 (pdftex.def)             Requested size: 553.0649pt x 453.6939pt.
- [56 <./figs/Alt_Azz2-eps-converted-to.pdf>]
-<figs/upper_parabola.PNG, id=1488, 472.76625pt x 434.37282pt>
+ [46 <./figs/Alt_Azz2-eps-converted-to.pdf>]
+<figs/upper_parabola.PNG, id=1534, 472.76625pt x 434.37282pt>
 File: figs/upper_parabola.PNG Graphic file (type png)
 <use figs/upper_parabola.PNG>
-Package pdftex.def Info: figs/upper_parabola.PNG  used on input line 108.
+Package pdftex.def Info: figs/upper_parabola.PNG  used on input line 102.
 (pdftex.def)             Requested size: 188.21584pt x 170.71706pt.
-<figs/lower_parabola.PNG, id=1489, 590.95781pt x 434.37282pt>
+<figs/lower_parabola.PNG, id=1535, 590.95781pt x 434.37282pt>
 File: figs/lower_parabola.PNG Graphic file (type png)
 <use figs/lower_parabola.PNG>
-Package pdftex.def Info: figs/lower_parabola.PNG  used on input line 112.
+Package pdftex.def Info: figs/lower_parabola.PNG  used on input line 106.
 (pdftex.def)             Requested size: 188.20863pt x 170.71706pt.
- [57 <./figs/upper_parabola.PNG> <./figs/lower_parabola.PNG>]
-<figs/fig_primary3.PNG, id=1500, 830.35219pt x 434.37282pt>
+ [47 <./figs/upper_parabola.PNG> <./figs/lower_parabola.PNG>]
+<figs/fig_primary3.PNG, id=1546, 830.35219pt x 434.37282pt>
 File: figs/fig_primary3.PNG Graphic file (type png)
 <use figs/fig_primary3.PNG>
-Package pdftex.def Info: figs/fig_primary3.PNG  used on input line 137.
+Package pdftex.def Info: figs/fig_primary3.PNG  used on input line 132.
 (pdftex.def)             Requested size: 830.35016pt x 434.37175pt.
- [58 <./figs/fig_primary3.PNG (PNG copy)>]
-<figs/three_sections.PNG, id=1515, 674.52pt x 537.50812pt>
+ [48 <./figs/fig_primary3.PNG (PNG copy)>]
+<figs/three_sections.PNG, id=1559, 674.52pt x 537.50812pt>
 File: figs/three_sections.PNG Graphic file (type png)
 <use figs/three_sections.PNG>
-Package pdftex.def Info: figs/three_sections.PNG  used on input line 225.
+Package pdftex.def Info: figs/three_sections.PNG  used on input line 220.
 (pdftex.def)             Requested size: 674.51836pt x 537.5068pt.
 
-[59]
-<figs/collector3D-3.PNG, id=1523, 521.69907pt x 367.3725pt>
+[49]
+<figs/collector3D-3.PNG, id=1568, 521.69907pt x 367.3725pt>
 File: figs/collector3D-3.PNG Graphic file (type png)
 <use figs/collector3D-3.PNG>
-Package pdftex.def Info: figs/collector3D-3.PNG  used on input line 238.
+Package pdftex.def Info: figs/collector3D-3.PNG  used on input line 233.
 (pdftex.def)             Requested size: 521.69778pt x 367.37158pt.
- [60 <./figs/three_sections.PNG> <./figs/collector3D-3.PNG>]
+ [50 <./figs/three_sections.PNG> <./figs/collector3D-3.PNG>]
 Missing character: There is no ; in font nullfont!
-[61]
+[51]
 
-LaTeX Warning: Text page 62 contains only floats.
+LaTeX Warning: Text page 52 contains only floats.
 
-[62]
+[52]
 Package epstopdf Info: Source file: <figs/2D-diagram-15.eps>
 (epstopdf)                    date: 2020-06-07 23:13:56
 (epstopdf)                    size: 117408 bytes
@@ -1941,16 +2004,16 @@ Package epstopdf Info: Source file: <figs/2D-diagram-15.eps>
 (epstopdf)                    size: 34849 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/2D-diagram-15-e
 ps-converted-to.pdf figs/2D-diagram-15.eps>
-(epstopdf)             \includegraphics on input line 340.
+(epstopdf)             \includegraphics on input line 328.
 Package epstopdf Info: Output file is already uptodate.
-<figs/2D-diagram-15-eps-converted-to.pdf, id=1559, 440.64626pt x 419.5675pt>
+<figs/2D-diagram-15-eps-converted-to.pdf, id=1587, 440.64626pt x 419.5675pt>
 File: figs/2D-diagram-15-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/2D-diagram-15-eps-converted-to.pdf>
 Package pdftex.def Info: figs/2D-diagram-15-eps-converted-to.pdf  used on input
- line 340.
+ line 328.
 (pdftex.def)             Requested size: 188.21686pt x 142.26053pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 341.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 329.
 Package epstopdf Info: Source file: <figs/3D-diagram-15.eps>
 (epstopdf)                    date: 2020-06-07 23:13:58
 (epstopdf)                    size: 154540 bytes
@@ -1959,13 +2022,13 @@ Package epstopdf Info: Source file: <figs/3D-diagram-15.eps>
 (epstopdf)                    size: 145459 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/3D-diagram-15-e
 ps-converted-to.pdf figs/3D-diagram-15.eps>
-(epstopdf)             \includegraphics on input line 343.
+(epstopdf)             \includegraphics on input line 331.
 Package epstopdf Info: Output file is already uptodate.
-<figs/3D-diagram-15-eps-converted-to.pdf, id=1560, 440.64626pt x 419.5675pt>
+<figs/3D-diagram-15-eps-converted-to.pdf, id=1588, 440.64626pt x 419.5675pt>
 File: figs/3D-diagram-15-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/3D-diagram-15-eps-converted-to.pdf>
 Package pdftex.def Info: figs/3D-diagram-15-eps-converted-to.pdf  used on input
- line 343.
+ line 331.
 (pdftex.def)             Requested size: 198.67223pt x 156.48595pt.
 Package epstopdf Info: Source file: <figs/2D-diagram-60.eps>
 (epstopdf)                    date: 2020-06-07 23:13:56
@@ -1975,13 +2038,13 @@ Package epstopdf Info: Source file: <figs/2D-diagram-60.eps>
 (epstopdf)                    size: 35148 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/2D-diagram-60-e
 ps-converted-to.pdf figs/2D-diagram-60.eps>
-(epstopdf)             \includegraphics on input line 347.
+(epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
-<figs/2D-diagram-60-eps-converted-to.pdf, id=1561, 440.64626pt x 419.5675pt>
+<figs/2D-diagram-60-eps-converted-to.pdf, id=1589, 440.64626pt x 419.5675pt>
 File: figs/2D-diagram-60-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/2D-diagram-60-eps-converted-to.pdf>
 Package pdftex.def Info: figs/2D-diagram-60-eps-converted-to.pdf  used on input
- line 347.
+ line 335.
 (pdftex.def)             Requested size: 188.21686pt x 142.26053pt.
 Package epstopdf Info: Source file: <figs/3D-diagram-60.eps>
 (epstopdf)                    date: 2020-06-07 23:13:58
@@ -1991,17 +2054,17 @@ Package epstopdf Info: Source file: <figs/3D-diagram-60.eps>
 (epstopdf)                    size: 120587 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/3D-diagram-60-e
 ps-converted-to.pdf figs/3D-diagram-60.eps>
-(epstopdf)             \includegraphics on input line 350.
+(epstopdf)             \includegraphics on input line 338.
 Package epstopdf Info: Output file is already uptodate.
-<figs/3D-diagram-60-eps-converted-to.pdf, id=1562, 440.64626pt x 419.5675pt>
+<figs/3D-diagram-60-eps-converted-to.pdf, id=1590, 440.64626pt x 419.5675pt>
 File: figs/3D-diagram-60-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/3D-diagram-60-eps-converted-to.pdf>
 Package pdftex.def Info: figs/3D-diagram-60-eps-converted-to.pdf  used on input
- line 350.
+ line 338.
 (pdftex.def)             Requested size: 198.67223pt x 156.48595pt.
- [63] [64 <./figs/2D-diagram-15-eps-converted-to.pdf> <./figs/3D-diagram-15-eps
--converted-to.pdf> <./figs/2D-diagram-60-eps-converted-to.pdf> <./figs/3D-diagr
-am-60-eps-converted-to.pdf>] [65]
+ [53 <./figs/2D-diagram-15-eps-converted-to.pdf> <./figs/3D-diagram-15-eps-conv
+erted-to.pdf> <./figs/2D-diagram-60-eps-converted-to.pdf> <./figs/3D-diagram-60
+-eps-converted-to.pdf>] [54]
 Package epstopdf Info: Source file: <figs/transm.eps>
 (epstopdf)                    date: 2020-06-07 23:13:34
 (epstopdf)                    size: 23510 bytes
@@ -2010,14 +2073,15 @@ Package epstopdf Info: Source file: <figs/transm.eps>
 (epstopdf)                    size: 5329 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/transm-eps-conv
 erted-to.pdf figs/transm.eps>
-(epstopdf)             \includegraphics on input line 432.
+(epstopdf)             \includegraphics on input line 418.
 Package epstopdf Info: Output file is already uptodate.
-<figs/transm-eps-converted-to.pdf, id=1599, 402.50375pt x 363.3575pt>
+<figs/transm-eps-converted-to.pdf, id=1627, 402.50375pt x 363.3575pt>
 File: figs/transm-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/transm-eps-converted-to.pdf>
 Package pdftex.def Info: figs/transm-eps-converted-to.pdf  used on input line 4
-32.
+18.
 (pdftex.def)             Requested size: 402.50276pt x 363.3566pt.
+ [55]
 Package epstopdf Info: Source file: <figs/transmittance.eps>
 (epstopdf)                    date: 2020-06-07 23:13:34
 (epstopdf)                    size: 24563 bytes
@@ -2026,14 +2090,16 @@ Package epstopdf Info: Source file: <figs/transmittance.eps>
 (epstopdf)                    size: 5611 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/transmittance-e
 ps-converted-to.pdf figs/transmittance.eps>
-(epstopdf)             \includegraphics on input line 436.
+(epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
-<figs/transmittance-eps-converted-to.pdf, id=1601, 402.50375pt x 363.3575pt>
+<figs/transmittance-eps-converted-to.pdf, id=1633, 402.50375pt x 363.3575pt>
 File: figs/transmittance-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/transmittance-eps-converted-to.pdf>
 Package pdftex.def Info: figs/transmittance-eps-converted-to.pdf  used on input
- line 436.
+ line 423.
 (pdftex.def)             Requested size: 402.50276pt x 363.3566pt.
+ [56 <./figs/transm-eps-converted-to.pdf> <./figs/transmittance-eps-converted-t
+o.pdf>]
 Package epstopdf Info: Source file: <figs/transm-time.eps>
 (epstopdf)                    date: 2023-05-06 16:28:30
 (epstopdf)                    size: 31458 bytes
@@ -2042,20 +2108,18 @@ Package epstopdf Info: Source file: <figs/transm-time.eps>
 (epstopdf)                    size: 14160 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/transm-time-eps
 -converted-to.pdf figs/transm-time.eps>
-(epstopdf)             \includegraphics on input line 440.
+(epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/transm-time-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/transm-time-eps-converted-to.pdf, id=1603, 484.81125pt x 414.54875pt>
+<figs/transm-time-eps-converted-to.pdf, id=1645, 484.81125pt x 414.54875pt>
 File: figs/transm-time-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/transm-time-eps-converted-to.pdf>
 Package pdftex.def Info: figs/transm-time-eps-converted-to.pdf  used on input l
-ine 440.
+ine 427.
 (pdftex.def)             Requested size: 484.81006pt x 414.54773pt.
-[66 <./figs/transm-eps-converted-to.pdf>] [67 <./figs/transmittance-eps-convert
-ed-to.pdf> <./figs/transm-time-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/size_region2.eps>
 (epstopdf)                    date: 2020-11-28 17:52:24
 (epstopdf)                    size: 88284 bytes
@@ -2064,14 +2128,15 @@ Package epstopdf Info: Source file: <figs/size_region2.eps>
 (epstopdf)                    size: 34035 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/size_region2-ep
 s-converted-to.pdf figs/size_region2.eps>
-(epstopdf)             \includegraphics on input line 448.
+(epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<figs/size_region2-eps-converted-to.pdf, id=1629, 381.425pt x 336.25626pt>
+<figs/size_region2-eps-converted-to.pdf, id=1648, 381.425pt x 336.25626pt>
 File: figs/size_region2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/size_region2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/size_region2-eps-converted-to.pdf  used on input 
-line 448.
+line 433.
 (pdftex.def)             Requested size: 381.42406pt x 336.25543pt.
+[57 <./figs/transm-time-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/reflector_region.eps>
 (epstopdf)                    date: 2020-11-28 17:55:24
 (epstopdf)                    size: 86450 bytes
@@ -2081,32 +2146,16 @@ Package epstopdf Info: Source file: <figs/reflector_region.eps>
 (epstopdf)                    size: 30730 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/reflector_regio
 n-eps-converted-to.pdf figs/reflector_region.eps>
-(epstopdf)             \includegraphics on input line 450.
+(epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
-<figs/reflector_region-eps-converted-to.pdf, id=1630, 381.425pt x 336.25626pt>
+<figs/reflector_region-eps-converted-to.pdf, id=1662, 381.425pt x 336.25626pt>
 File: figs/reflector_region-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/reflector_region-eps-converted-to.pdf>
 Package pdftex.def Info: figs/reflector_region-eps-converted-to.pdf  used on in
-put line 450.
+put line 437.
 (pdftex.def)             Requested size: 381.42406pt x 336.25543pt.
-Package epstopdf Info: Source file: <figs/size_region3.eps>
-(epstopdf)                    date: 2020-11-28 17:48:24
-(epstopdf)                    size: 119352 bytes
-(epstopdf)             Output file: <figs/size_region3-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-11-28 17:48:45
-(epstopdf)                    size: 41847 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=figs/size_region3-ep
-s-converted-to.pdf figs/size_region3.eps>
-(epstopdf)             \includegraphics on input line 452.
-Package epstopdf Info: Output file is already uptodate.
-<figs/size_region3-eps-converted-to.pdf, id=1631, 426.59375pt x 336.25626pt>
-File: figs/size_region3-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/size_region3-eps-converted-to.pdf>
-Package pdftex.def Info: figs/size_region3-eps-converted-to.pdf  used on input 
-line 452.
-(pdftex.def)             Requested size: 426.5927pt x 336.25543pt.
- [68 <./figs/size_region2-eps-converted-to.pdf>] [69 <./figs/reflector_region-e
-ps-converted-to.pdf> <./figs/size_region3-eps-converted-to.pdf>]
+ [58 <./figs/size_region2-eps-converted-to.pdf> <./figs/reflector_region-eps-co
+nverted-to.pdf>]
 Package epstopdf Info: Source file: <figs/eff_region2.eps>
 (epstopdf)                    date: 2020-06-07 23:13:56
 (epstopdf)                    size: 87328 bytes
@@ -2115,14 +2164,15 @@ Package epstopdf Info: Source file: <figs/eff_region2.eps>
 (epstopdf)                    size: 25938 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/eff_region2-eps
 -converted-to.pdf figs/eff_region2.eps>
-(epstopdf)             \includegraphics on input line 460.
+(epstopdf)             \includegraphics on input line 447.
 Package epstopdf Info: Output file is already uptodate.
-<figs/eff_region2-eps-converted-to.pdf, id=1653, 428.60126pt x 360.34625pt>
+<figs/eff_region2-eps-converted-to.pdf, id=1677, 428.60126pt x 360.34625pt>
 File: figs/eff_region2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/eff_region2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eff_region2-eps-converted-to.pdf  used on input l
-ine 460.
+ine 447.
 (pdftex.def)             Requested size: 428.6002pt x 360.34537pt.
+ [59 <./figs/eff_region2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/Ceff_region2.eps>
 (epstopdf)                    date: 2020-06-07 23:13:56
 (epstopdf)                    size: 88192 bytes
@@ -2131,15 +2181,14 @@ Package epstopdf Info: Source file: <figs/Ceff_region2.eps>
 (epstopdf)                    size: 31377 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/Ceff_region2-ep
 s-converted-to.pdf figs/Ceff_region2.eps>
-(epstopdf)             \includegraphics on input line 464.
+(epstopdf)             \includegraphics on input line 451.
 Package epstopdf Info: Output file is already uptodate.
-<figs/Ceff_region2-eps-converted-to.pdf, id=1655, 428.60126pt x 360.34625pt>
+<figs/Ceff_region2-eps-converted-to.pdf, id=1686, 428.60126pt x 360.34625pt>
 File: figs/Ceff_region2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/Ceff_region2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Ceff_region2-eps-converted-to.pdf  used on input 
-line 464.
+line 451.
 (pdftex.def)             Requested size: 428.6002pt x 360.34537pt.
- [70 <./figs/eff_region2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/eff_length.eps>
 (epstopdf)                    date: 2020-11-28 18:09:36
 (epstopdf)                    size: 29818 bytes
@@ -2148,14 +2197,15 @@ Package epstopdf Info: Source file: <figs/eff_length.eps>
 (epstopdf)                    size: 8325 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/eff_length-eps-
 converted-to.pdf figs/eff_length.eps>
-(epstopdf)             \includegraphics on input line 470.
+(epstopdf)             \includegraphics on input line 457.
 Package epstopdf Info: Output file is already uptodate.
-<figs/eff_length-eps-converted-to.pdf, id=1664, 381.425pt x 336.25626pt>
+<figs/eff_length-eps-converted-to.pdf, id=1688, 381.425pt x 336.25626pt>
 File: figs/eff_length-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/eff_length-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eff_length-eps-converted-to.pdf  used on input li
-ne 470.
+ne 457.
 (pdftex.def)             Requested size: 381.42406pt x 336.25543pt.
+ [60 <./figs/Ceff_region2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/length_variance.eps>
 (epstopdf)                    date: 2020-06-07 23:13:56
 (epstopdf)                    size: 25357 bytes
@@ -2165,17 +2215,18 @@ Package epstopdf Info: Source file: <figs/length_variance.eps>
 (epstopdf)                    size: 5796 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/length_variance
 -eps-converted-to.pdf figs/length_variance.eps>
-(epstopdf)             \includegraphics on input line 474.
+(epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
-<figs/length_variance-eps-converted-to.pdf, id=1666, 428.60126pt x 360.34625pt>
+<figs/length_variance-eps-converted-to.pdf, id=1697, 428.60126pt x 360.34625pt>
 
 File: figs/length_variance-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/length_variance-eps-converted-to.pdf>
 Package pdftex.def Info: figs/length_variance-eps-converted-to.pdf  used on inp
-ut line 474.
+ut line 462.
 (pdftex.def)             Requested size: 428.6002pt x 360.34537pt.
- [71 <./figs/Ceff_region2-eps-converted-to.pdf>] [72 <./figs/eff_length-eps-con
-verted-to.pdf> <./figs/length_variance-eps-converted-to.pdf>]
+
+[61 <./figs/eff_length-eps-converted-to.pdf> <./figs/length_variance-eps-conver
+ted-to.pdf>]
 Package epstopdf Info: Source file: <figs/collectors-61-50.eps>
 (epstopdf)                    date: 2020-11-28 18:19:57
 (epstopdf)                    size: 60211 bytes
@@ -2185,13 +2236,13 @@ Package epstopdf Info: Source file: <figs/collectors-61-50.eps>
 (epstopdf)                    size: 19727 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/collectors-61-5
 0-eps-converted-to.pdf figs/collectors-61-50.eps>
-(epstopdf)             \includegraphics on input line 480.
+(epstopdf)             \includegraphics on input line 468.
 Package epstopdf Info: Output file is already uptodate.
-<figs/collectors-61-50-eps-converted-to.pdf, id=1687, 381.425pt x 336.25626pt>
+<figs/collectors-61-50-eps-converted-to.pdf, id=1710, 381.425pt x 336.25626pt>
 File: figs/collectors-61-50-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/collectors-61-50-eps-converted-to.pdf>
 Package pdftex.def Info: figs/collectors-61-50-eps-converted-to.pdf  used on in
-put line 480.
+put line 468.
 (pdftex.def)             Requested size: 381.42406pt x 336.25543pt.
 Package epstopdf Info: Source file: <figs/acceptance-graph.eps>
 (epstopdf)                    date: 2020-11-28 18:21:55
@@ -2202,14 +2253,15 @@ Package epstopdf Info: Source file: <figs/acceptance-graph.eps>
 (epstopdf)                    size: 7805 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/acceptance-grap
 h-eps-converted-to.pdf figs/acceptance-graph.eps>
-(epstopdf)             \includegraphics on input line 486.
+(epstopdf)             \includegraphics on input line 472.
 Package epstopdf Info: Output file is already uptodate.
-<figs/acceptance-graph-eps-converted-to.pdf, id=1690, 381.425pt x 336.25626pt>
+<figs/acceptance-graph-eps-converted-to.pdf, id=1713, 381.425pt x 336.25626pt>
 File: figs/acceptance-graph-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/acceptance-graph-eps-converted-to.pdf>
 Package pdftex.def Info: figs/acceptance-graph-eps-converted-to.pdf  used on in
-put line 486.
+put line 472.
 (pdftex.def)             Requested size: 381.42406pt x 336.25543pt.
+ [62 <./figs/collectors-61-50-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/eff-alphaP2.eps>
 (epstopdf)                    date: 2020-11-28 18:23:16
 (epstopdf)                    size: 29756 bytes
@@ -2218,16 +2270,16 @@ Package epstopdf Info: Source file: <figs/eff-alphaP2.eps>
 (epstopdf)                    size: 5899 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/eff-alphaP2-eps
 -converted-to.pdf figs/eff-alphaP2.eps>
-(epstopdf)             \includegraphics on input line 490.
+(epstopdf)             \includegraphics on input line 476.
 Package epstopdf Info: Output file is already uptodate.
-<figs/eff-alphaP2-eps-converted-to.pdf, id=1692, 381.425pt x 336.25626pt>
+<figs/eff-alphaP2-eps-converted-to.pdf, id=1723, 381.425pt x 336.25626pt>
 File: figs/eff-alphaP2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/eff-alphaP2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eff-alphaP2-eps-converted-to.pdf  used on input l
-ine 490.
+ine 476.
 (pdftex.def)             Requested size: 381.42406pt x 336.25543pt.
- [73 <./figs/collectors-61-50-eps-converted-to.pdf>] [74 <./figs/acceptance-gra
-ph-eps-converted-to.pdf> <./figs/eff-alphaP2-eps-converted-to.pdf>]
+ [63 <./figs/acceptance-graph-eps-converted-to.pdf> <./figs/eff-alphaP2-eps-con
+verted-to.pdf>]
 Package epstopdf Info: Source file: <figs/eff-length.eps>
 (epstopdf)                    date: 2021-05-24 00:59:47
 (epstopdf)                    size: 26098 bytes
@@ -2236,13 +2288,13 @@ Package epstopdf Info: Source file: <figs/eff-length.eps>
 (epstopdf)                    size: 6864 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/eff-length-eps-
 converted-to.pdf figs/eff-length.eps>
-(epstopdf)             \includegraphics on input line 498.
+(epstopdf)             \includegraphics on input line 480.
 Package epstopdf Info: Output file is already uptodate.
-<figs/eff-length-eps-converted-to.pdf, id=1712, 381.425pt x 337.26pt>
+<figs/eff-length-eps-converted-to.pdf, id=1735, 381.425pt x 337.26pt>
 File: figs/eff-length-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/eff-length-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eff-length-eps-converted-to.pdf  used on input li
-ne 498.
+ne 480.
 (pdftex.def)             Requested size: 381.42406pt x 337.25917pt.
 Package epstopdf Info: Source file: <figs/opt-avg-hts.eps>
 (epstopdf)                    date: 2020-11-25 02:33:50
@@ -2252,14 +2304,17 @@ Package epstopdf Info: Source file: <figs/opt-avg-hts.eps>
 (epstopdf)                    size: 7080 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/opt-avg-hts-eps
 -converted-to.pdf figs/opt-avg-hts.eps>
-(epstopdf)             \includegraphics on input line 506.
+(epstopdf)             \includegraphics on input line 490.
 Package epstopdf Info: Output file is already uptodate.
-<figs/opt-avg-hts-eps-converted-to.pdf, id=1714, 378.41376pt x 336.25626pt>
+<figs/opt-avg-hts-eps-converted-to.pdf, id=1738, 378.41376pt x 336.25626pt>
 File: figs/opt-avg-hts-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/opt-avg-hts-eps-converted-to.pdf>
 Package pdftex.def Info: figs/opt-avg-hts-eps-converted-to.pdf  used on input l
-ine 506.
+ine 490.
 (pdftex.def)             Requested size: 378.41283pt x 336.25543pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <figs/opt-eff-3hts.eps>
 (epstopdf)                    date: 2020-11-25 02:16:36
 (epstopdf)                    size: 30068 bytes
@@ -2268,16 +2323,16 @@ Package epstopdf Info: Source file: <figs/opt-eff-3hts.eps>
 (epstopdf)                    size: 8266 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/opt-eff-3hts-ep
 s-converted-to.pdf figs/opt-eff-3hts.eps>
-(epstopdf)             \includegraphics on input line 510.
+(epstopdf)             \includegraphics on input line 492.
 Package epstopdf Info: Output file is already uptodate.
-<figs/opt-eff-3hts-eps-converted-to.pdf, id=1716, 378.41376pt x 336.25626pt>
+<figs/opt-eff-3hts-eps-converted-to.pdf, id=1739, 378.41376pt x 336.25626pt>
 File: figs/opt-eff-3hts-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/opt-eff-3hts-eps-converted-to.pdf>
 Package pdftex.def Info: figs/opt-eff-3hts-eps-converted-to.pdf  used on input 
-line 510.
+line 492.
 (pdftex.def)             Requested size: 378.41283pt x 336.25543pt.
- [75 <./figs/eff-length-eps-converted-to.pdf>] [76 <./figs/opt-avg-hts-eps-conv
-erted-to.pdf> <./figs/opt-eff-3hts-eps-converted-to.pdf>]
+[64 <./figs/eff-length-eps-converted-to.pdf>] [65 <./figs/opt-avg-hts-eps-conve
+rted-to.pdf> <./figs/opt-eff-3hts-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/RT2D-hts0.eps>
 (epstopdf)                    date: 2020-11-24 15:57:48
 (epstopdf)                    size: 44731 bytes
@@ -2286,14 +2341,14 @@ Package epstopdf Info: Source file: <figs/RT2D-hts0.eps>
 (epstopdf)                    size: 12385 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/RT2D-hts0-eps-c
 onverted-to.pdf figs/RT2D-hts0.eps>
-(epstopdf)             \includegraphics on input line 516.
+(epstopdf)             \includegraphics on input line 501.
 Package epstopdf Info: Output file is already uptodate.
-<figs/RT2D-hts0-eps-converted-to.pdf, id=1741, 377.41pt x 336.25626pt>
+<figs/RT2D-hts0-eps-converted-to.pdf, id=1763, 377.41pt x 336.25626pt>
 File: figs/RT2D-hts0-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/RT2D-hts0-eps-converted-to.pdf>
 Package pdftex.def Info: figs/RT2D-hts0-eps-converted-to.pdf  used on input lin
-e 516.
-(pdftex.def)             Requested size: 181.15474pt x 161.40117pt.
+e 501.
+(pdftex.def)             Requested size: 169.83292pt x 151.3139pt.
 Package epstopdf Info: Source file: <figs/Energy2D-hts0.eps>
 (epstopdf)                    date: 2020-11-24 16:06:15
 (epstopdf)                    size: 21319 bytes
@@ -2302,19 +2357,19 @@ Package epstopdf Info: Source file: <figs/Energy2D-hts0.eps>
 (epstopdf)                    size: 4116 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/Energy2D-hts0-e
 ps-converted-to.pdf figs/Energy2D-hts0.eps>
-(epstopdf)             \includegraphics on input line 521.
+(epstopdf)             \includegraphics on input line 506.
 Package epstopdf Info: Output file is already uptodate.
-<figs/Energy2D-hts0-eps-converted-to.pdf, id=1742, 378.41376pt x 336.25626pt>
+<figs/Energy2D-hts0-eps-converted-to.pdf, id=1764, 378.41376pt x 336.25626pt>
 File: figs/Energy2D-hts0-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/Energy2D-hts0-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Energy2D-hts0-eps-converted-to.pdf  used on input
- line 521.
-(pdftex.def)             Requested size: 181.63654pt x 161.40117pt.
-<figs/Energy3D-hts0.png, id=1743, 1028.34187pt x 335.75438pt>
+ line 506.
+(pdftex.def)             Requested size: 170.2846pt x 151.3139pt.
+<figs/Energy3D-hts0.png, id=1765, 1028.34187pt x 335.75438pt>
 File: figs/Energy3D-hts0.png Graphic file (type png)
 <use figs/Energy3D-hts0.png>
-Package pdftex.def Info: figs/Energy3D-hts0.png  used on input line 527.
-(pdftex.def)             Requested size: 421.6229pt x 137.66019pt.
+Package pdftex.def Info: figs/Energy3D-hts0.png  used on input line 512.
+(pdftex.def)             Requested size: 411.32947pt x 134.29936pt.
 Package epstopdf Info: Source file: <figs/RT2D-hts72.eps>
 (epstopdf)                    date: 2020-11-24 15:59:34
 (epstopdf)                    size: 52127 bytes
@@ -2323,14 +2378,14 @@ Package epstopdf Info: Source file: <figs/RT2D-hts72.eps>
 (epstopdf)                    size: 13141 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/RT2D-hts72-eps-
 converted-to.pdf figs/RT2D-hts72.eps>
-(epstopdf)             \includegraphics on input line 537.
+(epstopdf)             \includegraphics on input line 524.
 Package epstopdf Info: Output file is already uptodate.
-<figs/RT2D-hts72-eps-converted-to.pdf, id=1744, 377.41pt x 336.25626pt>
+<figs/RT2D-hts72-eps-converted-to.pdf, id=1767, 377.41pt x 336.25626pt>
 File: figs/RT2D-hts72-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/RT2D-hts72-eps-converted-to.pdf>
 Package pdftex.def Info: figs/RT2D-hts72-eps-converted-to.pdf  used on input li
-ne 537.
-(pdftex.def)             Requested size: 181.15474pt x 161.40117pt.
+ne 524.
+(pdftex.def)             Requested size: 169.83292pt x 151.3139pt.
 Package epstopdf Info: Source file: <figs/Energy2D-hts72.eps>
 (epstopdf)                    date: 2020-11-24 16:30:37
 (epstopdf)                    size: 22808 bytes
@@ -2339,19 +2394,21 @@ Package epstopdf Info: Source file: <figs/Energy2D-hts72.eps>
 (epstopdf)                    size: 4944 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/Energy2D-hts72-
 eps-converted-to.pdf figs/Energy2D-hts72.eps>
-(epstopdf)             \includegraphics on input line 542.
+(epstopdf)             \includegraphics on input line 529.
 Package epstopdf Info: Output file is already uptodate.
-<figs/Energy2D-hts72-eps-converted-to.pdf, id=1745, 378.41376pt x 336.25626pt>
+<figs/Energy2D-hts72-eps-converted-to.pdf, id=1768, 378.41376pt x 336.25626pt>
 File: figs/Energy2D-hts72-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/Energy2D-hts72-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Energy2D-hts72-eps-converted-to.pdf  used on inpu
-t line 542.
-(pdftex.def)             Requested size: 181.63654pt x 161.40117pt.
-<figs/Energy3D-hts72.png, id=1746, 1028.34187pt x 338.76563pt>
+t line 529.
+(pdftex.def)             Requested size: 170.2846pt x 151.3139pt.
+<figs/Energy3D-hts72.png, id=1769, 1028.34187pt x 338.76563pt>
 File: figs/Energy3D-hts72.png Graphic file (type png)
 <use figs/Energy3D-hts72.png>
-Package pdftex.def Info: figs/Energy3D-hts72.png  used on input line 548.
-(pdftex.def)             Requested size: 421.6229pt x 138.89479pt.
+Package pdftex.def Info: figs/Energy3D-hts72.png  used on input line 535.
+(pdftex.def)             Requested size: 411.32947pt x 135.50385pt.
+ [66 <./figs/RT2D-hts0-eps-converted-to.pdf> <./figs/Energy2D-hts0-eps-converte
+d-to.pdf> <./figs/Energy3D-hts0.png (PNG copy)>]
 Package epstopdf Info: Source file: <figs/RT2D-hts145.eps>
 (epstopdf)                    date: 2020-11-24 16:03:33
 (epstopdf)                    size: 55551 bytes
@@ -2360,14 +2417,14 @@ Package epstopdf Info: Source file: <figs/RT2D-hts145.eps>
 (epstopdf)                    size: 13525 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/RT2D-hts145-eps
 -converted-to.pdf figs/RT2D-hts145.eps>
-(epstopdf)             \includegraphics on input line 558.
+(epstopdf)             \includegraphics on input line 548.
 Package epstopdf Info: Output file is already uptodate.
-<figs/RT2D-hts145-eps-converted-to.pdf, id=1747, 378.41376pt x 336.25626pt>
+<figs/RT2D-hts145-eps-converted-to.pdf, id=1783, 378.41376pt x 336.25626pt>
 File: figs/RT2D-hts145-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/RT2D-hts145-eps-converted-to.pdf>
 Package pdftex.def Info: figs/RT2D-hts145-eps-converted-to.pdf  used on input l
-ine 558.
-(pdftex.def)             Requested size: 181.63654pt x 161.40117pt.
+ine 548.
+(pdftex.def)             Requested size: 170.2846pt x 151.3139pt.
 Package epstopdf Info: Source file: <figs/Energy2D-hts145.eps>
 (epstopdf)                    date: 2020-11-24 17:12:33
 (epstopdf)                    size: 22683 bytes
@@ -2377,19 +2434,19 @@ Package epstopdf Info: Source file: <figs/Energy2D-hts145.eps>
 (epstopdf)                    size: 4853 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/Energy2D-hts145
 -eps-converted-to.pdf figs/Energy2D-hts145.eps>
-(epstopdf)             \includegraphics on input line 563.
+(epstopdf)             \includegraphics on input line 553.
 Package epstopdf Info: Output file is already uptodate.
-<figs/Energy2D-hts145-eps-converted-to.pdf, id=1748, 378.41376pt x 339.2675pt>
+<figs/Energy2D-hts145-eps-converted-to.pdf, id=1784, 378.41376pt x 339.2675pt>
 File: figs/Energy2D-hts145-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/Energy2D-hts145-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Energy2D-hts145-eps-converted-to.pdf  used on inp
-ut line 563.
-(pdftex.def)             Requested size: 181.63654pt x 162.84654pt.
-<figs/Energy3D-hts145.png, id=1749, 1028.34187pt x 341.77687pt>
+ut line 553.
+(pdftex.def)             Requested size: 170.2846pt x 152.66896pt.
+<figs/Energy3D-hts145.png, id=1785, 1028.34187pt x 341.77687pt>
 File: figs/Energy3D-hts145.png Graphic file (type png)
 <use figs/Energy3D-hts145.png>
-Package pdftex.def Info: figs/Energy3D-hts145.png  used on input line 569.
-(pdftex.def)             Requested size: 421.6229pt x 140.12941pt.
+Package pdftex.def Info: figs/Energy3D-hts145.png  used on input line 559.
+(pdftex.def)             Requested size: 411.32947pt x 136.70831pt.
 Package epstopdf Info: Source file: <figs/collector3p.eps>
 (epstopdf)                    date: 2021-05-21 23:19:45
 (epstopdf)                    size: 49078 bytes
@@ -2398,21 +2455,22 @@ Package epstopdf Info: Source file: <figs/collector3p.eps>
 (epstopdf)                    size: 46085 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/collector3p-eps
 -converted-to.pdf figs/collector3p.eps>
-(epstopdf)             \includegraphics on input line 582.
+(epstopdf)             \includegraphics on input line 571.
 Package epstopdf Info: Output file is already uptodate.
-<figs/collector3p-eps-converted-to.pdf, id=1752, 381.425pt x 345.29pt>
+<figs/collector3p-eps-converted-to.pdf, id=1788, 381.425pt x 345.29pt>
 File: figs/collector3p-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/collector3p-eps-converted-to.pdf>
 Package pdftex.def Info: figs/collector3p-eps-converted-to.pdf  used on input l
-ine 582.
+ine 571.
 (pdftex.def)             Requested size: 381.42406pt x 345.28914pt.
- [77 <./figs/RT2D-hts0-eps-converted-to.pdf> <./figs/Energy2D-hts0-eps-converte
-d-to.pdf> <./figs/Energy3D-hts0.png (PNG copy)>]
+ [67 <./figs/RT2D-hts72-eps-converted-to.pdf> <./figs/Energy2D-hts72-eps-conver
+ted-to.pdf> <./figs/Energy3D-hts72.png (PNG copy)>]
 
-LaTeX Warning: Text page 78 contains only floats.
+LaTeX Warning: Text page 68 contains only floats.
 
-[78 <./figs/RT2D-hts72-eps-converted-to.pdf> <./figs/Energy2D-hts72-eps-convert
-ed-to.pdf> <./figs/Energy3D-hts72.png (PNG copy)>]
+[68 <./figs/RT2D-hts145-eps-converted-to.pdf> <./figs/Energy2D-hts145-eps-conve
+rted-to.pdf> <./figs/Energy3D-hts145.png (PNG copy)> <./figs/collector3p-eps-co
+nverted-to.pdf>]
 Package epstopdf Info: Source file: <figs/opt-eff-time.eps>
 (epstopdf)                    date: 2023-05-06 16:41:08
 (epstopdf)                    size: 143635 bytes
@@ -2421,87 +2479,90 @@ Package epstopdf Info: Source file: <figs/opt-eff-time.eps>
 (epstopdf)                    size: 127649 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/opt-eff-time-ep
 s-converted-to.pdf figs/opt-eff-time.eps>
-(epstopdf)             \includegraphics on input line 624.
+(epstopdf)             \includegraphics on input line 614.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/opt-eff-time-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/opt-eff-time-eps-converted-to.pdf, id=1779, 484.81125pt x 414.54875pt>
+<figs/opt-eff-time-eps-converted-to.pdf, id=1820, 484.81125pt x 414.54875pt>
 File: figs/opt-eff-time-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/opt-eff-time-eps-converted-to.pdf>
 Package pdftex.def Info: figs/opt-eff-time-eps-converted-to.pdf  used on input 
-line 624.
+line 614.
 (pdftex.def)             Requested size: 484.81006pt x 414.54773pt.
-[79 <./figs/RT2D-hts145-eps-converted-to.pdf> <./figs/Energy2D-hts145-eps-conve
-rted-to.pdf> <./figs/Energy3D-hts145.png (PNG copy)>] [80 <./figs/collector3p-e
-ps-converted-to.pdf> <./figs/opt-eff-time-eps-converted-to.pdf>])
-(Experimental.tex [81]
+[69]) (Experimental.tex [70 <./figs/opt-eff-time-eps-converted-to.pdf>]
 Chapter 4.
-<figs/CFphoto.PNG, id=1815, 676.02562pt x 449.42906pt>
+<figs/CFphoto.PNG, id=1839, 676.02562pt x 449.42906pt>
 File: figs/CFphoto.PNG Graphic file (type png)
 <use figs/CFphoto.PNG>
 Package pdftex.def Info: figs/CFphoto.PNG  used on input line 20.
 (pdftex.def)             Requested size: 676.02396pt x 449.42795pt.
-[82
+[71
 
 ]
-<figs/CFmag.png, id=1830, 474.27188pt x 272.51813pt>
+<figs/CFmag.png, id=1854, 474.27188pt x 272.51813pt>
 File: figs/CFmag.png Graphic file (type png)
 <use figs/CFmag.png>
-Package pdftex.def Info: figs/CFmag.png  used on input line 43.
+Package pdftex.def Info: figs/CFmag.png  used on input line 44.
 (pdftex.def)             Requested size: 474.27072pt x 272.51746pt.
- [83 <./figs/CFphoto.PNG>]
+ [72 <./figs/CFphoto.PNG>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
- [84 <./figs/CFmag.png>]
-<figs/Ass1.jpg, id=1850, 4047.12pt x 3035.34pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+ [73 <./figs/CFmag.png>]
+<figs/Ass1.jpg, id=1873, 4047.12pt x 3035.34pt>
 File: figs/Ass1.jpg Graphic file (type jpg)
 <use figs/Ass1.jpg>
-Package pdftex.def Info: figs/Ass1.jpg  used on input line 109.
+Package pdftex.def Info: figs/Ass1.jpg  used on input line 110.
 (pdftex.def)             Requested size: 198.66261pt x 142.2349pt.
-<figs/Ass2.jpg, id=1851, 4047.12pt x 3035.34pt>
+<figs/Ass2.jpg, id=1874, 4047.12pt x 3035.34pt>
 File: figs/Ass2.jpg Graphic file (type jpg)
 <use figs/Ass2.jpg>
-Package pdftex.def Info: figs/Ass2.jpg  used on input line 112.
+Package pdftex.def Info: figs/Ass2.jpg  used on input line 113.
 (pdftex.def)             Requested size: 198.66261pt x 142.2349pt.
-<figs/Ass4.jpg, id=1852, 673.76718pt x 403.5075pt>
+<figs/Ass4.jpg, id=1875, 673.76718pt x 403.5075pt>
 File: figs/Ass4.jpg Graphic file (type jpg)
 <use figs/Ass4.jpg>
-Package pdftex.def Info: figs/Ass4.jpg  used on input line 116.
+Package pdftex.def Info: figs/Ass4.jpg  used on input line 117.
 (pdftex.def)             Requested size: 198.67734pt x 142.26411pt.
-<figs/Ass3.jpg, id=1853, 1027.84pt x 770.88pt>
+<figs/Ass3.jpg, id=1876, 1027.84pt x 770.88pt>
 File: figs/Ass3.jpg Graphic file (type jpg)
 <use figs/Ass3.jpg>
-Package pdftex.def Info: figs/Ass3.jpg  used on input line 119.
+Package pdftex.def Info: figs/Ass3.jpg  used on input line 120.
 (pdftex.def)             Requested size: 198.66359pt x 142.25769pt.
- [85]
-<figs/absorber_thermocouple.PNG, id=1860, 872.50969pt x 258.21469pt>
+ [74]
+<figs/absorber_thermocouple.PNG, id=1883, 872.50969pt x 258.21469pt>
 File: figs/absorber_thermocouple.PNG Graphic file (type png)
 <use figs/absorber_thermocouple.PNG>
-Package pdftex.def Info: figs/absorber_thermocouple.PNG  used on input line 133
+Package pdftex.def Info: figs/absorber_thermocouple.PNG  used on input line 134
 .
 (pdftex.def)             Requested size: 872.50757pt x 258.21405pt.
-<figs/glass_thermocouple.PNG, id=1861, 862.72313pt x 301.125pt>
+<figs/glass_thermocouple.PNG, id=1884, 862.72313pt x 301.125pt>
 File: figs/glass_thermocouple.PNG Graphic file (type png)
 <use figs/glass_thermocouple.PNG>
-Package pdftex.def Info: figs/glass_thermocouple.PNG  used on input line 135.
+Package pdftex.def Info: figs/glass_thermocouple.PNG  used on input line 136.
 (pdftex.def)             Requested size: 862.72102pt x 301.12425pt.
- [86 <./figs/Ass1.jpg> <./figs/Ass2.jpg> <./figs/Ass4.jpg> <./figs/Ass3.jpg>] [
-87 <./figs/absorber_thermocouple.PNG> <./figs/glass_thermocouple.PNG>]
-<figs/scheme_prototype.png, id=1879, 361.35pt x 177.0615pt>
+ [75 <./figs/Ass1.jpg> <./figs/Ass2.jpg> <./figs/Ass4.jpg> <./figs/Ass3.jpg>]
+Underfull \hbox (badness 2828) in paragraph at lines 156--157
+[]\OT1/txr/m/n/12 (+20) The mea-sured vari-ables are sub-jected to sys-tem-atic
+ un-cer-tain-ties due to
+ []
+
+[76 <./figs/absorber_thermocouple.PNG> <./figs/glass_thermocouple.PNG>]
+<figs/scheme_prototype.png, id=1901, 361.35pt x 177.0615pt>
 File: figs/scheme_prototype.png Graphic file (type png)
 <use figs/scheme_prototype.png>
-Package pdftex.def Info: figs/scheme_prototype.png  used on input line 213.
+Package pdftex.def Info: figs/scheme_prototype.png  used on input line 210.
 (pdftex.def)             Requested size: 361.34912pt x 177.06104pt.
-<figs/unit3.png, id=1880, 869.49844pt x 325.215pt>
+<figs/unit3.png, id=1903, 869.49844pt x 325.215pt>
 File: figs/unit3.png Graphic file (type png)
 <use figs/unit3.png>
-Package pdftex.def Info: figs/unit3.png  used on input line 215.
+Package pdftex.def Info: figs/unit3.png  used on input line 214.
 (pdftex.def)             Requested size: 869.49632pt x 325.2142pt.
- [88 <./figs/scheme_prototype.png>] [89 <./figs/unit3.png>]
+
+[77 <./figs/scheme_prototype.png>] [78 <./figs/unit3.png>]
 Package epstopdf Info: Source file: <figs/zero12.eps>
 (epstopdf)                    date: 2020-06-07 23:13:38
 (epstopdf)                    size: 173954 bytes
@@ -2510,15 +2571,42 @@ Package epstopdf Info: Source file: <figs/zero12.eps>
 (epstopdf)                    size: 50334 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/zero12-eps-conv
 erted-to.pdf figs/zero12.eps>
-(epstopdf)             \includegraphics on input line 245.
+(epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
-<figs/zero12-eps-converted-to.pdf, id=1902, 608.2725pt x 366.36874pt>
+<figs/zero12-eps-converted-to.pdf, id=1922, 608.2725pt x 366.36874pt>
 File: figs/zero12-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/zero12-eps-converted-to.pdf>
 Package pdftex.def Info: figs/zero12-eps-converted-to.pdf  used on input line 2
-45.
+36.
 (pdftex.def)             Requested size: 608.27103pt x 366.36784pt.
- [90 <./figs/zero12-eps-converted-to.pdf>]
+<figs/thermocouples.png, id=1924, 1084.05pt x 260.47313pt>
+File: figs/thermocouples.png Graphic file (type png)
+<use figs/thermocouples.png>
+Package pdftex.def Info: figs/thermocouples.png  used on input line 240.
+(pdftex.def)             Requested size: 1084.04736pt x 260.47249pt.
+ [79 <./figs/zero12-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/case_ch4.eps>
+(epstopdf)                    date: 2025-01-06 03:26:29
+(epstopdf)                    size: 118676 bytes
+(epstopdf)             Output file: <figs/case_ch4-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-01-06 03:26:47
+(epstopdf)                    size: 109333 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figs/case_ch4-eps-co
+nverted-to.pdf figs/case_ch4.eps>
+(epstopdf)             \includegraphics on input line 244.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/case_ch4-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/case_ch4-eps-converted-to.pdf, id=1934, 1084.05pt x 403.5075pt>
+File: figs/case_ch4-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/case_ch4-eps-converted-to.pdf>
+Package pdftex.def Info: figs/case_ch4-eps-converted-to.pdf  used on input line
+ 244.
+(pdftex.def)             Requested size: 1084.04736pt x 403.50652pt.
+[80 <./figs/thermocouples.png (PNG copy)> <./figs/case_ch4-eps-converted-to.pdf
+>]
 Package epstopdf Info: Source file: <figs/004-1.eps>
 (epstopdf)                    date: 2023-05-07 11:31:47
 (epstopdf)                    size: 55686 bytes
@@ -2533,7 +2621,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figs/004-1-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/004-1-eps-converted-to.pdf, id=1912, 484.81125pt x 414.54875pt>
+<figs/004-1-eps-converted-to.pdf, id=1946, 484.81125pt x 414.54875pt>
 File: figs/004-1-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/004-1-eps-converted-to.pdf>
 Package pdftex.def Info: figs/004-1-eps-converted-to.pdf  used on input line 25
@@ -2553,7 +2641,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figs/004-2-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/004-2-eps-converted-to.pdf, id=1913, 484.81125pt x 414.54875pt>
+<figs/004-2-eps-converted-to.pdf, id=1947, 484.81125pt x 414.54875pt>
 File: figs/004-2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/004-2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/004-2-eps-converted-to.pdf  used on input line 26
@@ -2573,7 +2661,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figs/0055-1-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/0055-1-eps-converted-to.pdf, id=1915, 484.81125pt x 414.54875pt>
+<figs/0055-1-eps-converted-to.pdf, id=1949, 484.81125pt x 414.54875pt>
 File: figs/0055-1-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0055-1-eps-converted-to.pdf>
 Package pdftex.def Info: figs/0055-1-eps-converted-to.pdf  used on input line 2
@@ -2593,13 +2681,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figs/0055-2-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/0055-2-eps-converted-to.pdf, id=1916, 484.81125pt x 414.54875pt>
+<figs/0055-2-eps-converted-to.pdf, id=1950, 484.81125pt x 414.54875pt>
 File: figs/0055-2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0055-2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/0055-2-eps-converted-to.pdf  used on input line 2
 84.
 (pdftex.def)             Requested size: 204.9466pt x 175.24786pt.
-[91 <./figs/004-1-eps-converted-to.pdf> <./figs/004-2-eps-converted-to.pdf>]
+[81 <./figs/004-1-eps-converted-to.pdf> <./figs/004-2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/007-1.eps>
 (epstopdf)                    date: 2023-05-07 12:15:59
 (epstopdf)                    size: 57299 bytes
@@ -2614,7 +2702,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figs/007-1-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/007-1-eps-converted-to.pdf, id=1932, 484.81125pt x 414.54875pt>
+<figs/007-1-eps-converted-to.pdf, id=1966, 484.81125pt x 414.54875pt>
 File: figs/007-1-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/007-1-eps-converted-to.pdf>
 Package pdftex.def Info: figs/007-1-eps-converted-to.pdf  used on input line 29
@@ -2634,13 +2722,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figs/007-2-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/007-2-eps-converted-to.pdf, id=1933, 484.81125pt x 414.54875pt>
+<figs/007-2-eps-converted-to.pdf, id=1967, 484.81125pt x 414.54875pt>
 File: figs/007-2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/007-2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/007-2-eps-converted-to.pdf  used on input line 30
 4.
 (pdftex.def)             Requested size: 204.9466pt x 175.24786pt.
-[92 <./figs/0055-1-eps-converted-to.pdf> <./figs/0055-2-eps-converted-to.pdf> <
+[82 <./figs/0055-1-eps-converted-to.pdf> <./figs/0055-2-eps-converted-to.pdf> <
 ./figs/007-1-eps-converted-to.pdf> <./figs/007-2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/009-1.eps>
 (epstopdf)                    date: 2023-05-07 12:31:11
@@ -2650,17 +2738,17 @@ Package epstopdf Info: Source file: <figs/009-1.eps>
 (epstopdf)                    size: 19748 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/009-1-eps-conve
 rted-to.pdf figs/009-1.eps>
-(epstopdf)             \includegraphics on input line 319.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/009-1-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/009-1-eps-converted-to.pdf, id=1959, 484.81125pt x 414.54875pt>
+<figs/009-1-eps-converted-to.pdf, id=1994, 484.81125pt x 414.54875pt>
 File: figs/009-1-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/009-1-eps-converted-to.pdf>
-Package pdftex.def Info: figs/009-1-eps-converted-to.pdf  used on input line 31
-9.
+Package pdftex.def Info: figs/009-1-eps-converted-to.pdf  used on input line 32
+0.
 (pdftex.def)             Requested size: 204.9466pt x 175.24786pt.
 Package epstopdf Info: Source file: <figs/009-2.eps>
 (epstopdf)                    date: 2023-05-07 12:33:50
@@ -2670,17 +2758,17 @@ Package epstopdf Info: Source file: <figs/009-2.eps>
 (epstopdf)                    size: 11956 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/009-2-eps-conve
 rted-to.pdf figs/009-2.eps>
-(epstopdf)             \includegraphics on input line 324.
+(epstopdf)             \includegraphics on input line 325.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/009-2-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/009-2-eps-converted-to.pdf, id=1960, 484.81125pt x 414.54875pt>
+<figs/009-2-eps-converted-to.pdf, id=1995, 484.81125pt x 414.54875pt>
 File: figs/009-2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/009-2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/009-2-eps-converted-to.pdf  used on input line 32
-4.
+5.
 (pdftex.def)             Requested size: 204.9466pt x 175.24786pt.
 Package epstopdf Info: Source file: <figs/0115-1.eps>
 (epstopdf)                    date: 2023-05-07 12:55:14
@@ -2690,17 +2778,17 @@ Package epstopdf Info: Source file: <figs/0115-1.eps>
 (epstopdf)                    size: 20006 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/0115-1-eps-conv
 erted-to.pdf figs/0115-1.eps>
-(epstopdf)             \includegraphics on input line 338.
+(epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/0115-1-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/0115-1-eps-converted-to.pdf, id=1962, 484.81125pt x 414.54875pt>
+<figs/0115-1-eps-converted-to.pdf, id=1997, 484.81125pt x 414.54875pt>
 File: figs/0115-1-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0115-1-eps-converted-to.pdf>
 Package pdftex.def Info: figs/0115-1-eps-converted-to.pdf  used on input line 3
-38.
+39.
 (pdftex.def)             Requested size: 204.9466pt x 175.24786pt.
 Package epstopdf Info: Source file: <figs/0115-2.eps>
 (epstopdf)                    date: 2023-05-07 12:57:57
@@ -2710,19 +2798,19 @@ Package epstopdf Info: Source file: <figs/0115-2.eps>
 (epstopdf)                    size: 11934 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/0115-2-eps-conv
 erted-to.pdf figs/0115-2.eps>
-(epstopdf)             \includegraphics on input line 343.
+(epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/0115-2-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/0115-2-eps-converted-to.pdf, id=1963, 484.81125pt x 414.54875pt>
+<figs/0115-2-eps-converted-to.pdf, id=1998, 484.81125pt x 414.54875pt>
 File: figs/0115-2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0115-2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/0115-2-eps-converted-to.pdf  used on input line 3
-43.
+44.
 (pdftex.def)             Requested size: 204.9466pt x 175.24786pt.
-[93 <./figs/009-1-eps-converted-to.pdf> <./figs/009-2-eps-converted-to.pdf>]
+[83 <./figs/009-1-eps-converted-to.pdf> <./figs/009-2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/exp_curve.eps>
 (epstopdf)                    date: 2023-05-07 13:10:28
 (epstopdf)                    size: 76397 bytes
@@ -2731,20 +2819,19 @@ Package epstopdf Info: Source file: <figs/exp_curve.eps>
 (epstopdf)                    size: 16227 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/exp_curve-eps-c
 onverted-to.pdf figs/exp_curve.eps>
-(epstopdf)             \includegraphics on input line 366.
+(epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/exp_curve-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/exp_curve-eps-converted-to.pdf, id=1984, 484.81125pt x 414.54875pt>
+<figs/exp_curve-eps-converted-to.pdf, id=2018, 484.81125pt x 414.54875pt>
 File: figs/exp_curve-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/exp_curve-eps-converted-to.pdf>
 Package pdftex.def Info: figs/exp_curve-eps-converted-to.pdf  used on input lin
-e 366.
+e 368.
 (pdftex.def)             Requested size: 484.81006pt x 414.54773pt.
-[94 <./figs/0115-1-eps-converted-to.pdf> <./figs/0115-2-eps-converted-to.pdf> <
-./figs/exp_curve-eps-converted-to.pdf>]
+[84 <./figs/0115-1-eps-converted-to.pdf> <./figs/0115-2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/ef-Gair2.eps>
 (epstopdf)                    date: 2023-05-07 13:19:29
 (epstopdf)                    size: 69601 bytes
@@ -2753,17 +2840,17 @@ Package epstopdf Info: Source file: <figs/ef-Gair2.eps>
 (epstopdf)                    size: 12873 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/ef-Gair2-eps-co
 nverted-to.pdf figs/ef-Gair2.eps>
-(epstopdf)             \includegraphics on input line 378.
+(epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/ef-Gair2-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/ef-Gair2-eps-converted-to.pdf, id=2008, 484.81125pt x 414.54875pt>
+<figs/ef-Gair2-eps-converted-to.pdf, id=2038, 484.81125pt x 414.54875pt>
 File: figs/ef-Gair2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/ef-Gair2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/ef-Gair2-eps-converted-to.pdf  used on input line
- 378.
+ 377.
 (pdftex.def)             Requested size: 204.9509pt x 170.7125pt.
 Package epstopdf Info: Source file: <figs/dT-Gair2.eps>
 (epstopdf)                    date: 2023-05-07 13:17:47
@@ -2773,21 +2860,24 @@ Package epstopdf Info: Source file: <figs/dT-Gair2.eps>
 (epstopdf)                    size: 18092 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/dT-Gair2-eps-co
 nverted-to.pdf figs/dT-Gair2.eps>
-(epstopdf)             \includegraphics on input line 382.
+(epstopdf)             \includegraphics on input line 381.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/dT-Gair2-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/dT-Gair2-eps-converted-to.pdf, id=2009, 484.81125pt x 414.54875pt>
+<figs/dT-Gair2-eps-converted-to.pdf, id=2039, 484.81125pt x 414.54875pt>
 File: figs/dT-Gair2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/dT-Gair2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/dT-Gair2-eps-converted-to.pdf  used on input line
- 382.
+ 381.
 (pdftex.def)             Requested size: 204.9509pt x 170.7125pt.
-[95 <./figs/ef-Gair2-eps-converted-to.pdf> <./figs/dT-Gair2-eps-converted-to.pd
-f>]) (Thermal.tex [96]
+[85 <./figs/exp_curve-eps-converted-to.pdf>]) (Thermal.tex [86 <./figs/ef-Gair2
+-eps-converted-to.pdf> <./figs/dT-Gair2-eps-converted-to.pdf>]
 Chapter 5.
+[87
+
+]
 Package epstopdf Info: Source file: <figs/block_diagram.eps>
 (epstopdf)                    date: 2020-06-07 23:13:18
 (epstopdf)                    size: 25192 bytes
@@ -2796,34 +2886,32 @@ Package epstopdf Info: Source file: <figs/block_diagram.eps>
 (epstopdf)                    size: 5088 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/block_diagram-e
 ps-converted-to.pdf figs/block_diagram.eps>
-(epstopdf)             \includegraphics on input line 38.
+(epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
-<figs/block_diagram-eps-converted-to.pdf, id=2033, 699.61375pt x 225.84375pt>
+<figs/block_diagram-eps-converted-to.pdf, id=2071, 699.61375pt x 225.84375pt>
 File: figs/block_diagram-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/block_diagram-eps-converted-to.pdf>
 Package pdftex.def Info: figs/block_diagram-eps-converted-to.pdf  used on input
- line 38.
+ line 26.
 (pdftex.def)             Requested size: 699.61205pt x 225.84319pt.
-[97
-
-] [98 <./figs/block_diagram-eps-converted-to.pdf>]
-<figs/resistances.png, id=2054, 477.7047pt x 153.2124pt>
+ [88 <./figs/block_diagram-eps-converted-to.pdf>]
+<figs/resistances.png, id=2086, 477.7047pt x 153.2124pt>
 File: figs/resistances.png Graphic file (type png)
 <use figs/resistances.png>
-Package pdftex.def Info: figs/resistances.png  used on input line 124.
+Package pdftex.def Info: figs/resistances.png  used on input line 111.
 (pdftex.def)             Requested size: 477.70352pt x 153.212pt.
- [99 <./figs/resistances.png>] [100] [101]
-<figs/carbonfiber2.png, id=2099, 629.9535pt x 306.54526pt>
+ [89 <./figs/resistances.png>] [90] [91]
+<figs/carbonfiber2.png, id=2130, 629.9535pt x 306.54526pt>
 File: figs/carbonfiber2.png Graphic file (type png)
 <use figs/carbonfiber2.png>
-Package pdftex.def Info: figs/carbonfiber2.png  used on input line 393.
+Package pdftex.def Info: figs/carbonfiber2.png  used on input line 301.
 (pdftex.def)             Requested size: 629.95197pt x 306.5445pt.
- [102 <./figs/carbonfiber2.png>]
+ [92 <./figs/carbonfiber2.png>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 447.
+(enumitem)                sense, on input line 355.
 
-[103] [104]
+[93] [94]
 Package epstopdf Info: Source file: <figs/004-3.eps>
 (epstopdf)                    date: 2020-06-07 23:13:48
 (epstopdf)                    size: 66012 bytes
@@ -2832,13 +2920,13 @@ Package epstopdf Info: Source file: <figs/004-3.eps>
 (epstopdf)                    size: 19148 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/004-3-eps-conve
 rted-to.pdf figs/004-3.eps>
-(epstopdf)             \includegraphics on input line 544.
+(epstopdf)             \includegraphics on input line 452.
 Package epstopdf Info: Output file is already uptodate.
-<figs/004-3-eps-converted-to.pdf, id=2135, 500.87125pt x 381.425pt>
+<figs/004-3-eps-converted-to.pdf, id=2167, 500.87125pt x 381.425pt>
 File: figs/004-3-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/004-3-eps-converted-to.pdf>
-Package pdftex.def Info: figs/004-3-eps-converted-to.pdf  used on input line 54
-4.
+Package pdftex.def Info: figs/004-3-eps-converted-to.pdf  used on input line 45
+2.
 (pdftex.def)             Requested size: 253.52263pt x 184.9385pt.
 Package epstopdf Info: Source file: <figs/004-residue-5.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -2848,13 +2936,13 @@ Package epstopdf Info: Source file: <figs/004-residue-5.eps>
 (epstopdf)                    size: 27433 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/004-residue-5-e
 ps-converted-to.pdf figs/004-residue-5.eps>
-(epstopdf)             \includegraphics on input line 549.
+(epstopdf)             \includegraphics on input line 457.
 Package epstopdf Info: Output file is already uptodate.
-<figs/004-residue-5-eps-converted-to.pdf, id=2136, 441.65pt x 390.45876pt>
+<figs/004-residue-5-eps-converted-to.pdf, id=2168, 441.65pt x 390.45876pt>
 File: figs/004-residue-5-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/004-residue-5-eps-converted-to.pdf>
 Package pdftex.def Info: figs/004-residue-5-eps-converted-to.pdf  used on input
- line 549.
+ line 457.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
 Package epstopdf Info: Source file: <figs/004-residue-6.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -2864,15 +2952,15 @@ Package epstopdf Info: Source file: <figs/004-residue-6.eps>
 (epstopdf)                    size: 27749 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/004-residue-6-e
 ps-converted-to.pdf figs/004-residue-6.eps>
-(epstopdf)             \includegraphics on input line 551.
+(epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
-<figs/004-residue-6-eps-converted-to.pdf, id=2137, 441.65pt x 390.45876pt>
+<figs/004-residue-6-eps-converted-to.pdf, id=2169, 441.65pt x 390.45876pt>
 File: figs/004-residue-6-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/004-residue-6-eps-converted-to.pdf>
 Package pdftex.def Info: figs/004-residue-6-eps-converted-to.pdf  used on input
- line 551.
+ line 459.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
- [105]
+ [95]
 Package epstopdf Info: Source file: <figs/0055-3.eps>
 (epstopdf)                    date: 2020-06-07 23:13:50
 (epstopdf)                    size: 65977 bytes
@@ -2881,13 +2969,13 @@ Package epstopdf Info: Source file: <figs/0055-3.eps>
 (epstopdf)                    size: 19546 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/0055-3-eps-conv
 erted-to.pdf figs/0055-3.eps>
-(epstopdf)             \includegraphics on input line 569.
+(epstopdf)             \includegraphics on input line 478.
 Package epstopdf Info: Output file is already uptodate.
-<figs/0055-3-eps-converted-to.pdf, id=2148, 500.87125pt x 381.425pt>
+<figs/0055-3-eps-converted-to.pdf, id=2180, 500.87125pt x 381.425pt>
 File: figs/0055-3-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0055-3-eps-converted-to.pdf>
-Package pdftex.def Info: figs/0055-3-eps-converted-to.pdf  used on input line 5
-69.
+Package pdftex.def Info: figs/0055-3-eps-converted-to.pdf  used on input line 4
+78.
 (pdftex.def)             Requested size: 253.52263pt x 184.9385pt.
 Package epstopdf Info: Source file: <figs/0055-residue-5.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -2897,13 +2985,13 @@ Package epstopdf Info: Source file: <figs/0055-residue-5.eps>
 (epstopdf)                    size: 24837 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/0055-residue-5-
 eps-converted-to.pdf figs/0055-residue-5.eps>
-(epstopdf)             \includegraphics on input line 574.
+(epstopdf)             \includegraphics on input line 483.
 Package epstopdf Info: Output file is already uptodate.
-<figs/0055-residue-5-eps-converted-to.pdf, id=2149, 441.65pt x 390.45876pt>
+<figs/0055-residue-5-eps-converted-to.pdf, id=2181, 441.65pt x 390.45876pt>
 File: figs/0055-residue-5-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0055-residue-5-eps-converted-to.pdf>
 Package pdftex.def Info: figs/0055-residue-5-eps-converted-to.pdf  used on inpu
-t line 574.
+t line 483.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
 Package epstopdf Info: Source file: <figs/0055-residue-6.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -2913,16 +3001,16 @@ Package epstopdf Info: Source file: <figs/0055-residue-6.eps>
 (epstopdf)                    size: 25128 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/0055-residue-6-
 eps-converted-to.pdf figs/0055-residue-6.eps>
-(epstopdf)             \includegraphics on input line 576.
+(epstopdf)             \includegraphics on input line 485.
 Package epstopdf Info: Output file is already uptodate.
-<figs/0055-residue-6-eps-converted-to.pdf, id=2150, 441.65pt x 390.45876pt>
+<figs/0055-residue-6-eps-converted-to.pdf, id=2182, 441.65pt x 390.45876pt>
 File: figs/0055-residue-6-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0055-residue-6-eps-converted-to.pdf>
 Package pdftex.def Info: figs/0055-residue-6-eps-converted-to.pdf  used on inpu
-t line 576.
+t line 485.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
- [106 <./figs/004-3-eps-converted-to.pdf> <./figs/004-residue-5-eps-converted-t
-o.pdf> <./figs/004-residue-6-eps-converted-to.pdf>]
+ [96 <./figs/004-3-eps-converted-to.pdf> <./figs/004-residue-5-eps-converted-to
+.pdf> <./figs/004-residue-6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/007-3.eps>
 (epstopdf)                    date: 2020-06-07 23:13:48
 (epstopdf)                    size: 66110 bytes
@@ -2931,13 +3019,13 @@ Package epstopdf Info: Source file: <figs/007-3.eps>
 (epstopdf)                    size: 19406 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/007-3-eps-conve
 rted-to.pdf figs/007-3.eps>
-(epstopdf)             \includegraphics on input line 592.
+(epstopdf)             \includegraphics on input line 501.
 Package epstopdf Info: Output file is already uptodate.
-<figs/007-3-eps-converted-to.pdf, id=2168, 500.87125pt x 381.425pt>
+<figs/007-3-eps-converted-to.pdf, id=2200, 500.87125pt x 381.425pt>
 File: figs/007-3-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/007-3-eps-converted-to.pdf>
-Package pdftex.def Info: figs/007-3-eps-converted-to.pdf  used on input line 59
-2.
+Package pdftex.def Info: figs/007-3-eps-converted-to.pdf  used on input line 50
+1.
 (pdftex.def)             Requested size: 253.52263pt x 184.9385pt.
 Package epstopdf Info: Source file: <figs/007-residue-5.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -2947,13 +3035,13 @@ Package epstopdf Info: Source file: <figs/007-residue-5.eps>
 (epstopdf)                    size: 25072 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/007-residue-5-e
 ps-converted-to.pdf figs/007-residue-5.eps>
-(epstopdf)             \includegraphics on input line 597.
+(epstopdf)             \includegraphics on input line 506.
 Package epstopdf Info: Output file is already uptodate.
-<figs/007-residue-5-eps-converted-to.pdf, id=2169, 441.65pt x 390.45876pt>
+<figs/007-residue-5-eps-converted-to.pdf, id=2201, 441.65pt x 390.45876pt>
 File: figs/007-residue-5-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/007-residue-5-eps-converted-to.pdf>
 Package pdftex.def Info: figs/007-residue-5-eps-converted-to.pdf  used on input
- line 597.
+ line 506.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
 Package epstopdf Info: Source file: <figs/007-residue-6.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -2963,16 +3051,16 @@ Package epstopdf Info: Source file: <figs/007-residue-6.eps>
 (epstopdf)                    size: 25104 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/007-residue-6-e
 ps-converted-to.pdf figs/007-residue-6.eps>
-(epstopdf)             \includegraphics on input line 599.
+(epstopdf)             \includegraphics on input line 508.
 Package epstopdf Info: Output file is already uptodate.
-<figs/007-residue-6-eps-converted-to.pdf, id=2170, 441.65pt x 390.45876pt>
+<figs/007-residue-6-eps-converted-to.pdf, id=2202, 441.65pt x 390.45876pt>
 File: figs/007-residue-6-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/007-residue-6-eps-converted-to.pdf>
 Package pdftex.def Info: figs/007-residue-6-eps-converted-to.pdf  used on input
- line 599.
+ line 508.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
- [107 <./figs/0055-3-eps-converted-to.pdf> <./figs/0055-residue-5-eps-converted
--to.pdf> <./figs/0055-residue-6-eps-converted-to.pdf>]
+ [97 <./figs/0055-3-eps-converted-to.pdf> <./figs/0055-residue-5-eps-converted-
+to.pdf> <./figs/0055-residue-6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/009-3.eps>
 (epstopdf)                    date: 2020-06-07 23:13:50
 (epstopdf)                    size: 66208 bytes
@@ -2981,12 +3069,12 @@ Package epstopdf Info: Source file: <figs/009-3.eps>
 (epstopdf)                    size: 19469 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/009-3-eps-conve
 rted-to.pdf figs/009-3.eps>
-(epstopdf)             \includegraphics on input line 615.
+(epstopdf)             \includegraphics on input line 525.
 Package epstopdf Info: Output file is already uptodate.
-<figs/009-3-eps-converted-to.pdf, id=2189, 500.87125pt x 381.425pt>
+<figs/009-3-eps-converted-to.pdf, id=2220, 500.87125pt x 381.425pt>
 File: figs/009-3-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/009-3-eps-converted-to.pdf>
-Package pdftex.def Info: figs/009-3-eps-converted-to.pdf  used on input line 61
+Package pdftex.def Info: figs/009-3-eps-converted-to.pdf  used on input line 52
 5.
 (pdftex.def)             Requested size: 253.52263pt x 184.9385pt.
 Package epstopdf Info: Source file: <figs/009-residue-5.eps>
@@ -2997,13 +3085,13 @@ Package epstopdf Info: Source file: <figs/009-residue-5.eps>
 (epstopdf)                    size: 25125 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/009-residue-5-e
 ps-converted-to.pdf figs/009-residue-5.eps>
-(epstopdf)             \includegraphics on input line 620.
+(epstopdf)             \includegraphics on input line 530.
 Package epstopdf Info: Output file is already uptodate.
-<figs/009-residue-5-eps-converted-to.pdf, id=2190, 441.65pt x 390.45876pt>
+<figs/009-residue-5-eps-converted-to.pdf, id=2221, 441.65pt x 390.45876pt>
 File: figs/009-residue-5-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/009-residue-5-eps-converted-to.pdf>
 Package pdftex.def Info: figs/009-residue-5-eps-converted-to.pdf  used on input
- line 620.
+ line 530.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
 Package epstopdf Info: Source file: <figs/009-residue-6.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -3013,14 +3101,16 @@ Package epstopdf Info: Source file: <figs/009-residue-6.eps>
 (epstopdf)                    size: 25288 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/009-residue-6-e
 ps-converted-to.pdf figs/009-residue-6.eps>
-(epstopdf)             \includegraphics on input line 622.
+(epstopdf)             \includegraphics on input line 532.
 Package epstopdf Info: Output file is already uptodate.
-<figs/009-residue-6-eps-converted-to.pdf, id=2191, 441.65pt x 390.45876pt>
+<figs/009-residue-6-eps-converted-to.pdf, id=2222, 441.65pt x 390.45876pt>
 File: figs/009-residue-6-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/009-residue-6-eps-converted-to.pdf>
 Package pdftex.def Info: figs/009-residue-6-eps-converted-to.pdf  used on input
- line 622.
+ line 532.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
+ [98 <./figs/007-3-eps-converted-to.pdf> <./figs/007-residue-5-eps-converted-to
+.pdf> <./figs/007-residue-6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/0115-3.eps>
 (epstopdf)                    date: 2020-06-07 23:13:50
 (epstopdf)                    size: 66221 bytes
@@ -3029,13 +3119,13 @@ Package epstopdf Info: Source file: <figs/0115-3.eps>
 (epstopdf)                    size: 19524 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/0115-3-eps-conv
 erted-to.pdf figs/0115-3.eps>
-(epstopdf)             \includegraphics on input line 638.
+(epstopdf)             \includegraphics on input line 548.
 Package epstopdf Info: Output file is already uptodate.
-<figs/0115-3-eps-converted-to.pdf, id=2195, 500.87125pt x 381.425pt>
+<figs/0115-3-eps-converted-to.pdf, id=2240, 500.87125pt x 381.425pt>
 File: figs/0115-3-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0115-3-eps-converted-to.pdf>
-Package pdftex.def Info: figs/0115-3-eps-converted-to.pdf  used on input line 6
-38.
+Package pdftex.def Info: figs/0115-3-eps-converted-to.pdf  used on input line 5
+48.
 (pdftex.def)             Requested size: 253.52263pt x 184.9385pt.
 Package epstopdf Info: Source file: <figs/0115-residue-5.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -3045,13 +3135,13 @@ Package epstopdf Info: Source file: <figs/0115-residue-5.eps>
 (epstopdf)                    size: 25081 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/0115-residue-5-
 eps-converted-to.pdf figs/0115-residue-5.eps>
-(epstopdf)             \includegraphics on input line 643.
+(epstopdf)             \includegraphics on input line 553.
 Package epstopdf Info: Output file is already uptodate.
-<figs/0115-residue-5-eps-converted-to.pdf, id=2196, 441.65pt x 390.45876pt>
+<figs/0115-residue-5-eps-converted-to.pdf, id=2241, 441.65pt x 390.45876pt>
 File: figs/0115-residue-5-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0115-residue-5-eps-converted-to.pdf>
 Package pdftex.def Info: figs/0115-residue-5-eps-converted-to.pdf  used on inpu
-t line 643.
+t line 553.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
 Package epstopdf Info: Source file: <figs/0115-residue-6.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -3061,16 +3151,16 @@ Package epstopdf Info: Source file: <figs/0115-residue-6.eps>
 (epstopdf)                    size: 25046 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/0115-residue-6-
 eps-converted-to.pdf figs/0115-residue-6.eps>
-(epstopdf)             \includegraphics on input line 645.
+(epstopdf)             \includegraphics on input line 555.
 Package epstopdf Info: Output file is already uptodate.
-<figs/0115-residue-6-eps-converted-to.pdf, id=2197, 441.65pt x 390.45876pt>
+<figs/0115-residue-6-eps-converted-to.pdf, id=2242, 441.65pt x 390.45876pt>
 File: figs/0115-residue-6-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/0115-residue-6-eps-converted-to.pdf>
 Package pdftex.def Info: figs/0115-residue-6-eps-converted-to.pdf  used on inpu
-t line 645.
+t line 555.
 (pdftex.def)             Requested size: 220.82445pt x 195.2289pt.
- [108 <./figs/007-3-eps-converted-to.pdf> <./figs/007-residue-5-eps-converted-t
-o.pdf> <./figs/007-residue-6-eps-converted-to.pdf>]
+ [99 <./figs/009-3-eps-converted-to.pdf> <./figs/009-residue-5-eps-converted-to
+.pdf> <./figs/009-residue-6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/residueT_it.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
 (epstopdf)                    size: 433107 bytes
@@ -3079,13 +3169,13 @@ Package epstopdf Info: Source file: <figs/residueT_it.eps>
 (epstopdf)                    size: 114316 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/residueT_it-eps
 -converted-to.pdf figs/residueT_it.eps>
-(epstopdf)             \includegraphics on input line 659.
+(epstopdf)             \includegraphics on input line 570.
 Package epstopdf Info: Output file is already uptodate.
-<figs/residueT_it-eps-converted-to.pdf, id=2213, 441.65pt x 390.45876pt>
+<figs/residueT_it-eps-converted-to.pdf, id=2258, 441.65pt x 390.45876pt>
 File: figs/residueT_it-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/residueT_it-eps-converted-to.pdf>
 Package pdftex.def Info: figs/residueT_it-eps-converted-to.pdf  used on input l
-ine 659.
+ine 570.
 (pdftex.def)             Requested size: 198.67326pt x 156.49054pt.
 Package epstopdf Info: Source file: <figs/residueQ_it.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -3095,13 +3185,13 @@ Package epstopdf Info: Source file: <figs/residueQ_it.eps>
 (epstopdf)                    size: 109994 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/residueQ_it-eps
 -converted-to.pdf figs/residueQ_it.eps>
-(epstopdf)             \includegraphics on input line 663.
+(epstopdf)             \includegraphics on input line 574.
 Package epstopdf Info: Output file is already uptodate.
-<figs/residueQ_it-eps-converted-to.pdf, id=2214, 441.65pt x 390.45876pt>
+<figs/residueQ_it-eps-converted-to.pdf, id=2259, 441.65pt x 390.45876pt>
 File: figs/residueQ_it-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/residueQ_it-eps-converted-to.pdf>
 Package pdftex.def Info: figs/residueQ_it-eps-converted-to.pdf  used on input l
-ine 663.
+ine 574.
 (pdftex.def)             Requested size: 209.13223pt x 156.49054pt.
 Package epstopdf Info: Source file: <figs/cdf_T.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -3111,13 +3201,13 @@ Package epstopdf Info: Source file: <figs/cdf_T.eps>
 (epstopdf)                    size: 39601 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/cdf_T-eps-conve
 rted-to.pdf figs/cdf_T.eps>
-(epstopdf)             \includegraphics on input line 674.
+(epstopdf)             \includegraphics on input line 585.
 Package epstopdf Info: Output file is already uptodate.
-<figs/cdf_T-eps-converted-to.pdf, id=2216, 431.6125pt x 334.24875pt>
+<figs/cdf_T-eps-converted-to.pdf, id=2261, 431.6125pt x 334.24875pt>
 File: figs/cdf_T-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/cdf_T-eps-converted-to.pdf>
-Package pdftex.def Info: figs/cdf_T-eps-converted-to.pdf  used on input line 67
-4.
+Package pdftex.def Info: figs/cdf_T-eps-converted-to.pdf  used on input line 58
+5.
 (pdftex.def)             Requested size: 198.66928pt x 156.4951pt.
 Package epstopdf Info: Source file: <figs/cdf_Q.eps>
 (epstopdf)                    date: 2020-06-07 23:13:54
@@ -3127,23 +3217,23 @@ Package epstopdf Info: Source file: <figs/cdf_Q.eps>
 (epstopdf)                    size: 42222 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/cdf_Q-eps-conve
 rted-to.pdf figs/cdf_Q.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 589.
 Package epstopdf Info: Output file is already uptodate.
-<figs/cdf_Q-eps-converted-to.pdf, id=2217, 431.6125pt x 342.27875pt>
+<figs/cdf_Q-eps-converted-to.pdf, id=2262, 431.6125pt x 342.27875pt>
 File: figs/cdf_Q-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/cdf_Q-eps-converted-to.pdf>
-Package pdftex.def Info: figs/cdf_Q-eps-converted-to.pdf  used on input line 67
-8.
+Package pdftex.def Info: figs/cdf_Q-eps-converted-to.pdf  used on input line 58
+9.
 (pdftex.def)             Requested size: 209.12764pt x 156.49435pt.
- [109 <./figs/009-3-eps-converted-to.pdf> <./figs/009-residue-5-eps-converted-t
-o.pdf> <./figs/009-residue-6-eps-converted-to.pdf>]
+ [100 <./figs/0115-3-eps-converted-to.pdf> <./figs/0115-residue-5-eps-converted
+-to.pdf> <./figs/0115-residue-6-eps-converted-to.pdf>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 691.
+(enumitem)                sense, on input line 602.
 
-[110 <./figs/0115-3-eps-converted-to.pdf> <./figs/0115-residue-5-eps-converted-
-to.pdf> <./figs/0115-residue-6-eps-converted-to.pdf> <./figs/residueT_it-eps-co
-nverted-to.pdf> <./figs/residueQ_it-eps-converted-to.pdf>]
+[101 <./figs/residueT_it-eps-converted-to.pdf> <./figs/residueQ_it-eps-converte
+d-to.pdf> <./figs/cdf_T-eps-converted-to.pdf> <./figs/cdf_Q-eps-converted-to.pd
+f>]
 Package epstopdf Info: Source file: <figs/series_1st.eps>
 (epstopdf)                    date: 2020-08-22 01:03:04
 (epstopdf)                    size: 75788 bytes
@@ -3152,13 +3242,13 @@ Package epstopdf Info: Source file: <figs/series_1st.eps>
 (epstopdf)                    size: 21852 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/series_1st-eps-
 converted-to.pdf figs/series_1st.eps>
-(epstopdf)             \includegraphics on input line 728.
+(epstopdf)             \includegraphics on input line 639.
 Package epstopdf Info: Output file is already uptodate.
-<figs/series_1st-eps-converted-to.pdf, id=2254, 564.1075pt x 340.27126pt>
+<figs/series_1st-eps-converted-to.pdf, id=2302, 564.1075pt x 340.27126pt>
 File: figs/series_1st-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/series_1st-eps-converted-to.pdf>
 Package pdftex.def Info: figs/series_1st-eps-converted-to.pdf  used on input li
-ne 728.
+ne 639.
 (pdftex.def)             Requested size: 564.10611pt x 340.27042pt.
 Package epstopdf Info: Source file: <figs/Tout_x_GT_Gair.eps>
 (epstopdf)                    date: 2020-09-10 18:01:00
@@ -3168,13 +3258,13 @@ Package epstopdf Info: Source file: <figs/Tout_x_GT_Gair.eps>
 (epstopdf)                    size: 104958 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/Tout_x_GT_Gair-
 eps-converted-to.pdf figs/Tout_x_GT_Gair.eps>
-(epstopdf)             \includegraphics on input line 734.
+(epstopdf)             \includegraphics on input line 645.
 Package epstopdf Info: Output file is already uptodate.
-<figs/Tout_x_GT_Gair-eps-converted-to.pdf, id=2256, 425.59pt x 340.27126pt>
+<figs/Tout_x_GT_Gair-eps-converted-to.pdf, id=2304, 425.59pt x 340.27126pt>
 File: figs/Tout_x_GT_Gair-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/Tout_x_GT_Gair-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Tout_x_GT_Gair-eps-converted-to.pdf  used on inpu
-t line 734.
+t line 645.
 (pdftex.def)             Requested size: 208.54091pt x 166.73436pt.
 Package epstopdf Info: Source file: <figs/contour_dT.eps>
 (epstopdf)                    date: 2020-09-10 18:04:09
@@ -3184,15 +3274,15 @@ Package epstopdf Info: Source file: <figs/contour_dT.eps>
 (epstopdf)                    size: 26306 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/contour_dT-eps-
 converted-to.pdf figs/contour_dT.eps>
-(epstopdf)             \includegraphics on input line 738.
+(epstopdf)             \includegraphics on input line 649.
 Package epstopdf Info: Output file is already uptodate.
-<figs/contour_dT-eps-converted-to.pdf, id=2257, 425.59pt x 340.27126pt>
+<figs/contour_dT-eps-converted-to.pdf, id=2305, 425.59pt x 340.27126pt>
 File: figs/contour_dT-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/contour_dT-eps-converted-to.pdf>
 Package pdftex.def Info: figs/contour_dT-eps-converted-to.pdf  used on input li
-ne 738.
+ne 649.
 (pdftex.def)             Requested size: 208.54091pt x 166.73436pt.
- [111 <./figs/cdf_T-eps-converted-to.pdf> <./figs/cdf_Q-eps-converted-to.pdf>]
+ [102 <./figs/series_1st-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/QU_Tout_Gair.eps>
 (epstopdf)                    date: 2020-09-10 18:33:16
 (epstopdf)                    size: 116041 bytes
@@ -3201,13 +3291,13 @@ Package epstopdf Info: Source file: <figs/QU_Tout_Gair.eps>
 (epstopdf)                    size: 111724 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/QU_Tout_Gair-ep
 s-converted-to.pdf figs/QU_Tout_Gair.eps>
-(epstopdf)             \includegraphics on input line 751.
+(epstopdf)             \includegraphics on input line 663.
 Package epstopdf Info: Output file is already uptodate.
-<figs/QU_Tout_Gair-eps-converted-to.pdf, id=2275, 425.59pt x 348.30125pt>
+<figs/QU_Tout_Gair-eps-converted-to.pdf, id=2314, 425.59pt x 348.30125pt>
 File: figs/QU_Tout_Gair-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/QU_Tout_Gair-eps-converted-to.pdf>
 Package pdftex.def Info: figs/QU_Tout_Gair-eps-converted-to.pdf  used on input 
-line 751.
+line 663.
 (pdftex.def)             Requested size: 204.28087pt x 167.1827pt.
 Package epstopdf Info: Source file: <figs/contour_Q.eps>
 (epstopdf)                    date: 2020-09-10 18:27:15
@@ -3217,16 +3307,14 @@ Package epstopdf Info: Source file: <figs/contour_Q.eps>
 (epstopdf)                    size: 35930 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/contour_Q-eps-c
 onverted-to.pdf figs/contour_Q.eps>
-(epstopdf)             \includegraphics on input line 755.
+(epstopdf)             \includegraphics on input line 667.
 Package epstopdf Info: Output file is already uptodate.
-<figs/contour_Q-eps-converted-to.pdf, id=2276, 425.59pt x 348.30125pt>
+<figs/contour_Q-eps-converted-to.pdf, id=2315, 425.59pt x 348.30125pt>
 File: figs/contour_Q-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/contour_Q-eps-converted-to.pdf>
 Package pdftex.def Info: figs/contour_Q-eps-converted-to.pdf  used on input lin
-e 755.
+e 667.
 (pdftex.def)             Requested size: 204.28087pt x 167.1827pt.
- [112 <./figs/series_1st-eps-converted-to.pdf> <./figs/Tout_x_GT_Gair-eps-conve
-rted-to.pdf> <./figs/contour_dT-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/ef_curve2.eps>
 (epstopdf)                    date: 2020-06-07 23:13:50
 (epstopdf)                    size: 37525 bytes
@@ -3235,20 +3323,21 @@ Package epstopdf Info: Source file: <figs/ef_curve2.eps>
 (epstopdf)                    size: 10053 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/ef_curve2-eps-c
 onverted-to.pdf figs/ef_curve2.eps>
-(epstopdf)             \includegraphics on input line 766.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
-<figs/ef_curve2-eps-converted-to.pdf, id=2296, 435.6275pt x 383.4325pt>
+<figs/ef_curve2-eps-converted-to.pdf, id=2318, 435.6275pt x 383.4325pt>
 File: figs/ef_curve2-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/ef_curve2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/ef_curve2-eps-converted-to.pdf  used on input lin
-e 766.
+e 678.
 (pdftex.def)             Requested size: 435.62643pt x 383.43156pt.
- [113 <./figs/QU_Tout_Gair-eps-converted-to.pdf> <./figs/contour_Q-eps-converte
-d-to.pdf> <./figs/ef_curve2-eps-converted-to.pdf>]
-<figs/Drawing-Series.png, id=2317, 398.99063pt x 361.35pt>
+ [103 <./figs/Tout_x_GT_Gair-eps-converted-to.pdf> <./figs/contour_dT-eps-conve
+rted-to.pdf> <./figs/QU_Tout_Gair-eps-converted-to.pdf> <./figs/contour_Q-eps-c
+onverted-to.pdf>]
+<figs/Drawing-Series.png, id=2345, 398.99063pt x 361.35pt>
 File: figs/Drawing-Series.png Graphic file (type png)
 <use figs/Drawing-Series.png>
-Package pdftex.def Info: figs/Drawing-Series.png  used on input line 776.
+Package pdftex.def Info: figs/Drawing-Series.png  used on input line 688.
 (pdftex.def)             Requested size: 398.98965pt x 361.34912pt.
 Package epstopdf Info: Source file: <figs/series_2nd.eps>
 (epstopdf)                    date: 2020-08-09 03:17:11
@@ -3258,13 +3347,13 @@ Package epstopdf Info: Source file: <figs/series_2nd.eps>
 (epstopdf)                    size: 18928 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/series_2nd-eps-
 converted-to.pdf figs/series_2nd.eps>
-(epstopdf)             \includegraphics on input line 782.
+(epstopdf)             \includegraphics on input line 694.
 Package epstopdf Info: Output file is already uptodate.
-<figs/series_2nd-eps-converted-to.pdf, id=2319, 419.5675pt x 339.2675pt>
+<figs/series_2nd-eps-converted-to.pdf, id=2347, 419.5675pt x 339.2675pt>
 File: figs/series_2nd-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/series_2nd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/series_2nd-eps-converted-to.pdf  used on input li
-ne 782.
+ne 694.
 (pdftex.def)             Requested size: 205.58986pt x 166.24252pt.
 Package epstopdf Info: Source file: <figs/series_3rd.eps>
 (epstopdf)                    date: 2020-08-12 03:16:55
@@ -3274,15 +3363,15 @@ Package epstopdf Info: Source file: <figs/series_3rd.eps>
 (epstopdf)                    size: 19190 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/series_3rd-eps-
 converted-to.pdf figs/series_3rd.eps>
-(epstopdf)             \includegraphics on input line 787.
+(epstopdf)             \includegraphics on input line 699.
 Package epstopdf Info: Output file is already uptodate.
-<figs/series_3rd-eps-converted-to.pdf, id=2320, 419.5675pt x 339.2675pt>
+<figs/series_3rd-eps-converted-to.pdf, id=2348, 419.5675pt x 339.2675pt>
 File: figs/series_3rd-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/series_3rd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/series_3rd-eps-converted-to.pdf  used on input li
-ne 787.
+ne 699.
 (pdftex.def)             Requested size: 205.58986pt x 166.24252pt.
- [114 <./figs/Drawing-Series.png>]
+ [104 <./figs/ef_curve2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/Qu-Tout-Gair-series.eps>
 (epstopdf)                    date: 2020-08-21 23:31:44
 (epstopdf)                    size: 37758 bytes
@@ -3292,21 +3381,21 @@ pdf>
 (epstopdf)                    size: 8136 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/Qu-Tout-Gair-se
 ries-eps-converted-to.pdf figs/Qu-Tout-Gair-series.eps>
-(epstopdf)             \includegraphics on input line 797.
+(epstopdf)             \includegraphics on input line 709.
 Package epstopdf Info: Output file is already uptodate.
-<figs/Qu-Tout-Gair-series-eps-converted-to.pdf, id=2326, 546.04pt x 339.2675pt>
+<figs/Qu-Tout-Gair-series-eps-converted-to.pdf, id=2357, 546.04pt x 339.2675pt>
 
 File: figs/Qu-Tout-Gair-series-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/Qu-Tout-Gair-series-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Qu-Tout-Gair-series-eps-converted-to.pdf  used on
- input line 797.
+ input line 709.
 (pdftex.def)             Requested size: 546.03867pt x 339.26666pt.
- [115 <./figs/series_2nd-eps-converted-to.pdf> <./figs/series_3rd-eps-converted
--to.pdf> <./figs/Qu-Tout-Gair-series-eps-converted-to.pdf>]
-<figs/D-Parallel.png, id=2341, 414.79968pt x 361.35pt>
+ [105 <./figs/Drawing-Series.png> <./figs/series_2nd-eps-converted-to.pdf> <./f
+igs/series_3rd-eps-converted-to.pdf>]
+<figs/D-Parallel.png, id=2369, 414.79968pt x 361.35pt>
 File: figs/D-Parallel.png Graphic file (type png)
 <use figs/D-Parallel.png>
-Package pdftex.def Info: figs/D-Parallel.png  used on input line 803.
+Package pdftex.def Info: figs/D-Parallel.png  used on input line 715.
 (pdftex.def)             Requested size: 414.79868pt x 361.34912pt.
 Package epstopdf Info: Source file: <figs/Qu-Tout-Gair-parallel.eps>
 (epstopdf)                    date: 2020-08-22 00:41:07
@@ -3317,23 +3406,23 @@ o.pdf>
 (epstopdf)                    size: 5056 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/Qu-Tout-Gair-pa
 rallel-eps-converted-to.pdf figs/Qu-Tout-Gair-parallel.eps>
-(epstopdf)             \includegraphics on input line 807.
+(epstopdf)             \includegraphics on input line 719.
 Package epstopdf Info: Output file is already uptodate.
-<figs/Qu-Tout-Gair-parallel-eps-converted-to.pdf, id=2344, 402.50375pt x 339.26
+<figs/Qu-Tout-Gair-parallel-eps-converted-to.pdf, id=2372, 402.50375pt x 339.26
 75pt>
 File: figs/Qu-Tout-Gair-parallel-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/Qu-Tout-Gair-parallel-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Qu-Tout-Gair-parallel-eps-converted-to.pdf  used 
-on input line 807.
+on input line 719.
 (pdftex.def)             Requested size: 402.50276pt x 339.26666pt.
- [116 <./figs/D-Parallel.png>] [117 <./figs/Qu-Tout-Gair-parallel-eps-converted
--to.pdf>] [118]
-<figs/system-drying.png, id=2375, 563.706pt x 284.7438pt>
+
+[106 <./figs/Qu-Tout-Gair-series-eps-converted-to.pdf>] [107 <./figs/D-Parallel
+.png> <./figs/Qu-Tout-Gair-parallel-eps-converted-to.pdf>] [108] [109]
+<figs/system-drying.png, id=2419, 782.925pt x 404.51125pt>
 File: figs/system-drying.png Graphic file (type png)
 <use figs/system-drying.png>
-Package pdftex.def Info: figs/system-drying.png  used on input line 880.
-(pdftex.def)             Requested size: 563.70462pt x 284.7431pt.
- [119]
+Package pdftex.def Info: figs/system-drying.png  used on input line 788.
+(pdftex.def)             Requested size: 782.9231pt x 404.51025pt.
 Package epstopdf Info: Source file: <figs/dry_low_1col.eps>
 (epstopdf)                    date: 2023-03-07 01:56:53
 (epstopdf)                    size: 102758 bytes
@@ -3342,16 +3431,16 @@ Package epstopdf Info: Source file: <figs/dry_low_1col.eps>
 (epstopdf)                    size: 34608 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/dry_low_1col-ep
 s-converted-to.pdf figs/dry_low_1col.eps>
-(epstopdf)             \includegraphics on input line 888.
+(epstopdf)             \includegraphics on input line 796.
 Package epstopdf Info: Output file is already uptodate.
-<figs/dry_low_1col-eps-converted-to.pdf, id=2392, 482.80376pt x 414.54875pt>
+<figs/dry_low_1col-eps-converted-to.pdf, id=2424, 482.80376pt x 414.54875pt>
 File: figs/dry_low_1col-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/dry_low_1col-eps-converted-to.pdf>
 Package pdftex.def Info: figs/dry_low_1col-eps-converted-to.pdf  used on input 
-line 888.
+line 796.
 (pdftex.def)             Requested size: 217.25967pt x 186.54521pt.
 
-Overfull \hbox (3.864pt too wide) in paragraph at lines 888--889
+Overfull \hbox (3.864pt too wide) in paragraph at lines 796--797
 [][] 
  []
 
@@ -3363,24 +3452,25 @@ Package epstopdf Info: Source file: <figs/dry_high_1col.eps>
 (epstopdf)                    size: 35440 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/dry_high_1col-e
 ps-converted-to.pdf figs/dry_high_1col.eps>
-(epstopdf)             \includegraphics on input line 893.
+(epstopdf)             \includegraphics on input line 801.
 Package epstopdf Info: Output file is already uptodate.
-<figs/dry_high_1col-eps-converted-to.pdf, id=2393, 482.80376pt x 414.54875pt>
+<figs/dry_high_1col-eps-converted-to.pdf, id=2425, 482.80376pt x 414.54875pt>
 File: figs/dry_high_1col-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/dry_high_1col-eps-converted-to.pdf>
 Package pdftex.def Info: figs/dry_high_1col-eps-converted-to.pdf  used on input
- line 893.
+ line 801.
 (pdftex.def)             Requested size: 217.25967pt x 186.54521pt.
 
-Overfull \hbox (3.864pt too wide) in paragraph at lines 893--894
+Overfull \hbox (3.864pt too wide) in paragraph at lines 801--802
 [][] 
  []
 
 
-Overfull \hbox (2.28pt too wide) in paragraph at lines 887--897
+Overfull \hbox (2.28pt too wide) in paragraph at lines 795--805
 []$[]$ $[]$ 
  []
 
+[110 <./figs/system-drying.png>]
 Package epstopdf Info: Source file: <figs/dry_low_2col.eps>
 (epstopdf)                    date: 2023-03-07 03:03:35
 (epstopdf)                    size: 109274 bytes
@@ -3389,16 +3479,16 @@ Package epstopdf Info: Source file: <figs/dry_low_2col.eps>
 (epstopdf)                    size: 35664 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/dry_low_2col-ep
 s-converted-to.pdf figs/dry_low_2col.eps>
-(epstopdf)             \includegraphics on input line 904.
+(epstopdf)             \includegraphics on input line 815.
 Package epstopdf Info: Output file is already uptodate.
-<figs/dry_low_2col-eps-converted-to.pdf, id=2394, 482.80376pt x 414.54875pt>
+<figs/dry_low_2col-eps-converted-to.pdf, id=2433, 482.80376pt x 414.54875pt>
 File: figs/dry_low_2col-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/dry_low_2col-eps-converted-to.pdf>
 Package pdftex.def Info: figs/dry_low_2col-eps-converted-to.pdf  used on input 
-line 904.
+line 815.
 (pdftex.def)             Requested size: 217.25967pt x 186.54521pt.
 
-Overfull \hbox (3.864pt too wide) in paragraph at lines 904--905
+Overfull \hbox (3.864pt too wide) in paragraph at lines 815--816
 [][] 
  []
 
@@ -3410,26 +3500,27 @@ Package epstopdf Info: Source file: <figs/dry_high_2col.eps>
 (epstopdf)                    size: 35027 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/dry_high_2col-e
 ps-converted-to.pdf figs/dry_high_2col.eps>
-(epstopdf)             \includegraphics on input line 909.
+(epstopdf)             \includegraphics on input line 820.
 Package epstopdf Info: Output file is already uptodate.
-<figs/dry_high_2col-eps-converted-to.pdf, id=2395, 484.81125pt x 414.54875pt>
+<figs/dry_high_2col-eps-converted-to.pdf, id=2434, 484.81125pt x 414.54875pt>
 File: figs/dry_high_2col-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/dry_high_2col-eps-converted-to.pdf>
 Package pdftex.def Info: figs/dry_high_2col-eps-converted-to.pdf  used on input
- line 909.
+ line 820.
 (pdftex.def)             Requested size: 218.16304pt x 186.54521pt.
 
-Overfull \hbox (4.76736pt too wide) in paragraph at lines 909--910
+Overfull \hbox (4.76736pt too wide) in paragraph at lines 820--821
 [][] 
  []
 
 
-Overfull \hbox (2.28pt too wide) in paragraph at lines 903--913
+Overfull \hbox (2.28pt too wide) in paragraph at lines 814--824
 []$[]$ $[]$ 
  []
 
-[120 <./figs/system-drying.png> <./figs/dry_low_1col-eps-converted-to.pdf> <./f
-igs/dry_high_1col-eps-converted-to.pdf>]
+[111 <./figs/dry_low_1col-eps-converted-to.pdf> <./figs/dry_high_1col-eps-conve
+rted-to.pdf> <./figs/dry_low_2col-eps-converted-to.pdf> <./figs/dry_high_2col-e
+ps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/dry_low_3col.eps>
 (epstopdf)                    date: 2023-03-07 03:24:19
 (epstopdf)                    size: 109212 bytes
@@ -3438,16 +3529,16 @@ Package epstopdf Info: Source file: <figs/dry_low_3col.eps>
 (epstopdf)                    size: 35074 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/dry_low_3col-ep
 s-converted-to.pdf figs/dry_low_3col.eps>
-(epstopdf)             \includegraphics on input line 920.
+(epstopdf)             \includegraphics on input line 832.
 Package epstopdf Info: Output file is already uptodate.
-<figs/dry_low_3col-eps-converted-to.pdf, id=2409, 484.81125pt x 414.54875pt>
+<figs/dry_low_3col-eps-converted-to.pdf, id=2457, 484.81125pt x 414.54875pt>
 File: figs/dry_low_3col-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/dry_low_3col-eps-converted-to.pdf>
 Package pdftex.def Info: figs/dry_low_3col-eps-converted-to.pdf  used on input 
-line 920.
+line 832.
 (pdftex.def)             Requested size: 218.16304pt x 186.54521pt.
 
-Overfull \hbox (4.76736pt too wide) in paragraph at lines 920--921
+Overfull \hbox (4.76736pt too wide) in paragraph at lines 832--833
 [][] 
  []
 
@@ -3459,105 +3550,96 @@ Package epstopdf Info: Source file: <figs/dry_high_3col.eps>
 (epstopdf)                    size: 34970 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figs/dry_high_3col-e
 ps-converted-to.pdf figs/dry_high_3col.eps>
-(epstopdf)             \includegraphics on input line 925.
+(epstopdf)             \includegraphics on input line 837.
 Package epstopdf Info: Output file is already uptodate.
-<figs/dry_high_3col-eps-converted-to.pdf, id=2410, 484.81125pt x 414.54875pt>
+<figs/dry_high_3col-eps-converted-to.pdf, id=2458, 484.81125pt x 414.54875pt>
 File: figs/dry_high_3col-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/dry_high_3col-eps-converted-to.pdf>
 Package pdftex.def Info: figs/dry_high_3col-eps-converted-to.pdf  used on input
- line 925.
+ line 837.
 (pdftex.def)             Requested size: 218.16304pt x 186.54521pt.
 
-Overfull \hbox (4.76736pt too wide) in paragraph at lines 925--926
+Overfull \hbox (4.76736pt too wide) in paragraph at lines 837--838
 [][] 
  []
 
 
-Overfull \hbox (2.28pt too wide) in paragraph at lines 919--929
+Overfull \hbox (2.28pt too wide) in paragraph at lines 831--841
 []$[]$ $[]$ 
  []
 
+[112 <./figs/dry_low_3col-eps-converted-to.pdf> <./figs/dry_high_3col-eps-conve
+rted-to.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[121 <./figs/dry_low_2col-eps-converted-to.pdf> <./figs/dry_high_2col-eps-conve
-rted-to.pdf> <./figs/dry_low_3col-eps-converted-to.pdf> <./figs/dry_high_3col-e
-ps-converted-to.pdf>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[122]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[123]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[124] [125]) (Conclusions.tex [126]
+[113] [114] [115]) (Conclusions.tex [116]
 Chapter 6.
-[127
+[117
 
-] [128]) [129]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
+
+ []
+
+[118] [119]) [120]
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
 (biblatex)                Using 'family-given' now.
 
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-155.
+160.
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-[130
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `txtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-] [131] [132] [133] [134]
-Overfull \hbox (7.558pt too wide) in paragraph at lines 155--155
-[][]\OT1/txr/m/n/12 Hegazy, A. A. (2000). ``Com-par-a-tive study of the per-for
--mances of four pho-to-voltaic/thermal
+[121
+
+] [122] [123] [124] [125] [126]
+Underfull \hbox (badness 1789) in paragraph at lines 160--160
+\OT1/txr/m/n/12 (+20) com-pound parabolic con-cen-trat-ing so-lar col-lec-tors'
+'. \OT1/txr/m/it/12 (+20) Re-new-able En-ergy \OT1/txr/m/n/12 (+20) 18.2,
  []
 
-[135] [136] [137] [138] [139] [140] [141] [142] [143] (Thesis.aux)
+[127] [128] [129] [130] [131] [132] [133] [134] [135] (Thesis.aux)
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F035473AD26C4CF8EE270CB5F6F8E305;9358.
+(rerunfilecheck)             Checksum: B20CA307453F6C1DBCF64493ED60788E;9600.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43802 strings out of 476334
- 914249 string characters out of 5787971
- 1884382 words of memory out of 5000000
- 62797 multiletter control sequences out of 15000+600000
- 585547 words of font info for 213 fonts, out of 8000000 for 9000
+ 46493 strings out of 476334
+ 955985 string characters out of 5787971
+ 1877382 words of memory out of 5000000
+ 64824 multiletter control sequences out of 15000+600000
+ 612395 words of font info for 618 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,18n,131p,3629b,1549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,18n,131p,3629b,1523s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ferna\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi720\wasy
 10.pk>{C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
-}<C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr
-.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/r
-txb.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfont
-s/rtxi.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
-onts/rtxmi.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/txfonts/rtxr.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/txfonts/rtxsc.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/txfonts/txex.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/txfonts/txsy.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/txfonts/txsya.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/txfonts/txsyc.pfb><C:/Users/ferna/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/ferna/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ferna/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ferna/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (151 pages, 11477359 bytes).
+}<C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.
+pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rt
+xi.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts
+/rtxmi.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
+onts/rtxr.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+txfonts/rtxsc.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/txfonts/txex.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/txfonts/txsy.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/txfonts/txsya.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/txfonts/txsyc.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/txfonts/txtt.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTe
+X/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTe
+X/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTe
+X/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (156 pages, 11488831 bytes).
 PDF statistics:
- 2889 PDF objects out of 2984 (max. 8388607)
- 543 named destinations out of 1000 (max. 500000)
- 1408 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2936 PDF objects out of 2984 (max. 8388607)
+ 559 named destinations out of 1000 (max. 500000)
+ 129949 words of extra memory for PDF output out of 154059 (max. 10000000)
 

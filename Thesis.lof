@@ -1,90 +1,91 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Array of 3 collectors stacked on a 1-m$^2$ wall of facade.\relax }}{14}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Research methodology.\relax }}{16}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Array of 3 collectors stacked on a 1-m$^2$ fa\c {c}ade wall.\relax }}{3}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Research methodology.\relax }}{6}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of (a) an unglazed and (b) a glazed solar air heating collector. From \citet {Kutscher1994} and \citet {SolarTribune2011}.\relax }}{19}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of GAHCs with different absorber area: (a) wired, (b) wavy, (c) finned, and (d) V-shaped (or V-corrugated). From \citet {Pottler1999}.\relax }}{25}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Graphs of air temperature rise and thermal efficiency against mass flow rate at the steady state. From \citet {Tyagi2012}.\relax }}{27}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of (a) single pass and (b) double pass air heating collector. From \citet {Hegazy2000}.\relax }}{29}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Schematics of a system with collectors in series and in parallel. From \citet {Fanney1981}.\relax }}{31}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces (a) Altitude solar angle, surface azimuth angle, and solar azimuth angle for an inclined surface. (b) Plan view showing solar azimuth angle. Adapted from \citet {Duffie2013}.\relax }}{34}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Basic CPC with flat plate absorber: (a) cross section design in 2D and (b) in 3D. From \citet {Duffie2013} and \citet {Winston1974}.\relax }}{38}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Truncated and untruncated CPC with tubular absorber. From \citet {Norton1991}\relax }}{38}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Angular acceptance function of a full and truncated CPC. Adapted from \citet {Norton1991}.\relax }}{39}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces General design of an asymmetric CPC.\relax }}{42}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Dielectric ACPC with 78\% truncated at the vertical for building integration photovoltaic.\relax }}{43}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Basic CPC geometry with inverted absorber.\relax }}{44}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Law of reflection applied on a reflecting surface.\relax }}{46}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of (a) an unglazed and (b) a glazed solar air heating collector. From \citet {Kutscher1994} and \citet {SolarTribune2011}.\relax }}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of GAHCs with different absorber areas: (a) wired, (b) wavy, (c) finned, and (d) V-shaped (or V-corrugated). From \citet {Pottler1999}.\relax }}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Graphs of air temperature rise and thermal efficiency against mass flow rate at the steady state. From \citet {Tyagi2012}.\relax }}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of (a) single pass and (b) double pass air heating collector. From \citet {Hegazy2000}.\relax }}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Schematics of a system with collectors in series and parallel. From \citet {Fanney1981}.\relax }}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces (a) Altitude solar angle, surface azimuth angle, and solar azimuth angle for an inclined surface. (b) Plan view showing solar azimuth angle. Adapted from \citet {Duffie2013}.\relax }}{24}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Basic CPC with flat plate absorber: (a) cross-section design in 2D and (b) in 3D. From \citet {Duffie2013} and \citet {Winston1974}.\relax }}{27}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Truncated and untruncated CPC with tubular absorber. From \citet {Norton1991}\relax }}{28}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Angular acceptance function of a full and truncated CPC. Adapted from \citet {Norton1991}.\relax }}{28}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces General design of an asymmetric CPC.\relax }}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Dielectric ACPC with 78\% truncated at the vertical for building integration photovoltaic.\relax }}{32}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Basic CPC geometry with inverted absorber.\relax }}{33}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Law of reflection applied on a reflecting surface.\relax }}{35}{figure.caption.24}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Concentrator's design in 3D.\relax }}{54}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Concentrator's cross section view.\relax }}{54}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Solar position diagram for 53.35$^{\circ }$ of latitude.\relax }}{56}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) Upper and (b) lower parabolas placed at the final position.\relax }}{57}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Two parabolas assembled to form the truncated parabolic section (ABCD)}}{58}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Concentrator's cross section view with the appropriate coordinate information.\relax }}{60}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Final concentrator concept.\relax }}{60}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Flowchart of the algorithm to execute the optical modeling.\relax }}{62}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Orientation in space of one incoming ray going through the concentrator.\relax }}{63}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Ray tracing diagrams in 2D and 3D.\relax }}{64}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Transmittance as function of the angle of incidence.\relax }}{66}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Average transmittance dependent on glazing inclination.\relax }}{67}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Light transmittance throughout the day (30$^{\rm th}$ June).\relax }}{67}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Dimensionless parameters $\rm {W^{*}}$ and $\rm {H^{*}}$ matching particular CR for different shapes.\relax }}{68}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Dimensionless parameter $\rm {A^{*}}$ matching particular CR for different shapes.\relax }}{69}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Dimensionless parameter $\rm {A^{*}}$ matching particular CR for different shapes.\relax }}{69}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces $\rm {\eta _{o,avg}}$ matching particular CR for different shapes.\relax }}{70}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces $\rm {C_{eff,avg}}$ matching particular CR for different shapes.\relax }}{71}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces ${\rm \eta _{o,avg}}$ matching particular $\rm {L^{*}}$ for two different concentrators.\relax }}{72}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces ${\rm \eta _o}$ vs. time for a collector at different length ratios.\relax }}{72}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Comparison between the collector at 61$^{\circ }$ of $\theta _{\!_{\rm {P2}}}$ (red) and the one at 50$^{\circ }$ of $\theta _{\!_{\rm {P2}}}$ (blue).\relax }}{73}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Angular acceptance vs. solar altitude angle for the collector at 61$^{\circ }$ of $\alpha _{\!_{\rm {P2}}}$ (red) and the one at 50$^{\circ }$ of $\alpha _{\!_{\rm {P2}}}$ (blue).\relax }}{74}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Average optical efficiency {\itshape versus} lower parabola axis angle.\relax }}{74}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Average optical efficiency {\itshape versus} collector's length.\relax }}{75}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Average optical efficiency as function of the tertiary section height.\relax }}{76}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Optical efficiency profile for three tertiary section heights on 30$^{\rm th}$ of June.\relax }}{76}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Ray tracing diagram in 2D and energy flux distribution over the absorber width with no tertiary section.\relax }}{77}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Ray tracing diagram in 2D and energy flux distribution over the absorber width with tertiary section height of 72.5 mm.\relax }}{78}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Ray tracing diagram in 2D and energy flux distribution over the absorber width with tertiary section height of 145 mm.\relax }}{79}{figure.caption.55}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Cross section of the collector's final design.\relax }}{80}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Optical efficiency profile throughout the whole period of operation.\relax }}{80}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Concentrator's design in 3D.\relax }}{44}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Concentrator's cross-section view.\relax }}{44}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Solar position diagram for 53.35$^{\circ }$ of latitude north.\relax }}{46}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) Upper and (b) lower parabolas placed at the final position.\relax }}{47}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Two parabolas assembled to form the truncated parabolic section (ABCD)}}{48}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Concentrator's cross-section view with the appropriate coordinate information.\relax }}{50}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Final concentrator concept.\relax }}{50}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Orientation in 3D of one incoming ray going through the concentrator.\relax }}{51}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Flowchart of the algorithm to execute the optical modelling.\relax }}{52}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Ray tracing diagrams in 2D and 3D.\relax }}{53}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Transmittance as function of the angle of incidence.\relax }}{56}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Average transmittance dependent on glazing inclination.\relax }}{56}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Light transmittance throughout the day (30$^{\rm th}$ June).\relax }}{57}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Dimensionless parameters $\rm {W^{*}}$ and $\rm {H^{*}}$ matching particular CR for different shapes.\relax }}{58}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Dimensionless parameter $\rm {A^{*}}$ matching particular CR for different shapes.\relax }}{58}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces $\rm {\eta _{o,avg}}$ matching particular CR for different shapes.\relax }}{59}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces $\rm {C_{eff,avg}}$ matching particular CR for different shapes.\relax }}{60}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces ${\rm \eta _{o,avg}}$ matching particular $\rm {L^{*}}$ for two different concentrators.\relax }}{61}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces ${\rm \eta _o}$ vs. time for a collector at different length ratios.\relax }}{61}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Comparison between the collector at 61$^{\circ }$ of $\theta _{\!_{\rm {P2}}}$ (red) and the one at 50$^{\circ }$ (blue).\relax }}{62}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Angular acceptance vs. solar altitude angle for the collector at 61$^{\circ }$ of $\alpha _{\!_{\rm {P2}}}$ (red) and the one at 50$^{\circ }$ of $\alpha _{\!_{\rm {P2}}}$ (blue).\relax }}{63}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Average optical efficiency {\itshape versus} lower parabola axis angle.\relax }}{63}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Average optical efficiency {\itshape versus} collector's length.\relax }}{64}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Average optical efficiency as function of the tertiary section height.\relax }}{65}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Optical efficiency profile for three tertiary section heights on 30$^{\rm th}$ June.\relax }}{65}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Ray tracing diagram in 2D and energy flux distribution over the absorber width with no tertiary section.\relax }}{66}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Ray tracing diagram in 2D and energy flux distribution over the absorber width with tertiary section height of 72.5 mm.\relax }}{67}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Ray tracing diagram in 2D and energy flux distribution over the absorber width with tertiary section height of 145 mm.\relax }}{68}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Cross section of the collector's final design.\relax }}{68}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Optical efficiency profile throughout the whole period of operation.\relax }}{70}{figure.caption.57}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Carbon fibre weave fabric (\blx@tocontentsinit {0}\cite {EasyComposites2017}).\relax }}{83}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Morphology image of carbonfibre sample taken at magnification of 15x.\relax }}{84}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Parts of the prototype's structure and assembled\relax }}{86}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Positions of the 12 thermocouples numbered from 1 to 12 placed on the absorber surface (dimensions in mm).\relax }}{87}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Position of the three thermocouples numbered from 1 to 3 placed on the glazing surface (dimensions in mm).\relax }}{87}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic diagram of the experimental unit.\relax }}{88}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Open loop outdoor experimental unit.\relax }}{89}{figure.caption.70}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Experimental results from 2$^{\rm {nd}}$ and 3$^{\rm {rd}}$ July at zero airflow.\relax }}{90}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Experimental results from 9$^{\rm {th}}$ June at 0.038 kg/(s m$^2$).\relax }}{91}{figure.caption.72}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Experimental results from 22$^{\rm {nd}}$ June at 0.054 kg/(s m$^2$).\relax }}{92}{figure.caption.73}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Experimental results from 29$^{\rm {th}}$ May at 0.071 kg/(s m$^2$).\relax }}{92}{figure.caption.74}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Experimental results from 31$^{\rm {st}}$ May at 0.089 kg/(s m$^2$).\relax }}{93}{figure.caption.75}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Experimental results from 28$^{\rm {th}}$ June at 0.114 kg/(s m$^2$).\relax }}{94}{figure.caption.76}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Hottel-Whillier-Bliss collector characterisation.\relax }}{94}{figure.caption.77}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Graphs of thermal efficiency (a), and airflow temperature rise (b) at different airflow rates at nearly steady state condition.\relax }}{95}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Carbon fibre weave fabric (\blx@tocontentsinit {0}\cite {EasyComposites2017}).\relax }}{72}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Morphology image of carbon fibre sample taken at magnification of 15x.\relax }}{73}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Parts of the prototype's structure and assembled\relax }}{75}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Positions of the 12 thermocouples numbered from 1 to 12 placed on the absorber surface (dimensions in mm).\relax }}{76}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Position of the three thermocouples numbered from 1 to 3 placed on the glazing surface (dimensions in mm).\relax }}{76}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic diagram of the experimental unit.\relax }}{77}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Open-loop outdoor prototype.\relax }}{78}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Experimental results from 2$^{\rm {nd}}$ and 3$^{\rm {rd}}$ July at zero airflow.\relax }}{79}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Temperatures measured by the thermocouples on the absorber surface.\relax }}{80}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Energy distribution on the absorber surface obtained via ray tracing, where the Sun's altitude and azimuth angles are 59$^{\rm o}$ and 14\textdegree .\relax }}{80}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Experimental results from 9$^{\rm {th}}$ June at 0.038 kg/(s m$^2$).\relax }}{81}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Experimental results from 22$^{\rm {nd}}$ June at 0.054 kg/(s m$^2$).\relax }}{82}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Experimental results from 29$^{\rm {th}}$ May at 0.071 kg/(s m$^2$).\relax }}{82}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Experimental results from 31$^{\rm {st}}$ May at 0.089 kg/(s m$^2$).\relax }}{83}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Experimental results from 28$^{\rm {th}}$ June at 0.114 kg/(s m$^2$).\relax }}{84}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Hottel-Whillier-Bliss collector characterisation.\relax }}{85}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Graphs of thermal efficiency (a), and airflow temperature rise (b) at different airflow rates at nearly steady state condition.\relax }}{86}{figure.caption.79}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Block diagram of the heat transfer model}}{98}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Thermal network to illustrate heat flows in the air heater.}}{99}{figure.caption.80}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Carbon fibre magnified image and drawing for indication of geometric parameters.\relax }}{102}{figure.caption.81}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces (a) Experimental and simulated results, (b) residues of $\rm {T_{out}}$, and (c) residues of $\rm {Q_{u}}$ from 09$^{\rm {th}}$ June at 0.04 kg/(s m$^2$).\relax }}{106}{figure.caption.83}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces (a) Experimental and simulated results, (b) residues of $\rm {T_{out}}$, and (c) residues of $\rm {Q_{u}}$ from 22$^{\rm {nd}}$ June at 0.055 kg/(s m$^2$).\relax }}{107}{figure.caption.84}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces (a) Experimental and simulated results, (b) residues of $\rm {T_{out}}$, and (c) residues of $\rm {Q_{u}}$ from 29$^{\rm {th}}$ May at 0.07 kg/(s m$^2$).\relax }}{108}{figure.caption.85}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Experimental and simulated results from 31$^{\rm {st}}$ May at 0.09 kg/(s m$^2$).\relax }}{109}{figure.caption.86}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces (a) Experimental and simulated results, (b) residues of $\rm {T_{out}}$, and (c) residues of $\rm {Q_{u}}$ from 28$^{\rm {th}}$ June at 0.115 kg/(s m$^2$).\relax }}{110}{figure.caption.87}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Residues vs. solar radiation for (a) $\rm {T_{out}}$, and (b) $\rm {Q_u}$.\relax }}{110}{figure.caption.88}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Residual cumulative frequency distribution of (a) $\rm {T_{out}}$, and (b) $\rm {Q_u}$.\relax }}{111}{figure.caption.89}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Simulated $\rm {T_{out}}$ at the five different airflow rates used in the tests, under conditions of 30$^{\rm {th}}$ June.\relax }}{112}{figure.caption.90}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces (a) Surface and (b) contour plot of air temperature rise vs. solar radiation and airflow rate.\relax }}{112}{figure.caption.91}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces (a) Surface and (b) contour plot of useful energy vs. air temperature rise and airflow rate.\relax }}{113}{figure.caption.92}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Experimental and simulated thermal efficiency curves.\relax }}{113}{figure.caption.93}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Frontal view of three collectors connected in series.\relax }}{114}{figure.caption.94}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Simulated $\rm {T_{out}}$ at four different airflow rates, for connection in series.\relax }}{115}{figure.caption.95}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Total useful heat and mean $\rm {T_{out}}$ as function os the airflow rate level for connection in series.\relax }}{115}{figure.caption.96}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Frontal view of three collectors connected in parallel.\relax }}{116}{figure.caption.97}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Total useful heat and mean $\rm {T_{out}}$ as function os the airflow rate level for connection in parallel.\relax }}{117}{figure.caption.98}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Block diagram of the simulated process of solar drying.\relax }}{120}{figure.caption.99}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Simulated energies for two different airflow rates at the first collector in series.\relax }}{120}{figure.caption.100}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Simulated energies for two different airflow rates at the second collector in series.\relax }}{121}{figure.caption.101}%
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Simulated energies for two different airflow rates at the third collector in series.\relax }}{121}{figure.caption.102}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Block diagram of the heat transfer model}}{88}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Thermal network to illustrate heat flows in the air heater.}}{89}{figure.caption.81}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Carbon fibre magnified image and drawing for indication of geometric parameters.\relax }}{92}{figure.caption.82}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces (a) Experimental and simulated results, (b) residues of $\rm {T_{out}}$, and (c) residues of $\rm {Q_{u}}$ from 09$^{\rm {th}}$ June at 0.04 kg/(s m$^2$).\relax }}{96}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces (a) Experimental and simulated results, (b) residues of $\rm {T_{out}}$, and (c) residues of $\rm {Q_{u}}$ from 22$^{\rm {nd}}$ June at 0.055 kg/(s m$^2$).\relax }}{97}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces (a) Experimental and simulated results, (b) residues of $\rm {T_{out}}$, and (c) residues of $\rm {Q_{u}}$ from 29$^{\rm {th}}$ May at 0.07 kg/(s m$^2$).\relax }}{98}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Experimental and simulated results from 31$^{\rm {st}}$ May at 0.09 kg/(s m$^2$).\relax }}{99}{figure.caption.87}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces (a) Experimental and simulated results, (b) residues of $\rm {T_{out}}$, and (c) residues of $\rm {Q_{u}}$ from 28$^{\rm {th}}$ June at 0.115 kg/(s m$^2$).\relax }}{100}{figure.caption.88}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Residues vs. solar radiation for (a) $\rm {T_{out}}$, and (b) $\rm {Q_u}$.\relax }}{101}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Residual cumulative frequency distribution of (a) $\rm {T_{out}}$, and (b) $\rm {Q_u}$.\relax }}{101}{figure.caption.90}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Simulated $\rm {T_{out}}$ at the five different airflow rates used in the tests under conditions of 30$^{\rm {th}}$ June.\relax }}{102}{figure.caption.91}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces (a) Surface and (b) contour plot of air temperature rise vs. solar radiation and airflow rate.\relax }}{103}{figure.caption.92}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces (a) Surface and (b) contour plot of useful energy vs. air temperature rise and airflow rate.\relax }}{103}{figure.caption.93}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Experimental and simulated thermal efficiency curves.\relax }}{104}{figure.caption.94}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Frontal view of three collectors connected in series.\relax }}{105}{figure.caption.95}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Simulated $\rm {T_{out}}$ at four different airflow rates for connection in series.\relax }}{105}{figure.caption.96}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Total useful heat and mean $\rm {T_{out}}$ as a function of the airflow rate level for connection in series.\relax }}{106}{figure.caption.97}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Frontal view of three collectors connected in parallel.\relax }}{107}{figure.caption.98}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Total useful heat and mean $\rm {T_{out}}$ as a function of the airflow rate level for parallel connection.\relax }}{107}{figure.caption.99}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Block diagram of the simulated process of solar drying.\relax }}{110}{figure.caption.101}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Simulated energies for two different airflow rates at the first collector in series.\relax }}{111}{figure.caption.102}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Simulated energies for two different airflow rates at the second collector in series.\relax }}{111}{figure.caption.103}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Simulated energies for two different airflow rates at the third collector in series.\relax }}{112}{figure.caption.104}%
 \addvspace {10\p@ }
